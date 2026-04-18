@@ -8,6 +8,14 @@ tags:
 
 2 nights, Oct 30 – Nov 1. The scenic-town stop. Whitewashed houses, dark wooden buildings, stone bridges, lantern-lit waterways — the canal-town China of the imagination. Wuzhen is in Zhejiang, roughly between Hangzhou and Shanghai.
 
+![Stone bridge in Wuzhen Xizha](../../_attachments/china-2026/wuzhen/xizha-bridge.jpg)
+
+_A stone bridge inside Wuzhen Xizha. Photo by Gerbil via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wuzhen_Xizha_2009-09.jpg); CC BY-SA 3.0._
+
+## Map
+
+Preview the Wuzhen stop on [Google Maps](https://www.google.com/maps/dir/Wuzhen+Xizha+Scenic+Area/Wuzhen+Dongzha+Scenic+Area/Tongxiang+Railway+Station/). Use it as a planning aid; for live mainland navigation once you're there, keep using the Amap/Apple Maps setup in [[logistics#Maps]].
+
 ## Critical: stay INSIDE the West Scenic Zone
 
 **Non-negotiable.** The whole reason to come to Wuzhen is the empty canals at night and dawn — which you only get if you hold a guesthouse card that re-admits you to the scenic zone freely.
@@ -40,6 +48,10 @@ If you stay in Tongxiang City (cheaper) you miss the entire thing.
 - Dinner canalside: try **Wuzhen sauce-braised mutton** and **Sanbai Wine** (local triple-white rice wine). Any inn-adjacent restaurant works.
 - **21:00+ canal walk.** This is the moment. Day-trippers gone, lanterns reflecting off the water, footsteps on stone. Bring a real camera if you own one.
 
+![Wuzhen bridge lit at night](../../_attachments/china-2026/wuzhen/xizha-bridge-night.jpg)
+
+_Lantern-lit bridge scene in Wuzhen Xizha at night. Photo by Gerbil via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wuzhen_Xizha_2009-13.jpg); CC BY-SA 3.0._
+
 ## Day 2 — Sat Oct 31 — sunrise + both scenic zones
 
 - **06:30 sunrise walk** in Xizha. Monks, morning fog, zero tourists. The single best photo hour of the whole trip.
@@ -54,6 +66,14 @@ If you stay in Tongxiang City (cheaper) you miss the entire thing.
 - Dinner: **Wuzhen Senior Chef Restaurant** inside the zone. Order **white-water fish**, **Gubei duck**, **hongshao rou** (red-braised pork belly).
 - Evening: one more canal walk. Catch **Jiangnan Baichuang** if it's running — lantern-lit water performance.
 
+![The central canal in Wuzhen Xizha](../../_attachments/china-2026/wuzhen/xizha-central-canal.jpg)
+
+_The central canal corridor in Wuzhen Xizha. Photo by Gerbil via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wuzhen_Xizha_2009-11.jpg); CC BY-SA 3.0._
+
+![Boats along the canal in Wuzhen](../../_attachments/china-2026/wuzhen/wuzhen-canal-boats.jpg)
+
+_Classic canal-and-boat scene in Wuzhen. Photo by Jakub Hałun via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20090913_Wuzhen_5021.jpg); CC BY-SA 4.0._
+
 ## Day 3 — Sun Nov 1 morning — transfer to Shanghai
 
 - Early breakfast in the zone.
@@ -67,14 +87,3 @@ If you stay in Tongxiang City (cheaper) you miss the entire thing.
 - Shuttle between Xizha and Dongzha is free; runs every ~15 min.
 - Dongzha gets most of the Chinese tour-group traffic; Xizha is the evening/romantic zone.
 - Weather late October: ~15–20 °C, bring a light jacket.
-
-## Photos to add later
-
-- Baogeng Bridge at dawn
-- Indigo cloth at Caoben
-- Canal night with lanterns
-- Gondola boat ride at dusk
-- Morning fog over the water
-- Rice fields + bike ride outside the zone
-
-Drop them in `content/_attachments/china-2026/wuzhen/`.

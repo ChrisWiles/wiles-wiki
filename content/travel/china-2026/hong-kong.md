@@ -8,6 +8,14 @@ tags:
 
 4 nights, Oct 23–27. Home base for the first half of the trip, with a big hiking day, serious dim sum, and one island day-trip.
 
+![Victoria Harbour from Victoria Peak at dusk](../../_attachments/china-2026/hong-kong/victoria-peak-dusk.jpg)
+
+_Victoria Harbour from Victoria Peak at dusk. Photo by Romain Pontida via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Skyline_and_Victoria_Harbour_at_dusk,_view_from_Victoria_Peak,_Hong_Kong,_China_-_%E9%A6%99%E6%B8%AF%EF%BC%8C%E4%B8%AD%E5%9B%BD_(16215094838).jpg); CC BY-SA 2.0._
+
+## Map
+
+Preview the major scenic stops on [Google Maps](https://www.google.com/maps/dir/Man+Mo+Temple,+Hong+Kong/Dragon%27s+Back,+Hong+Kong/Victoria+Peak,+Hong+Kong/Avenue+of+Stars,+Hong+Kong/Lamma+Island,+Hong+Kong/). Use it as a planning view; the mainland legs should still follow the Amap/Apple Maps setup in [[logistics#Maps]].
+
 ## Where to stay
 
 Base in **Sheung Wan** — Central's cooler, more interesting neighbor, one MTR stop away, better value. Traditional dried-seafood shops + art galleries + third-wave coffee side by side.
@@ -25,6 +33,10 @@ Base in **Sheung Wan** — Central's cooler, more interesting neighbor, one MTR 
 - Late afternoon: wander Sheung Wan on foot. **Tai Ping Shan Street**, **PMQ** (old police married quarters, now design studios), end at **Man Mo Temple** for golden hour — incense coils hanging from the ceiling.
 - Dinner: **Kam's Roast Goose** — 1 Michelin star (confirmed on 2026 Guide), 226 Hennessy Rd, Wan Chai, walk-in, only 30 seats so expect a queue. Alternative: **Yat Lok** on Stanley St, Central — also 1-star roast goose, tighter shop, lunch-only vibe best.
 
+![Incense coils inside Man Mo Temple](../../_attachments/china-2026/hong-kong/man-mo-temple-incense.jpg)
+
+_Man Mo Temple's incense-coil ceiling in Sheung Wan. Photo by Aethelfirth via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Burning_incense_coils_in_the_Man_Mo_temple_(Hong_Kong).jpg); CC BY-SA 4.0._
+
 ## Day 2 — Sat Oct 24 — Dragon's Back hike + Peak at blue hour
 
 This is the big outdoor day.
@@ -37,6 +49,10 @@ This is the big outdoor day.
 - Evening: **Victoria Peak via the Peak Tram**. **Reserve timed entry on Klook in advance** — the standby queue is miserable. Stay through **blue hour** (~18:00) for the iconic skyline shot.
 - Dinner: **Ho Lee Fook** in SoHo — inventive modern Cantonese, great room, cocktails.
 
+![Dragon's Back ridgeline](../../_attachments/china-2026/hong-kong/dragons-back.jpg)
+
+_The ridgeline section of Dragon's Back. Photo by ChInG_* via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Dragon%27s_Back,_Hong_Kong_02.jpg); CC BY-SA 2.0._
+
 ## Day 3 — Sun Oct 25 — Kowloon + street markets
 
 - Dim sum breakfast: **Tim Ho Wan** — the modernized flagship is in TST (North, Rm 12A, 2–8 Sai Yeung Choi St) since late 2024. From Sheung Wan, the Central branch (IFC Mall) or the 10th-outlet Kowloon location (Mikiki Mall, opened Feb 2026) are both easier. Baked char siu bun is the signature order.
@@ -48,6 +64,10 @@ This is the big outdoor day.
   - **Kung Wo Tofu Factory** — dau fu fa (tofu pudding)
   - **Sun Hing Restaurant** for late snack dim sum
 - Evening: **Temple Street Night Market** (Yau Ma Tei). Dinner at one of the dai pai dong seafood stalls — clams in black bean sauce, salt-and-pepper prawns, cold beer.
+
+![Hong Kong skyline from the Star Ferry at night](../../_attachments/china-2026/hong-kong/star-ferry-skyline.jpg)
+
+_Night skyline from the Star Ferry approach across Victoria Harbour. Photo by Wilson Hui via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hong_Kong_Skyline_at_Night_-_Star_Ferry_-_Flickr_-_Wilson_Hui.jpg); CC BY 2.0._
 
 ## Day 4 — Mon Oct 26 — island day trip
 
@@ -82,16 +102,3 @@ Lamma is the pick for an active couple — zero crowds, the best seafood lunch o
 | One Dim Sum | Bib Gourmand dim sum | Day 5 breakfast |
 | Luk Yu Tea House | Classic yum cha, dim sum until 18:00 | Alt |
 | Yat Lok | 1-star roast goose | Quick lunch alt |
-
-## Photos to add later
-
-- Man Mo Temple incense coils
-- Dragon's Back ridgeline
-- Big Wave Bay
-- Victoria Peak blue hour skyline
-- Tim Ho Wan baked char siu bun
-- Star Ferry crossing
-- Lamma hiking trail
-- Temple Street night market lights
-
-Drop them in `content/_attachments/china-2026/hong-kong/` and wikilink them inline.

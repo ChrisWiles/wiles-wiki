@@ -8,6 +8,15 @@ tags:
 
 Two-week trip for Chris + Kaylee, fall 2026. Mid-thirties, active, first time in mainland China. Route: Hong Kong → Guangzhou → Wuzhen → Shanghai.
 
+<iframe
+  src="https://www.google.com/maps?output=embed&amp;saddr=Hong+Kong&amp;daddr=Guangzhou+to:Wuzhen+to:Shanghai"
+  title="China Fall 2026 route overview"
+  loading="lazy"
+  style="width:100%;height:460px;border:0;border-radius:18px;"
+></iframe>
+
+_Live Google route preview for the northbound trip. If the embed ever fails to load, open the full [Google Maps route link](https://www.google.com/maps/dir/Hong+Kong/Guangzhou/Wuzhen+Xizha+Scenic+Area/Shanghai/); once you're on the ground in mainland China, keep following the Amap/Apple Maps setup in [[logistics#Maps]]._
+
 ## Dates
 
 **Depart Austin Thursday 22 October 2026. Return Wednesday 5 November 2026.** 14 nights in-country.

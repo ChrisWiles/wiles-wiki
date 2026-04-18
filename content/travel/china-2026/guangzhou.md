@@ -8,6 +8,14 @@ tags:
 
 3 nights, Oct 27–30. This is the food city. Guangzhou is the home of Cantonese cuisine, and it's structurally different from Hong Kong — more sprawling, more working-city energy, less polished, way better value. Dim sum here is the real thing.
 
+![Shamian Island streetscape](../../_attachments/china-2026/guangzhou/shamian-island.jpg)
+
+_Colonial-era streetscape on Shamian Island. Photo by Eduardo M. C. via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shamian_Island,_Guangzhou_(5928584895).jpg); CC BY 2.0._
+
+## Map
+
+Preview the major Guangzhou stops on [Google Maps](https://www.google.com/maps/dir/Shamian+Island,+Guangzhou/Chen+Clan+Ancestral+Hall,+Guangzhou/Panxi+Restaurant,+Guangzhou/Canton+Tower,+Guangzhou/). Treat it as a planning view; on the ground in mainland China, keep using the Amap/Apple Maps setup in [[logistics#Maps]].
+
 ## Where to stay
 
 Base in **Yuexiu** (old-town feel) or along the **Pearl River** (skyline views).
@@ -36,6 +44,14 @@ Base in **Yuexiu** (old-town feel) or along the **Pearl River** (skyline views).
   - **Bubble Tram** — Ferris-wheel-style pods on the *outside* of the tower. Book via Trip.com.
 - After the tower: **Pearl River dinner cruise** (~CNY 180/person, 1.5 hr). Skyline from the water, both sides lit up.
 
+![Chen Clan Ancestral Hall roofline](../../_attachments/china-2026/guangzhou/chen-clan-ancestral-hall.jpg)
+
+_Chen Clan Ancestral Hall in Guangzhou. Photo by Shujianyang via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Chen_Clan_Ancestral_Hall_2025.06_03.jpg); CC BY-SA 4.0._
+
+![Canton Tower lit up at night](../../_attachments/china-2026/guangzhou/canton-tower-night.jpg)
+
+_Canton Tower at night from river level. Photo by kherzig via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Canton_Tower,_Guangzhou,_CN_Lit_up_at_night.jpg); CC BY-SA 3.0._
+
 ## Day 3 — Thu Oct 29 — gardens + old town
 
 - Breakfast at **Panxi Restaurant**. This is the most photogenic dim sum in China — Qing-era garden, lotus ponds, pushcart dim sum, you eat in a waterside pavilion. Go at 08:30.
@@ -43,6 +59,10 @@ Base in **Yuexiu** (old-town feel) or along the **Pearl River** (skyline views).
 - Lunch: **Yinji Rice Rolls** for cheung fun (silky rice rolls with shrimp or beef), or wander the snack alleys — bowl of beef offal soup at any hole-in-the-wall.
 - Afternoon: **Museum of the Mausoleum of the Nanyue King** (867 Jiefang Rd, Yuexiu; Metro Line 2 → Yuexiu Park Station Exit E). 2,000-year-old royal tomb excavated in 1983, the jade burial suit alone is worth the visit. **Free with foreign passport.** Open 09:00–17:30 daily.
 - Evening: head to **Dongshankou** — the artsy, coffee-shop, old-villa neighborhood. Low-key dinner at a bistro or a cluster of street-food joints. Cocktail at **Hope & Sesame** if open (hidden speakeasy vibe).
+
+![Panxi Restaurant garden pavilions](../../_attachments/china-2026/guangzhou/panxi-restaurant-gardens.jpg)
+
+_Panxi Restaurant's garden-and-lake setting in Liwan. Photo by MeiOLA 2290 WMENSZ via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GD_%E5%BB%A3%E6%9D%B1_Guangdong_%E5%BB%A3%E5%B7%9E_Guangzhou_%E8%8D%94%E7%81%A3%E5%8D%80_Liwan_%E9%BE%8D%E6%B4%A5%E8%A5%BF%E8%B7%AF_Longjin_West_Road_shop_%E6%B3%AE%E6%BA%AA%E9%85%92%E5%AE%B6_Pan_Xi_Restaurant_lake_June_2025_R12S_01.jpg); CC0._
 
 ## Day 4 — Fri Oct 30 morning — fly to Hangzhou, transfer to Wuzhen
 
@@ -60,14 +80,3 @@ Base in **Yuexiu** (old-town feel) or along the **Pearl River** (skyline views).
 | Panxi | Garden dim sum, Qing pavilions | Day 3 breakfast |
 | Yinji Rice Rolls | Cheung fun | Day 3 lunch |
 | Dongshankou bistros | Casual evening food | Day 3 dinner |
-
-## Photos to add later
-
-- Shamian Island banyan trees + colonial buildings
-- Taotaoju dim sum trolleys
-- Chen Clan roof ridge sculptures
-- Panxi garden pavilions over the lotus pond
-- Canton Tower at blue hour
-- Pearl River skyline from the cruise
-
-Drop them in `content/_attachments/china-2026/guangzhou/`.

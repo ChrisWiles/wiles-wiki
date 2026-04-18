@@ -8,6 +8,14 @@ tags:
 
 4 nights, Nov 1–5. The finale. Shanghai is the most international Chinese city — European concessions next to hyper-modern Pudong next to old-Shanghai shikumen alleys. Xiao long bao was invented here.
 
+![Pudong skyline at night from the Bund](../../_attachments/china-2026/shanghai/bund-night-skyline.jpg)
+
+_Pudong skyline at night from the Bund. Photo by David Zhang via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_(41199899084).jpg); CC BY-SA 2.0._
+
+## Map
+
+Preview the major Shanghai stops on [Google Maps](https://www.google.com/maps/dir/Wukang+Mansion,+Shanghai/Yu+Garden,+Shanghai/Shanghai+Tower,+Shanghai/The+Bund,+Shanghai/Xintiandi,+Shanghai/). Treat it as a planning view; for live mainland navigation once you're there, keep using the Amap/Apple Maps setup in [[logistics#Maps]].
+
 > **Scheduling note:** Yu Garden and most museums (including Shanghai Museum People's Square + East, M50 galleries, Long Museum, Tank Shanghai) **close on Mondays**. Our arrival lands Sun Nov 1 and Day 2 is Mon Nov 2 — the plan below schedules walking / Pudong / Bund / Huangpu cruise on Monday so we don't waste a day on closed doors.
 
 ## Where to stay
@@ -32,6 +40,10 @@ Moller Villa is the most romantic option. The Langham is the best all-around.
 - Drink after: **Speak Low** (hidden speakeasy above OCHO bar-tools shop at 579 Fuxing Zhong Lu; entrance behind a swinging shelf). (Bar Rouge **permanently closed in March 2026** and the space is now a club called KEV — skip.)
   - Alternatives: **Sir Elly's** at The Peninsula Shanghai for a classic Bund-level drink, or **VUE Bar** on Hyatt on the Bund's 32F.
 
+![Street scene on Wukang Road](../../_attachments/china-2026/shanghai/wukang-road.jpg)
+
+_Plane-tree street scene on Wukang Road in the Former French Concession. Photo by Livelikerw via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Street_View_of_Wukang_Road.JPG); CC BY-SA 3.0._
+
 ## Day 2 — Mon Nov 2 — Pudong + Bund + river (no museums, Mondays are closed-day)
 
 - Breakfast at hotel.
@@ -42,6 +54,10 @@ Moller Villa is the most romantic option. The Langham is the best all-around.
 - Dinner: **Lost Heaven on the Bund** — Yunnan cuisine, romantic dark interior, Bund location (there's also a classic FFC branch at 38 Gaoyou Rd if we'd rather stay west of the river).
 - Late drink if still standing: **Speak Low** or **Union Trading Co.**
 
+![View from Shanghai Tower](../../_attachments/china-2026/shanghai/shanghai-tower-view.jpg)
+
+_View from Shanghai Tower over Lujiazui. Photo by Janak Bhatta via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shanghai_Tower_(74449).jpg); CC BY 4.0._
+
 ## Day 3 — Tue Nov 3 — old Shanghai + museums (everything reopens)
 
 - Breakfast **xiao long bao (XLB)** at **Jia Jia Tang Bao** — **127 Huanghe Lu** (moved from #90 a couple of years ago; don't confuse with "Jia Le Tang Bao" that now occupies #90). Arrive 10:00 sharp to beat the queue. Thin skin, hot soup, stronger pork flavor than Din Tai Fung.
@@ -51,6 +67,10 @@ Moller Villa is the most romantic option. The Langham is the best all-around.
 - Late afternoon: **M50 Art District** — ex-textile factory at 50 Moganshan Rd, 140+ galleries + working studios, free entry. Galleries 11–18 typical, closed Mondays.
 - Walk along **Suzhou Creek** south toward **Jing'an Temple**.
 - Evening: **Xintiandi** — restored shikumen lane houses turned dining district. Dinner at **Lao Ji Shi** (old-school Shanghainese, Michelin-recognized) or **The Commune Social** (Jason Atherton tapas, lighter).
+
+![Zig-zag bridge in Yu Garden](../../_attachments/china-2026/shanghai/yu-garden-bridge.jpg)
+
+_One of Yu Garden's signature bridges and pavilions. Photo by Güldem Üstün via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:China_(Shanghai)_Beautiful_bridge_in_the_Yu_Garden_(40496691402).jpg); CC BY 2.0._
 
 ## Day 4 — Wed Nov 4 — active day + last-night vibes
 
@@ -92,17 +112,3 @@ Moller Villa is the most romantic option. The Langham is the best all-around.
 | Hakkasan | Modern Cantonese, Bund18 | Alt farewell |
 | Lao Ji Shi | Old-school Shanghainese | Day 3 dinner |
 | Hai Di Lao | Hotpot theater | Fun alt |
-
-## Photos to add later
-
-- FFC plane trees + old villas
-- Bund LED light show at 20:00
-- Yu Garden bridges
-- Jia Jia Tang Bao soup dumpling close-up
-- Shanghai Tower view from 118F
-- M50 graffiti walls
-- West Bund art museums
-- Xintiandi shikumen lanes at night
-- Maglev speedometer hitting 300 km/h
-
-Drop them in `content/_attachments/china-2026/shanghai/`.
