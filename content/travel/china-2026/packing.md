@@ -6,7 +6,7 @@ tags:
   - packing
 ---
 
-14 nights, late October–early November. Weather varies by region.
+13 nights, late October–early November. Weather varies by region.
 
 ## Weather expectations
 
@@ -25,7 +25,7 @@ Rain chance: low across all cities in late Oct–early Nov. Bring a travel umbre
 - 4 t-shirts / breathable base layers
 - 2 long-sleeve shirts
 - 1 light sweater or fleece
-- 1 casual nice shirt for fine-dining nights (Lung King Heen, Fu 1088, Ultraviolet if we do it)
+- 1 casual nice shirt for fine-dining nights (Lung King Heen, Fu 1088, T'ang Court if booked)
 
 ### Bottoms
 - 2 pants (1 travel pants, 1 jeans/nicer)
@@ -53,7 +53,7 @@ Rain chance: low across all cities in late Oct–early Nov. Bring a travel umbre
 
 ## Electronics
 
-- **Universal power adapter** (HK: Type G UK plug, mainland: Type I Australian plug — get one that handles both)
+- **Universal power adapter** (HK: Type G, mainland: usually Type A / Type I hybrid sockets)
 - Portable power bank (10,000 mAh, ≤100 Wh so it's flight-legal)
 - Phone charging cables + wall bricks
 - Kindle (flights are long)
@@ -63,7 +63,7 @@ Rain chance: low across all cities in late Oct–early Nov. Bring a travel umbre
 
 - Passports (6+ month validity past Nov 5, 2026)
 - Printed visa confirmation + hotel bookings
-- Printed train ticket QR codes (Tongxiang → Shanghai Hongqiao especially)
+- Screenshots / booking numbers for trains and hotels, even though many trains use passport-based boarding
 - Travel insurance policy
 - $300 USD cash for emergency exchange
 - Credit cards — at least one Visa + one Mastercard. Tell banks you're traveling.

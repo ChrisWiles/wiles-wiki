@@ -8,7 +8,7 @@ tags:
 
 2 nights, Oct 30 – Nov 1. The scenic-town stop. Whitewashed houses, dark wooden buildings, stone bridges, lantern-lit waterways — the canal-town China of the imagination. Wuzhen is in Zhejiang, roughly between Hangzhou and Shanghai.
 
-![Stone bridge in Wuzhen Xizha](../../_attachments/china-2026/wuzhen/xizha-bridge.jpg)
+<img src="_attachments/china-2026/wuzhen/xizha-bridge.jpg" alt="Stone bridge in Wuzhen Xizha" />
 
 _A stone bridge inside Wuzhen Xizha. Photo by Gerbil via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wuzhen_Xizha_2009-09.jpg); CC BY-SA 3.0._
 
@@ -34,7 +34,7 @@ If you stay in Tongxiang City (cheaper) you miss the entire thing.
 
 **Book direct** at [en.wuzhen.com.cn](http://en.wuzhen.com.cn/web/traver/periphery). Many of the good rooms don't appear on Booking.com or Trip.com. Book 2 months out.
 
-**Ticket logic:** West Scenic Zone admission is **CNY 150/person**, zone open **09:00–22:00**. A single-day ticket is good for one entry only — if you walk out, you can't re-enter on the same ticket. If you stay inside the zone, bring your room card + ID + original ticket to the service center to get a pass for **free re-entry** during your stay. This is why staying inside is non-negotiable for the dawn + night walks.
+**Ticket logic:** West Scenic Zone admission is **CNY 150/person**, with current official hours listed as **09:00–22:00**. Standard scenic-zone tickets are day tickets. If you stay inside the zone, ask your hotel at check-in exactly how they are handling guest access / re-entry for overnight stays, because that access is the whole reason to sleep inside Xizha.
 
 ## Day 1 — Fri Oct 30 — afternoon arrival + canal night walk
 
@@ -44,11 +44,11 @@ If you stay in Tongxiang City (cheaper) you miss the entire thing.
   - **Caoben Dyeing Workshop** — indigo cloth drying on racks, looks incredible in photos
   - **Water Market** — the morning produce boats
   - **Yida Silk Workshop** — live silk weaving
-- **Dusk boat ride** — included with the scenic-zone ticket. ~40 min, gondola-style.
+- **Dusk boat ride** — **separate ticket**, not included with scenic-zone admission. Worth doing once if the line is short and the light is right.
 - Dinner canalside: try **Wuzhen sauce-braised mutton** and **Sanbai Wine** (local triple-white rice wine). Any inn-adjacent restaurant works.
 - **21:00+ canal walk.** This is the moment. Day-trippers gone, lanterns reflecting off the water, footsteps on stone. Bring a real camera if you own one.
 
-![Wuzhen bridge lit at night](../../_attachments/china-2026/wuzhen/xizha-bridge-night.jpg)
+<img src="_attachments/china-2026/wuzhen/xizha-bridge-night.jpg" alt="Wuzhen bridge lit at night" />
 
 _Lantern-lit bridge scene in Wuzhen Xizha at night. Photo by Gerbil via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wuzhen_Xizha_2009-13.jpg); CC BY-SA 3.0._
 
@@ -66,11 +66,11 @@ _Lantern-lit bridge scene in Wuzhen Xizha at night. Photo by Gerbil via [Wikimed
 - Dinner: **Wuzhen Senior Chef Restaurant** inside the zone. Order **white-water fish**, **Gubei duck**, **hongshao rou** (red-braised pork belly).
 - Evening: one more canal walk. Catch **Jiangnan Baichuang** if it's running — lantern-lit water performance.
 
-![The central canal in Wuzhen Xizha](../../_attachments/china-2026/wuzhen/xizha-central-canal.jpg)
+<img src="_attachments/china-2026/wuzhen/xizha-central-canal.jpg" alt="The central canal in Wuzhen Xizha" />
 
 _The central canal corridor in Wuzhen Xizha. Photo by Gerbil via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wuzhen_Xizha_2009-11.jpg); CC BY-SA 3.0._
 
-![Boats along the canal in Wuzhen](../../_attachments/china-2026/wuzhen/wuzhen-canal-boats.jpg)
+<img src="_attachments/china-2026/wuzhen/wuzhen-canal-boats.jpg" alt="Boats along the canal in Wuzhen" />
 
 _Classic canal-and-boat scene in Wuzhen. Photo by Jakub Hałun via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20090913_Wuzhen_5021.jpg); CC BY-SA 4.0._
 
@@ -87,3 +87,4 @@ _Classic canal-and-boat scene in Wuzhen. Photo by Jakub Hałun via [Wikimedia Co
 - Shuttle between Xizha and Dongzha is free; runs every ~15 min.
 - Dongzha gets most of the Chinese tour-group traffic; Xizha is the evening/romantic zone.
 - Weather late October: ~15–20 °C, bring a light jacket.
+- Light fog / drizzle is not a problem here. It usually makes the town look better, not worse.

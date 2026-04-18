@@ -12,7 +12,7 @@ Cross-city hit list, sortable mentally by "must-book ahead" vs. "walk in."
 
 | Place | City | Lead time | Why |
 |---|---|---|---|
-| Lung King Heen (Four Seasons) | Hong Kong | 30 days | **2 stars** (was world-first 3-star 2008–2022; lost 1 in 2023). HKD 700 + 10% min/person from Jan 2026. |
+| Lung King Heen (Four Seasons) | Hong Kong | 30 days | **2 stars**. HKD 700 + 10% min/person from Jan 2026. |
 | Ying Jee Club | Hong Kong | 1 week | 2-star Cantonese, Central |
 | T'ang Court (Langham Xintiandi) | Shanghai | 1 week | **2-star** Cantonese (upgraded in 2026 Guide); different from 3-star T'ang Court in HK |
 | Yu Yue Heen (Four Seasons Guangzhou) | Guangzhou | 1 week | 1-star Cantonese inside the hotel |
@@ -26,11 +26,11 @@ Cross-city hit list, sortable mentally by "must-book ahead" vs. "walk in."
 
 | Place | City | What |
 |---|---|---|
-| Tim Ho Wan (Central IFC branch) | Hong Kong | Dim sum. The modernized *flagship* is in TST (Sai Yeung Choi St) since late 2024 — Central/IFC is the easiest from Sheung Wan. |
+| Tim Ho Wan (IFC or Sham Shui Po) | Hong Kong | Dim sum. IFC is easiest from Sheung Wan; Sham Shui Po is the more classic branch experience. |
 | Kam's Roast Goose | Hong Kong | 1-star, 226 Hennessy Rd Wan Chai, 30 seats |
 | Yat Lok | Hong Kong | 1-star roast goose, 34–38 Stanley St Central |
 | Mak's Noodle | Hong Kong | Wonton noodles since 1920, 77 Wellington St Central |
-| Lin Heung Lau (new Sheung Wan branch) | Hong Kong | Trolley yum cha. Wellington St Central closes end-March 2026; new address **249–251 Des Voeux Rd Central, Sheung Wan** from April 2026. |
+| Luk Yu Tea House / Lin Heung | Hong Kong | Classic yum cha. Check current Lin Heung branch situation closer to departure; Luk Yu is the stable fallback. |
 | Luk Yu Tea House | Hong Kong | Classic yum cha since 1933, 24–26 Stanley St. Dim sum only until 18:00. |
 | One Dim Sum | Hong Kong | 15 Playing Field Rd Prince Edward. Bib Gourmand (was 1-star 2012–13). |
 | Taotaoju | Guangzhou | Trolley dim sum since 1880, 20 Shifu Rd Shangxiajiu |

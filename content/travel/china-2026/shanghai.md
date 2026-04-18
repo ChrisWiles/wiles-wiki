@@ -8,7 +8,7 @@ tags:
 
 4 nights, Nov 1–5. The finale. Shanghai is the most international Chinese city — European concessions next to hyper-modern Pudong next to old-Shanghai shikumen alleys. Xiao long bao was invented here.
 
-![Pudong skyline at night from the Bund](../../_attachments/china-2026/shanghai/bund-night-skyline.jpg)
+<img src="_attachments/china-2026/shanghai/bund-night-skyline.jpg" alt="Pudong skyline at night from the Bund" />
 
 _Pudong skyline at night from the Bund. Photo by David Zhang via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pudong_night_skyline_viewed_from_the_Bund_in_Shanghai_(41199899084).jpg); CC BY-SA 2.0._
 
@@ -16,7 +16,7 @@ _Pudong skyline at night from the Bund. Photo by David Zhang via [Wikimedia Comm
 
 Preview the major Shanghai stops on [Google Maps](https://www.google.com/maps/dir/Wukang+Mansion,+Shanghai/Yu+Garden,+Shanghai/Shanghai+Tower,+Shanghai/The+Bund,+Shanghai/Xintiandi,+Shanghai/). Treat it as a planning view; for live mainland navigation once you're there, keep using the Amap/Apple Maps setup in [[logistics#Maps]].
 
-> **Scheduling note:** Yu Garden and most museums (including Shanghai Museum People's Square + East, M50 galleries, Long Museum, Tank Shanghai) **close on Mondays**. Our arrival lands Sun Nov 1 and Day 2 is Mon Nov 2 — the plan below schedules walking / Pudong / Bund / Huangpu cruise on Monday so we don't waste a day on closed doors.
+> **Scheduling note:** Monday is still the big closure day for Yu Garden and many museums, but **Shanghai Museum East is currently closed on Tuesdays**, not Mondays. That means Monday stays outdoors / skyline-focused, Tuesday leans Old Shanghai + galleries, and the big museum slot moves to Wednesday.
 
 ## Where to stay
 
@@ -31,6 +31,12 @@ Pick **Former French Concession (FFC)** for neighborhood feel, or **Bund** for t
 
 Moller Villa is the most romantic option. The Langham is the best all-around.
 
+## Booking notes
+
+- **Shanghai Tower**: book the time slot once the weather looks clear enough to justify the skyline view.
+- **Fu 1088 / T'ang Court**: reserve ahead if those are the anchor dinners.
+- Keep one wet-weather backup in pocket: **Propaganda Poster Art Centre + FFC cafe crawl** is the easiest rainy-day swap.
+
 ## Day 1 — Sun Nov 1 — arrive, Bund at night
 
 - Arrive via G-train from Tongxiang early afternoon. Check in, rest.
@@ -40,7 +46,7 @@ Moller Villa is the most romantic option. The Langham is the best all-around.
 - Drink after: **Speak Low** (hidden speakeasy above OCHO bar-tools shop at 579 Fuxing Zhong Lu; entrance behind a swinging shelf). (Bar Rouge **permanently closed in March 2026** and the space is now a club called KEV — skip.)
   - Alternatives: **Sir Elly's** at The Peninsula Shanghai for a classic Bund-level drink, or **VUE Bar** on Hyatt on the Bund's 32F.
 
-![Street scene on Wukang Road](../../_attachments/china-2026/shanghai/wukang-road.jpg)
+<img src="_attachments/china-2026/shanghai/wukang-road.jpg" alt="Street scene on Wukang Road" />
 
 _Plane-tree street scene on Wukang Road in the Former French Concession. Photo by Livelikerw via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Street_View_of_Wukang_Road.JPG); CC BY-SA 3.0._
 
@@ -54,34 +60,32 @@ _Plane-tree street scene on Wukang Road in the Former French Concession. Photo b
 - Dinner: **Lost Heaven on the Bund** — Yunnan cuisine, romantic dark interior, Bund location (there's also a classic FFC branch at 38 Gaoyou Rd if we'd rather stay west of the river).
 - Late drink if still standing: **Speak Low** or **Union Trading Co.**
 
-![View from Shanghai Tower](../../_attachments/china-2026/shanghai/shanghai-tower-view.jpg)
+<img src="_attachments/china-2026/shanghai/shanghai-tower-view.jpg" alt="View from Shanghai Tower" />
 
 _View from Shanghai Tower over Lujiazui. Photo by Janak Bhatta via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shanghai_Tower_(74449).jpg); CC BY 4.0._
 
-## Day 3 — Tue Nov 3 — old Shanghai + museums (everything reopens)
+## Day 3 — Tue Nov 3 — old Shanghai + galleries
 
 - Breakfast **xiao long bao (XLB)** at **Jia Jia Tang Bao** — **127 Huanghe Lu** (moved from #90 a couple of years ago; don't confuse with "Jia Le Tang Bao" that now occupies #90). Arrive 10:00 sharp to beat the queue. Thin skin, hot soup, stronger pork flavor than Din Tai Fung.
 - Morning: **Yu Garden** + **Old City God Temple** bazaar (9:00–16:30, last entry 16:00, closed Mondays — Tuesday is safe). Admission CNY 40; combo w/ bazaar CNY 70. Get there by 09:15 before tour groups.
 - Lunch: **Lai Lai Xiao Long** — 506 Tianjin Lu, Huangpu. Michelin Bib Gourmand. Hours 08:00–14:00 and 15:00–20:00 (closed 14–15). Crab-roe XLB is the order.
-- Afternoon: **Shanghai Museum East** (Pudong, Tue–Sun 9–17, 20 galleries, the most comprehensive Chinese-art museum in the country since the new building opened Feb 2024). Prefer over the People's Square branch — East has the full permanent collection on display.
 - Late afternoon: **M50 Art District** — ex-textile factory at 50 Moganshan Rd, 140+ galleries + working studios, free entry. Galleries 11–18 typical, closed Mondays.
 - Walk along **Suzhou Creek** south toward **Jing'an Temple**.
 - Evening: **Xintiandi** — restored shikumen lane houses turned dining district. Dinner at **Lao Ji Shi** (old-school Shanghainese, Michelin-recognized) or **The Commune Social** (Jason Atherton tapas, lighter).
 
-![Zig-zag bridge in Yu Garden](../../_attachments/china-2026/shanghai/yu-garden-bridge.jpg)
+<img src="_attachments/china-2026/shanghai/yu-garden-bridge.jpg" alt="Zig-zag bridge in Yu Garden" />
 
 _One of Yu Garden's signature bridges and pavilions. Photo by Güldem Üstün via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:China_(Shanghai)_Beautiful_bridge_in_the_Yu_Garden_(40496691402).jpg); CC BY 2.0._
 
-## Day 4 — Wed Nov 4 — active day + last-night vibes
+## Day 4 — Wed Nov 4 — museum + riverfront + last-night vibes
 
-- Morning: rent bikes via **Meituan Bike** (QR-unlock inside Alipay). Ride the **West Bund Riverside Promenade** — 11 km of reclaimed industrial riverfront, now a linear park of art museums (Tue–Sun, closed Mondays):
-  - **Long Museum West Bund** — contemporary Chinese art in a former coal-loading terminal
-  - **Tank Shanghai** (2380 Longteng Ave) — repurposed aviation fuel tanks as galleries
-  - **West Bund Museum** — bonus stop
-- Brunch at **RAC** or **Egg** (both FFC, both Insta-famous, both legitimately good).
-- Afternoon:
-  - **Tianzifang** alleys for shopping + narrow-lane wandering
-  - or **Propaganda Poster Art Centre** — 1950s–80s Chinese propaganda poster collection, unforgettable. **Current address: 726 West Yan'an Road, 7th floor** (moved here in 2019 from the old Huashan Rd basement apartment). 10:00–17:00 daily.
+- Morning: **Shanghai Museum East** (currently **Wed–Mon 10:00–18:00, closed Tuesdays**; no advance reservation required for individual visitors). This is the strongest museum slot of the whole Shanghai stop.
+- Lunch / early afternoon: head back west and keep it light.
+- Late afternoon: rent bikes via **Meituan Bike** (QR-unlock inside Alipay) or just walk a shorter stretch of the **West Bund Riverside Promenade**.
+  - **Long Museum West Bund**
+  - **Tank Shanghai**
+  - **West Bund Museum** if energy is still there
+- Rainy-day swap: **Propaganda Poster Art Centre** + cafe crawl in the FFC instead of the riverfront.
 - Late afternoon: **massage + foot reflexology** at **Dragonfly Therapeutic Retreat** — pick the **Xinle Rd** flagship in the FFC. Do this before the 20-hr flight home.
 - Farewell dinner options:
   - **T'ang Court at the Langham** — **2 Michelin stars** (upgraded from 1-star in the 2026 Guide), Cantonese, inside our hotel if we stay at the Langham. Best all-around farewell dinner.
@@ -90,7 +94,7 @@ _One of Yu Garden's signature bridges and pavilions. Photo by Güldem Üstün vi
   - **Mr. & Mrs. Bund** — Paul Pairet's long-running French brasserie on the Bund.
 - Last drink: **Sir Elly's** (Peninsula, 14th floor), or **Speak Low** round two.
 
-> **Note:** **Ultraviolet by Paul Pairet** (his 3-star 20-seat experimental restaurant) **closed indefinitely on 29 March 2025** due to surrounding construction and market conditions. It's not bookable for this trip.
+> **Note:** Do not plan around **Ultraviolet**. It remains closed and should be treated as off the board for this trip.
 
 ## Day 5 — Thu Nov 5 — fly home
 

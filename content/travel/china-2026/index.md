@@ -19,7 +19,7 @@ _Live Google route preview for the northbound trip. If the embed ever fails to l
 
 ## Dates
 
-**Depart Austin Thursday 22 October 2026. Return Wednesday 5 November 2026.** 14 nights in-country.
+**Depart Austin Thursday 22 October 2026. Return Thursday 5 November 2026.** 13 nights in-country.
 
 Picked this window because it sidesteps National Day / Golden Week (Oct 1–7), catches fall colors in Zhejiang, and October is historically the cheapest AUS↔Asia month.
 
@@ -31,6 +31,14 @@ Picked this window because it sidesteps National Day / Golden Week (Oct 1–7), 
 | [[guangzhou\|Guangzhou]] | 3 | Oct 27–30 |
 | [[wuzhen\|Wuzhen]] | 2 | Oct 30 – Nov 1 |
 | [[shanghai\|Shanghai]] | 4 | Nov 1–5 |
+
+## Why this route works
+
+- **Hong Kong first**: easiest landing zone after the long-haul, still warm enough for hiking and ferry days, no mainland setup friction on day one.
+- **Guangzhou second**: the food-heavy stop comes right after Hong Kong and uses the easiest cross-border train on the route.
+- **Wuzhen in the middle**: the slowest, most atmospheric stop breaks up the two big cities and makes the night-and-dawn scenery worth the transfer.
+- **Shanghai last**: strongest city finish and best flight-home options, with no backtracking.
+- **Packing rule**: keep it to one checked bag per person max. Three inter-city moves is manageable with light luggage and annoying with big rollers.
 
 ## Pages
 
@@ -54,6 +62,7 @@ Critical bookings, in order of lead time:
 
 1. **Visas** — apply late Aug 2026 via the New COVA System. See [[logistics#China L visa]].
 2. **Flights** — book mid-Aug on Google Flights multi-city. See [[flights]].
-3. **Ultraviolet** or **Lung King Heen** — 3 months ahead if we're splurging.
+3. **Lung King Heen / T'ang Court / Fu 1088** — 2–4 weeks ahead for the key splurge meals.
 4. **Wuzhen guesthouse inside Xizha** — 2 months ahead, direct on en.wuzhen.com.cn.
-5. **Peak Tram** — week-of on Klook.
+5. **HK → Guangzhou train + Tongxiang → Shanghai train** — book when the 15-day rail window opens.
+6. **Peak Tram / Canton Tower / river cruise** — 1–2 weeks ahead if weather looks good.
