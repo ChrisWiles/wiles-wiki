@@ -11,7 +11,11 @@ npm install
 bash setup-wiles.sh
 ```
 
-That installs Quartz dependencies, creates `.env`, writes `~/.obsidian-wiki/config`, and symlinks the 18 wiki skills into `.claude/skills/` and `~/.codex/skills/`.
+That installs Quartz dependencies, creates `.env`, writes `~/.obsidian-wiki/config`, and symlinks 16 wiki skills (Hermes + OpenClaw history skills are skipped) into `.claude/skills/` and `~/.codex/skills/`.
+
+## Preview inside Claude Code
+
+Type `/preview` inside Claude Code to start the dev server and live-reload edits.
 
 ## Local preview
 

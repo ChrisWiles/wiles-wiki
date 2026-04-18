@@ -12,6 +12,9 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 SKILLS_DIR="$SCRIPT_DIR/.skills"
 VAULT_PATH="$SCRIPT_DIR/content"
 
+# Skills we never invoke because we don't use those agents
+SKIP_SKILLS=("hermes-history-ingest" "openclaw-history-ingest")
+
 install_skills() {
   local target_dir="$1"
   local label="$2"
@@ -19,6 +22,11 @@ install_skills() {
   for skill in "$SKILLS_DIR"/*/; do
     local skill_name link_path
     skill_name="$(basename "$skill")"
+    for skip in "${SKIP_SKILLS[@]}"; do
+      if [ "$skill_name" = "$skip" ]; then
+        continue 2
+      fi
+    done
     link_path="$target_dir/$skill_name"
     if [ -L "$link_path" ]; then
       rm "$link_path"
@@ -27,6 +35,13 @@ install_skills() {
       continue
     fi
     ln -s "${skill%/}" "$link_path"
+  done
+  # Clean up any stale symlinks for skills we now skip
+  for skip in "${SKIP_SKILLS[@]}"; do
+    local stale="$target_dir/$skip"
+    if [ -L "$stale" ]; then
+      rm "$stale"
+    fi
   done
   echo "✅  Installed skills → $label"
 }
@@ -65,13 +80,15 @@ install_skills "$SCRIPT_DIR/.claude/skills" ".claude/skills/"
 # 4. Global Codex skills — Codex reads from ~/.codex/skills/ only
 install_skills "$HOME/.codex/skills" "~/.codex/skills/ (Codex)"
 
-SKILL_COUNT=$(find "$SKILLS_DIR" -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
+TOTAL_SKILLS=$(find "$SKILLS_DIR" -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')
+SKIPPED=${#SKIP_SKILLS[@]}
+SKILL_COUNT=$((TOTAL_SKILLS - SKIPPED))
 
 echo ""
 echo "───────────────────────────────────────────────────"
 echo " Setup complete."
 echo ""
-echo " Skills found:    $SKILL_COUNT"
+echo " Skills installed: $SKILL_COUNT (of $TOTAL_SKILLS available; skipped $SKIPPED unused)"
 echo " Agents ready:    Claude Code (project), Codex (global)"
 echo " Vault path:      $VAULT_PATH"
 echo ""
