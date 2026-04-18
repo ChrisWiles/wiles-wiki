@@ -1,0 +1,21 @@
+.DS_Store
+node_modules
+public
+prof
+tsconfig.tsbuildinfo
+.quartz-cache
+private/
+.replit
+replit.nix
+
+# Local obsidian-wiki config
+.env
+
+# Obsidian per-user workspace state
+content/.obsidian/workspace.json
+content/.obsidian/workspace-mobile.json
+content/.obsidian/workspaces.json
+content/.obsidian/cache/
+
+# Agent skill symlinks — recreated by setup-wiles.sh on fresh clone
+.claude/skills/
