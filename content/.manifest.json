@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 2,
-    "total_pages": 21
+    "total_sources_ingested": 3,
+    "total_pages": 24
   },
   "sources": {
     "codex-conversation:2026-04-30-post-agi-economy": {
@@ -49,6 +49,35 @@
         "https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379",
         "https://www.openresearchlab.org/projects/unconditional-cash-study",
         "https://www.brookings.edu/wp-content/uploads/2026/01/Korinek-Lockwood-FINAL-for-website.pdf"
+      ]
+    },
+    "web-research:2026-04-30-ai-data-center-buildout-investment-memo": {
+      "ingested_at": "2026-04-30",
+      "source_type": "web-research",
+      "project": null,
+      "description": "Research memo on AI data center buildout supply chain, Situational Awareness LP 5020 holdings, Dylan Patel/SemiAnalysis commentary, and public-company bottlenecks",
+      "pages_created": [
+        "ai-reference/ai-data-center-buildout-investment-memo.md",
+        "ai-reference/ai-data-center-supply-chain-bottlenecks.md",
+        "ai-reference/situational-awareness-ai-infrastructure-portfolio.md"
+      ],
+      "pages_updated": [
+        "ai-reference/index.md"
+      ],
+      "source_urls": [
+        "https://fintel.io/i/situational-awareness-lp-5020",
+        "https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf",
+        "https://darioamodei.com/essay/the-adolescence-of-technology",
+        "https://www.tbpndigest.com/story/2026-02-03/dylan-patel-on-space-data-centers-the-tsmc-bottleneck-returning-in-2027-and-why-openai-is-fine",
+        "https://openai.com/index/stargate-advances-with-partnership-with-oracle/",
+        "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+        "https://www.woodmac.com/press-releases/data-center-demand-drives-us-electrical-equipment-market-to-%2465b-reshaping-industry-dynamics/",
+        "https://www.gevernova.com/sites/default/files/gev_webcast_pressrelease_04222026.pdf",
+        "https://power.mhi.com/regions/amer/insights/mitsubishi-power-ceos-demand-growth-reliability-and-whats-ahead",
+        "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
+        "https://investors.modine.com/news/news-details/2025/Modine-Reports-Second-Quarter-Fiscal-2026-Results/default.aspx",
+        "https://ir.solaris-energy.com/news/2026/04-27-2026-210632081"
       ]
     }
   }

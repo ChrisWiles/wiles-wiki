@@ -10,6 +10,8 @@ sources:
   - User-provided note in Codex conversation on 2026-04-30
   - https://openai.com/index/industrial-policy-for-the-intelligence-age/
   - https://www.anthropic.com/research/economic-policy-responses
+  - https://fintel.io/i/situational-awareness-lp-5020
+  - https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf
 created: 2026-04-30
 updated: 2026-04-30
 provenance:
@@ -22,6 +24,9 @@ Reference notes on AI economics, policy, governance, and social implications.
 
 ## Pages
 
+- [[ai-data-center-buildout-investment-memo|AI data center buildout investment memo]] - investment research on supply chain bottlenecks, public-company exposure, and thesis risks in a 50-100 GW AI buildout scenario.
+- [[ai-data-center-supply-chain-bottlenecks|AI data center supply chain bottlenecks]] - map of power, grid, electrical, cooling, semiconductor, networking, construction, and site constraints.
+- [[situational-awareness-ai-infrastructure-portfolio|Situational Awareness AI infrastructure portfolio]] - interpretation of Situational Awareness LP 5020's disclosed public holdings as an AI-infrastructure bottleneck basket.
 - [[post-agi-economy-research-analysis|Post-AGI economy research analysis]] - balanced research synthesis across economic structure, income, purchasing power, policy, social implications, and institutional design.
 - [[post-agi-economy|Post-AGI economy]] - the central framing: AGI may move distribution away from wages toward claims on capital, compute, land, energy, and services.
 - [[post-agi-economic-models|Post-AGI economic models]] - scenario taxonomy from high-productivity labor markets to AGI-centered capital economies.
