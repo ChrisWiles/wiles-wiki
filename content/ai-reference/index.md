@@ -40,6 +40,18 @@ Start with the parent thesis, then the bottleneck map, then the cross-cutting sc
 12. [[ai-investment-valuation-models|AI investment valuation models]] — sum-of-parts / DCF / replacement-value frameworks for 15 highest-conviction names (ETN, POWL, GEV, ENR.DE, VRT, MU, COHR, LITE, CRDO, AVGO, PWR, FIX, CRWV, CEG, CLF).
 13. [[private-ai-buyers-and-labs|Private AI buyers and labs]] — OpenAI, Anthropic, xAI, Stargate JV, Databricks, Mistral, Cohere, Perplexity, SSI — non-investable demand-side and the public-company tendrils each pulls.
 
+## Analyst picks
+
+Per-name dossiers with bear/base/bull models, valuation frameworks, catalyst calendars, position-sizing notes, and bear-case tripwires. Start with the master list, then drill into individual dossiers.
+
+- [[analyst-picks-master-list|Analyst picks master list]] — ranked summary of 11 twelve-month winners + 12 five-year holds + 7 at-risk names with conviction levels, fair-value ranges, and position-sizing template.
+
+**12-month winners (11 dossiers)**: [[pick-powell-industries-powl|POWL]] · [[pick-ge-vernova-gev|GEV]] · [[pick-coherent-cohr|COHR]] · [[pick-credo-crdo|CRDO]] · [[pick-micron-mu|MU]] · [[pick-vertiv-vrt|VRT]] · [[pick-quanta-services-pwr|PWR]] · [[pick-comfort-systems-fix|FIX]] · [[pick-constellation-energy-ceg|CEG]] · [[pick-cleveland-cliffs-clf|CLF]] · [[pick-marvell-mrvl|MRVL]]
+
+**5-year holds (12 dossiers)**: [[pick-eaton-etn-5y|ETN]] · [[pick-asml-asml-5y|ASML]] · [[pick-tsmc-tsm-5y|TSM]] · [[pick-broadcom-avgo-5y|AVGO]] · [[pick-vertiv-vrt-5y|VRT]] · [[pick-quanta-services-pwr-5y|PWR]] · [[pick-ge-vernova-gev-5y|GEV]] · [[pick-constellation-energy-ceg-5y|CEG]] · [[pick-caterpillar-cat-5y|CAT]] · [[pick-linde-lin-5y|LIN]] · [[pick-besi-besi-5y|BESI]] · [[pick-advantest-atey-5y|ATEY]]
+
+**At-risk / avoid (7 write-ups)**: [[at-risk-coreweave-crwv|CRWV]] · [[at-risk-applied-digital-apld|APLD]] · [[at-risk-bloom-energy-be|BE]] · [[at-risk-dell-technologies-dell|DELL]] · [[at-risk-super-micro-smci|SMCI]] · [[at-risk-modine-mod|MOD]] · [[at-risk-solaris-energy-sei|SEI]]
+
 ## Portfolio reference
 
 - [[situational-awareness-ai-infrastructure-portfolio|Situational Awareness AI infrastructure portfolio]] — interpretation of Situational Awareness LP 5020's disclosed public holdings as an AI-infrastructure bottleneck basket.
