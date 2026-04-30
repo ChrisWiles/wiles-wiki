@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "stats": {
+    "total_sources_ingested": 2,
+    "total_pages": 21
+  },
+  "sources": {
+    "codex-conversation:2026-04-30-post-agi-economy": {
+      "ingested_at": "2026-04-30",
+      "source_type": "conversation",
+      "project": null,
+      "description": "User-provided note titled Post-AGI economy: plausible models, risks, and policy proposals",
+      "pages_created": [
+        "ai-reference/index.md",
+        "ai-reference/post-agi-economy.md",
+        "ai-reference/post-agi-economic-models.md",
+        "ai-reference/ai-capital-ownership-and-purchasing-power.md",
+        "ai-reference/post-agi-policy-toolkit.md",
+        "ai-reference/openai-and-anthropic-economic-thinking.md"
+      ],
+      "pages_updated": [
+        "index.md"
+      ]
+    },
+    "web-research:2026-04-30-post-agi-economy": {
+      "ingested_at": "2026-04-30",
+      "source_type": "web-research",
+      "project": null,
+      "description": "Research update on post-AGI economic models, purchasing power, policy responses, and OpenAI/Anthropic public positions",
+      "pages_created": [
+        "ai-reference/post-agi-economy-research-analysis.md"
+      ],
+      "pages_updated": [
+        "ai-reference/index.md",
+        "ai-reference/post-agi-economy.md",
+        "ai-reference/post-agi-economic-models.md",
+        "ai-reference/ai-capital-ownership-and-purchasing-power.md",
+        "ai-reference/post-agi-policy-toolkit.md",
+        "ai-reference/openai-and-anthropic-economic-thinking.md"
+      ],
+      "source_urls": [
+        "https://openai.com/index/industrial-policy-for-the-intelligence-age/",
+        "https://openai.com/index/our-principles/",
+        "https://openai.com/index/planning-for-agi-and-beyond/",
+        "https://www.anthropic.com/research/economic-policy-responses",
+        "https://www.anthropic.com/news/introducing-the-anthropic-economic-futures-program",
+        "https://www.anthropic.com/research/economic-index-march-2026-report",
+        "https://www.aeaweb.org/articles?id=10.1257/jep.33.2.3",
+        "https://www.imf.org/en/publications/staff-discussion-notes/issues/2024/01/14/gen-ai-artificial-intelligence-and-the-future-of-work-542379",
+        "https://www.openresearchlab.org/projects/unconditional-cash-study",
+        "https://www.brookings.edu/wp-content/uploads/2026/01/Korinek-Lockwood-FINAL-for-website.pdf"
+      ]
+    }
+  }
+}

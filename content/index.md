@@ -6,6 +6,7 @@ Personal knowledge base for Chris and family. Home projects, travel, recipes, an
 
 ## Sections
 
+- [[ai-reference/index|AI reference]]
 - [[home-projects/index|Home projects]]
 - [[travel/index|Travel]]
 
