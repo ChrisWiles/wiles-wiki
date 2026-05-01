@@ -174,6 +174,23 @@ The non-Asian listed names that move on AI thermal/material headlines are mostly
 
 **Process-control note.** KLA's mask-inspection toolset is the gating asset for High-NA EUV mask qualification. Any High-NA delay flows through KLA backlog before it shows up in TSMC or Samsung wafer-out. KLA gross margins (~60%) are the highest in WFE for a reason: the inspection tools have no real second source.^[inferred]
 
+## Silicon wafers (the upstream substrate)
+
+For years AI's impact on the silicon-wafer market was a rounding error — it isn't anymore. SemiAnalysis flagged the wafer ASP turn on 2026-04-30^[extracted, https://x.com/SemiAnalysis_]: leading-edge logic (≤7nm) wafer demand is inflecting in 2027 and reaches roughly 1M wpm by CY28, around 10% of total 300mm equivalent demand. HBM is also a tailwind — stacking 8-16 dies plus a base logic die makes each HBM cube far more wafer-intensive per gigabit than standard DRAM, and HBM still requires tighter flatness on bulk polished wafers (price premium). The combination tightens the broader market and pushes the industry through its prior oversupply.
+
+**Supply is capped near-term.** CapEx at the four major wafer makers is roughly 70% below the 2023 peak^[extracted from SemiAnalysis 2026-04-30] and is expected to stay depressed because suppliers won't build until customers commit funding. Epi reactor lead times are 6+ months, so even if customers signed today, new capacity does not hit until 2H27 at the earliest. ASPs have been depressed for years and current LTAs lock most pricing through 2027 — but **2028+ LTA negotiations begin early 2026**, with epi deals reportedly locking in ASPs ~20% higher^[extracted from SemiAnalysis 2026-04-30]. Template: the 2016-17 wafer-maker upcycle (memory-driven) saw silicon-wafer pure-plays rerate 2-3x.
+
+| Vendor | Market share | Listed | Exposure | Notes |
+|---|---:|---|---|---|
+| Shin-Etsu Chemical | ~30% | 4063.T (SHECY ADR) | Silicon wafers + silicones + PVC | Lower-beta diversified; broadest customer book; multi-bottleneck (TIM + photomask blanks + photoresist) |
+| SUMCO | ~22% | 3436.T (SUOPY ADR) | Pure-play silicon wafer | Higher-beta pure-play; ADR illiquid; size via Tokyo |
+| GlobalWafers | ~15% | 6488.TW | Pure-play silicon wafer | Taiwanese; geo-cap with TSM |
+| Siltronic | ~13-15% | WAF.DE (SLTRY ADR) | Pure-play silicon wafer | Highest beta; Singapore Fab 5 epi expansion completed 2024-2025 into a tightening market |
+
+The four-name oligopoly is structural. China entrants (NSIG, Zhonghuan) are not yet qualified at leading-edge epi for hyperscaler-grade ASICs and are unlikely to disrupt the 2027-2028 cycle. The investable expressions are [[pick-shin-etsu-shecy-5y|Shin-Etsu (SHECY)]] for the diversified compounder profile and [[pick-siltronic-sltry-5y|Siltronic (SLTRY)]] for the high-beta pure-play. SUMCO and GlobalWafers are equally valid theses but require Tokyo/Taipei trading access; the US ADRs are thin.
+
+**Why this matters for the rest of the stack.** Silicon-wafer ASP inflation flows through to: TSMC (cost pass-through to fabless customers — TSMC's pricing power absorbs it); fabless AI accelerator vendors like NVDA, AVGO, MRVL, AMD (silicon is small share of die cost, ~5-10%, so margin impact is modest); HBM vendors like SK hynix, Micron, Samsung (premium bulk wafer cost rises, but HBM gross margins are wide enough to absorb). The wafer makers themselves capture the margin uplift directly. **Owning the next-layer-down bottleneck before LTAs reset is the trade.**
+
 ## Custom-ASIC impact
 
 Hyperscaler custom silicon is shifting demand inside the TSMC/HBM stack rather than reducing it. The same nodes (N3, N3P, N2 forthcoming) and the same CoWoS-L lines are used. The mix shift matters for pricing power, not aggregate capacity.
@@ -216,6 +233,13 @@ What does this stack imply for an actual GW-class cluster build?
 
 The composite read is that even one named hyperscaler 1 GW deployment in 2026-2027 saturates a meaningful fraction of every layer at once. A 50-100 GW cumulative buildout (the [[ai-data-center-buildout-investment-memo]] scenario) is not deliverable on the current capacity trajectory without a step-up in either HBM, CoWoS, or both.
 
+## Tripwires worth tracking — wafer makers (added 2026-04-30)
+
+- **2028+ LTA negotiations.** Track Shin-Etsu / SUMCO / Siltronic / GlobalWafers commentary in Q2 + Q3 2026 earnings on long-term-agreement renewals. SemiAnalysis expects ~20% epi ASP step-up; an actual >15% disclosed ASP increase confirms the thesis.
+- **Wafer-maker CapEx prints.** If any of the four announces a CapEx step-up in 2026 H2 it signals customer funding commitments — directly bullish for ASPs and the next 2-3 year volume outlook.
+- **Epi reactor orders at AMAT / Tokyo Electron / ASMI.** Six-plus month lead times mean orders today indicate 2H27 capacity. Epi reactor backlog announcements are the cleanest leading indicator.
+- **300mm equivalent demand inflection.** SemiAnalysis models leading-edge logic alone reaching ~1M wpm by CY28 (10% of 300mm equivalent demand). Track quarterly TSMC + Intel + Samsung wafer-out commentary against this trajectory.
+
 ## Tripwires worth tracking
 
 These are the specific data points that would either confirm or break the "semis-binds-2027" view. Cross-reference [[risk-tripwires-and-warning-indicators]].
@@ -245,6 +269,15 @@ These are the specific data points that would either confirm or break the "semis
 - [[ai-data-center-buildout-investment-memo]]
 - [[ai-data-center-supply-chain-bottlenecks]]
 - [[ai-investment-public-company-scorecard]]
+- [[ai-investment-valuation-models]]
+- [[analyst-picks-master-list]]
 - [[hyperscaler-constraint-map]]
 - [[optics-and-interconnect-deep-dive]]
 - [[risk-tripwires-and-warning-indicators]]
+- [[pick-asml-asml-5y]] — EUV / High-NA monopoly
+- [[pick-tsmc-tsm-5y]] — leading-edge wafer customer
+- [[pick-besi-besi-5y]] — hybrid bonding monopoly
+- [[pick-advantest-atey-5y]] — ATE for HBM and AI accelerators
+- [[pick-shin-etsu-shecy-5y]] — silicon wafer #1 (added 2026-04-30 per SemiAnalysis)
+- [[pick-siltronic-sltry-5y]] — silicon wafer pure-play (added 2026-04-30 per SemiAnalysis)
+- [[pick-micron-mu]] — HBM allocation

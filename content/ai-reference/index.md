@@ -48,7 +48,7 @@ Per-name dossiers with bear/base/bull models, valuation frameworks, catalyst cal
 
 **12-month winners (11 dossiers)**: [[pick-powell-industries-powl|POWL]] · [[pick-ge-vernova-gev|GEV]] · [[pick-coherent-cohr|COHR]] · [[pick-credo-crdo|CRDO]] · [[pick-micron-mu|MU]] · [[pick-vertiv-vrt|VRT]] · [[pick-quanta-services-pwr|PWR]] · [[pick-comfort-systems-fix|FIX]] · [[pick-constellation-energy-ceg|CEG]] · [[pick-cleveland-cliffs-clf|CLF]] · [[pick-marvell-mrvl|MRVL]]
 
-**5-year holds (12 dossiers)**: [[pick-eaton-etn-5y|ETN]] · [[pick-asml-asml-5y|ASML]] · [[pick-tsmc-tsm-5y|TSM]] · [[pick-broadcom-avgo-5y|AVGO]] · [[pick-vertiv-vrt-5y|VRT]] · [[pick-quanta-services-pwr-5y|PWR]] · [[pick-ge-vernova-gev-5y|GEV]] · [[pick-constellation-energy-ceg-5y|CEG]] · [[pick-caterpillar-cat-5y|CAT]] · [[pick-linde-lin-5y|LIN]] · [[pick-besi-besi-5y|BESI]] · [[pick-advantest-atey-5y|ATEY]]
+**5-year holds (14 dossiers)**: [[pick-eaton-etn-5y|ETN]] · [[pick-asml-asml-5y|ASML]] · [[pick-tsmc-tsm-5y|TSM]] · [[pick-broadcom-avgo-5y|AVGO]] · [[pick-vertiv-vrt-5y|VRT]] · [[pick-quanta-services-pwr-5y|PWR]] · [[pick-ge-vernova-gev-5y|GEV]] · [[pick-constellation-energy-ceg-5y|CEG]] · [[pick-caterpillar-cat-5y|CAT]] · [[pick-linde-lin-5y|LIN]] · [[pick-besi-besi-5y|BESI]] · [[pick-advantest-atey-5y|ATEY]] · [[pick-shin-etsu-shecy-5y|SHECY]] · [[pick-siltronic-sltry-5y|SLTRY]]
 
 **At-risk / avoid (7 write-ups)**: [[at-risk-coreweave-crwv|CRWV]] · [[at-risk-applied-digital-apld|APLD]] · [[at-risk-bloom-energy-be|BE]] · [[at-risk-dell-technologies-dell|DELL]] · [[at-risk-super-micro-smci|SMCI]] · [[at-risk-modine-mod|MOD]] · [[at-risk-solaris-energy-sei|SEI]]
 

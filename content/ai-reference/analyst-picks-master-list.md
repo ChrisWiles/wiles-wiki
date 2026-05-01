@@ -69,8 +69,12 @@ Multiples and prices are as of 2026-04-30. Dossiers should be refreshed after ev
 | 10 | LIN | Linde | Industrial gases | $478 | base $540 – $560; bull $640 | ~6-8% + div | high | — | Take-or-pay contracts; semi/fab gas demand | [[pick-linde-lin-5y\|→]] |
 | 11 | BESI | BE Semiconductor | Hybrid bonding | n/d | n/d (rev 4-6x potential) | high-conviction growth | high | flag (hybrid bonding monopoly) | HBM4 + sub-2nm logic packaging | [[pick-besi-besi-5y\|→]] |
 | 12 | ATEY | Advantest | ATE testing | $71 ADR | base ~$95-112 ADR | ~7-10% | high | flag (HBM + SoC test) | Test time inflation per AI accelerator | [[pick-advantest-atey-5y\|→]] |
+| 13 | SHECY | Shin-Etsu Chemical | Silicon wafers + chemicals | $20.50 ADR | base $21-25 ADR (bull $28-33) | ~5-9% + div | high | flag (wafer ASP turn — added 2026-04-30) | 2028+ LTAs at ~+20% ASPs; #1 wafer share; diversified | [[pick-shin-etsu-shecy-5y\|→]] |
+| 14 | SLTRY | Siltronic | Silicon wafer pure-play | €62 / $13.50 ADR | base €100-130 / $22-28 ADR | 2-3x by 2030 base | high (high-beta) | flag (wafer ASP turn — added 2026-04-30) | Singapore Fab 5 ramp + 2016-17 cycle template | [[pick-siltronic-sltry-5y\|→]] |
 
-**Highest-conviction subset** (5-year): AVGO, ASML, TSM, BESI, ATEY. The semis-equipment + custom-ASIC core. All five are Patel/SA-flagged bottlenecks.
+**Highest-conviction subset** (5-year): AVGO, ASML, TSM, BESI, ATEY, plus the new wafer-maker sleeve (SHECY + SLTRY). The semis-equipment + custom-ASIC + wafer core. All seven are Patel/SA-flagged bottlenecks.
+
+**Wafer-maker sleeve (added 2026-04-30 per SemiAnalysis)** — own SHECY + SLTRY as a paired sleeve sized 5-7% of basket. SHECY is the lower-vol diversified anchor; SLTRY is the high-beta pure-play with 2016-17 cycle precedent. Skip SUMCO and GlobalWafers unless trading Tokyo / Taipei. The 2028+ LTA negotiation window opens early 2026 — rerating likely happens before contracts are signed.
 
 **Anchor / lower-vol** (5-year): LIN, ETN. Lower beta, dividend compounders, less catalyst-dependent.
 
@@ -112,7 +116,9 @@ A balanced basket should weight across these clusters, not just buy the top 5 co
 - HBM allocation: MU (12mo)
 - Hybrid bonding: BESI (5y)
 - ATE / test: ATEY (5y)
-- EUV / leading-edge wafers: ASML (5y), TSM (5y)
+- EUV / High-NA: ASML (5y)
+- Leading-edge wafer foundry: TSM (5y)
+- **Silicon wafers (substrate ASP turn — added 2026-04-30): SHECY (5y), SLTRY (5y)**
 - 1.6T DSP / EML / AECs: COHR (12mo), CRDO (12mo), MRVL (12mo)
 - Gas turbines / power gen: GEV (12mo + 5y)
 - Liquid cooling: VRT (12mo + 5y)
@@ -130,9 +136,10 @@ Three sizing frameworks, mix and match by risk tolerance.
 - 0.5x sleeve: CLF (commodity-cycle pair-hedge candidate)
 
 For the 5-yr list:
-- 1.5x sleeve: AVGO, ASML, TSM, BESI, ATEY (Patel-flagged semis-equipment + custom ASIC core)
+- 1.5x sleeve: AVGO, ASML, TSM, BESI, ATEY, SHECY, SLTRY (Patel-flagged semis-equipment + custom ASIC + wafer core)
 - 1.0x sleeve: ETN, LIN, CEG, CAT
 - 0.7x sleeve: VRT, PWR, GEV (overlap with 12-mo sleeve; size carefully to avoid double-count)
+- Wafer sleeve: split SHECY:SLTRY at roughly 60:40 within the wafer-maker allocation; use Frankfurt/Tokyo for size if ADR liquidity is constraining.
 
 **Volatility-adjusted** — divide each name's target weight by realized 60-day volatility. Practical effect:
 - Lower-vol anchors (LIN, CEG, ETN, CAT) get bigger weights.
