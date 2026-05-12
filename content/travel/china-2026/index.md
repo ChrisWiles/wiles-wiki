@@ -6,7 +6,11 @@ tags:
   - trip-planning
 ---
 
-Two-week trip for Chris + Kaylee, fall 2026. Mid-thirties, active, first time in mainland China. Route: Hong Kong → Guangzhou → Wuzhen → Shanghai.
+Two-week trip for Chris + Kaylee, fall 2026. Mid-thirties, active, first time in mainland China.
+
+> **Route is under decision.** Five variants on the table — see [[routes]] for the side-by-side comparison. All are designed to fit **240-hour TWOV** (no L visa needed). The original plan (Route A) is still the current default — what follows is the Route A detail.
+
+Route A: Hong Kong → Guangzhou → Wuzhen → Shanghai.
 
 <iframe
   src="https://www.google.com/maps?output=embed&amp;saddr=Hong+Kong&amp;daddr=Guangzhou+to:Wuzhen+to:Shanghai"
@@ -23,7 +27,7 @@ _Live Google route preview for the northbound trip. If the embed ever fails to l
 
 Picked this window because it sidesteps National Day / Golden Week (Oct 1–7), catches fall colors in Zhejiang, and October is historically the cheapest AUS↔Asia month.
 
-## Route & nights
+## Route & nights (Route A)
 
 | City | Nights | Dates |
 |---|---|---|
@@ -31,6 +35,8 @@ Picked this window because it sidesteps National Day / Golden Week (Oct 1–7), 
 | [[guangzhou\|Guangzhou]] | 3 | Oct 27–30 |
 | [[wuzhen\|Wuzhen]] | 2 | Oct 30 – Nov 1 |
 | [[shanghai\|Shanghai]] | 4 | Nov 1–5 |
+
+**TWOV math (Route A)**: mainland entry Oct 27 (HSR through West Kowloon), exit Nov 5 (PVG → AUS direct). 9 mainland nights, ~1.5-day TWOV buffer. Compliant without an L visa.
 
 ## Why this route works
 
@@ -42,15 +48,25 @@ Picked this window because it sidesteps National Day / Golden Week (Oct 1–7), 
 
 ## Pages
 
-- [[logistics]] — visa, arrival card, Alipay/WeChat, eSIM, VPN
+- [[routes]] — **five route variants we're choosing between** (Route A through Route E)
+- [[logistics]] — TWOV vs. L visa, arrival card, Alipay/WeChat, eSIM, VPN
 - [[flights]] — AUS ↔ HKG/PVG routing and booking timing
-- [[transport]] — high-speed trains + CAN→HGH flight
+- [[transport]] — high-speed trains + CAN→HGH flight (Route A specific)
+- [[restaurants]] — cross-city restaurant index
+- [[packing]] — fall-weather packing list
+
+**Route A destinations** (current plan):
 - [[hong-kong]] — 4-day plan, hotels, Dragon's Back, dim sum
 - [[guangzhou]] — 3-day plan, Cantonese food, Shamian Island
 - [[wuzhen]] — 2-night canal-town stay inside West Scenic Zone
 - [[shanghai]] — 4-day plan, Bund, French Concession, Pudong
-- [[restaurants]] — cross-city restaurant index
-- [[packing]] — fall-weather packing list
+
+**Alternative-route destinations** (used in Routes B–E):
+- [[hangzhou]] — West Lake, Lingyin Temple, longjing tea fields
+- [[huangshan]] — Yellow Mountain summit + Hongcun / Xidi villages
+- [[xiamen]] — Gulangyu Island, Nanputuo Temple, Fujian cuisine
+- [[shenzhen]] — Ping An Tower + HK exit options
+- [[zhangjiajie]] — Avatar pillar peaks + Tianmen Mountain
 
 ## Rough budget (two people)
 

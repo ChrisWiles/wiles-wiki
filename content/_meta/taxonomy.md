@@ -59,6 +59,24 @@ This is the controlled tag vocabulary for the wiki. Every wiki page must use tag
 |---|---|
 | `travel` | Trip planning, itineraries, destinations. |
 | `home` | Home, family, household projects. |
+| `trip-planning` | Cross-cutting trip-prep pages (visa, logistics, packing, routes). |
+| `logistics` | Visa, payments, connectivity, registration. |
+| `transport` | Inter-city travel: flights, trains, transfers. |
+
+### Destinations (apply alongside `travel`)
+
+| Tag | When to use |
+|---|---|
+| `china` | Page covers anywhere in Mainland China or about the China trip generally. |
+| `hong-kong` | Hong Kong SAR specifically. |
+| `shanghai` | Shanghai pages. |
+| `guangzhou` | Guangzhou pages. |
+| `wuzhen` | Wuzhen / Zhejiang water-town pages. |
+| `hangzhou` | Hangzhou / West Lake pages. |
+| `huangshan` | Yellow Mountain + Huizhou village pages. |
+| `xiamen` | Xiamen / Gulangyu / Fujian-coast pages. |
+| `shenzhen` | Shenzhen pages. |
+| `zhangjiajie` | Zhangjiajie / Wulingyuan / Tianmen Mountain pages. |
 
 ### Visibility (system tags — do not count toward 5-tag limit)
 

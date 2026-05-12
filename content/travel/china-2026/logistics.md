@@ -8,7 +8,21 @@ tags:
 
 Everything to sort before leaving Austin. Start ~3 months out.
 
-## China L visa
+## Entry: TWOV (primary) vs. L visa (fallback)
+
+The active plan now targets **240-hour TWOV** (transit-without-visa) — no L visa application needed. See [[routes#TWOV primer]] for the full rules. The L visa path below is the fallback if we decide to do something TWOV can't cover (e.g., more than 10 mainland days, or entering through a non-TWOV port).
+
+| | TWOV | L visa |
+|---|---|---|
+| Cost | free | ~$206/person |
+| Mainland days | up to 10 (240 hrs) | ~30/entry, 10-year multi-entry |
+| Onward ticket | required to third country/region | not required |
+| Apply when | nothing to apply for — done at port | 6–8 weeks before departure |
+| Eligible regions | 24 (incl. Shanghai, Zhejiang, Anhui, Fujian, Guangdong, Hunan) | all of mainland |
+
+**Take the TWOV path unless we add a stop that breaks the 240-hour window.** All five [[routes|routes]] are designed to fit.
+
+## China L visa (fallback)
 
 Apply 6–8 weeks before departure.
 
