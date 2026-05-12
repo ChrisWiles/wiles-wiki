@@ -12,8 +12,8 @@ sources:
   - Advantest FY2025 (March 2026) full-year results and Integrated Report (advantest.com)
   - Advantest Q1, Q2, Q3, Q4 FY2025 earnings call transcripts (Seeking Alpha)
   - Advantest Investor Day (Tokyo, November 2025) deck and transcript
-  - SemiAnalysis: "HBM Test Bottleneck and Advantest's Choke-Point" (Patel et al., 2025)
-  - SemiAnalysis: "AI Accelerator Test-Time Inflation — Why ATE Is the New Constraint" (Patel et al., 2025-2026)
+  - SemiAnalysis — "HBM Test Bottleneck and Advantest's Choke-Point" (Patel et al., 2025)
+  - SemiAnalysis — "AI Accelerator Test-Time Inflation — Why ATE Is the New Constraint" (Patel et al., 2025-2026)
   - Dylan Patel public commentary (X / podcasts) on Advantest as the "least-discussed AI bottleneck"
   - Teradyne FY2025 results + Q1 FY26 print (read-across on SoC-test share dynamics)
   - SK hynix Q4 2025 / Q1 2026 results (HBM4 ramp + tester capacity commentary)

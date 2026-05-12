@@ -19,7 +19,7 @@ sources:
   - Intel Foundry update and 18A / 14A roadmap commentary (2025-2026)
   - SK hynix Q1 2026 results (HBM4 ramp commentary)
   - Bernstein, Morgan Stanley, Goldman Sachs semicap notes (sell-side via Seeking Alpha)
-  - TrendForce: "ASML raises 2026 sales outlook to €36B-€40B on memory and logic client demand" (2026-04-15)
+  - TrendForce — "ASML raises 2026 sales outlook to €36B-€40B on memory and logic client demand" (2026-04-15)
 created: 2026-04-30
 updated: 2026-04-30
 provenance:

@@ -24,8 +24,8 @@ sources:
   - Walker Industries / EAS Group acquisition press releases (Comfort Systems USA)
   - Trade press on mechanical EPC labor: Construction Dive, ENR, ABC Construction Backlog Indicator
   - https://www.fool.com/earnings/call-transcripts/ (FIX call transcripts)
-  - [[ai-investment-public-company-scorecard]] internal cross-reference for FIX inputs
-  - [[ai-investment-valuation-models]] internal backlog × margin × multiple framework
+  - "[[ai-investment-public-company-scorecard]] internal cross-reference for FIX inputs"
+  - "[[ai-investment-valuation-models]] internal backlog × margin × multiple framework"
 created: 2026-04-30
 updated: 2026-04-30
 provenance:

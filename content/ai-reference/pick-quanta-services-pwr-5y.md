@@ -30,9 +30,9 @@ sources:
   - Pure Power acquisition press release and disclosure (2025)
   - ENR (Engineering News-Record) Top 600 Specialty Contractors and Top 400 Contractors (2025)
   - Trade press on lineman shortage and IBEW apprenticeship pipeline: Construction Dive, Utility Dive, T&D World
-  - [[pick-quanta-services-pwr]] (12-month companion dossier)
-  - [[ai-investment-public-company-scorecard]] for cross-name comparison
-  - [[ai-investment-valuation-models]] for backlog × margin × multiple framework
+  - "[[pick-quanta-services-pwr]] (12-month companion dossier)"
+  - "[[ai-investment-public-company-scorecard]] for cross-name comparison"
+  - "[[ai-investment-valuation-models]] for backlog × margin × multiple framework"
 created: 2026-04-30
 updated: 2026-04-30
 provenance:
