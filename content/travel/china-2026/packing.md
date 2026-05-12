@@ -61,7 +61,7 @@ Rain chance: low across all cities in late Oct–early Nov. Bring a travel umbre
 
 ## Travel docs
 
-- Passports (6+ month validity past Nov 5, 2026)
+- Passports (6+ month validity past Oct 22, 2026)
 - Printed visa confirmation + hotel bookings
 - Screenshots / booking numbers for trains and hotels, even though many trains use passport-based boarding
 - Travel insurance policy

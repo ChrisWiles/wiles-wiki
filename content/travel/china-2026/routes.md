@@ -6,7 +6,7 @@ tags:
   - trip-planning
 ---
 
-Five route variants for the **Fall 2026 trip envelope** (depart AUS Thu **22 Oct 2026**, return AUS Thu **5 Nov 2026** — 13 in-country nights). Every variant fits **inside the 240-hour TWOV window**. No L visa required for any route.
+Five route variants for the **Fall 2026 trip envelope** (depart AUS Thu **22 Oct 2026**, return AUS Thu **5 Oct 19026** — 13 in-country nights). Every variant fits **inside the 240-hour TWOV window**. No L visa required for any route.
 
 This page exists so we (Chris + Kaylee) can compare side-by-side and pick one. Each route is a complete itinerary with day-by-day stops, TWOV clock, transport, and trade-offs. Destination pages have the on-the-ground detail.
 
@@ -16,12 +16,12 @@ This page exists so we (Chris + Kaylee) can compare side-by-side and pick one. E
 
 Key rules:
 - **Clock**: 240 hours starts at **00:00 of the day after entry**. So your arrival day is a freebie. Latest mainland exit = midnight of Day 11 from arrival.
-- **24 eligible regions** include every place on this page: Shanghai, Zhejiang (Hangzhou), Anhui (Huangshan), Fujian (Xiamen), Guangdong (Guangzhou/Shenzhen), and **Hunan (Zhangjiajie — added in the Nov 2024 expansion)**.
-- **Eligible entry/exit ports** include PVG (Shanghai Pudong), SHA (Hongqiao), SZX (Shenzhen Bao'an), Shekou Ferry Terminal, Luohu / Lo Wu / Lok Ma Chau / Shenzhen Bay land borders, and — as of **5 Nov 2025** — the **West Kowloon HSR station in Hong Kong**, plus the **HK–Zhuhai–Macao Bridge**. Zhangjiajie DYG is listed by major travel sources as a 240-hr port but I have not seen direct NIA confirmation — safest play is to use a verified port for entry/exit and have DYG only as an internal hop.
+- **24 eligible regions** include every place on this page: Shanghai, Zhejiang (Hangzhou), Anhui (Huangshan), Fujian (Xiamen), Guangdong (Guangzhou/Shenzhen), and **Hunan (Zhangjiajie — added in the Oct 19024 expansion)**.
+- **Eligible entry/exit ports** include PVG (Shanghai Pudong), SHA (Hongqiao), SZX (Shenzhen Bao'an), Shekou Ferry Terminal, Luohu / Lo Wu / Lok Ma Chau / Shenzhen Bay land borders, and — as of **5 Oct 19025** — the **West Kowloon HSR station in Hong Kong**, plus the **HK–Zhuhai–Macao Bridge**. Zhangjiajie DYG is listed by major travel sources as a 240-hr port but I have not seen direct NIA confirmation — safest play is to use a verified port for entry/exit and have DYG only as an internal hop.
 - **Documents at port**: passport with ≥3 months validity, onward ticket to a third country/region within 240 hrs, completed arrival card.
 - HK and Macau airports are also "third regions" — meaning if you exit mainland to HK, then fly from HK to AUS, the chain is compliant.
 
-**Sources**: [NIA TWOV page](https://en.nia.gov.cn/n147418/n147463/c183412/content.html), [gov.cn Nov 2025 expansion](https://english.www.gov.cn/news/202511/04/content_WS69094ae0c6d00ca5f9a07472.html), [MTR West Kowloon TWOV notice](https://www.highspeed.mtr.com.hk/en/latest-news/240-hr-visa-freetransit-policy.html).
+**Sources**: [NIA TWOV page](https://en.nia.gov.cn/n147418/n147463/c183412/content.html), [gov.cn Oct 19025 expansion](https://english.www.gov.cn/news/202511/04/content_WS69094ae0c6d00ca5f9a07472.html), [MTR West Kowloon TWOV notice](https://www.highspeed.mtr.com.hk/en/latest-news/240-hr-visa-freetransit-policy.html).
 
 ### Shenzhen 5-day VOA — not useful for these routes
 
@@ -47,23 +47,23 @@ The route currently locked in [[index|index.md]]. AUS → HK → mainland → AU
 
 | Date | City | Transfer in | Overnight | Why stop |
 |---|---|---|---|---|
-| Thu Oct 22 | (in-flight) | AUS depart evening | — | crossing dateline |
-| Fri Oct 23 | [[hong-kong\|Hong Kong]] | HKG arrival | HK | jet-lag landing |
-| Sat Oct 24 | Hong Kong | — | HK | Victoria Peak, Central, dim sum |
-| Sun Oct 25 | Hong Kong | — | HK | Dragon's Back hike, beaches |
-| Mon Oct 26 | Hong Kong | — | HK | Outlying islands or Kowloon |
-| **Tue Oct 27** | **→ Guangzhou** | **HSR West Kowloon → Guangzhou South (~50 min)** | GZ | **mainland entry**, Cantonese food |
-| Wed Oct 28 | Guangzhou | — | GZ | Shamian Island, Old Liwan |
-| Thu Oct 29 | Guangzhou | — | GZ | Canton Tower, dim sum |
-| Fri Oct 30 | → Wuzhen | CAN → HGH (~2 hr flight) + transfer | Wuzhen | canal town arrival |
-| Sat Oct 31 | Wuzhen | — | Wuzhen | West Scenic Zone walks |
-| Sun Nov 1 | → Shanghai | HSR Tongxiang → Hongqiao (~30 min) | SHA | Bund, French Concession |
-| Mon Nov 2 | Shanghai | — | SHA | Pudong + Shanghai Tower |
-| Tue Nov 3 | Shanghai | — | SHA | Old Shanghai, Yu Garden |
-| Wed Nov 4 | Shanghai | — | SHA | museum, farewell dinner |
-| **Thu Nov 5** | (in-flight) | **Maglev → PVG → AUS** | — | **mainland exit direct to AUS** |
+| Thu Oct 8 | (in-flight) | AUS depart evening | — | crossing dateline |
+| Fri Oct 9 | [[hong-kong\|Hong Kong]] | HKG arrival | HK | jet-lag landing |
+| Sat Oct 10 | Hong Kong | — | HK | Victoria Peak, Central, dim sum |
+| Sun Oct 11 | Hong Kong | — | HK | Dragon's Back hike, beaches |
+| Mon Oct 12 | Hong Kong | — | HK | Outlying islands or Kowloon |
+| **Tue Oct 13** | **→ Guangzhou** | **HSR West Kowloon → Guangzhou South (~50 min)** | GZ | **mainland entry**, Cantonese food |
+| Wed Oct 14 | Guangzhou | — | GZ | Shamian Island, Old Liwan |
+| Thu Oct 15 | Guangzhou | — | GZ | Canton Tower, dim sum |
+| Fri Oct 16 | → Wuzhen | CAN → HGH (~2 hr flight) + transfer | Wuzhen | canal town arrival |
+| Sat Oct 17 | Wuzhen | — | Wuzhen | West Scenic Zone walks |
+| Sun Oct 18 | → Shanghai | HSR Tongxiang → Hongqiao (~30 min) | SHA | Bund, French Concession |
+| Mon Oct 19 | Shanghai | — | SHA | Pudong + Shanghai Tower |
+| Tue Oct 20 | Shanghai | — | SHA | Old Shanghai, Yu Garden |
+| Wed Oct 21 | Shanghai | — | SHA | museum, farewell dinner |
+| **Thu Oct 22** | (in-flight) | **Maglev → PVG → AUS** | — | **mainland exit direct to AUS** |
 
-**TWOV clock**: Mainland entry Tue Oct 27 (HSR through West Kowloon, mainland-side immigration at Guangzhou South). Clock starts 00:00 Wed Oct 28. 240 hrs ends 00:00 Sun Nov 7. Exit Thu Nov 5 from PVG → AUS = compliant with **~1.5 days buffer**.
+**TWOV clock**: Mainland entry Tue Oct 13 (HSR through West Kowloon, mainland-side immigration at Guangzhou South). Clock starts 00:00 Wed Oct 14. 240 hrs ends 00:00 Sun Oct 24. Exit Thu Oct 22 from PVG → AUS = compliant with **~1.5 days buffer**.
 
 **Transport summary**:
 - HSR West Kowloon → Guangzhou South: ~50 min, every 10–15 min, CNY 215 second class
@@ -81,23 +81,23 @@ Maximum-variety route. Most train time. The "all five vibes" version: cosmopolit
 
 | Date | City | Transfer in | Overnight | Why stop |
 |---|---|---|---|---|
-| Thu Oct 22 | (in-flight) | AUS depart | — | dateline |
-| Fri Oct 23 | [[hong-kong\|Hong Kong]] | HKG arrival | HK | jet lag |
-| Sat Oct 24 | Hong Kong | — | HK | Victoria Peak, Central |
-| **Sun Oct 25** | **→ [[shanghai\|Shanghai]]** | **fly HK → PVG (~3 hr) — mainland entry** | SHA | **TWOV clock starts** |
-| Mon Oct 26 | Shanghai | — | SHA | Pudong, Bund |
-| Tue Oct 27 | Shanghai | — | SHA | French Concession, Yu Garden |
-| Wed Oct 28 | → [[hangzhou\|Hangzhou]] | HSR Hongqiao → Hangzhou East (~45 min) | HGH | West Lake arrival |
-| Thu Oct 29 | Hangzhou | — | HGH | Lingyin Temple, tea fields |
-| Fri Oct 30 | → [[huangshan\|Huangshan]] | HSR Hangzhou East → Huangshan North (~1.5 hr) + bus | HS summit | summit night |
-| Sat Oct 31 | Huangshan | — | Hongcun | sunrise, descend, village night |
-| Sun Nov 1 | → [[xiamen\|Xiamen]] | HSR Huangshan North → Xiamen North (~5.5 hr) | XM | long train day |
-| Mon Nov 2 | Xiamen | — | XM | Gulangyu Island day |
-| Tue Nov 3 | → [[shenzhen\|Shenzhen]] | HSR Xiamen North → Shenzhen North (~3.5 hr) | SZ | skyline + food evening |
-| **Wed Nov 4** | **→ Hong Kong** | **HSR Futian → West Kowloon (~15 min) — mainland exit** | HK | **TWOV clock stops** |
-| Thu Nov 5 | (in-flight) | HK → AUS | — | home |
+| Thu Oct 8 | (in-flight) | AUS depart | — | dateline |
+| Fri Oct 9 | [[hong-kong\|Hong Kong]] | HKG arrival | HK | jet lag |
+| Sat Oct 10 | Hong Kong | — | HK | Victoria Peak, Central |
+| **Sun Oct 11** | **→ [[shanghai\|Shanghai]]** | **fly HK → PVG (~3 hr) — mainland entry** | SHA | **TWOV clock starts** |
+| Mon Oct 12 | Shanghai | — | SHA | Pudong, Bund |
+| Tue Oct 13 | Shanghai | — | SHA | French Concession, Yu Garden |
+| Wed Oct 14 | → [[hangzhou\|Hangzhou]] | HSR Hongqiao → Hangzhou East (~45 min) | HGH | West Lake arrival |
+| Thu Oct 15 | Hangzhou | — | HGH | Lingyin Temple, tea fields |
+| Fri Oct 16 | → [[huangshan\|Huangshan]] | HSR Hangzhou East → Huangshan North (~1.5 hr) + bus | HS summit | summit night |
+| Sat Oct 17 | Huangshan | — | Hongcun | sunrise, descend, village night |
+| Sun Oct 18 | → [[xiamen\|Xiamen]] | HSR Huangshan North → Xiamen North (~5.5 hr) | XM | long train day |
+| Mon Oct 19 | Xiamen | — | XM | Gulangyu Island day |
+| Tue Oct 20 | → [[shenzhen\|Shenzhen]] | HSR Xiamen North → Shenzhen North (~3.5 hr) | SZ | skyline + food evening |
+| **Wed Oct 21** | **→ Hong Kong** | **HSR Futian → West Kowloon (~15 min) — mainland exit** | HK | **TWOV clock stops** |
+| Thu Oct 22 | (in-flight) | HK → AUS | — | home |
 
-**TWOV clock**: Entry PVG Sun Oct 25 afternoon. Clock starts 00:00 Mon Oct 26. 240 hrs ends 00:00 Thu Nov 5. Exit Wed Nov 4 daytime via West Kowloon HSR = compliant with **~12 hours of buffer**. **Tight.** If a flight or train slips a day, you're in trouble. Build the trip with this risk in mind.
+**TWOV clock**: Entry PVG Sun Oct 11 afternoon. Clock starts 00:00 Mon Oct 12. 240 hrs ends 00:00 Thu Oct 22. Exit Wed Oct 21 daytime via West Kowloon HSR = compliant with **~12 hours of buffer**. **Tight.** If a flight or train slips a day, you're in trouble. Build the trip with this risk in mind.
 
 **Transport summary**:
 - HK → PVG flight: ~3 hr, ~$200/person on Cathay/HK Express
@@ -114,23 +114,23 @@ The trip Route B *should* be. Same variety on the inland side, but cuts the 9-ho
 
 | Date | City | Transfer in | Overnight | Why stop |
 |---|---|---|---|---|
-| Thu Oct 22 | (in-flight) | AUS depart | — | dateline |
-| Fri Oct 23 | Hong Kong | HKG arrival | HK | jet lag |
-| Sat Oct 24 | Hong Kong | — | HK | Victoria Peak |
-| **Sun Oct 25** | **→ Shanghai** | **fly HK → PVG — mainland entry** | SHA | TWOV starts |
-| Mon Oct 26 | Shanghai | — | SHA | Pudong + Bund |
-| Tue Oct 27 | Shanghai | — | SHA | French Concession |
-| Wed Oct 28 | Shanghai | — | SHA | Yu Garden, museums |
-| Thu Oct 29 | → [[hangzhou\|Hangzhou]] | HSR Hongqiao → Hangzhou East | HGH | West Lake arrival |
-| Fri Oct 30 | Hangzhou | — | HGH | tea + temple |
-| Sat Oct 31 | → [[huangshan\|Huangshan]] | HSR Hangzhou East → Huangshan North + bus | HS summit | summit |
-| Sun Nov 1 | Huangshan | — | Hongcun | sunrise + Hongcun |
-| Mon Nov 2 | → [[shenzhen\|Shenzhen]] | HSR Huangshan North → Shenzhen North (~6 hr) | SZ | long train, evening in SZ |
-| **Tue Nov 3** | **→ Hong Kong** | **HSR Futian → West Kowloon — mainland exit** | HK | **TWOV stops** |
-| Wed Nov 4 | Hong Kong | — | HK | Dragon's Back / Lantau / dim sum |
-| Thu Nov 5 | (in-flight) | HK → AUS | — | home |
+| Thu Oct 8 | (in-flight) | AUS depart | — | dateline |
+| Fri Oct 9 | Hong Kong | HKG arrival | HK | jet lag |
+| Sat Oct 10 | Hong Kong | — | HK | Victoria Peak |
+| **Sun Oct 11** | **→ Shanghai** | **fly HK → PVG — mainland entry** | SHA | TWOV starts |
+| Mon Oct 12 | Shanghai | — | SHA | Pudong + Bund |
+| Tue Oct 13 | Shanghai | — | SHA | French Concession |
+| Wed Oct 14 | Shanghai | — | SHA | Yu Garden, museums |
+| Thu Oct 15 | → [[hangzhou\|Hangzhou]] | HSR Hongqiao → Hangzhou East | HGH | West Lake arrival |
+| Fri Oct 16 | Hangzhou | — | HGH | tea + temple |
+| Sat Oct 17 | → [[huangshan\|Huangshan]] | HSR Hangzhou East → Huangshan North + bus | HS summit | summit |
+| Sun Oct 18 | Huangshan | — | Hongcun | sunrise + Hongcun |
+| Mon Oct 19 | → [[shenzhen\|Shenzhen]] | HSR Huangshan North → Shenzhen North (~6 hr) | SZ | long train, evening in SZ |
+| **Tue Oct 20** | **→ Hong Kong** | **HSR Futian → West Kowloon — mainland exit** | HK | **TWOV stops** |
+| Wed Oct 21 | Hong Kong | — | HK | Dragon's Back / Lantau / dim sum |
+| Thu Oct 22 | (in-flight) | HK → AUS | — | home |
 
-**TWOV clock**: Entry Sun Oct 25. Clock starts 00:00 Mon Oct 26, ends 00:00 Thu Nov 5. Exit Tue Nov 3 morning via West Kowloon HSR = **~1 day of buffer**. Comfortable.
+**TWOV clock**: Entry Sun Oct 11. Clock starts 00:00 Mon Oct 12, ends 00:00 Thu Oct 22. Exit Tue Oct 20 morning via West Kowloon HSR = **~1 day of buffer**. Comfortable.
 
 **Transport summary**:
 - HK → PVG flight: ~3 hr, ~$200
@@ -149,23 +149,23 @@ Lowest friction. Two big-city anchors with maximum HK time. Cuts everything exce
 
 | Date | City | Transfer in | Overnight | Why stop |
 |---|---|---|---|---|
-| Thu Oct 22 | (in-flight) | AUS depart | — | dateline |
-| Fri Oct 23 | Hong Kong | HKG arrival | HK | jet lag |
-| Sat Oct 24 | Hong Kong | — | HK | Victoria Peak |
-| **Sun Oct 25** | **→ Shanghai** | **fly HK → PVG — mainland entry** | SHA | TWOV starts |
-| Mon Oct 26 | Shanghai | — | SHA | Pudong + Bund |
-| Tue Oct 27 | Shanghai | — | SHA | French Concession |
-| Wed Oct 28 | Shanghai | — | SHA | Old Shanghai, museum |
-| Thu Oct 29 | Shanghai | — | SHA | West Bund, riverfront day |
-| Fri Oct 30 | → Shenzhen | HSR Hongqiao → Shenzhen North (~10 hr direct, or fly ~2.5 hr) | SZ | move south |
-| Sat Oct 31 | Shenzhen | — | SZ | Ping An Tower, OCT-LOFT |
-| **Sun Nov 1** | **→ Hong Kong** | **HSR Futian → West Kowloon — mainland exit** | HK | **TWOV stops** |
-| Mon Nov 2 | Hong Kong | — | HK | Lantau / Big Buddha |
-| Tue Nov 3 | Hong Kong | — | HK | outlying islands / hiking |
-| Wed Nov 4 | Hong Kong | — | HK | last day, dim sum |
-| Thu Nov 5 | (in-flight) | HK → AUS | — | home |
+| Thu Oct 8 | (in-flight) | AUS depart | — | dateline |
+| Fri Oct 9 | Hong Kong | HKG arrival | HK | jet lag |
+| Sat Oct 10 | Hong Kong | — | HK | Victoria Peak |
+| **Sun Oct 11** | **→ Shanghai** | **fly HK → PVG — mainland entry** | SHA | TWOV starts |
+| Mon Oct 12 | Shanghai | — | SHA | Pudong + Bund |
+| Tue Oct 13 | Shanghai | — | SHA | French Concession |
+| Wed Oct 14 | Shanghai | — | SHA | Old Shanghai, museum |
+| Thu Oct 15 | Shanghai | — | SHA | West Bund, riverfront day |
+| Fri Oct 16 | → Shenzhen | HSR Hongqiao → Shenzhen North (~10 hr direct, or fly ~2.5 hr) | SZ | move south |
+| Sat Oct 17 | Shenzhen | — | SZ | Ping An Tower, OCT-LOFT |
+| **Sun Oct 18** | **→ Hong Kong** | **HSR Futian → West Kowloon — mainland exit** | HK | **TWOV stops** |
+| Mon Oct 19 | Hong Kong | — | HK | Lantau / Big Buddha |
+| Tue Oct 20 | Hong Kong | — | HK | outlying islands / hiking |
+| Wed Oct 21 | Hong Kong | — | HK | last day, dim sum |
+| Thu Oct 22 | (in-flight) | HK → AUS | — | home |
 
-**TWOV clock**: Entry Sun Oct 25, exit Sun Nov 1. Mainland 7 nights. Clock ends 00:00 Thu Nov 5 (240 hrs from Mon Oct 26). Exit Nov 1 = **~3 days of TWOV buffer**. Very safe.
+**TWOV clock**: Entry Sun Oct 11, exit Sun Oct 18. Mainland 7 nights. Clock ends 00:00 Thu Oct 22 (240 hrs from Mon Oct 12). Exit Oct 18 = **~3 days of TWOV buffer**. Very safe.
 
 **Transport summary**:
 - HK → PVG flight: ~3 hr, ~$200
@@ -182,23 +182,23 @@ The route built around Kaylee's pick. You trade Hangzhou + Huangshan for Zhangji
 
 | Date | City | Transfer in | Overnight | Why stop |
 |---|---|---|---|---|
-| Thu Oct 22 | (in-flight) | AUS depart | — | dateline |
-| Fri Oct 23 | Hong Kong | HKG arrival | HK | jet lag |
-| Sat Oct 24 | Hong Kong | — | HK | Victoria Peak |
-| **Sun Oct 25** | **→ Shanghai** | **fly HK → PVG — mainland entry** | SHA | TWOV starts |
-| Mon Oct 26 | Shanghai | — | SHA | Pudong + Bund |
-| Tue Oct 27 | Shanghai | — | SHA | French Concession |
-| Wed Oct 28 | Shanghai | — | SHA | Old Shanghai |
-| Thu Oct 29 | → [[zhangjiajie\|Zhangjiajie]] | fly PVG → DYG (~2.5 hr) + ground (~1 hr) | Wulingyuan | Forest Park afternoon |
-| Fri Oct 30 | Zhangjiajie | — | Wulingyuan | Tianzi Mountain + Grand Canyon glass bridge |
-| Sat Oct 31 | Zhangjiajie | — | Zhangjiajie city | Tianmen Mountain day |
-| Sun Nov 1 | → Shenzhen | fly DYG → SZX (~2 hr) | SZ | Ping An + food |
-| **Mon Nov 2** | **→ Hong Kong** | **HSR Futian → West Kowloon — mainland exit** | HK | **TWOV stops** |
-| Tue Nov 3 | Hong Kong | — | HK | dim sum + hiking |
-| Wed Nov 4 | Hong Kong | — | HK | last full day |
-| Thu Nov 5 | (in-flight) | HK → AUS | — | home |
+| Thu Oct 8 | (in-flight) | AUS depart | — | dateline |
+| Fri Oct 9 | Hong Kong | HKG arrival | HK | jet lag |
+| Sat Oct 10 | Hong Kong | — | HK | Victoria Peak |
+| **Sun Oct 11** | **→ Shanghai** | **fly HK → PVG — mainland entry** | SHA | TWOV starts |
+| Mon Oct 12 | Shanghai | — | SHA | Pudong + Bund |
+| Tue Oct 13 | Shanghai | — | SHA | French Concession |
+| Wed Oct 14 | Shanghai | — | SHA | Old Shanghai |
+| Thu Oct 15 | → [[zhangjiajie\|Zhangjiajie]] | fly PVG → DYG (~2.5 hr) + ground (~1 hr) | Wulingyuan | Forest Park afternoon |
+| Fri Oct 16 | Zhangjiajie | — | Wulingyuan | Tianzi Mountain + Grand Canyon glass bridge |
+| Sat Oct 17 | Zhangjiajie | — | Zhangjiajie city | Tianmen Mountain day |
+| Sun Oct 18 | → Shenzhen | fly DYG → SZX (~2 hr) | SZ | Ping An + food |
+| **Mon Oct 19** | **→ Hong Kong** | **HSR Futian → West Kowloon — mainland exit** | HK | **TWOV stops** |
+| Tue Oct 20 | Hong Kong | — | HK | dim sum + hiking |
+| Wed Oct 21 | Hong Kong | — | HK | last full day |
+| Thu Oct 22 | (in-flight) | HK → AUS | — | home |
 
-**TWOV clock**: Entry PVG Sun Oct 25, exit West Kowloon Mon Nov 2. Mainland 8 nights. Clock ends 00:00 Thu Nov 5; exit Mon Nov 2 morning = **~2 days of buffer**. Comfortable.
+**TWOV clock**: Entry PVG Sun Oct 11, exit West Kowloon Mon Oct 19. Mainland 8 nights. Clock ends 00:00 Thu Oct 22; exit Mon Oct 19 morning = **~2 days of buffer**. Comfortable.
 
 **Why this works for TWOV**: Hunan is in the 24 eligible regions. Internal flights between TWOV-eligible regions are allowed during the stay. Entry/exit happen at fully-verified ports (PVG, West Kowloon), so we don't depend on whether DYG is on the NIA-confirmed port list — DYG is only used for internal hops.
 

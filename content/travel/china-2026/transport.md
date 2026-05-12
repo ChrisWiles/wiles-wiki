@@ -8,7 +8,7 @@ tags:
 
 Three moves between cities: two train rides and one internal flight.
 
-## Hong Kong West Kowloon → Guangzhou South (Tue Oct 27)
+## Hong Kong West Kowloon → Guangzhou South (Tue Oct 13)
 
 **Guangzhou–Shenzhen–Hong Kong Express Rail Link (XRL).** Frequent direct service all day.
 
@@ -16,9 +16,9 @@ Three moves between cities: two train rides and one internal flight.
 - **Second class: about CNY 185–215** (~$27–31/person). First class roughly 2×.
 - Book via [highspeed.mtr.com.hk](https://www.highspeed.mtr.com.hk/en/main/index.html) or the **12306** China Rail app.
 - Station flow at **West Kowloon**: ticket / ID check → security → both HK and mainland immigration in-station → board. MTR says most travelers clear in **30–45 minutes**, but **passport holders should allow extra time**. Plan on **45–60 minutes minimum**.
-- Target a **10:00–11:00 departure** on Oct 27 to hit Guangzhou around noon.
+- Target a **10:00–11:00 departure** on Oct 13 to hit Guangzhou around noon.
 
-## Guangzhou → Wuzhen (Fri Oct 30)
+## Guangzhou → Wuzhen (Fri Oct 16)
 
 **Wuzhen has no rail station.** Closest is **Tongxiang** (~25 min by taxi from Wuzhen).
 
@@ -33,14 +33,14 @@ Fastest route is actually by air, not rail:
 
 **Backup: all-rail route.** G-train Guangzhou South → Shanghai Hongqiao (~7 hr) → G-train Hongqiao → Tongxiang (~30 min) → taxi/bus to Wuzhen. Doable but kills a day.
 
-## Tongxiang → Shanghai Hongqiao (Sun Nov 1)
+## Tongxiang → Shanghai Hongqiao (Sun Oct 18)
 
 - **30+ bullet trains/day**, 20–60 min, CNY 60–100/person.
 - Take the short 20–30 min G-train service; the slower D-trains stop at small stations.
 - From Wuzhen to Tongxiang station: taxi (~25 min, CNY 80) or public bus K282 (~30 min, CNY 5). Taxi is worth it.
 - From Hongqiao, Metro Line 2 east runs straight into central Shanghai.
 
-## Shanghai → Pudong Airport (Thu Nov 5)
+## Shanghai → Pudong Airport (Thu Oct 22)
 
 - **Maglev** from Longyang Rd → Pudong airport. **7 minutes, 300 km/h.** Fun last ride, CNY 50. Connects via Metro Line 2.
 - Taxi also works (~45 min off-peak, CNY 200), but rush hour is brutal.

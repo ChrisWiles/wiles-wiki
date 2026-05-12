@@ -6,7 +6,7 @@ tags:
   - wuzhen
 ---
 
-2 nights, Oct 30 – Nov 1. The scenic-town stop. Whitewashed houses, dark wooden buildings, stone bridges, lantern-lit waterways — the canal-town China of the imagination. Wuzhen is in Zhejiang, roughly between Hangzhou and Shanghai.
+2 nights, Oct 16 – Oct 18. The scenic-town stop. Whitewashed houses, dark wooden buildings, stone bridges, lantern-lit waterways — the canal-town China of the imagination. Wuzhen is in Zhejiang, roughly between Hangzhou and Shanghai.
 
 <img src="_attachments/china-2026/wuzhen/xizha-bridge.jpg" alt="Stone bridge in Wuzhen Xizha" />
 
@@ -36,7 +36,7 @@ If you stay in Tongxiang City (cheaper) you miss the entire thing.
 
 **Ticket logic:** West Scenic Zone admission is **CNY 150/person**, with current official hours listed as **09:00–22:00**. Standard scenic-zone tickets are day tickets. If you stay inside the zone, ask your hotel at check-in exactly how they are handling guest access / re-entry for overnight stays, because that access is the whole reason to sleep inside Xizha.
 
-## Day 1 — Fri Oct 30 — afternoon arrival + canal night walk
+## Day 1 — Fri Oct 16 — afternoon arrival + canal night walk
 
 - Arrive at the West Gate by ~14:00 via HGH transfer. Check in, drop bags.
 - Afternoon: leisurely walk Xizha (West Scenic Zone). Don't rush. Key stops:
@@ -52,7 +52,7 @@ If you stay in Tongxiang City (cheaper) you miss the entire thing.
 
 _Lantern-lit bridge scene in Wuzhen Xizha at night. Photo by Gerbil via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Wuzhen_Xizha_2009-13.jpg); CC BY-SA 3.0._
 
-## Day 2 — Sat Oct 31 — sunrise + both scenic zones
+## Day 2 — Sat Oct 17 — sunrise + both scenic zones
 
 - **06:30 sunrise walk** in Xizha. Monks, morning fog, zero tourists. The single best photo hour of the whole trip.
 - Breakfast: **Wuzhen Zao Cha Ke** (Morning Teahouse) — local breakfast of congee, savory pancakes, tea, inside the scenic area.
@@ -74,7 +74,7 @@ _The central canal corridor in Wuzhen Xizha. Photo by Gerbil via [Wikimedia Comm
 
 _Classic canal-and-boat scene in Wuzhen. Photo by Jakub Hałun via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20090913_Wuzhen_5021.jpg); CC BY-SA 4.0._
 
-## Day 3 — Sun Nov 1 morning — transfer to Shanghai
+## Day 3 — Sun Oct 18 morning — transfer to Shanghai
 
 - Early breakfast in the zone.
 - Taxi to **Tongxiang station** (~25 min, CNY 80).

@@ -8,9 +8,9 @@ tags:
 
 Book an **open-jaw**: AUS → HKG outbound, PVG (Shanghai Pudong) → AUS return. Saves a full day of backtracking from Shanghai.
 
-Search in Google Flights **multi-city** mode: "Austin → Hong Kong" on Oct 22, "Shanghai → Austin" on Nov 5.
+Search in Google Flights **multi-city** mode: "Austin → Hong Kong" on Oct 8, "Shanghai → Austin" on Oct 22.
 
-## Outbound AUS → HKG (Oct 22 → Oct 23 arrival)
+## Outbound AUS → HKG (Oct 8 → Oct 9 arrival)
 
 No nonstops from Austin.
 
@@ -24,7 +24,7 @@ Pick the **DFW → HKG leg on Cathay Pacific** if it prices reasonably — stron
 
 Expected economy booking if bought intelligently: roughly **$900–1,300/person** round-trip equivalent.
 
-## Return PVG → AUS (Nov 5)
+## Return PVG → AUS (Oct 22)
 
 | Route | Airlines |
 |---|---|

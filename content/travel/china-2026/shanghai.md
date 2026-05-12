@@ -6,7 +6,7 @@ tags:
   - shanghai
 ---
 
-4 nights, Nov 1–5. The finale. Shanghai is the most international Chinese city — European concessions next to hyper-modern Pudong next to old-Shanghai shikumen alleys. Xiao long bao was invented here.
+4 nights, Oct 18–22. The finale. Shanghai is the most international Chinese city — European concessions next to hyper-modern Pudong next to old-Shanghai shikumen alleys. Xiao long bao was invented here.
 
 <img src="_attachments/china-2026/shanghai/bund-night-skyline.jpg" alt="Pudong skyline at night from the Bund" />
 
@@ -37,7 +37,7 @@ Moller Villa is the most romantic option. The Langham is the best all-around.
 - **Fu 1088 / T'ang Court**: reserve ahead if those are the anchor dinners.
 - Keep one wet-weather backup in pocket: **Propaganda Poster Art Centre + FFC cafe crawl** is the easiest rainy-day swap.
 
-## Day 1 — Sun Nov 1 — arrive, Bund at night
+## Day 1 — Sun Oct 18 — arrive, Bund at night
 
 - Arrive via G-train from Tongxiang early afternoon. Check in, rest.
 - Late afternoon walk: **Former French Concession** — **Wukang Road**, **Anfu Road**, **Fumin Road**. Plane trees, boutiques, cafés. Stop at **% Arabica** or **Manner Coffee**.
@@ -50,7 +50,7 @@ Moller Villa is the most romantic option. The Langham is the best all-around.
 
 _Plane-tree street scene on Wukang Road in the Former French Concession. Photo by Livelikerw via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Street_View_of_Wukang_Road.JPG); CC BY-SA 3.0._
 
-## Day 2 — Mon Nov 2 — Pudong + Bund + river (no museums, Mondays are closed-day)
+## Day 2 — Mon Oct 19 — Pudong + Bund + river (no museums, Mondays are closed-day)
 
 - Breakfast at hotel.
 - Mid-morning: **Shanghai Tower 118F observation deck** (08:30–21:30 daily, ~$26/person, book timed entry on Klook). 360° views from 546 m. Combine with **Jin Mao Tower** next door.
@@ -64,7 +64,7 @@ _Plane-tree street scene on Wukang Road in the Former French Concession. Photo b
 
 _View from Shanghai Tower over Lujiazui. Photo by Janak Bhatta via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Shanghai_Tower_(74449).jpg); CC BY 4.0._
 
-## Day 3 — Tue Nov 3 — old Shanghai + galleries
+## Day 3 — Tue Oct 20 — old Shanghai + galleries
 
 - Breakfast **xiao long bao (XLB)** at **Jia Jia Tang Bao** — **127 Huanghe Lu** (moved from #90 a couple of years ago; don't confuse with "Jia Le Tang Bao" that now occupies #90). Arrive 10:00 sharp to beat the queue. Thin skin, hot soup, stronger pork flavor than Din Tai Fung.
 - Morning: **Yu Garden** + **Old City God Temple** bazaar (9:00–16:30, last entry 16:00, closed Mondays — Tuesday is safe). Admission CNY 40; combo w/ bazaar CNY 70. Get there by 09:15 before tour groups.
@@ -77,7 +77,7 @@ _View from Shanghai Tower over Lujiazui. Photo by Janak Bhatta via [Wikimedia Co
 
 _One of Yu Garden's signature bridges and pavilions. Photo by Güldem Üstün via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:China_(Shanghai)_Beautiful_bridge_in_the_Yu_Garden_(40496691402).jpg); CC BY 2.0._
 
-## Day 4 — Wed Nov 4 — museum + riverfront + last-night vibes
+## Day 4 — Wed Oct 21 — museum + riverfront + last-night vibes
 
 - Morning: **Shanghai Museum East** (currently **Wed–Mon 10:00–18:00, closed Tuesdays**; no advance reservation required for individual visitors). This is the strongest museum slot of the whole Shanghai stop.
 - Lunch / early afternoon: head back west and keep it light.
@@ -96,7 +96,7 @@ _One of Yu Garden's signature bridges and pavilions. Photo by Güldem Üstün vi
 
 > **Note:** Do not plan around **Ultraviolet**. It remains closed and should be treated as off the board for this trip.
 
-## Day 5 — Thu Nov 5 — fly home
+## Day 5 — Thu Oct 22 — fly home
 
 - Breakfast dim sum nearby.
 - **Maglev** from Longyang Rd → Pudong airport. 7 min, 300 km/h. Fun last ride.
