@@ -6,7 +6,9 @@ tags:
   - transport
 ---
 
-Three moves between cities: two train rides and one internal flight.
+> **Scope**: this page covers **Route A only** (HK → Guangzhou → Wuzhen → Shanghai). For Routes B–E, transport legs live inline in each route's section of [[routes]] since the moves differ per variant.
+
+Three moves between cities for Route A: two train rides and one internal flight.
 
 ## Hong Kong West Kowloon → Guangzhou South (Tue Oct 13)
 

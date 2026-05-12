@@ -6,16 +6,21 @@ tags:
   - packing
 ---
 
-13 nights, late October–early November. Weather varies by region.
+13 nights, **mid-October 2026** (post Golden Week). Weather varies by region.
 
 ## Weather expectations
 
 | City | Daytime | Nights | Notes |
 |---|---|---|---|
-| Hong Kong | 22–26 °C | 18–20 °C | Warm, humid, mostly dry |
-| Guangzhou | 22–26 °C | 17–20 °C | Similar to HK |
-| Wuzhen | 15–19 °C | 8–12 °C | Cool mornings, light jacket |
-| Shanghai | 14–18 °C | 8–12 °C | Layers, light puffer for evenings |
+| Hong Kong | 24–28 °C | 20–22 °C | Warm, humid, mostly dry |
+| Guangzhou | 24–28 °C | 19–22 °C | Similar to HK (Route A) |
+| Wuzhen | 17–21 °C | 10–14 °C | Cool mornings, light jacket (Route A) |
+| Shanghai | 17–21 °C | 11–14 °C | Layers, light puffer for evenings |
+| Hangzhou | 17–21 °C | 11–14 °C | Like Shanghai (Routes B, C) |
+| Huangshan summit | 6–11 °C | 0–4 °C | **Cold**. Down jacket, hat, gloves (Routes B, C) |
+| Xiamen | 22–26 °C | 17–20 °C | Tropical coast, may still need swim trunks (Route B) |
+| Shenzhen | 23–27 °C | 18–21 °C | Like HK (Routes B, C, D, E) |
+| Zhangjiajie summit | 8–14 °C | 2–6 °C | **Cold at altitude**. Rain shell + warm layer (Route E) |
 
 Rain chance: low across all cities in late Oct–early Nov. Bring a travel umbrella, not a rain shell.
 
@@ -91,6 +96,30 @@ See [[logistics#Connectivity]]. Short version:
 - Collapsible water bottle (refillable at most hotels)
 - Small laundry kit (Woolite sheets) for hand-washing
 - A couple of energy bars for the long flights
+
+## Route-specific add-ons
+
+The base list above covers [[routes|Route A]]. If we pick a different route, add:
+
+**Routes B + C (Huangshan):**
+- **Real hiking shoes** — granite steps, often wet, slippery. The Dragon's Back trail runners aren't enough.
+- **Heavier down jacket** — summit nights at Beihai Hotel are 0–4 °C. The light puffer alone isn't enough.
+- **Hat + gloves** for sunrise (Refreshing Terrace / Lion Peak, 04:30 start)
+- **Headlamp** — pre-dawn walk to the sunrise viewpoint
+- Bigger power bank — long days, lots of photos, patchy charging on summit
+
+**Route B only (Xiamen):**
+- Swim trunks (Zengcuoan beach, Gulangyu shoreline) — yes, already on the base list, just don't skip it
+- Light sun shirt — Fujian coast is still warm and bright in mid-October
+
+**Route E (Zhangjiajie):**
+- Same hiking shoes as the Huangshan list
+- **Rain shell that's actually waterproof** — Wulingyuan averages ~140 wet days/year; even fall has light rain
+- Layer system for the Tianmen summit (1,500 m elevation, ~10 °C colder than the city)
+- Lightweight gloves for the cable car / cliff walks if hands get cold easily
+
+**Route D (minimal):**
+- Nothing extra. The base list already covers Shanghai + Shenzhen + HK.
 
 ## What NOT to bring
 

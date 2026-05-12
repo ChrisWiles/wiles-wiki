@@ -6,9 +6,16 @@ tags:
   - flights
 ---
 
-Book an **open-jaw**: AUS → HKG outbound, PVG (Shanghai Pudong) → AUS return. Saves a full day of backtracking from Shanghai.
+International routing depends on which [[routes|route]] we pick.
 
-Search in Google Flights **multi-city** mode: "Austin → Hong Kong" on Oct 8, "Shanghai → Austin" on Oct 22.
+| Route | Outbound | Return | Why |
+|---|---|---|---|
+| **A — current plan** | AUS → HKG (Oct 8) | **PVG** (Shanghai Pudong) → AUS (Oct 22) | Open-jaw: exit mainland direct, no backtrack to HK. |
+| **B / C / D / E** | AUS → HKG (Oct 8) | **HKG** → AUS (Oct 22) | Mainland exits to HK by HSR or border, then HK → US. |
+
+Search in Google Flights **multi-city** mode:
+- **Route A**: "Austin → Hong Kong" Oct 8, "Shanghai → Austin" Oct 22
+- **Routes B–E**: "Austin → Hong Kong" Oct 8, "Hong Kong → Austin" Oct 22 (or just a round-trip — same airports both ways)
 
 ## Outbound AUS → HKG (Oct 8 → Oct 9 arrival)
 
@@ -24,7 +31,7 @@ Pick the **DFW → HKG leg on Cathay Pacific** if it prices reasonably — stron
 
 Expected economy booking if bought intelligently: roughly **$900–1,300/person** round-trip equivalent.
 
-## Return PVG → AUS (Oct 22)
+## Return PVG → AUS — Route A only (Oct 22)
 
 | Route | Airlines |
 |---|---|
@@ -33,6 +40,29 @@ Expected economy booking if bought intelligently: roughly **$900–1,300/person*
 | PVG → NRT → DFW → AUS | JAL + AA codeshare — comfort bump |
 
 Prefer the **JAL routing via Narita** if available for the return — nicer seats and meal service.
+
+## Return HKG → AUS — Routes B / C / D / E (Oct 22)
+
+| Route | Airlines | Total time |
+|---|---|---|
+| HKG → SFO → AUS | United / Cathay | ~21h |
+| HKG → DFW → AUS | American + Cathay | ~21h |
+| HKG → NRT → DFW → AUS | Cathay + JAL | ~22h, comfort bump |
+
+Cathay HKG → SFO and HKG → DFW are both strong nonstops on the long-haul leg.
+
+## Mid-trip internal flights (Routes B–E only)
+
+These are *separate tickets* from the international legs — buy them after the international ticket is locked, 4–6 weeks ahead.
+
+| Route | Internal flight | Distance / time | Approx. fare (one-way) |
+|---|---|---|---|
+| B / C / D / E | **HKG → PVG** (start of mainland leg) | ~3h | $180–250 |
+| E | **PVG → DYG** (Zhangjiajie Hehua) | ~2h 30m | $200–250 |
+| E | **DYG → SZX** (Shenzhen Bao'an) | ~2h | $160–220 |
+| A | **CAN → HGH** (Guangzhou → Hangzhou, for Wuzhen transfer) | ~2h | $90–130 |
+
+Book Routes B–E's mainland-entry **HKG → PVG** on Cathay, HK Express, or Greater Bay Airlines. Earlier morning departure beats afternoon — the PVG arrival immigration line for TWOV is shorter before the evening Cathay long-hauls land.
 
 ## Booking timing
 

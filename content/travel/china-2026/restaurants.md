@@ -8,6 +8,8 @@ tags:
 
 Cross-city hit list, sortable mentally by "must-book ahead" vs. "walk in."
 
+> **Scope**: this index covers **Hong Kong, Guangzhou, and Shanghai** in depth (the [[routes|Route A]] cities). For restaurant picks in Hangzhou, Huangshan, Xiamen, Shenzhen, and Zhangjiajie, see each destination's own page — those have city-specific restaurant tables tuned to the route.
+
 ## Must-book-ahead
 
 | Place | City | Lead time | Why |
