@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>China · Fall 2026 — Route Plan</title>
+<meta property="og:title" content="China · Fall 2026 — Route Plan">
+<meta property="og:description" content="Five route variants for Chris + Kaylee's Fall 2026 China trip — TWOV clocks, day-by-day itineraries, and the decision matrix.">
+</head>
+<body>
+<style>
+  :root {
+    --paper: #F2F0E9;
+    --paper-2: #ECE9DF;
+    --ink: #1C2622;
+    --ink-soft: #38463F;
+    --cinnabar: #C0392B;
+    --jade: #6E8C78;
+    --jade-deep: #4F6B59;
+    --ochre: #B0883C;
+    --neutral: #8C948D;
+    --line: #D5D2C6;
+    --good: #5E8A5A;
+    --warn: #C99A3A;
+    --crit: #BC4B3C;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: clamp(1.4rem, 4vw, 3.5rem) clamp(1.1rem, 4vw, 2.5rem) 5rem;
+  }
+
+  /* ---- Masthead ---- */
+  .mast {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 1.6rem;
+    margin-bottom: 1.8rem;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--cinnabar);
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  .eyebrow::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.6rem, 8vw, 5.2rem);
+    line-height: 0.98;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.5rem;
+    text-wrap: balance;
+  }
+  h1 .zh {
+    color: var(--cinnabar);
+    font-size: 0.62em;
+    vertical-align: 0.06em;
+    margin-left: 0.2em;
+    letter-spacing: 0.05em;
+  }
+  .dek {
+    font-size: clamp(1rem, 2.4vw, 1.25rem);
+    color: var(--ink-soft);
+    max-width: 60ch;
+    margin: 0.4rem 0 0;
+  }
+  .dek b { color: var(--ink); font-weight: 600; }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem 2.4rem;
+    margin-top: 1.6rem;
+  }
+  .meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .meta .k {
+    font-family: var(--mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--neutral);
+  }
+  .meta .v {
+    font-family: var(--serif);
+    font-size: 1.35rem;
+    color: var(--ink);
+  }
+
+  /* ---- Filmstrip ---- */
+  .filmstrip {
+    display: flex;
+    gap: 0.55rem;
+    overflow-x: auto;
+    margin: 0 0 2.4rem;
+    padding-bottom: 0.6rem;
+    scrollbar-width: thin;
+  }
+  .filmstrip figure {
+    margin: 0;
+    flex: 0 0 auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+  .filmstrip img {
+    height: 176px;
+    width: auto;
+    display: block;
+    cursor: zoom-in;
+    transition: transform 0.25s ease;
+  }
+  .filmstrip figure:hover img { transform: scale(1.03); }
+  .filmstrip figcaption {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 1.2rem 0.55rem 0.4rem;
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #F2F0E9;
+    background: linear-gradient(transparent, rgba(20,26,23,0.75));
+    pointer-events: none;
+  }
+
+  /* ---- TWOV banner ---- */
+  .twov {
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: 3px;
+    padding: 1.4rem 1.5rem;
+    margin: 0 0 3rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.4rem;
+    align-items: center;
+  }
+  .twov .clock {
+    font-family: var(--serif);
+    text-align: center;
+    line-height: 1;
+    padding-right: 1.4rem;
+    border-right: 1px solid rgba(242,240,233,0.2);
+  }
+  .twov .clock .big {
+    font-size: 2.8rem;
+    color: var(--ochre);
+    display: block;
+  }
+  .twov .clock .lbl {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--neutral);
+    margin-top: 0.35rem;
+    display: block;
+  }
+  .twov p { margin: 0; font-size: 0.92rem; color: #D8D5CC; }
+  .twov p b { color: var(--paper); }
+  .twov ol {
+    margin: 0.6rem 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.86rem;
+    color: #C6C3BA;
+    display: grid;
+    gap: 0.2rem;
+  }
+
+  /* ---- Section headers ---- */
+  .sec-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.9rem;
+    margin: 3.4rem 0 1.4rem;
+  }
+  .sec-head .num {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--cinnabar);
+    letter-spacing: 0.1em;
+  }
+  .sec-head h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    margin: 0;
+    flex: 0 0 auto;
+  }
+  .sec-head .rule { flex: 1; height: 1px; background: var(--line); align-self: center; }
+
+  /* ---- Route cards ---- */
+  .routes { display: grid; gap: 1.1rem; }
+  .route {
+    background: #FBFAF6;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--rc, var(--neutral));
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .route.rec { border-left-color: var(--cinnabar); }
+  .route-head {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.1rem 1.3rem;
+    cursor: pointer;
+    width: 100%;
+    background: none;
+    border: 0;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+  }
+  .route-head:hover { background: var(--paper-2); }
+  .route-head:focus-visible { outline: 2px solid var(--cinnabar); outline-offset: -2px; }
+  .badge {
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    width: 2.6rem; height: 2.6rem;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    background: var(--rc, var(--neutral));
+    color: #FBFAF6;
+    flex: 0 0 auto;
+  }
+  .route .title { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+  .route .title .name {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+  }
+  .route .title .path {
+    font-size: 0.84rem;
+    color: var(--ink-soft);
+    font-family: var(--mono);
+  }
+  .tag-rec {
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #FBFAF6;
+    background: var(--cinnabar);
+    padding: 0.18rem 0.5rem;
+    border-radius: 2px;
+  }
+  .quickstats {
+    display: flex;
+    gap: 1.3rem;
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    flex: 0 0 auto;
+  }
+  .quickstats .qs { text-align: center; }
+  .quickstats .qs .n { font-size: 1.25rem; color: var(--ink); display: block; }
+  .quickstats .qs .l { font-size: 0.56rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--neutral); }
+  .chev { color: var(--neutral); transition: transform 0.2s ease; flex: 0 0 auto; font-family: var(--mono); }
+  .route[open-state="1"] .chev { transform: rotate(90deg); }
+
+  .route-body {
+    display: none;
+    padding: 0 1.3rem 1.4rem;
+    border-top: 1px solid var(--line);
+  }
+  .route[open-state="1"] .route-body { display: block; }
+  .route .why {
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+    margin: 1.1rem 0 1.2rem;
+    padding-left: 0.9rem;
+    border-left: 2px solid var(--rc, var(--neutral));
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.55rem;
+    margin: 0 0 1.2rem;
+  }
+  .gallery figure { margin: 0; position: relative; overflow: hidden; border-radius: 2px; }
+  .gallery img {
+    width: 100%;
+    height: 132px;
+    object-fit: cover;
+    display: block;
+    cursor: zoom-in;
+    transition: transform 0.25s ease;
+  }
+  .gallery figure:hover img { transform: scale(1.04); }
+  .gallery figcaption {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 1.1rem 0.5rem 0.35rem;
+    font-family: var(--mono);
+    font-size: 0.56rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #F2F0E9;
+    background: linear-gradient(transparent, rgba(20,26,23,0.75));
+    pointer-events: none;
+  }
+
+  .itin-wrap { overflow-x: auto; }
+  table.itin {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.82rem;
+    min-width: 540px;
+  }
+  table.itin th {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--neutral);
+    text-align: left;
+    padding: 0.4rem 0.7rem;
+    border-bottom: 1px solid var(--line);
+    font-weight: 400;
+  }
+  table.itin td {
+    padding: 0.45rem 0.7rem;
+    border-bottom: 1px solid var(--paper-2);
+    vertical-align: top;
+  }
+  table.itin td.date { font-family: var(--mono); font-size: 0.74rem; color: var(--ink-soft); white-space: nowrap; }
+  table.itin tr.gate td { background: rgba(192,57,43,0.07); }
+  table.itin tr.gate td.city { font-weight: 700; color: var(--cinnabar); }
+  table.itin .ov { color: var(--jade-deep); font-family: var(--mono); font-size: 0.72rem; }
+  .clockline {
+    margin-top: 1rem;
+    font-size: 0.84rem;
+    background: var(--paper-2);
+    border-radius: 3px;
+    padding: 0.7rem 0.9rem;
+  }
+  .clockline b { color: var(--ink); }
+  .buf { font-family: var(--mono); font-weight: 700; }
+  .buf.s { color: var(--good); }
+  .buf.m { color: var(--warn); }
+  .buf.c { color: var(--crit); }
+
+  /* ---- Matrix ---- */
+  .matrix-wrap { overflow-x: auto; }
+  table.matrix {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 560px;
+    font-variant-numeric: tabular-nums;
+  }
+  table.matrix th {
+    font-family: var(--mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
+    padding: 0.6rem 0.5rem;
+    text-align: center;
+    border-bottom: 2px solid var(--ink);
+  }
+  table.matrix th:first-child { text-align: left; text-transform: uppercase; color: var(--neutral); }
+  table.matrix td {
+    padding: 0.5rem;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 0.9rem;
+    border-bottom: 1px solid var(--line);
+    color: #fff;
+  }
+  table.matrix td:first-child {
+    text-align: left;
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 0.86rem;
+    background: none !important;
+  }
+  table.matrix tr.total td { font-weight: 700; font-size: 1.05rem; border-top: 2px solid var(--ink); border-bottom: 0; }
+  table.matrix tr.total td:first-child { font-family: var(--serif); }
+  table.matrix .colhead { font-family: var(--serif); font-size: 1.1rem; }
+  table.matrix .colhead small { display:block; font-family: var(--mono); font-size: 0.56rem; color: var(--neutral); letter-spacing: 0.08em; font-weight: 400; }
+
+  /* ---- Take / cards ---- */
+  .takes { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
+  .take {
+    background: #FBFAF6;
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--tc, var(--jade));
+    border-radius: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .take img {
+    width: 100%;
+    height: 128px;
+    object-fit: cover;
+    display: block;
+    cursor: zoom-in;
+  }
+  .take .tx { padding: 1rem 1.2rem 1.3rem; }
+  .take h3 { font-family: var(--serif); font-weight: 400; margin: 0 0 0.2rem; font-size: 1.25rem; }
+  .take .when { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--neutral); margin-bottom: 0.7rem; }
+  .take p { margin: 0; font-size: 0.9rem; color: var(--ink-soft); }
+  .take.avoid { border-top-color: var(--crit); }
+  .take.avoid img { filter: grayscale(0.7); }
+
+  /* ---- Prep ---- */
+  .prep { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.6rem; align-items: start; }
+  .locks { counter-reset: lock; display: grid; gap: 0.05rem; }
+  .lock {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 0.9rem;
+    align-items: baseline;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .lock::before {
+    counter-increment: lock;
+    content: counter(lock, decimal-leading-zero);
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--cinnabar);
+  }
+  .lock .what { font-size: 0.9rem; }
+  .lock .what small { display: block; color: var(--neutral); font-size: 0.76rem; }
+  .lock .lead { font-family: var(--mono); font-size: 0.7rem; color: var(--jade-deep); white-space: nowrap; }
+
+  .prepbox {
+    background: var(--ink);
+    color: var(--paper);
+    border-radius: 3px;
+    padding: 1.3rem 1.4rem;
+  }
+  .prepbox h3 { font-family: var(--serif); font-weight: 400; margin: 0 0 0.8rem; color: var(--ochre); }
+  .prepbox ul { margin: 0; padding-left: 1.1rem; display: grid; gap: 0.5rem; }
+  .prepbox li { font-size: 0.85rem; color: #D2CFC6; }
+  .prepbox li b { color: var(--paper); }
+
+  .budget {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1.2rem;
+    margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(242,240,233,0.18);
+  }
+  .budget .amt { font-family: var(--serif); font-size: 2rem; color: var(--paper); }
+  .budget .note { font-size: 0.78rem; color: var(--neutral); }
+
+  /* ---- Lightbox ---- */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(20,26,23,0.92);
+    display: none;
+    place-items: center;
+    z-index: 50;
+    cursor: zoom-out;
+    padding: 2rem;
+  }
+  .lightbox.on { display: grid; }
+  .lightbox img {
+    max-width: min(1100px, 100%);
+    max-height: 88vh;
+    border-radius: 3px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  }
+  .lightbox .cap {
+    position: absolute;
+    bottom: 1.2rem;
+    left: 0; right: 0;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #C6C3BA;
+  }
+
+  footer {
+    margin-top: 4rem; padding-top: 1.4rem; border-top: 1px solid var(--line);
+    font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.06em;
+    color: var(--neutral); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.6rem;
+  }
+
+  @media (max-width: 720px) {
+    .twov { grid-template-columns: 1fr; }
+    .twov .clock { border-right: 0; border-bottom: 1px solid rgba(242,240,233,0.2); padding: 0 0 1rem; }
+    .quickstats { display: none; }
+    .prep { grid-template-columns: 1fr; }
+    .gallery { grid-template-columns: repeat(2, 1fr); }
+    .filmstrip img { height: 130px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">Trip Dossier · Chris &amp; Kaylee</div>
+    <h1>China<span class="zh">秋</span></h1>
+    <p class="dek">Two weeks, first time on the mainland for both of us. <b>Depart Austin Thu 8 Oct 2026 · home Thu 22 Oct 2026</b> — 13 in-country nights, built around the after-Golden-Week shoulder season. Five routes on the table; one to pick.</p>
+    <div class="meta-row">
+      <div class="meta"><span class="k">Window</span><span class="v">8 – 22 Oct</span></div>
+      <div class="meta"><span class="k">Nights</span><span class="v">13</span></div>
+      <div class="meta"><span class="k">Visa</span><span class="v">None (TWOV)</span></div>
+      <div class="meta"><span class="k">Budget</span><span class="v">$9 – 11k</span></div>
+      <div class="meta"><span class="k">Status</span><span class="v" style="color:var(--cinnabar)">Route TBD</span></div>
+    </div>
+  </header>
+
+  <div class="filmstrip" aria-label="The cities in play">
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/hong-kong/victoria-peak-dusk.jpg" alt="Victoria Harbour from Victoria Peak at dusk"><figcaption>Hong Kong</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/shanghai/bund-night-skyline.jpg" alt="Pudong skyline from the Bund at night"><figcaption>Shanghai</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/wuzhen/xizha-central-canal.jpg" alt="Wuzhen Xizha central canal"><figcaption>Wuzhen</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/hangzhou/west-lake-panorama.jpg" alt="West Lake panorama, Hangzhou"><figcaption>Hangzhou</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/huangshan/sea-of-clouds.jpg" alt="Sea of clouds over Huangshan peaks"><figcaption>Huangshan</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/guangzhou/canton-tower-night.jpg" alt="Canton Tower lit at night, Guangzhou"><figcaption>Guangzhou</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/xiamen/gulangyu-colonial-street.jpg" alt="Colonial street on Gulangyu Island, Xiamen"><figcaption>Xiamen</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/zhangjiajie/avatar-pillars.jpg" alt="Quartz-sandstone pillar peaks, Zhangjiajie"><figcaption>Zhangjiajie</figcaption></figure>
+    <figure><img class="zoom" loading="lazy" src="../_attachments/china-2026/shenzhen/ping-an-finance-centre.jpg" alt="Ping An Finance Centre, Shenzhen"><figcaption>Shenzhen</figcaption></figure>
+  </div>
+
+  <section class="twov" aria-label="Visa constraint">
+    <div class="clock">
+      <span class="big">240</span>
+      <span class="lbl">Hours · no visa</span>
+    </div>
+    <div>
+      <p>Every route runs on <b>240-hour visa-free transit</b> — no L visa. The clock starts 00:00 the day after we enter the mainland, so the arrival day is free. This single rule shapes all five itineraries.</p>
+      <ol>
+        <li>Max ~10 days on the mainland; HK &amp; Macau time doesn't count.</li>
+        <li>Trip must start in one region and exit to a <b>different</b> one — HK counts, so AUS → mainland → HK → AUS qualifies.</li>
+        <li>A confirmed onward ticket out within 240 hrs is checked at entry.</li>
+      </ol>
+    </div>
+  </section>
+
+  <div class="sec-head"><span class="num">01</span><h2>The five routes</h2><span class="rule"></span></div>
+  <p style="margin:-0.6rem 0 1.4rem; color:var(--ink-soft); font-size:0.92rem; max-width:62ch;">Each is a complete itinerary inside the same 13-night window. Tap a route to open its day-by-day, photos, and TWOV clock.</p>
+  <div class="routes" id="routes"></div>
+
+  <div class="sec-head"><span class="num">02</span><h2>Decision matrix</h2><span class="rule"></span></div>
+  <p style="margin:-0.6rem 0 1.4rem; color:var(--ink-soft); font-size:0.92rem; max-width:62ch;">Scored 1–5 per dimension (5 = best for this kind of trip). A heuristic, not a verdict — the right route depends on what we want most.</p>
+  <div class="matrix-wrap"><table class="matrix" id="matrix"></table></div>
+
+  <div class="sec-head"><span class="num">03</span><h2>Our take</h2><span class="rule"></span></div>
+  <div class="takes">
+    <div class="take" style="--tc:var(--cinnabar)">
+      <img class="zoom" loading="lazy" src="../_attachments/china-2026/wuzhen/xizha-bridge-night.jpg" alt="Wuzhen stone bridge lit at night">
+      <div class="tx">
+        <h3>Route A</h3>
+        <div class="when">The easy, locked plan</div>
+        <p>Wuzhen is the trip-maker — nothing else has that slow canal-town night — and the direct PVG → AUS exit saves a day. Best food-and-scenery option with the lowest friction.</p>
+      </div>
+    </div>
+    <div class="take" style="--tc:var(--jade)">
+      <img class="zoom" loading="lazy" src="../_attachments/china-2026/huangshan/hongcun-reflection.jpg" alt="Hongcun village reflected in its pond">
+      <div class="tx">
+        <h3>Route C</h3>
+        <div class="when">Mountains &amp; lake, fewer trains</div>
+        <p>Most of Route B without the Xiamen long-leg. Hangzhou + Huangshan get their real time and the TWOV clock gets a comfortable day of buffer. The most "landscape-painting" version.</p>
+      </div>
+    </div>
+    <div class="take" style="--tc:var(--ochre)">
+      <img class="zoom" loading="lazy" src="../_attachments/china-2026/zhangjiajie/pillar-peaks.jpg" alt="Zhangjiajie pillar peaks in mist">
+      <div class="tx">
+        <h3>Route E</h3>
+        <div class="when">Kaylee's Avatar peaks</div>
+        <p>Zhangjiajie genuinely looks like nowhere else. The two internal flights are a real cost, but it's the payoff. Don't try to bolt it onto another route — the math won't fit.</p>
+      </div>
+    </div>
+    <div class="take avoid">
+      <img class="zoom" loading="lazy" src="../_attachments/china-2026/xiamen/xiamen-night-skyline.jpg" alt="Xiamen skyline at night">
+      <div class="tx">
+        <h3>Route B</h3>
+        <div class="when">The one to avoid</div>
+        <p>11 hours of train across 5 segments inside a &lt;12-hour TWOV buffer. One slipped train turns into a real problem. Take C — it's most of B — or commit to E.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-head"><span class="num">04</span><h2>Before we go</h2><span class="rule"></span></div>
+  <div class="prep">
+    <div>
+      <div class="locks">
+        <div class="lock"><span class="what">Flights<small>Google Flights multi-city</small></span><span class="lead">mid-Aug</span></div>
+        <div class="lock"><span class="what">Wuzhen guesthouse inside Xizha<small>Route A · en.wuzhen.com.cn</small></span><span class="lead">2 mo</span></div>
+        <div class="lock"><span class="what">Huangshan summit hotel<small>Routes B/C · peak weekends fill first</small></span><span class="lead">2+ mo</span></div>
+        <div class="lock"><span class="what">Internal flights<small>CAN→HGH, PVG↔DYG↔SZX, HK→PVG</small></span><span class="lead">4–6 wk</span></div>
+        <div class="lock"><span class="what">Splurge dinners<small>Lung King Heen, T'ang Court, Fu 1088</small></span><span class="lead">2–4 wk</span></div>
+        <div class="lock"><span class="what">HSR / cross-border rail<small>when 15-day window opens</small></span><span class="lead">15 d</span></div>
+        <div class="lock"><span class="what">Observation decks &amp; trams<small>weather-dependent</small></span><span class="lead">1–7 d</span></div>
+      </div>
+    </div>
+    <div class="prepbox">
+      <h3>Cross-cutting prep</h3>
+      <ul>
+        <li><b>Payments:</b> Alipay + WeChat Pay set up before landing.</li>
+        <li><b>Connectivity:</b> eSIM + a VPN installed at home.</li>
+        <li><b>Docs:</b> passport ≥3 mo validity, arrival card, onward ticket.</li>
+        <li><b>Registration:</b> accommodation registration on arrival.</li>
+        <li><b>Packing:</b> mild fall layers (20–25°C south); Route E needs real hiking shoes.</li>
+      </ul>
+      <div class="budget">
+        <span class="amt">$9–11k</span>
+        <span class="note">two people · mid-range boutique · one splurge dinner per city · Route E adds ~$800 in internal flights</span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <span>wiles-wiki · travel/china-2026</span>
+    <span>Updated for 8–22 Oct 2026 envelope</span>
+  </footer>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Enlarged photo">
+  <img id="lightbox-img" src="" alt="">
+  <div class="cap" id="lightbox-cap"></div>
+</div>
+
+<script>
+  const ROUTES = [
+    {
+      id: "A", color: "var(--cinnabar)", rec: true, recTag: "Current plan",
+      name: "Current plan", path: "HK → Guangzhou → Wuzhen → Shanghai",
+      stats: { main: 9, hk: 4, moves: "1✈ 1🚄" },
+      why: "The locked-in plan. Canal-town romance at Wuzhen, a full city for Cantonese food, finish strong in Shanghai with a direct PVG → AUS exit. Lowest friction overall.",
+      buffer: { txt: "~1.5 days", cls: "s" },
+      clock: "Mainland entry Tue Oct 13 via West Kowloon HSR (immigration at Guangzhou South). Clock starts 00:00 Wed Oct 14, ends 00:00 Sun Oct 24. Exit Thu Oct 22 from PVG.",
+      photos: [
+        ["../_attachments/china-2026/hong-kong/dragons-back.jpg", "Dragon's Back"],
+        ["../_attachments/china-2026/guangzhou/shamian-island.jpg", "Shamian Island"],
+        ["../_attachments/china-2026/wuzhen/wuzhen-canal-boats.jpg", "Wuzhen canals"],
+        ["../_attachments/china-2026/shanghai/yu-garden-bridge.jpg", "Yu Garden"]
+      ],
+      days: [
+        ["Thu 8","(in-flight)","AUS depart evening","—"],
+        ["Fri 9","Hong Kong","HKG arrival","HK"],
+        ["Sat 10","Hong Kong","Victoria Peak, Central, dim sum","HK"],
+        ["Sun 11","Hong Kong","Dragon's Back hike, beaches","HK"],
+        ["Mon 12","Hong Kong","Outlying islands or Kowloon","HK"],
+        ["Tue 13","→ Guangzhou","HSR W. Kowloon → Guangzhou S (~50 min)","GZ",1],
+        ["Wed 14","Guangzhou","Shamian Island, Old Liwan","GZ"],
+        ["Thu 15","Guangzhou","Canton Tower, dim sum","GZ"],
+        ["Fri 16","→ Wuzhen","CAN → HGH (~2 hr) + transfer","Wuzhen"],
+        ["Sat 17","Wuzhen","West Scenic Zone walks","Wuzhen"],
+        ["Sun 18","→ Shanghai","HSR Tongxiang → Hongqiao (~30 min)","SHA"],
+        ["Mon 19","Shanghai","Pudong + Shanghai Tower","SHA"],
+        ["Tue 20","Shanghai","Old Shanghai, Yu Garden","SHA"],
+        ["Wed 21","Shanghai","Museum, farewell dinner","SHA"],
+        ["Thu 22","(in-flight)","Maglev → PVG → AUS","—",1]
+      ]
+    },
+    {
+      id: "B", color: "var(--neutral)", rec: false,
+      name: "Train south", path: "SHA → Hangzhou → Huangshan → Xiamen → Shenzhen → HK",
+      stats: { main: 10, hk: 3, moves: "5🚄" },
+      why: "Maximum variety, the 'all five vibes' version — but 11 hours of train across 5 segments inside a razor-thin buffer. One slipped train and you're non-compliant.",
+      buffer: { txt: "<12 hrs", cls: "c" },
+      clock: "Entry PVG Sun Oct 11. Clock starts 00:00 Mon Oct 12, ends 00:00 Thu Oct 22. Exit Wed Oct 21 via West Kowloon HSR. Tight — build around this risk.",
+      photos: [
+        ["../_attachments/china-2026/hangzhou/lingyin-temple.jpg", "Lingyin Temple"],
+        ["../_attachments/china-2026/huangshan/welcoming-pine.jpg", "Welcoming Pine"],
+        ["../_attachments/china-2026/xiamen/sunlight-rock.jpg", "Sunlight Rock"],
+        ["../_attachments/china-2026/shenzhen/shenzhen-skyline.jpg", "Shenzhen"]
+      ],
+      days: [
+        ["Thu 8","(in-flight)","AUS depart","—"],
+        ["Fri 9","Hong Kong","HKG arrival, jet lag","HK"],
+        ["Sat 10","Hong Kong","Victoria Peak, Central","HK"],
+        ["Sun 11","→ Shanghai","fly HK → PVG (~3 hr)","SHA",1],
+        ["Mon 12","Shanghai","Pudong, Bund","SHA"],
+        ["Tue 13","Shanghai","French Concession, Yu Garden","SHA"],
+        ["Wed 14","→ Hangzhou","HSR Hongqiao → Hangzhou E (~45 min)","HGH"],
+        ["Thu 15","Hangzhou","Lingyin Temple, tea fields","HGH"],
+        ["Fri 16","→ Huangshan","HSR → Huangshan N (~1.5 hr) + bus","Summit"],
+        ["Sat 17","Huangshan","Sunrise, descend to Hongcun","Hongcun"],
+        ["Sun 18","→ Xiamen","HSR → Xiamen N (~5.5 hr)","XM"],
+        ["Mon 19","Xiamen","Gulangyu Island day","XM"],
+        ["Tue 20","→ Shenzhen","HSR → Shenzhen N (~3.5 hr)","SZ"],
+        ["Wed 21","→ Hong Kong","HSR Futian → W. Kowloon (~15 min)","HK",1],
+        ["Thu 22","(in-flight)","HK → AUS","—"]
+      ]
+    },
+    {
+      id: "C", color: "var(--jade)", rec: false, recTag: "Best train variant",
+      name: "Eastern, less rushed", path: "SHA → Hangzhou → Huangshan → Shenzhen → HK",
+      stats: { main: 9, hk: 4, moves: "4🚄" },
+      why: "The trip Route B should be — same inland variety, minus the 9-hour Xiamen detour. More Shanghai and Hangzhou, a real TWOV buffer. The best overall trade-off in the lineup.",
+      buffer: { txt: "~1 day", cls: "s" },
+      clock: "Entry Sun Oct 11. Clock starts 00:00 Mon Oct 12, ends 00:00 Thu Oct 22. Exit Tue Oct 20 morning via West Kowloon HSR. Comfortable.",
+      photos: [
+        ["../_attachments/china-2026/hangzhou/longjing-tea-terraces.jpg", "Longjing tea"],
+        ["../_attachments/china-2026/huangshan/huangshan-peaks.jpg", "Huangshan"],
+        ["../_attachments/china-2026/huangshan/xidi-village.jpg", "Xidi village"],
+        ["../_attachments/china-2026/hong-kong/star-ferry-skyline.jpg", "Star Ferry"]
+      ],
+      days: [
+        ["Thu 8","(in-flight)","AUS depart","—"],
+        ["Fri 9","Hong Kong","HKG arrival","HK"],
+        ["Sat 10","Hong Kong","Victoria Peak","HK"],
+        ["Sun 11","→ Shanghai","fly HK → PVG","SHA",1],
+        ["Mon 12","Shanghai","Pudong + Bund","SHA"],
+        ["Tue 13","Shanghai","French Concession","SHA"],
+        ["Wed 14","Shanghai","Yu Garden, museums","SHA"],
+        ["Thu 15","→ Hangzhou","HSR Hongqiao → Hangzhou E","HGH"],
+        ["Fri 16","Hangzhou","Tea + temple","HGH"],
+        ["Sat 17","→ Huangshan","HSR → Huangshan N + bus","Summit"],
+        ["Sun 18","Huangshan","Sunrise + Hongcun","Hongcun"],
+        ["Mon 19","→ Shenzhen","HSR → Shenzhen N (~6 hr)","SZ"],
+        ["Tue 20","→ Hong Kong","HSR Futian → W. Kowloon","HK",1],
+        ["Wed 21","Hong Kong","Dragon's Back / Lantau / dim sum","HK"],
+        ["Thu 22","(in-flight)","HK → AUS","—"]
+      ]
+    },
+    {
+      id: "D", color: "var(--ochre)", rec: false,
+      name: "Minimal 3-city", path: "SHA → Shenzhen → HK",
+      stats: { main: 7, hk: 6, moves: "1✈/🚄" },
+      why: "Lowest friction. Two big-city anchors and maximum HK time. Only Shanghai gets a real city slot, so the trip leans on HK's variety — but it's the easiest to execute and the safest clock.",
+      buffer: { txt: "~3 days", cls: "s" },
+      clock: "Entry Sun Oct 11, exit Sun Oct 18 (7 mainland nights). Clock ends 00:00 Thu Oct 22. Very safe.",
+      photos: [
+        ["../_attachments/china-2026/shanghai/wukang-road.jpg", "Wukang Road"],
+        ["../_attachments/china-2026/shanghai/shanghai-tower-view.jpg", "Shanghai Tower"],
+        ["../_attachments/china-2026/shenzhen/shenzhen-night-street.jpg", "Shenzhen streets"],
+        ["../_attachments/china-2026/hong-kong/man-mo-temple-incense.jpg", "Man Mo Temple"]
+      ],
+      days: [
+        ["Thu 8","(in-flight)","AUS depart","—"],
+        ["Fri 9","Hong Kong","HKG arrival","HK"],
+        ["Sat 10","Hong Kong","Victoria Peak","HK"],
+        ["Sun 11","→ Shanghai","fly HK → PVG","SHA",1],
+        ["Mon 12","Shanghai","Pudong + Bund","SHA"],
+        ["Tue 13","Shanghai","French Concession","SHA"],
+        ["Wed 14","Shanghai","Old Shanghai, museum","SHA"],
+        ["Thu 15","Shanghai","West Bund, riverfront","SHA"],
+        ["Fri 16","→ Shenzhen","fly ~2.5 hr (skip 10-hr HSR)","SZ"],
+        ["Sat 17","Shenzhen","Ping An Tower, OCT-LOFT","SZ"],
+        ["Sun 18","→ Hong Kong","HSR Futian → W. Kowloon","HK",1],
+        ["Mon 19","Hong Kong","Lantau / Big Buddha","HK"],
+        ["Tue 20","Hong Kong","Outlying islands / hiking","HK"],
+        ["Wed 21","Hong Kong","Last day, dim sum","HK"],
+        ["Thu 22","(in-flight)","HK → AUS","—"]
+      ]
+    },
+    {
+      id: "E", color: "var(--jade-deep)", rec: false, recTag: "Avatar peaks",
+      name: "Zhangjiajie variant", path: "SHA → Zhangjiajie → Shenzhen → HK",
+      stats: { main: 8, hk: 5, moves: "2✈ 1🚄" },
+      why: "Built around Kaylee's pick. Trade Hangzhou + Huangshan for Zhangjiajie's quartz-sandstone pillars — the landscape that defined Avatar. Two internal flights, ~$400pp and a travel day, but a singular payoff.",
+      buffer: { txt: "~2 days", cls: "s" },
+      clock: "Entry PVG Sun Oct 11, exit West Kowloon Mon Oct 19 (8 mainland nights). Internal flights between eligible regions are fine; entry/exit use fully-verified ports. Comfortable.",
+      photos: [
+        ["../_attachments/china-2026/zhangjiajie/avatar-pillars.jpg", "Avatar pillars"],
+        ["../_attachments/china-2026/zhangjiajie/tianmen-99-bend-road.jpg", "99-bend road"],
+        ["../_attachments/china-2026/zhangjiajie/tianmen-glass-skywalk.jpg", "Glass skywalk"],
+        ["../_attachments/china-2026/zhangjiajie/bailong-elevator.jpg", "Bailong Elevator"]
+      ],
+      days: [
+        ["Thu 8","(in-flight)","AUS depart","—"],
+        ["Fri 9","Hong Kong","HKG arrival","HK"],
+        ["Sat 10","Hong Kong","Victoria Peak","HK"],
+        ["Sun 11","→ Shanghai","fly HK → PVG","SHA",1],
+        ["Mon 12","Shanghai","Pudong + Bund","SHA"],
+        ["Tue 13","Shanghai","French Concession","SHA"],
+        ["Wed 14","Shanghai","Old Shanghai","SHA"],
+        ["Thu 15","→ Zhangjiajie","fly PVG → DYG (~2.5 hr) + ground","Wulingyuan"],
+        ["Fri 16","Zhangjiajie","Tianzi Mtn + glass bridge","Wulingyuan"],
+        ["Sat 17","Zhangjiajie","Tianmen Mountain day","ZJJ city"],
+        ["Sun 18","→ Shenzhen","fly DYG → SZX (~2 hr)","SZ"],
+        ["Mon 19","→ Hong Kong","HSR Futian → W. Kowloon","HK",1],
+        ["Tue 20","Hong Kong","Dim sum + hiking","HK"],
+        ["Wed 21","Hong Kong","Last full day","HK"],
+        ["Thu 22","(in-flight)","HK → AUS","—"]
+      ]
+    }
+  ];
+
+  const MATRIX = {
+    dims: [
+      ["Variety of scenery", [4,5,4,2,5]],
+      ["Food range", [5,5,4,4,4]],
+      ["Less time in transit", [4,1,3,5,2]],
+      ["Photo opportunities", [4,5,5,3,5]],
+      ["Logistical ease", [4,2,4,5,3]],
+      ["TWOV safety buffer", [4,1,4,5,4]],
+      ["Hong Kong time", [4,2,4,5,4]],
+      ["Romantic / slow moments", [5,3,4,3,4]]
+    ],
+    totals: [34,24,32,32,31]
+  };
+
+  function scoreColor(n) {
+    const stops = {
+      1: "#BC4B3C", 2: "#C77A3B", 3: "#B0883C", 4: "#7E9A5E", 5: "#5E8A5A"
+    };
+    return stops[n] || "#8C948D";
+  }
+
+  // Render routes
+  const rc = document.getElementById("routes");
+  ROUTES.forEach((r, i) => {
+    const el = document.createElement("div");
+    el.className = "route" + (r.rec ? " rec" : "");
+    el.style.setProperty("--rc", r.color);
+    el.setAttribute("open-state", i === 0 ? "1" : "0");
+
+    const rows = r.days.map(d => {
+      const gate = d[4] ? " class=\"gate\"" : "";
+      return `<tr${gate}><td class="date">${d[0]}</td><td class="city">${d[1]}</td><td>${d[2]}</td><td class="ov">${d[3]}</td></tr>`;
+    }).join("");
+
+    const gallery = r.photos.map(([src, cap]) =>
+      `<figure><img class="zoom" loading="lazy" src="${src}" alt="${cap}"><figcaption>${cap}</figcaption></figure>`
+    ).join("");
+
+    el.innerHTML = `
+      <button class="route-head" aria-expanded="${i===0}">
+        <span class="badge">${r.id}</span>
+        <span class="title">
+          <span class="name">${r.name} ${r.recTag ? `<span class="tag-rec">${r.recTag}</span>` : ""}</span>
+          <span class="path">${r.path}</span>
+        </span>
+        <span class="quickstats">
+          <span class="qs"><span class="n">${r.stats.main}</span><span class="l">Mainland</span></span>
+          <span class="qs"><span class="n">${r.stats.hk}</span><span class="l">HK nts</span></span>
+          <span class="qs"><span class="n">${r.stats.moves}</span><span class="l">Moves</span></span>
+        </span>
+        <span class="chev">›</span>
+      </button>
+      <div class="route-body">
+        <p class="why">${r.why}</p>
+        <div class="gallery">${gallery}</div>
+        <div class="itin-wrap">
+          <table class="itin">
+            <thead><tr><th>Date</th><th>City</th><th>Plan</th><th>Sleep</th></tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>
+        <p class="clockline"><b>TWOV clock —</b> ${r.clock} <span class="buf ${r.buffer.cls}">Buffer: ${r.buffer.txt}</span></p>
+      </div>`;
+
+    const btn = el.querySelector(".route-head");
+    btn.addEventListener("click", () => {
+      const open = el.getAttribute("open-state") === "1";
+      el.setAttribute("open-state", open ? "0" : "1");
+      btn.setAttribute("aria-expanded", String(!open));
+    });
+    rc.appendChild(el);
+  });
+
+  // Render matrix
+  const m = document.getElementById("matrix");
+  const head = ["<th>Dimension</th>"].concat(
+    ROUTES.map(r => `<th><span class="colhead">${r.id}<small>${r.name}</small></span></th>`)
+  ).join("");
+  const body = MATRIX.dims.map(([label, vals]) =>
+    `<tr><td>${label}</td>` + vals.map(v =>
+      `<td style="background:${scoreColor(v)}">${v}</td>`
+    ).join("") + "</tr>"
+  ).join("");
+  const totalMax = Math.max(...MATRIX.totals);
+  const totals = `<tr class="total"><td>Total</td>` + MATRIX.totals.map(t =>
+    `<td style="background:${t===totalMax ? 'var(--cinnabar)' : 'var(--ink)'}">${t}</td>`
+  ).join("") + "</tr>";
+  m.innerHTML = `<thead><tr>${head}</tr></thead><tbody>${body}${totals}</tbody>`;
+
+  // Lightbox — delegated, covers static and JS-rendered images
+  const lb = document.getElementById("lightbox");
+  const lbImg = document.getElementById("lightbox-img");
+  const lbCap = document.getElementById("lightbox-cap");
+  document.addEventListener("click", (e) => {
+    const img = e.target.closest("img.zoom");
+    if (img) {
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lbCap.textContent = img.alt;
+      lb.classList.add("on");
+    } else if (e.target.closest("#lightbox")) {
+      lb.classList.remove("on");
+      lbImg.src = "";
+    }
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { lb.classList.remove("on"); lbImg.src = ""; }
+  });
+</script>
+
+</body>
+</html>

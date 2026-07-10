@@ -9,6 +9,8 @@ tags:
 Two-week trip for Chris + Kaylee. **Depart Austin Thu 8 Oct 2026 · Return Thu 22 Oct 2026.** 13 in-country nights. First time in mainland China for both of us.
 
 > **Status: route under decision.** Five variants on the table — see [[routes]] for the full side-by-side. All five fit inside the 240-hour visa-free window described below. **No L visa required for any of them.**
+>
+> 📋 **[Interactive route dossier](https://chriswiles.github.io/wiles-wiki/static/china-2026-plan.html)** — the five routes with photos, day-by-day itineraries, TWOV clocks, and the decision matrix on one page.
 
 ## The 10-day rule (read this first, it shapes everything)
 
