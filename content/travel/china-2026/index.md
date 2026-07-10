@@ -6,11 +6,11 @@ tags:
   - trip-planning
 ---
 
-Two-week trip for Chris + Kaylee. **Depart Austin Thu 8 Oct 2026 · Return Thu 22 Oct 2026.** 13 in-country nights. First time in mainland China for both of us.
+Two-week **friends trip** (Chris + Kaylee + crew). **Baseline: depart Austin Thu 8 Oct 2026 · Return Thu 22 Oct 2026** — but dates are flexible across Oct–Nov, and [[routes#When to go — the dates are flexible|a November shift is recommended]] (Canton Fair, HK trade-fair hotel spikes, better weather + foliage). 13 in-country nights either way. First time in mainland China for all of us.
 
-> **Status: route under decision.** Five variants on the table — see [[routes]] for the full side-by-side. All five fit inside the 240-hour visa-free window described below. **No L visa required for any of them.**
+> **Status: route under decision.** Seven variants on the table — see [[routes]] for the full side-by-side. All seven fit inside the 240-hour visa-free window described below. **No L visa required for any of them.**
 >
-> 📋 **[Interactive route dossier](https://chriswiles.github.io/wiles-wiki/static/china-2026-plan.html)** — the five routes with photos, day-by-day itineraries, TWOV clocks, and the decision matrix on one page.
+> 📋 **[Interactive route dossier](https://chriswiles.github.io/china-2026-trip/)** — all seven routes with photos, day-by-day itineraries, TWOV clocks, restaurant booking leads, and the decision matrix on one page. (Lives in its own repo: [china-2026-trip](https://github.com/ChrisWiles/china-2026-trip).)
 
 ## The 10-day rule (read this first, it shapes everything)
 
@@ -38,11 +38,13 @@ Pick one. Each is a complete itinerary inside the same 13-night window with expl
 
 | | Cities | Mainland nights | HK nights | Why pick |
 |---|---|---|---|---|
-| **A — Current plan** | HK → Guangzhou → Wuzhen → Shanghai | 9 | 4 | Food + canal-town romance. Direct PVG→AUS exit. Lowest friction. |
+| **A — Current plan** | HK → Guangzhou → Wuzhen → Shanghai | 9 | 4 | Food + canal-town evenings. Direct PVG→AUS exit. Lowest friction. |
 | **B — Train south** | Shanghai → Hangzhou → Huangshan → Xiamen → Shenzhen → HK | 10 | 3 | Most variety. Most train time. TWOV-tight. |
 | **C — Eastern, less rushed** | Shanghai → Hangzhou → Huangshan → Shenzhen → HK | 9 | 4 | Mountains + lake without the Xiamen detour. **Recommended train-route variant.** |
 | **D — Minimal 3-city** | Shanghai → Shenzhen → HK | 7 | 6 | Two cities, maximum HK time. Easiest to execute. |
 | **E — Zhangjiajie variant** | Shanghai → Zhangjiajie → Shenzhen → HK | 8 | 5 | Avatar peaks. Two internal flights. |
+| **F — Karst by rail** | HK → Guangzhou → Yangshuo → Guilin → Shenzhen → HK | 7 | 6 | Li River karst, zero flights, biggest TWOV buffer. **Tops the matrix.** |
+| **G — Hotpot swap** | HK → Chongqing → Wuzhen → Shanghai | 9 | 4 | Route A with Chongqing in the food slot. **The foodie pick.** |
 
 → **[[routes|Open the full route comparison]]** for day-by-day tables, TWOV clocks, transport, trade-offs, and the scoring matrix.
 
@@ -81,6 +83,12 @@ Grouped by which route they belong to — open them to plan a specific city.
 **Route E only:**
 - [[zhangjiajie]] — 3 nights · Avatar pillar peaks, Tianmen Mountain, glass skywalk
 
+**Route F only:**
+- [[guilin]] — 4 nights · Li River karst, Yangshuo countryside, Longji rice terraces
+
+**Route G only:**
+- [[chongqing]] — 3 nights · hotpot capital, Hongya Cave nightscape, Yangtze cableway
+
 **In every route:**
 - [[hong-kong]] — 3–6 nights · Victoria Peak, Dragon's Back, dim sum, outlying islands
 
@@ -92,7 +100,8 @@ Target: **$9,000–11,000 total**, mid-range boutique hotels, one splurge dinner
 
 Most of these apply across all routes; route-specific calls in parens.
 
-1. **Flights** — book mid-Aug on Google Flights multi-city. See [[flights]].
+1. **The Chairman (HK)** — reservations drop **9am on the first day of the month prior to each quarter** and vanish in minutes. For a Nov trip that means the Sep 1 drop. Set an alarm. See [[restaurants]].
+2. **Flights** — book mid-Aug on Google Flights multi-city. See [[flights]].
 2. **Wuzhen guesthouse inside Xizha** — 2 months ahead, direct on en.wuzhen.com.cn. (Route A only.)
 3. **Huangshan summit hotel** (Beihai / Xihai / Paiyunlou) — 2+ months ahead, peak weekends fill first. (Routes B / C.)
 4. **Internal flights** — book 4–6 weeks ahead: CAN→HGH (Route A), PVG↔DYG↔SZX (Route E), HK→PVG one-way (Routes B/C/D/E).

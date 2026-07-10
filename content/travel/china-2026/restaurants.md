@@ -8,12 +8,13 @@ tags:
 
 Cross-city hit list, sortable mentally by "must-book ahead" vs. "walk in."
 
-> **Scope**: this index covers **Hong Kong, Guangzhou, and Shanghai** in depth (the [[routes|Route A]] cities). For restaurant picks in Hangzhou, Huangshan, Xiamen, Shenzhen, and Zhangjiajie, see each destination's own page — those have city-specific restaurant tables tuned to the route.
+> **Scope**: this index covers **Hong Kong, Guangzhou, Shanghai, Chongqing, and Guilin/Yangshuo** (the Route A/F/G cities). For restaurant picks in Hangzhou, Huangshan, Xiamen, Shenzhen, and Zhangjiajie, see each destination's own page — those have city-specific restaurant tables tuned to the route.
 
 ## Must-book-ahead
 
 | Place | City | Lead time | Why |
 |---|---|---|---|
+| **The Chairman** | Hong Kong | **quarterly drop — 9am, first day of the month prior to each quarter** | 1 star, former Asia's 50 Best #1. The hardest table on this list; sells out in minutes. For a Nov trip: the **Sep 1** drop. Set an alarm. |
 | Lung King Heen (Four Seasons) | Hong Kong | 30 days | **2 stars**. HKD 700 + 10% min/person from Jan 2026. |
 | Ying Jee Club | Hong Kong | 1 week | 2-star Cantonese, Central |
 | T'ang Court (Langham Xintiandi) | Shanghai | 1 week | **2-star** Cantonese (upgraded in 2026 Guide); different from 3-star T'ang Court in HK |
@@ -40,6 +41,9 @@ Cross-city hit list, sortable mentally by "must-book ahead" vs. "walk in."
 | Panxi | Guangzhou | Garden dim sum since 1947, 151 Longjin W Rd Liwan |
 | Bingsheng Pinwei (Haiyin) | Guangzhou | Michelin Plate modern Cantonese, 33 Dongxiao Rd Haizhu |
 | Yinji Rice Rolls | Guangzhou | Cheung fun chain, cheap + good |
+| Zhao Er Hotpot (赵二火锅) | Chongqing | Lonely Planet-blessed local institution; stronger, spicier broth. Order duck blood, fresh tripe, cilantro meatballs. Moved locations in 2025 — check Amap for current address. |
+| Any packed nine-grid (九宫格) hotpot | Chongqing | The grid separates simmer zones, not portions. Ask for 微辣 (mild) — Chongqing mild is everyone else's hot. |
+| Hole-in-the-wall xiaomian stalls | Chongqing | Morning ritual: CNY 10–15 spicy noodle bowls. Follow the office-worker queues near Jiefangbei. |
 | Jia Jia Tang Bao | Shanghai | XLB since 1986, **127 Huanghe Lu** (moved from #90 — don't be fooled by "Jia Le" at the old address) |
 | Lai Lai Xiao Long | Shanghai | Michelin Bib XLB, crab-roe. 506 Tianjin Rd. Closed 14:00–15:00. |
 | Din Tai Fung (IFC) | Shanghai | Reliable XLB, no queue anxiety |
@@ -84,7 +88,19 @@ Cross-city hit list, sortable mentally by "must-book ahead" vs. "walk in."
 - Sheng jian bao (pan-fried pork buns) — any morning stall
 - Red-braised pork belly (Fu 1088 does it well)
 - Yunnan mushroom hotpot (Lost Heaven)
-- Crab roe anything (in season, peak in fall)
+- Crab roe anything (in season, peak in fall — **hairy crab season is Oct–Dec**, another argument for the Nov window)
+
+**Chongqing** (Route G)
+- Nine-grid hotpot (九宫格) — beef tripe, duck intestine, luncheon meat, tao-fu skin
+- Xiaomian (小面) breakfast noodles — the city's daily religion
+- Maoxuewang (毛血旺) — duck blood, tripe, and ham in chili broth
+- Wanzhou grilled fish (万州烤鱼) — late-night with beer
+- Suan la fen (酸辣粉) — sour-hot sweet-potato noodles at Ciqikou
+
+**Guilin / Yangshuo** (Route F)
+- Guilin mifen (桂林米粉) — rice noodles with pickles + peanuts, CNY 8 breakfast
+- Beer fish (啤酒鱼) — Yangshuo's signature, river fish braised in local beer; best along Xianqian Jie
+- Bamboo-tube rice (竹筒饭) and stuffed Li River snails (酿田螺)
 
 ## Dietary flags (TBD)
 

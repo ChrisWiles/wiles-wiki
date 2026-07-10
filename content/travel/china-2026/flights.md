@@ -10,8 +10,10 @@ International routing depends on which [[routes|route]] we pick.
 
 | Route | Outbound | Return | Why |
 |---|---|---|---|
-| **A — current plan** | AUS → HKG (Oct 8) | **PVG** (Shanghai Pudong) → AUS (Oct 22) | Open-jaw: exit mainland direct, no backtrack to HK. |
-| **B / C / D / E** | AUS → HKG (Oct 8) | **HKG** → AUS (Oct 22) | Mainland exits to HK by HSR or border, then HK → US. |
+| **A / G** | AUS → HKG | **PVG** (Shanghai Pudong) → AUS | Open-jaw: exit mainland direct, no backtrack to HK. |
+| **B / C / D / E / F** | AUS → HKG | **HKG** → AUS | Mainland exits to HK by HSR or border, then HK → US. |
+
+> **Date flexibility (Oct–Nov)**: transpacific fares hold October-shoulder pricing through mid-November, then spike for Thanksgiving week (Nov 26, 2026). Any window landing home by ~Nov 20 prices like October. Weekday (Tue/Wed) departures usually price below Thursday. See [[routes#When to go — the dates are flexible|routes → When to go]] for the recommended windows.
 
 Search in Google Flights **multi-city** mode:
 - **Route A**: "Austin → Hong Kong" Oct 8, "Shanghai → Austin" Oct 22
@@ -61,8 +63,12 @@ These are *separate tickets* from the international legs — buy them after the 
 | E | **PVG → DYG** (Zhangjiajie Hehua) | ~2h 30m | $200–250 |
 | E | **DYG → SZX** (Shenzhen Bao'an) | ~2h | $160–220 |
 | A | **CAN → HGH** (Guangzhou → Hangzhou, for Wuzhen transfer) | ~2h | $90–130 |
+| G | **HKG → CKG** (Chongqing Jiangbei, mainland entry) | ~2h 30m | $150–230 |
+| G | **CKG → HGH** (Chongqing → Hangzhou, for Wuzhen transfer) | ~2h | $80–150 |
 
 Book Routes B–E's mainland-entry **HKG → PVG** on Cathay, HK Express, or Greater Bay Airlines. Earlier morning departure beats afternoon — the PVG arrival immigration line for TWOV is shorter before the evening Cathay long-hauls land.
+
+**Or skip that flight entirely**: the **G899 overnight HSR sleeper** (HK West Kowloon 19:49 → Shanghai Hongqiao 06:45, daily since Jan 2026, soft sleeper ~$132) replaces both the HKG→PVG flight *and* a hotel night, and buys back a full HK day. Details in [[routes#New for 2026: the overnight HSR sleeper (Routes B–E upgrade)|routes → sleeper]]. Route F needs no internal flights at all.
 
 ## Booking timing
 
