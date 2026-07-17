@@ -24,11 +24,11 @@ Direct HKG → CKG. Request 240-hour temporary entry with the Shanghai → Taipe
 
 ### Wed Nov 18 — vertical city
 
-Ride Line 2 to Liziba, continue toward Fotuguan/Eling, then work downhill through Shibati. See Hongya Cave from across the river after dark rather than spending the evening inside its crowded retail levels. First hotpot dinner.
+Ride Line 2 through Liziba, spend no more than 15 minutes at the crowded street viewpoint, continue toward Fotuguan/Eling, then work downhill through Shancheng Lane and Shibati. Reach a Hongya Cave exterior viewpoint before its 19:30 lighting rather than entering the crowded retail levels. First hotpot dinner.
 
 ### Thu Nov 19 — two rivers
 
-Choose Three Gorges Museum or Mountain City Trail, then Yangtze Cableway, Huguang Guild Hall, the new riverside path and Chaotianmen/Raffles City at sunset.
+Choose Three Gorges Museum or Mountain City Trail, then take the Yangtze Cableway only with a timed ticket or a manageable queue. Otherwise use a ferry or the new riverside path to Chaotianmen/Raffles City at sunset.
 
 ### Fri Nov 20 — Shanghai
 
@@ -49,3 +49,10 @@ Ask for **微辣** (mild) and a split pot if available. Good hotpot orders inclu
 - Late November is commonly 14–18°C by day, 10–13°C at night, often misty/damp.
 - Comfortable waterproof shoes matter.
 - Current city walk: [iChongqing’s 2026 riverside routes](https://www.ichongqing.info/2026/04/30/beat-the-may-day-crowds-three-riverside-walks-that-unlock-chongqings-iconic-sights/).
+
+## Traveler consensus
+
+- Essential: ride Line 2 through Liziba, walk the layered Shancheng Lane/Shibati city, and see Hongya Cave illuminated from Qiansimen Bridge or the opposite bank.
+- Conditional: Yangtze Cableway is worthwhile only when the wait is reasonable; the riverside or ferry supplies a better fallback than losing an hour in line.
+- Skip: Hongya Cave’s interior retail levels and Raffles City’s generic mall floors. Ciqikou is optional on a short stay and should be visited early if chosen.
+- Cross-checks: [Hongya Cave traveler reviews](https://www.tripadvisor.com/Attraction_Review-g294213-d1814790-Reviews-Hongya_Cave-Chongqing.html) and [TripZilla’s independent review](https://www.tripzilla.com/honest-chongqing-review-singaporean/26814).

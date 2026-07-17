@@ -30,7 +30,7 @@ Thanksgiving dinner on Thu Nov 26 is with Jen’s family and is the fixed Taipei
 
 ## Shenzhen day trip
 
-Do not build the day around a reservation. Eat near Civic Center, UpperHills or Ping An after the museum stop, then protect time for the border return.
+Do not build the day around a reservation. Eat near Huaqiangbei or Civic Center after the museum stop, then protect time for Lianhua Hill and the border return.
 
 ## Chongqing
 

@@ -30,9 +30,9 @@ Wukang Mansion, Wukang/Anfu/Fuxing roads, cafés and boutiques. Reserve Fu 1088 
 
 Shanghai Museum East, Lujiazui skyline and ferry back to Puxi at dusk. The museum’s 2026 schedule includes major cross-year exhibitions in this window.
 
-### Mon Nov 23 — slow option
+### Mon Nov 23 — Suzhou or slow city
 
-Choose a Zhujiajiao half-day for water-town atmosphere or stay in the city for West Bund museums and river walking. Monday is intentionally not built around traditional museum schedules.
+Choose one proper Suzhou classical-garden day or stay in Shanghai for West Bund art and river walking. Suzhou is the stronger change of scene; West Bund is the better low-logistics cold-rain option. Zhujiajiao is a compromise, not an automatic must.
 
 ### Tue Nov 24 — Old Shanghai
 
@@ -56,3 +56,11 @@ Fly SHA/PVG → TSA/TPE. Prefer SHA → TSA for convenience; use PVG → TPE if 
 - Use Amap/Apple Maps and DiDi inside Alipay.
 - Keep the Shanghai → Taipei confirmation printed and offline.
 - Official 2026 museum program: [Meet in Shanghai](https://www.meet-in-shanghai.net/en/news/all-the-exhibitions-coming-to-shanghai-museum-in-2026-%E2%80%93-save-this-list-238693/).
+
+## Traveler consensus
+
+- Essential: the Bund at blue hour, an unhurried Former French Concession walk, Shanghai Museum East and the actual Yu Garden at opening.
+- Wukang Mansion is one photo; Wukang, Anfu and Fuxing roads are the experience.
+- Visit the Ming garden for roughly 90 minutes before crowds, then leave the commercial bazaar when it stops being enjoyable.
+- Use East Nanjing Road as a connector unless shopping is the goal. Skip the Bund sightseeing tunnel and do not stack multiple paid observation decks.
+- Cross-checks: [Yu Garden’s 10,000-plus traveler reviews](https://www.tripadvisor.com/Attraction_Review-g308272-d324259-Reviews-Yu_Garden-Shanghai.html) and [Notes from China’s independent itinerary](https://notesfromchina.com/blog/shanghai-3-day-itinerary/).

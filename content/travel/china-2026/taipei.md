@@ -28,14 +28,14 @@ Dihua Street and Longshan Temple in the morning. Leave the afternoon open for **
 
 ### Fri Nov 27 — museum + skyline
 
-Focused half-day at the National Palace Museum. Finish with Elephant Mountain before sunset and Taipei 101/Xinyi after dark.
+Focused three-hour visit to two or three National Palace Museum collections. Finish with Elephant Mountain before sunset only if visibility is good, then Taipei 101/Xinyi after dark. The observatory is optional after the outdoor view.
 
 ### Sat Nov 28 — choose one finale
 
-- **Beitou** for hot springs and recovery, or
-- **Jiufen/Shifen** for a longer atmospheric day trip.
+- **Beitou** for the reliable drizzle-friendly hot-spring recovery choice, or
+- **Jiufen** early or late for atmosphere, paired with one hike or Shifen waterfall if energy and weather cooperate.
 
-Do not attempt both.
+Do not attempt both, and skip the rushed Yehliu–Shifen–Jiufen package.
 
 ### Sun Nov 29 — fly home
 
@@ -50,3 +50,11 @@ TPE → AUS on the protected open-jaw ticket.
 - Soy milk + youtiao breakfast and one beef-noodle lunch.
 
 Official planning source: [Taipei City travel guide](https://www.travel.taipei/en/attraction).
+
+## Traveler consensus
+
+- Essential: Longshan/Bopiliao/Dihua, a night-market crawl, a focused National Palace Museum visit and Elephant Mountain in clear weather.
+- The National Palace Museum’s nearly 9,000 reviews support making the trip, but large tour groups and collection fatigue reward a focused visit.
+- Beitou is the safer late-November finale. Jiufen is worth it when timed outside the midday bus crowds; it is not worth forcing in wet low cloud.
+- Raohe or Ningxia is easier to graze than Shilin. Ximending is optional unless youth retail and neon appeal to the group.
+- Cross-checks: [National Palace Museum traveler reviews](https://www.tripadvisor.com/Attraction_Review-g13806879-d321216-Reviews-National_Palace_Museum-Shilin_Taipei.html) and [Nick Kembel’s detailed Taipei itinerary](https://www.nickkembel.com/taipei-itinerary-3-days/).
