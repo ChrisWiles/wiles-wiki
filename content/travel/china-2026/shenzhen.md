@@ -10,7 +10,7 @@ Shenzhen is **not a hotel base** on the final route. It is a conditional same-da
 
 ## Border plan
 
-- Use **Luohu or Huanggang**, where the port visa can be requested.
+- Use only a port that directly confirms it is issuing the five-day SEZ visa to the traveler’s passport nationality on that date.
 - Do not go to West Kowloon expecting a Shenzhen VOA; it does not issue one.
 - Carry passport photos if possible, payment alternatives, Hong Kong accommodation details and the main-trip flight confirmations.
 - If refused, return to the Hong Kong plan. No other reservation depends on Shenzhen.
@@ -33,3 +33,13 @@ Skip distant Shekou, Window of the World, Splendid China and OCT-LOFT on this ve
 Current city-backed route: [EyeShenzhen one-day itinerary](https://www.eyeshenzhen.com/content/2025-06/04/content_31589717.htm).
 
 Traveler cross-checks: [Lianhuashan reviews](https://www.tripadvisor.com/Attraction_Review-g297415-d2051282-Reviews-Shenzhen_Lianhuashan_Park-Shenzhen_Guangdong.html) and [Asia Undiscovered’s independent assessment](https://www.asiaundiscovered.com/shenzhen-city/).
+
+## Expanded catalog
+
+- **Huaqiangbei** — protect 1½–2 hours for the component-market ecosystem; browse, do not plan a major purchase.
+- **Shenzhen Museum / urban-planning galleries** — the best explanation of the city’s one-generation transformation.
+- **Ping An Free Sky** — optional only with exceptional visibility. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g297415-d15239653-Reviews-Ping_An_Finance_Centre_Free_Sky_116_Observation_Deck_in_Shenzhen_China-Shenzhen_.html)
+- **Dafen Oil Painting Village** — genuine art-production context, but too far from Futian to combine with every other stop. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g297415-d2051368-Reviews-Dafen_Oil_Painting_Village-Shenzhen_Guangdong.html)
+- **Food** — use a focused dim sum lunch near the route; Chaoshan beef hotpot is optional only if an early dinner still leaves a comfortable Hong Kong return.
+
+The expanded options do not change the recommended compact Futian/Huaqiangbei day.

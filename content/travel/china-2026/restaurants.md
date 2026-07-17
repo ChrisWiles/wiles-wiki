@@ -58,3 +58,13 @@ Order hotpot **微辣** (mild) and ask for a split pot if available. Good first 
 - Add one soy-milk/youtiao breakfast and one beef-noodle lunch.
 
 Current checks: [Michelin Guide](https://guide.michelin.com/) and the restaurants’ own booking channels.
+
+## Expanded alternates
+
+- Hong Kong: Ho Lee Fook, Australia Dairy Company and One Dim Sum.
+- Shenzhen: route-first dim sum; optional Chaoshan beef hotpot only with a safe border-return margin.
+- Chongqing: neighborhood hotpot, a second xiaomian breakfast and Wanzhou grilled fish.
+- Shanghai: Old Jesse, Yang’s Fry-Dumpling, Lost Heaven and Meet the Bund.
+- Taipei: Fuhang Soy Milk, Ningxia Night Market and Addiction Aquatic Development.
+
+The public dossier carries direct traveler-review links plus timing, cost, crowd, accessibility and weather notes for each expanded choice.

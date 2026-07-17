@@ -65,3 +65,17 @@ Cross-checking current travel writing, TripAdvisor reviews and Hong Kong local g
 - Avenue of Stars is a pleasant harborfront connector, not a half-day attraction.
 - Skip the Observation Wheel and Sky100 unless the group specifically wants another paid skyline view.
 - Sources: [Star Ferry traveler reviews](https://www.tripadvisor.com/Attraction_Review-g294217-d2228870-Reviews-Star_Ferry-Hong_Kong.html) and [Time Out’s local reality check](https://www.timeout.com/hong-kong/things-to-do/11-tourist-attractions-hongkongers-never-go-to).
+
+## Expanded catalog
+
+These are worthwhile additions, not extra obligations:
+
+- **M+ Museum** — strongest rainy-day half-day; allow 2–3 hours and pair it with West Kowloon. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g294217-d23742759-Reviews-M_Museum-Hong_Kong.html)
+- **Chi Lin Nunnery + Nan Lian Garden** — calm temple-and-garden contrast, best near opening. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g294217-d437839-Reviews-Chi_Lin_Nunnery-Hong_Kong.html)
+- **Sham Shui Po** — working markets, street texture and casual food; build a compact circuit rather than chasing isolated pins.
+- **Sai Kung** — optional clear-weather half/full day when coastal scenery matters more than another urban district.
+- **Ho Lee Fook** — lively modern-Cantonese substitute when The Chairman is unavailable. [Traveler reviews](https://www.tripadvisor.com/Restaurant_Review-g294217-d6758068-Reviews-Ho_Lee_Fook-Hong_Kong.html)
+- **Australia Dairy Company** — brisk cha-chaan-teng breakfast; skip if the group dislikes queues or rushed service.
+- **One Dim Sum** — useful value lunch near Prince Edward, but compare the live wait.
+
+The hotel shortlist now carries direct TripAdvisor pages alongside official and map links on the public dossier.

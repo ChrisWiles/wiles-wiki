@@ -56,3 +56,14 @@ Ask for **微辣** (mild) and a split pot if available. Good hotpot orders inclu
 - Conditional: Yangtze Cableway is worthwhile only when the wait is reasonable; the riverside or ferry supplies a better fallback than losing an hour in line.
 - Skip: Hongya Cave’s interior retail levels and Raffles City’s generic mall floors. Ciqikou is optional on a short stay and should be visited early if chosen.
 - Cross-checks: [Hongya Cave traveler reviews](https://www.tripadvisor.com/Attraction_Review-g294213-d1814790-Reviews-Hongya_Cave-Chongqing.html) and [TripZilla’s independent review](https://www.tripzilla.com/honest-chongqing-review-singaporean/26814).
+
+## Expanded catalog
+
+- **Three Gorges Museum** — 1½–2-hour rain plan; prioritize wartime and city-history galleries and do not expect a detailed dam museum. [2026 traveler reviews](https://www.tripadvisor.com/Attraction_Review-g294213-d2068774-Reviews-Three_Gorges_Museum-Chongqing.html)
+- **Eling Park + ridge rail trail** — pair with Liziba/Fotuguan for river geometry and a quieter viewpoint. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g294213-d1814755-Reviews-E_ling_Park-Chongqing.html)
+- **Ciqikou** — optional only before 9 a.m.; leave when the tour groups fill the retail street.
+- **Raffles Exploration Deck** — paid clear-weather option; the mall below remains skippable.
+- **Pipayuan** — spectacle rather than the best time-to-food decision.
+- **Neighborhood hotpot** — a busy room close to Jiefangbei is the default group choice.
+- **Two-morning xiaomian crawl** — plain 小面 first, pea-and-minced-pork noodles the next morning.
+- **Wanzhou grilled fish** — strongest shareable non-hotpot dinner.

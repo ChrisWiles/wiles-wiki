@@ -58,3 +58,16 @@ Official planning source: [Taipei City travel guide](https://www.travel.taipei/e
 - Beitou is the safer late-November finale. Jiufen is worth it when timed outside the midday bus crowds; it is not worth forcing in wet low cloud.
 - Raohe or Ningxia is easier to graze than Shilin. Ximending is optional unless youth retail and neon appeal to the group.
 - Cross-checks: [National Palace Museum traveler reviews](https://www.tripadvisor.com/Attraction_Review-g13806879-d321216-Reviews-National_Palace_Museum-Shilin_Taipei.html) and [Nick Kembel’s detailed Taipei itinerary](https://www.nickkembel.com/taipei-itinerary-3-days/).
+
+## Expanded catalog
+
+- **Chiang Kai-shek Memorial Hall** — 1–2 hours for the monumental square and contested modern-history context; an elevator avoids the main stairs. [2026 traveler reviews](https://www.tripadvisor.com/Attraction_Review-g13808853-d456231-Reviews-Chiang_Kai_Shek_Memorial_Hall-Zhongzheng_District_Taipei.html)
+- **Songshan Cultural and Creative Park** — design exhibitions and shops that pair naturally with Xinyi or Raohe. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g13808515-d4582979-Reviews-Songshan_Cultural_and_Creative_Park-Xinyi_District_Taipei.html)
+- **Maokong** — optional clear, calm-weather tea-hill half-day; check gondola wind closures.
+- **Huashan 1914** — flexible late-afternoon exhibitions, pop-ups and bars rather than one permanent must-see.
+- **Fuhang Soy Milk** — famous breakfast, but go at opening or use a busy neighborhood fallback.
+- **Din Tai Fung** — use digital queuing or an off-peak branch; do not accept an extreme wait.
+- **Ningxia Night Market** — compact food-first alternative for a second market night.
+- **Addiction Aquatic Development** — optional seafood lunch; some counters are standing-room.
+
+These additions preserve Thanksgiving afternoon and do not justify compressing the fixed family plan.

@@ -64,3 +64,14 @@ Fly SHA/PVG → TSA/TPE. Prefer SHA → TSA for convenience; use PVG → TPE if 
 - Visit the Ming garden for roughly 90 minutes before crowds, then leave the commercial bazaar when it stops being enjoyable.
 - Use East Nanjing Road as a connector unless shopping is the goal. Skip the Bund sightseeing tunnel and do not stack multiple paid observation decks.
 - Cross-checks: [Yu Garden’s 10,000-plus traveler reviews](https://www.tripadvisor.com/Attraction_Review-g308272-d324259-Reviews-Yu_Garden-Shanghai.html) and [Notes from China’s independent itinerary](https://notesfromchina.com/blog/shanghai-3-day-itinerary/).
+
+## Expanded catalog
+
+- **Propaganda Poster Art Centre** — focused one-hour modern-history/design stop; verify the exact current office-building entrance. [2026 traveler reviews](https://www.tripadvisor.com/Attraction_Review-g308272-d1887174-Reviews-Shanghai_Propaganda_Poster_Art_Centre-Shanghai.html)
+- **Shanghai Jewish Refugees Museum** — strong English interpretation and personal WWII stories; closed Monday on the current schedule. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g308272-d2239837-Reviews-Shanghai_Jewish_Refugees_Museum-Shanghai.html)
+- **Longhua Temple** — quieter active-temple alternative to the Yu Garden bazaar; pair with West Bund.
+- **West Bund** — choose one museum for its current exhibition, then walk the river.
+- **Old Jesse** — characterful old-school Shanghainese room; reserve through the hotel.
+- **Yang’s Fry-Dumpling** — shengjian contrast to soup dumplings; use the convenient branch.
+- **Lost Heaven** — mixed-group Yunnan dinner for atmosphere, not a Shanghai-specific meal.
+- **Meet the Bund** — optional polished Fujian seafood; establish live-tank prices before ordering.
