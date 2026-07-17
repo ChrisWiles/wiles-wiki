@@ -56,7 +56,7 @@ The Shenzhen SEZ port visa and the later 240-hour transit are two different main
 1. Hong Kong → Shenzhen → Hong Kong, same day.
 2. Hong Kong → Chongqing → Shanghai → Taipei.
 
-The first entry ends when mainland exit immigration is cleared on the return to Hong Kong. Keep any exit stamp, Hong Kong landing slip and transport receipts. Do not attempt to fly Shenzhen → Chongqing under the Shenzhen-only visa.
+The first entry ends when mainland exit immigration is cleared on the return to Hong Kong. Keep any exit stamp, Hong Kong landing slip and transport receipts. Do not attempt to fly Shenzhen → Chongqing under the Shenzhen-only visa. Current official material does not guarantee issuance to a U.S. passport and 2026 traveler reports are inconsistent, so abandon the outing if the issuing port cannot directly confirm eligibility and hours.
 
 ## Hotel-base recommendation
 

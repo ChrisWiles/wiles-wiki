@@ -11,7 +11,9 @@ tags:
 
 ### Optional Shenzhen day trip
 
-Hong Kong → Shenzhen under a Shenzhen SEZ port visa → Hong Kong the same day. Apply at Luohu or Huanggang; West Kowloon does not issue this visa. Stay inside Shenzhen municipality. On return, clear mainland exit immigration and retain the exit evidence and Hong Kong landing slip.
+Hong Kong → Shenzhen under a Shenzhen SEZ port visa → Hong Kong the same day. Apply at an eligible issuing port only after directly reconfirming its current hours and eligibility; West Kowloon does not issue this visa. Stay inside Shenzhen municipality. On return, clear mainland exit immigration and retain the exit evidence and Hong Kong landing slip.
+
+The five-day SEZ visa officially exists, but current official material does not guarantee issuance to a U.S. passport and 2026 traveler reports show both approvals and refusals. Treat the outing as expendable. A regular China visa is the only low-risk way to make Shenzhen mandatory.
 
 This outing is optional and cannot be allowed to threaten the main route. If the port visa is refused, continue the Hong Kong day.
 
