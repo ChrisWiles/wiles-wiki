@@ -16,6 +16,8 @@ Three nights, Nov 17–20. Chongqing is the 240-hour entry port and the trip’s
 | Glenview ITC Plaza | Jiefangbei | Reliable central value |
 | Regent Chongqing | Jiangbeizui | Polished river-view splurge across from Yuzhong |
 
+**Rate snapshot (Jul 17, 2026; Nov 17–20; USD; 1 room / 2 adults):** Ascott $120/night, $361 displayed total (Studio Deluxe, free cancellation, no prepayment); Glenview $77/night, $265 total including taxes and fees (Business King, free cancellation, no prepayment); Regent $201/night, $667 total (Classic Twin). Reprice before booking.
+
 ## Daily plan
 
 ### Tue Nov 17 — arrive

@@ -16,6 +16,8 @@ Four nights, Nov 25–29. Taipei is the mainland exit, the Thanksgiving stop and
 | Regent Taipei | Zhongshan | Conventional luxury near dining and Ningxia Night Market |
 | Capella Taipei | Songshan | High-design 2025 splurge; choose only if the hotel is part of the experience |
 
+**Rate snapshot (Jul 17, 2026; Nov 25–29; USD; 1 room / 2 adults):** Kimpton $327/night, $1,444 displayed total (Essential Room, bed type not guaranteed); Regent $299/night shown, $1,321 current total discounted from $1,468 (Deluxe King); Capella $694/night, $3,053 total (Superior King, breakfast, free cancellation). Reprice before booking.
+
 ## Daily plan
 
 ### Wed Nov 25 — arrive + Raohe

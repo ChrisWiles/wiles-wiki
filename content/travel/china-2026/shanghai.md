@@ -16,6 +16,8 @@ Five nights, Nov 20–25. Shanghai is the longest mainland base and the exit poi
 | Andaz Xintiandi | Xintiandi | Design alternative in the same strong base |
 | SSAW Boutique | Old City / Bund edge | Rational value option |
 
+**Rate snapshot (Jul 17, 2026; Nov 20–25; USD; 1 room / 2 adults):** Langham $285/night, $1,567 displayed total (Superior Twin, free cancellation, no prepayment); Andaz $233/night, $1,284 total (King, free cancellation); SSAW $94/night, $545 total including taxes and fees (Deluxe King, free cancellation). Reprice before booking.
+
 ## Daily plan
 
 ### Fri Nov 20 — arrive + Bund

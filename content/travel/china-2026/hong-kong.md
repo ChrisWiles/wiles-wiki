@@ -16,6 +16,8 @@ Five nights, Nov 12–17. Hong Kong is the jet-lag landing base and contains the
 | Eaton HK | Jordan | Group-value option near Kowloon food and West Kowloon |
 | Regent Hong Kong | Tsim Sha Tsui | Harbour-view statement splurge |
 
+**Rate snapshot (Jul 17, 2026; Nov 12–17; USD; 1 room / 2 adults):** Pottinger $390/night, $2,144 displayed total (Classic King, free cancellation, no prepayment); Eaton $181/night, $996 total (Nook Double, free cancellation); Regent $1,303/night, $7,165 total, with only a harbor-view Club studio suite shown. Reprice before booking.
+
 ## Daily plan
 
 ### Thu Nov 12 — arrive
