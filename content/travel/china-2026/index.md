@@ -1,111 +1,66 @@
 ---
-title: China Fall 2026
+title: Asia Fall 2026 — locked itinerary
 tags:
   - travel
   - china
+  - hong-kong
+  - taiwan
   - trip-planning
 ---
 
-Two-week **friends trip** (Chris + Kaylee + crew). **Baseline: depart Austin Thu 8 Oct 2026 · Return Thu 22 Oct 2026** — but dates are flexible across Oct–Nov, and [[routes#When to go — the dates are flexible|a November shift is recommended]] (Canton Fair, HK trade-fair hotel spikes, better weather + foliage). 13 in-country nights either way. First time in mainland China for all of us.
+Friends trip for Chris + Kaylee + crew. **Asia dates: Thu 12 Nov → Sun 29 Nov 2026.** The route is now locked:
 
-> **Status: route under decision.** Seven variants on the table — see [[routes]] for the full side-by-side. All seven fit inside the 240-hour visa-free window described below. **No L visa required for any of them.**
+> **Hong Kong (5 nights) → Chongqing (3) → Shanghai (5) → Taipei (4)**
 >
-> 📋 **[Interactive route dossier](https://chriswiles.github.io/china-2026-trip/)** — all seven routes with photos, day-by-day itineraries, TWOV clocks, restaurant booking leads, and the decision matrix on one page. (Lives in its own repo: [china-2026-trip](https://github.com/ChrisWiles/china-2026-trip).)
+> Shenzhen is a **conditional same-day outing from Hong Kong**, not a hotel stop. Attempt it only if the five-day Shenzhen Special Economic Zone port visa is issued at Luohu or Huanggang.
 
-## The 10-day rule (read this first, it shapes everything)
+📋 **[Interactive trip dossier](https://chriswiles.github.io/china-2026-trip/)** — dates, flights, hotels, daily plans, food, weather and immigration logic.
 
-The trip uses **240-hour visa-free transit (TWOV)** instead of an L tourist visa. Three things this means in practice:
+## Exact dates
 
-1. **Max 10 days on mainland.** The 240-hour clock starts 00:00 the day after we enter the mainland and we have to be out before it runs out. Any HK or Macau time doesn't count.
-2. **Trip must start in one country/region and end in a different one.** That's why every route here flows AUS → some sequence including HK and mainland → AUS. HK counts as the third region.
-3. **Onward ticket required at entry.** Mainland immigration checks for a confirmed ticket out within 240 hrs. Book a real one before showing up.
+| Dates | Base | Nights | Transfer / purpose |
+|---|---|---:|---|
+| Nov 12–17 | [[hong-kong\|Hong Kong]] | 5 | Arrival base; optional Shenzhen day trip |
+| Nov 17–20 | [[chongqing\|Chongqing]] | 3 | Direct HKG → CKG; 240-hour mainland entry |
+| Nov 20–25 | [[shanghai\|Shanghai]] | 5 | Domestic CKG → SHA/PVG |
+| Nov 25–29 | [[taipei\|Taipei]] | 4 | Mainland exit; Thanksgiving with Jen's family Nov 26 |
+| Nov 29 | Fly home | — | TPE → AUS, ideally one stop |
 
-Eligible regions include every place we'd visit: Shanghai, Zhejiang (Hangzhou, Wuzhen), Anhui (Huangshan), Fujian (Xiamen), Guangdong (Guangzhou, Shenzhen), and Hunan (Zhangjiajie — added Nov 2024). Eligible entry/exit ports include PVG (Shanghai Pudong), HKG–Mainland HSR via **West Kowloon Station** (added Nov 2025), all Shenzhen ↔ HK land crossings, and Hong Kong itself for the exit.
+To be physically in Hong Kong on Nov 12, most Austin routings require departing Nov 10 or 11. The published trip dates begin with the Hong Kong arrival.
 
-Full breakdown of the rules, regions, and ports: [[routes#TWOV primer (read this first)|routes.md → TWOV primer]].
+## Immigration structure
 
-## Why these dates
+### Entry 1 — optional Shenzhen day trip
 
-**Thu 8 Oct → Thu 22 Oct 2026** because:
-- **After Golden Week** (Oct 1–7) — China's biggest domestic-travel week. Avoiding it dodges crowds, price spikes, and full hotels.
-- **Pre-typhoon-tail / pre-cold-front** — mid-October in southern China is mild (20–25°C HK/Guangzhou daytime), and Zhejiang/Shanghai catches early fall color.
-- **AUS↔Asia cheapest month historically.** Late-October fares typically beat July–August by 25–40%.
-- **Same 13-night envelope** regardless of which route we pick.
+Hong Kong → Shenzhen under a five-day Shenzhen SEZ port visa → Hong Kong the same day. Use Luohu or Huanggang; **West Kowloon does not issue the Shenzhen VOA**. The visa permits Shenzhen municipality only. If the VOA is refused, stay in Hong Kong and continue the main itinerary unchanged.
 
-## The five route options
+### Entry 2 — main mainland trip
 
-Pick one. Each is a complete itinerary inside the same 13-night window with explicit TWOV math. Full detail at [[routes]].
+Hong Kong → Chongqing → Shanghai → Taipei under the 240-hour visa-free transit policy.
 
-| | Cities | Mainland nights | HK nights | Why pick |
-|---|---|---|---|---|
-| **A — Current plan** | HK → Guangzhou → Wuzhen → Shanghai | 9 | 4 | Food + canal-town evenings. Direct PVG→AUS exit. Lowest friction. |
-| **B — Train south** | Shanghai → Hangzhou → Huangshan → Xiamen → Shenzhen → HK | 10 | 3 | Most variety. Most train time. TWOV-tight. |
-| **C — Eastern, less rushed** | Shanghai → Hangzhou → Huangshan → Shenzhen → HK | 9 | 4 | Mountains + lake without the Xiamen detour. **Recommended train-route variant.** |
-| **D — Minimal 3-city** | Shanghai → Shenzhen → HK | 7 | 6 | Two cities, maximum HK time. Easiest to execute. |
-| **E — Zhangjiajie variant** | Shanghai → Zhangjiajie → Shenzhen → HK | 8 | 5 | Avatar peaks. Two internal flights. |
-| **F — Karst by rail** | HK → Guangzhou → Yangshuo → Guilin → Shenzhen → HK | 7 | 6 | Li River karst, zero flights, biggest TWOV buffer. **Tops the matrix.** |
-| **G — Hotpot swap** | HK → Chongqing → Wuzhen → Shanghai | 9 | 4 | Route A with Chongqing in the food slot. **The foodie pick.** |
+- Mainland entry: Nov 17
+- Clock starts: Nov 18 at 00:00
+- Planned exit Shanghai → Taipei: Nov 25
+- Ordinary deadline: Nov 27 at 23:59
+- Working buffer: about two days
 
-→ **[[routes|Open the full route comparison]]** for day-by-day tables, TWOV clocks, transport, trade-offs, and the scoring matrix.
+The confirmed Shanghai → Taipei ticket is the onward proof shown at Chongqing immigration. Hong Kong and Taiwan are treated as different regions for the policy’s transit sequence.
 
-## What to do before the trip
+## Planning pages
 
-**Cross-cutting prep — applies to every route:**
+- [[routes]] — exact daily itinerary and clock
+- [[flights]] — open-jaw long haul plus three regional flights
+- [[logistics]] — payments, connectivity, border documents and fallback planning
+- [[restaurants]] — booking targets and walk-in food
+- [[packing]] — late-November layers and rain plan
+- [[hong-kong]] · [[shenzhen]] · [[chongqing]] · [[shanghai]] · [[taipei]] — destination detail
 
-- [[logistics]] — TWOV rules (primary), L visa (fallback), arrival card, Alipay/WeChat setup, eSIM, VPN, accommodation registration
-- [[flights]] — AUS ↔ HKG/PVG routing, multi-city booking, ideal departure windows
-- [[packing]] — fall-weather packing list for mid-October
-- [[restaurants]] — cross-city restaurant index (mostly Route A, but most apply if we hit those cities)
+## Booking order
 
-**Route-specific transport:** [[transport]] covers Route A's inter-city legs (HK→GZ HSR, CAN→HGH flight, Tongxiang→SHA train). For Routes B–E, transport lives inside the [[routes]] page since it differs per variant.
-
-## Destination pages
-
-Grouped by which route they belong to — open them to plan a specific city.
-
-**Route A only:**
-- [[guangzhou]] — 3 nights · Cantonese food capital, Shamian Island, dim sum
-- [[wuzhen]] — 2 nights · canal-town stay inside Xizha West Scenic Zone
-
-**Routes A + D + E (Shanghai is in everything except B/C technically also):**
-- [[shanghai]] — 4 nights · Bund, French Concession, Pudong, xiao long bao
-
-**Routes B + C only:**
-- [[hangzhou]] — 2 nights · West Lake, Lingyin Temple, longjing tea fields
-- [[huangshan]] — 2 nights · Yellow Mountain summit, Hongcun/Xidi UNESCO villages
-
-**Route B only:**
-- [[xiamen]] — 2 nights · Gulangyu colonial island, Fujian/Hokkien coastal food
-
-**Routes B + C + D + E (the HK exit anchor):**
-- [[shenzhen]] — 1 night · Ping An Tower, modern-China contrast, HK border crossing
-
-**Route E only:**
-- [[zhangjiajie]] — 3 nights · Avatar pillar peaks, Tianmen Mountain, glass skywalk
-
-**Route F only:**
-- [[guilin]] — 4 nights · Li River karst, Yangshuo countryside, Longji rice terraces
-
-**Route G only:**
-- [[chongqing]] — 3 nights · hotpot capital, Hongya Cave nightscape, Yangtze cableway
-
-**In every route:**
-- [[hong-kong]] — 3–6 nights · Victoria Peak, Dragon's Back, dim sum, outlying islands
-
-## Rough budget (two people)
-
-Target: **$9,000–11,000 total**, mid-range boutique hotels, one splurge dinner per city. Itemized breakdown lives on [[logistics]]. Route E adds ~$800 in internal flights vs. Route A.
-
-## Booking locks (in order of lead time)
-
-Most of these apply across all routes; route-specific calls in parens.
-
-1. **The Chairman (HK)** — reservations drop **9am on the first day of the month prior to each quarter** and vanish in minutes. For a Nov trip that means the Sep 1 drop. Set an alarm. See [[restaurants]].
-2. **Flights** — book mid-Aug on Google Flights multi-city. See [[flights]].
-2. **Wuzhen guesthouse inside Xizha** — 2 months ahead, direct on en.wuzhen.com.cn. (Route A only.)
-3. **Huangshan summit hotel** (Beihai / Xihai / Paiyunlou) — 2+ months ahead, peak weekends fill first. (Routes B / C.)
-4. **Internal flights** — book 4–6 weeks ahead: CAN→HGH (Route A), PVG↔DYG↔SZX (Route E), HK→PVG one-way (Routes B/C/D/E).
-5. **Lung King Heen / T'ang Court / Fu 1088 / splurge dinners** — 2–4 weeks ahead.
-6. **HSR cross-border / mainland HSR** — book when the 15-day rail window opens.
-7. **Peak Tram / Canton Tower / observation decks / Glass Skywalk** — 1–7 days ahead based on weather.
-8. **L visa** — only if we decide TWOV won't fit. Apply 6–8 weeks before departure. See [[logistics#China L visa (fallback)]].
+1. Open-jaw AUS → HKG / TPE → AUS ticket.
+2. Refundable hotels in Central/Sheung Wan, Chaotianmen/Jiefangbei, Xintiandi and Da’an/Zhongshan.
+3. Nonstop HKG → CKG on Nov 17 and Shanghai → Taipei on Nov 25.
+4. CKG → SHA/PVG on Nov 20; prefer Hongqiao if timing is competitive.
+5. Thanksgiving plan with Jen’s family for Nov 26.
+6. Restaurant anchors: The Chairman if the release works, Fu 1088 and Mountain and Sea House.
+7. Reconfirm the exact TWOV and Shenzhen-VOA plan with NIA 12367 shortly before travel.

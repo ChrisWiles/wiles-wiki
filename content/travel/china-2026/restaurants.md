@@ -1,107 +1,60 @@
 ---
-title: Restaurant index — China 2026
+title: Restaurant shortlist — final itinerary
 tags:
   - travel
   - china
+  - taiwan
   - food
 ---
 
-Cross-city hit list, sortable mentally by "must-book ahead" vs. "walk in."
+Reserve a few anchors and leave the rest open for queues and spontaneous finds.
 
-> **Scope**: this index covers **Hong Kong, Guangzhou, Shanghai, Chongqing, and Guilin/Yangshuo** (the Route A/F/G cities). For restaurant picks in Hangzhou, Huangshan, Xiamen, Shenzhen, and Zhangjiajie, see each destination's own page — those have city-specific restaurant tables tuned to the route.
+## Book ahead
 
-## Must-book-ahead
-
-| Place | City | Lead time | Why |
-|---|---|---|---|
-| **The Chairman** | Hong Kong | **quarterly drop — 9am, first day of the month prior to each quarter** | 1 star, former Asia's 50 Best #1. The hardest table on this list; sells out in minutes. For a Nov trip: the **Sep 1** drop. Set an alarm. |
-| Lung King Heen (Four Seasons) | Hong Kong | 30 days | **2 stars**. HKD 700 + 10% min/person from Jan 2026. |
-| Ying Jee Club | Hong Kong | 1 week | 2-star Cantonese, Central |
-| T'ang Court (Langham Xintiandi) | Shanghai | 1 week | **2-star** Cantonese (upgraded in 2026 Guide); different from 3-star T'ang Court in HK |
-| Yu Yue Heen (Four Seasons Guangzhou) | Guangzhou | 1 week | 1-star Cantonese inside the hotel |
-| Fu 1088 | Shanghai | 1 week | Upscale Shanghainese in a 1930s villa, 1 star |
-| Mr. & Mrs. Bund | Shanghai | 3–5 days | Paul Pairet's long-running French brasserie, Bund view |
-
-**Previously on this list — no longer bookable:**
-- **Ultraviolet by Paul Pairet** — indefinitely closed since 29 March 2025 (construction + market conditions). Still holds 3 stars on paper but not operating.
-
-## Walk-in classics (expect queues)
-
-| Place | City | What |
+| Place | Stop | Why |
 |---|---|---|
-| Tim Ho Wan (IFC or Sham Shui Po) | Hong Kong | Dim sum. IFC is easiest from Sheung Wan; Sham Shui Po is the more classic branch experience. |
-| Kam's Roast Goose | Hong Kong | 1-star, 226 Hennessy Rd Wan Chai, 30 seats |
-| Yat Lok | Hong Kong | 1-star roast goose, 34–38 Stanley St Central |
-| Mak's Noodle | Hong Kong | Wonton noodles since 1920, 77 Wellington St Central |
-| Luk Yu Tea House / Lin Heung | Hong Kong | Classic yum cha. Check current Lin Heung branch situation closer to departure; Luk Yu is the stable fallback. |
-| Luk Yu Tea House | Hong Kong | Classic yum cha since 1933, 24–26 Stanley St. Dim sum only until 18:00. |
-| One Dim Sum | Hong Kong | 15 Playing Field Rd Prince Edward. Bib Gourmand (was 1-star 2012–13). |
-| Taotaoju | Guangzhou | Trolley dim sum since 1880, 20 Shifu Rd Shangxiajiu |
-| Lianxiang Lou | Guangzhou | Heritage dim sum since 1889, Di Shi Fu Rd |
-| Panxi | Guangzhou | Garden dim sum since 1947, 151 Longjin W Rd Liwan |
-| Bingsheng Pinwei (Haiyin) | Guangzhou | Michelin Plate modern Cantonese, 33 Dongxiao Rd Haizhu |
-| Yinji Rice Rolls | Guangzhou | Cheung fun chain, cheap + good |
-| Zhao Er Hotpot (赵二火锅) | Chongqing | Lonely Planet-blessed local institution; stronger, spicier broth. Order duck blood, fresh tripe, cilantro meatballs. Moved locations in 2025 — check Amap for current address. |
-| Any packed nine-grid (九宫格) hotpot | Chongqing | The grid separates simmer zones, not portions. Ask for 微辣 (mild) — Chongqing mild is everyone else's hot. |
-| Hole-in-the-wall xiaomian stalls | Chongqing | Morning ritual: CNY 10–15 spicy noodle bowls. Follow the office-worker queues near Jiefangbei. |
-| Jia Jia Tang Bao | Shanghai | XLB since 1986, **127 Huanghe Lu** (moved from #90 — don't be fooled by "Jia Le" at the old address) |
-| Lai Lai Xiao Long | Shanghai | Michelin Bib XLB, crab-roe. 506 Tianjin Rd. Closed 14:00–15:00. |
-| Din Tai Fung (IFC) | Shanghai | Reliable XLB, no queue anxiety |
-| Lost Heaven | Shanghai | Yunnan cuisine. FFC (38 Gaoyou Rd) or Bund branch. |
+| The Chairman | Hong Kong | Hardest table; ingredient-led Cantonese |
+| Yardbird | Hong Kong | One-star yakitori with lively group energy |
+| Fu 1088 | Shanghai | Local splurge in a 1920s townhouse |
+| Mountain and Sea House | Taipei | Refined Taiwanese heritage cooking |
 
-## Experience spots
+Thanksgiving dinner on Thu Nov 26 is with Jen’s family and is the fixed Taipei meal.
 
-| Place | City | Why |
-|---|---|---|
-| Rainbow Seafood | Hong Kong (Lamma, Sok Kwu Wan) | Whole-fish seafood lunch after the hike. Free ferry shuttle from Central & TST. |
-| Wuzhen Senior Chef Restaurant | Wuzhen | Inside the scenic zone, Jiangnan classics |
-| Gongsheng Restaurant | Wuzhen (Dongzha) | Water-town cuisine |
-| Hai Di Lao | Shanghai | Hotpot theater — noodle-dancing, manicures |
-| Hakkasan | Shanghai | Modern Cantonese at Bund18, Bund view + cocktails |
-| Ho Lee Fook | Hong Kong (SoHo, 1–5 Elgin St) | Inventive modern Cantonese, great vibe |
-| Yardbird | Hong Kong (Sheung Wan, 154–158 Wing Lok St) | Yakitori + whisky, reservations via Tock. Mon–Sat only. |
-| Temple Street dai pai dong | Hong Kong | Open-air seafood stalls at night |
+## Hong Kong
 
-## Dishes not to miss, by city
+- **Yat Lok** — roast goose with lai fun; essential casual lunch.
+- **The Chairman** — steamed flowery crab with Shaoxing wine when available.
+- **Yardbird** — meatball with tare/egg yolk, chicken oysters and skin.
+- **Mak’s Noodle / Kau Kee** — quick wonton noodles or curry beef brisket.
+- **Temple Street / dai pai dong** — one flexible open-air evening.
 
-**Hong Kong**
-- Roast goose (Kam's or Yat Lok)
-- Baked char siu bun (Tim Ho Wan)
-- Wonton noodles (Mak's)
-- Har gow + siu mai at any proper yum cha
+## Shenzhen day trip
 
-**Guangzhou**
-- Trolley dim sum — phoenix claws, shrimp dumplings, BBQ pork buns
-- Roast suckling pig at Bingsheng
-- Cheung fun (silky rice rolls) at Yinji
-- Late-night beef offal soup from a street stall
+Do not build the day around a reservation. Eat near Civic Center, UpperHills or Ping An after the museum stop, then protect time for the border return.
 
-**Wuzhen**
-- White-water fish
-- Gubei duck
-- Hongshao rou (red-braised pork belly)
-- Sanbai Wine (local triple-white rice wine)
-- Sauce-braised mutton
+## Chongqing
 
-**Shanghai**
-- Xiao long bao (Jia Jia / Lai Lai / Din Tai Fung)
-- Sheng jian bao (pan-fried pork buns) — any morning stall
-- Red-braised pork belly (Fu 1088 does it well)
-- Yunnan mushroom hotpot (Lost Heaven)
-- Crab roe anything (in season, peak in fall — **hairy crab season is Oct–Dec**, another argument for the Nov window)
+- **Peijie Old Hotpot** — central first-timer option; confirm the live branch in Amap/Dianping.
+- **Pipayuan** — giant hillside hotpot spectacle only if the group accepts the drive.
+- **Xiaomian stalls** — follow office-worker queues each morning.
+- Also target Wanzhou grilled fish, lazi chicken and sour-hot sweet-potato noodles.
 
-**Chongqing** (Route G)
-- Nine-grid hotpot (九宫格) — beef tripe, duck intestine, luncheon meat, tao-fu skin
-- Xiaomian (小面) breakfast noodles — the city's daily religion
-- Maoxuewang (毛血旺) — duck blood, tripe, and ham in chili broth
-- Wanzhou grilled fish (万州烤鱼) — late-night with beer
-- Suan la fen (酸辣粉) — sour-hot sweet-potato noodles at Ciqikou
+Order hotpot **微辣** (mild) and ask for a split pot if available. Good first orders: tripe, duck blood, goose intestine, tofu skin and cilantro meatballs.
 
-**Guilin / Yangshuo** (Route F)
-- Guilin mifen (桂林米粉) — rice noodles with pickles + peanuts, CNY 8 breakfast
-- Beer fish (啤酒鱼) — Yangshuo's signature, river fish braised in local beer; best along Xianqian Jie
-- Bamboo-tube rice (竹筒饭) and stuffed Li River snails (酿田螺)
+## Shanghai
 
-## Dietary flags (TBD)
+- **Fu 1088** — river shrimp, smoked mackerel belly, cashew-praline puff.
+- **Jia Jia Tang Bao** — 127 Huanghe Road; pork and seasonal crab-roe XLB.
+- **Lai Lai Xiao Long** — crab-roe soup dumplings at 506 Tianjin Road.
+- **Ren He Guan / Old Jesse** — Shanghainese comfort food.
+- **Mr & Mrs Bund** — one international skyline dinner if wanted.
 
-Decide before booking: seafood comfort, spice tolerance, any vegetarian meals?
+## Taipei
+
+- **Mountain and Sea House** — roast suckling pig three ways requires preparation.
+- **Raohe Night Market** — Fuzhou black-pepper bun, herbal pork-rib soup, oyster vermicelli and mochi.
+- **Din Tai Fung** — use a convenient branch rather than losing a day to a queue.
+- **Jin Feng** — braised pork rice.
+- Add one soy-milk/youtiao breakfast and one beef-noodle lunch.
+
+Current checks: [Michelin Guide](https://guide.michelin.com/) and the restaurants’ own booking channels.
