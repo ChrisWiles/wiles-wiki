@@ -12,11 +12,21 @@ Five nights, Nov 12–17. Hong Kong is the jet-lag landing base and contains the
 
 | Hotel | Area | Call |
 |---|---|---|
-| **The Pottinger** | Central | First choice: heritage boutique, walkable food, Airport Express access |
-| Eaton HK | Jordan | Group-value option near Kowloon food and West Kowloon |
+| Hotel Madera Hollywood | Central | Best exact-date value on Hong Kong Island: large twin-suite inventory, walkable evenings |
+| **The Salisbury – YMCA of Hong Kong** | Tsim Sha Tsui | Best under-cap full-service base: harbour, Star Ferry, MTR and indoor pool |
+| Eaton HK | Jordan | Exact-date group-value option near Kowloon food, West Kowloon and a rooftop pool |
+| Hotel Stage | Jordan | Compact boutique three minutes from Jordan MTR |
+| Butterfly on Wellington | Central | Central-first fallback when Madera sells out; compact rooms, excellent address |
+| The Fleming | Wan Chai | Design-led island fallback with restaurants, trams and convention-centre access |
+| The Harbourview | Wan Chai | Functional harbour/value option two minutes from the convention centre |
+| Hotel ICON | Tsim Sha Tsui East | Best amenities-led premium watchlist option if the rate stays under cap |
+| The Royal Garden | Tsim Sha Tsui East | Conventional full-service choice with rooftop pool and harbour access |
+| **The Pottinger** | Central | Heritage boutique splurge, walkable food, Airport Express access |
 | Regent Hong Kong | Tsim Sha Tsui | Harbour-view statement splurge |
 
-**Rate snapshot (Jul 17, 2026; Nov 12–17; USD; 1 room / 2 adults):** Pottinger $390/night, $2,144 displayed total (Classic King, free cancellation, no prepayment); Eaton $181/night, $996 total (Nook Double, free cancellation); Regent $1,303/night, $7,165 total, with only a harbor-view Club studio suite shown. Reprice before booking.
+**Rate snapshot (Jul 17, 2026; Nov 12–17; USD; 1 room / 2 adults):** Madera $224/night, $1,243 displayed total (Deluxe Twin Suite); Pottinger $390/night, $2,144 total (Classic King, free cancellation, no prepayment); Eaton $181/night, $996 total (Nook Double, free cancellation); Regent $1,303/night, $7,165 total, with only a harbor-view Club studio suite shown. The Salisbury, Hotel Stage, Butterfly on Wellington, The Fleming, The Harbourview, Hotel ICON and The Royal Garden are under-$250 planning targets from current public listing checks, not locked Nov 12–17 quotes. Reprice every candidate on the dated link before booking, especially around November events.
+
+**Lively-area filter:** Prioritize Madera or Butterfly for Central/SoHo, Eaton or Hotel Stage for Jordan/Temple Street, The Salisbury for Tsim Sha Tsui, and The Fleming for Wan Chai. These put dinner, bars, markets or late-night streets close to the hotel. The Harbourview, Hotel ICON and The Royal Garden are better treated as quieter hotel-and-harbour backups.
 
 ## Daily plan
 

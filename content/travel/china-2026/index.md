@@ -28,6 +28,13 @@ Friends trip for Chris + Kaylee + crew. **Asia dates: Thu 12 Nov → Sun 29 Nov 
 
 To be physically in Hong Kong on Nov 12, most Austin routings require departing Nov 10 or 11. The published trip dates begin with the Hong Kong arrival.
 
+## Why these bases fit us
+
+- **Hong Kong — Central/SoHo, Jordan/Temple Street, Tsim Sha Tsui or Wan Chai:** lively dinners, markets, harbour walks and MTR access are close to the hotel. Central is best for the Peak and old-town days; Jordan/Tsim Sha Tsui make Kowloon food, West Kowloon and the Star Ferry easy; Wan Chai adds trams and local restaurant energy.
+- **Chongqing — Jiefangbei/Yuzhong, with Chaotianmen as the apartment alternative:** the central base keeps Liberation Monument, Shibati, Hongya Cave and first-night hotpot in one useful orbit. That matters in a steep, traffic-heavy city where a distant hotel turns every outing into a transfer.
+- **Shanghai — Xintiandi/Huangpu:** restored Shikumen lanes, restaurants, cafés and nightlife sit outside the door, with Metro Lines 10 and 13 and a good balance between the Bund, Old City and French Concession.
+- **Taipei — Da’an:** neighborhood food, Yongkang Street, Da’an Park, MRT access, Xinyi and the family Thanksgiving plan are all easy to combine. It is lively enough for evenings but calm enough to be the recovery finish.
+
 ## Immigration structure
 
 ### Entry 1 — optional Shenzhen day trip

@@ -11,9 +11,15 @@ Book the trip in two layers: one protected **open-jaw long-haul** ticket and thr
 
 ## Long haul
 
-### Austin → Hong Kong — arrive Thu Nov 12
+### Austin → Hong Kong — current booking arrives Fri Nov 13
 
-No nonstop exists. Search departures on Nov 10 and Nov 11 to be in Hong Kong Nov 12. Favor a one-stop protected ticket through SFO, LAX, DFW, IAH or TPE. Optimize the long-haul cabin and connection quality before chasing the last small fare difference.
+No nonstop exists from Austin. The current booking uses the SFO → HKG long-haul leg below; confirm the Austin → San Francisco positioning timing and whether it is on the same protected reservation.
+
+### Booked segment — United UA 869
+
+**SFO → HKG, Thu Nov 12 → Fri Nov 13:** departs San Francisco at 11:45 a.m. and lands Hong Kong at 7:20 p.m. Hong Kong time. [United flight status](https://www.united.com/en/us/flightstatus/details/869/2026-11-12/SFO/HKG/UA) · [Google Flights search](https://www.google.com/travel/flights?q=UA869%20SFO%20HKG%20November%2012%202026)
+
+**Timing check:** this booked leg arrives one day later than the current dossier’s Thu Nov 12 Hong Kong arrival and Nov 12–17 hotel block. Confirm whether a separate Austin → San Francisco positioning itinerary changes that assumption before shifting hotel dates or the daily plan.
 
 ### Taipei → Austin — Sun Nov 29
 
