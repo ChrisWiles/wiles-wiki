@@ -1,12 +1,12 @@
 ---
-title: Hong Kong — 5 nights
+title: Hong Kong — 4 nights
 tags:
   - travel
   - china
   - hong-kong
 ---
 
-Five nights, Nov 12–17. Hong Kong is the jet-lag landing base and contains the optional [[shenzhen|Shenzhen day trip]].
+Four nights, Nov 13–17. Hong Kong is the jet-lag landing base and contains the optional [[shenzhen|Shenzhen day trip]].
 
 ## Where to stay
 
@@ -24,29 +24,25 @@ Five nights, Nov 12–17. Hong Kong is the jet-lag landing base and contains the
 | **The Pottinger** | Central | Heritage boutique splurge, walkable food, Airport Express access |
 | Regent Hong Kong | Tsim Sha Tsui | Harbour-view statement splurge |
 
-**Rate snapshot (Jul 17, 2026; Nov 12–17; USD; 1 room / 2 adults):** Madera $224/night, $1,243 displayed total (Deluxe Twin Suite); Pottinger $390/night, $2,144 total (Classic King, free cancellation, no prepayment); Eaton $181/night, $996 total (Nook Double, free cancellation); Regent $1,303/night, $7,165 total, with only a harbor-view Club studio suite shown. The Salisbury, Hotel Stage, Butterfly on Wellington, The Fleming, The Harbourview, Hotel ICON and The Royal Garden are under-$250 planning targets from current public listing checks, not locked Nov 12–17 quotes. Reprice every candidate on the dated link before booking, especially around November events.
+**Prior rate snapshot (Jul 17, 2026; originally checked for Nov 12–17; USD; 1 room / 2 adults):** Madera $224/night, $1,243 displayed total (Deluxe Twin Suite); Pottinger $390/night, $2,144 total (Classic King, free cancellation, no prepayment); Eaton $181/night, $996 total (Nook Double, free cancellation); Regent $1,303/night, $7,165 total, with only a harbor-view Club studio suite shown. The Salisbury, Hotel Stage, Butterfly on Wellington, The Fleming, The Harbourview, Hotel ICON and The Royal Garden are under-$250 planning targets from current public listing checks, not locked Nov 13–17 quotes. Reprice every candidate on the dated link before booking, especially around November events.
 
 **Lively-area filter:** Prioritize Madera or Butterfly for Central/SoHo, Eaton or Hotel Stage for Jordan/Temple Street, The Salisbury for Tsim Sha Tsui, and The Fleming for Wan Chai. These put dinner, bars, markets or late-night streets close to the hotel. The Harbourview, Hotel ICON and The Royal Garden are better treated as quieter hotel-and-harbour backups.
 
 ## Daily plan
 
-### Thu Nov 12 — arrive
+### Fri Nov 13 — arrive
 
-Airport Express, check in and eat close to the hotel. Do not attach timed plans to the long-haul arrival.
+UA 869 lands at 7:20 p.m. Airport Express, check in and eat close to the hotel. Do not attach timed plans to the long-haul arrival.
 
-### Fri Nov 13 — Central + Peak
+### Sat Nov 14 — Central + Peak
 
 Tai Kwun, the Mid-Levels escalator, Man Mo Temple and the Central–Sheung Wan lanes. Ride the “ding ding” tram, then take bus 15 up if the Peak Tram line is ugly. Walk Lugard Road through blue hour and take the tram down.
 
-### Sat Nov 14 — Shenzhen option
+### Sun Nov 15 — Shenzhen option
 
-Attempt the Shenzhen port visa at Luohu or Huanggang. If issued, run the compact Futian loop and return that evening. If refused, use the day for Lamma, Sham Shui Po or a slow Hong Kong neighborhood day.
+Attempt the Shenzhen port visa at Luohu or Huanggang. If issued, run the compact Futian loop and return that evening. If refused, use the day for M+, West Kowloon or a slow Hong Kong neighborhood day.
 
-### Sun Nov 15 — West Kowloon
-
-M+, waterfront, Tsim Sha Tsui and the Star Ferry around sunset.
-
-### Mon Nov 16 — outdoors
+### Mon Nov 16 — outdoors or recovery
 
 Dragon’s Back to Big Wave Bay: roughly 8 km / four hours. Wet-weather fallback: Tai Kwun, Hong Kong Palace Museum, shopping or spa.
 

@@ -8,9 +8,9 @@ tags:
   - trip-planning
 ---
 
-Friends trip for Chris + Kaylee + crew. **Asia dates: Thu 12 Nov → Sun 29 Nov 2026.** The route is now locked:
+Friends trip for Chris + Kaylee + crew. **Asia dates: Fri 13 Nov → Sun 29 Nov 2026.** The route is now locked around the booked UA 869 arrival:
 
-> **Hong Kong (5 nights) → Chongqing (3) → Shanghai (5) → Taipei (4)**
+> **Hong Kong (4 nights) → Chongqing (3) → Shanghai (5) → Taipei (4)**
 >
 > Shenzhen is a **conditional same-day outing from Hong Kong**, not a hotel stop. Attempt it only if the five-day Shenzhen Special Economic Zone port visa is issued at Luohu or Huanggang.
 
@@ -20,13 +20,13 @@ Friends trip for Chris + Kaylee + crew. **Asia dates: Thu 12 Nov → Sun 29 Nov 
 
 | Dates | Base | Nights | Transfer / purpose |
 |---|---|---:|---|
-| Nov 12–17 | [[hong-kong\|Hong Kong]] | 5 | Arrival base; optional Shenzhen day trip |
+| Nov 13–17 | [[hong-kong\|Hong Kong]] | 4 | Arrival base; optional Shenzhen day trip |
 | Nov 17–20 | [[chongqing\|Chongqing]] | 3 | Direct HKG → CKG; 240-hour mainland entry |
 | Nov 20–25 | [[shanghai\|Shanghai]] | 5 | Domestic CKG → SHA/PVG |
 | Nov 25–29 | [[taipei\|Taipei]] | 4 | Mainland exit; Thanksgiving with Jen's family Nov 26 |
 | Nov 29 | Fly home | — | TPE → AUS, ideally one stop |
 
-To be physically in Hong Kong on Nov 12, most Austin routings require departing Nov 10 or 11. The published trip dates begin with the Hong Kong arrival.
+United UA 869 arrives in Hong Kong at 7:20 p.m. on Nov 13, so the published trip now begins that evening. Keep arrival night unplanned and book Hong Kong lodging for Nov 13–17.
 
 ## Why these bases fit us
 

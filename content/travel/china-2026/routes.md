@@ -12,15 +12,14 @@ The route comparison is closed. The old comparison matrix is retired.
 
 ## Final route
 
-**Hong Kong → Chongqing → Shanghai → Taipei**, Nov 12–29, 2026. Four hotel bases, 17 hotel nights, with Shenzhen available only as a same-day Hong Kong outing if the port visa is issued.
+**Hong Kong → Chongqing → Shanghai → Taipei**, Nov 13–29, 2026. Four hotel bases, 16 hotel nights, with Shenzhen available only as a same-day Hong Kong outing if the port visa is issued.
 
 | Date | Place | Plan | Sleep |
 |---|---|---|---|
-| Thu Nov 12 | Hong Kong | Arrival, easy hotel-neighborhood dinner | HK 1/5 |
-| Fri Nov 13 | Hong Kong | Central, Tai Kwun, Peak + Lugard Road | HK 2/5 |
-| Sat Nov 14 | Shenzhen option | VOA at Luohu/Huanggang; Futian loop; return to HK | HK 3/5 |
-| Sun Nov 15 | Hong Kong | M+, West Kowloon, Star Ferry | HK 4/5 |
-| Mon Nov 16 | Hong Kong | Dragon’s Back or wet-weather recovery day | HK 5/5 |
+| Fri Nov 13 | Hong Kong | Arrival at 7:20 p.m.; easy hotel-neighborhood dinner | HK 1/4 |
+| Sat Nov 14 | Hong Kong | Central, Tai Kwun, Peak + Lugard Road | HK 2/4 |
+| Sun Nov 15 | Shenzhen option | VOA at Luohu/Huanggang; if refused, M+ and West Kowloon | HK 3/4 |
+| Mon Nov 16 | Hong Kong | Dragon’s Back or wet-weather recovery day | HK 4/4 |
 | Tue Nov 17 | Chongqing | Direct HKG → CKG; request 240-hour entry | CQ 1/3 |
 | Wed Nov 18 | Chongqing | Liziba, Shibati, Hongya Cave, hotpot | CQ 2/3 |
 | Thu Nov 19 | Chongqing | Cableway, Chaotianmen, Raffles City | CQ 3/3 |

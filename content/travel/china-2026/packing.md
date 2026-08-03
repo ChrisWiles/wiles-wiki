@@ -7,7 +7,7 @@ tags:
   - packing
 ---
 
-Seventeen hotel nights, Nov 12–29, from subtropical Hong Kong to damp/cool Chongqing and Shanghai, then mild Taipei.
+Sixteen hotel nights, Nov 13–29, from subtropical Hong Kong to damp/cool Chongqing and Shanghai, then mild Taipei.
 
 ## Expected conditions
 
