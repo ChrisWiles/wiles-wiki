@@ -54,6 +54,13 @@ Fly SHA/PVG → TSA/TPE. Prefer SHA → TSA for convenience; use PVG → TPE if 
 
 ## Practical
 
+### Hot spring and spa backup
+
+- **Dong Fang Quan Du / 东方泉都**, 2088 Wuzhong Road, is the best Shanghai water-first option. The official visitor guide describes a 76°C “Golden Spring” drawn from 1,800 meters underground, with 20 themed pools, steam baths and wellness rooms, currently 10 a.m.–10 p.m.
+- **Lian Quan Da Jiang Hu / 涟泉大江户**, 3162 Yan’an Road West, is the more atmospheric Japanese-style alternate: themed pools, rock-bath sauna, tatami lounges, massage, drinks and food. Its water is treated rather than a documented natural source.
+- Use either only if Nov 23 becomes a slow Shanghai recovery day. Never pair one with a Suzhou, Wuzhen or Hangzhou escape.
+- Research: [official Shanghai bathhouse guide](https://www.meet-in-shanghai.net/en/guide/discover-the-captivating-bathhouses-of-shanghai-553207/)
+
 - Late November commonly runs 14–19°C by day and 8–13°C at night; pack for cold rain.
 - Use Amap/Apple Maps and DiDi inside Alipay.
 - Keep the Shanghai → Taipei confirmation printed and offline.

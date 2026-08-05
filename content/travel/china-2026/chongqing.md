@@ -47,6 +47,13 @@ Ask for **微辣** (mild) and a split pot if available. Good hotpot orders inclu
 
 ## Practical
 
+### Hot spring and spa options
+
+- **Ronghui Hot Spring / 融汇温泉** is the best Chongqing choice once overnight hours are irrelevant. Shapingba’s government documents a 54°C source with more than ten natural minerals, open-air and indoor facilities, food and current hours of 10 a.m.–midnight.
+- Use Ronghui only if the Nov 19 robot visit is unavailable and the group wants a genuine spring more than Three Gorges Museum, Chaotianmen or Guanyinqiao. From Jiefangbei it is a half-day replacement.
+- **Golden Lakeside / 金色湖畔** remains the flexible-hours urban bathhouse alternate, with hot pools, saunas, rest capsules and late food. Its water is not verified as natural spring water.
+- Research: [official Ronghui details](https://www.cqspb.gov.cn/wzywb/exploreleisure/attractions/202209/t20220930_11159549.html) · [current Golden Lakeside comparison](https://www.240hoursinchina.com/en-us/chongqing/guide/24hour-spa)
+
 - Walking estimates are distorted by elevation; metro up and walk down.
 - Late November is commonly 14–18°C by day, 10–13°C at night, often misty/damp.
 - Comfortable waterproof shoes matter.

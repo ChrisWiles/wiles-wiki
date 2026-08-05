@@ -30,8 +30,8 @@ The route comparison is closed. The old comparison matrix is retired.
 | Tue Nov 24 | Shanghai | Yu Garden, Old City, final dinner | SHA 5/5 |
 | Wed Nov 25 | Taipei | Shanghai → Taipei; Raohe night market | TPE 1/4 |
 | Thu Nov 26 | Taipei | Dihua/Longshan; Thanksgiving with Jen’s family | TPE 2/4 |
-| Fri Nov 27 | Taipei | National Palace Museum, Elephant Mountain, 101 | TPE 3/4 |
-| Sat Nov 28 | Taipei | Forecast choice: Beitou or early/late Jiufen | TPE 4/4 |
+| Fri Nov 27 | Taipei | National Palace Museum, then Grand View Resort Beitou natural white-sulfur soak; music or Ningxia only if energy holds | TPE 3/4 |
+| Sat Nov 28 | Taipei | Choose one finale show, neighborhood market or flexible city day | TPE 4/4 |
 | Sun Nov 29 | In flight | TPE → AUS | — |
 
 ## TWOV clock

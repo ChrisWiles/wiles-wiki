@@ -60,6 +60,13 @@ Direct HKG → CKG. Keep the confirmed Shanghai → Taipei ticket accessible for
 
 ## Practical
 
+### Day-spa backup
+
+- **MiraSpa in Tsim Sha Tsui** is the quality, zero-detour choice. Its official day pass includes the indoor infinity pool, whirlpool, sauna, steam, aromatherapy shower and heated-waterbed lounge; treatments use the nine-room spa. Current hours are 11 a.m.–10 p.m. for treatments and 6:30 a.m.–10 p.m. for day facilities.
+- Use it for 2–3 hours if Shenzhen is canceled or Nov 16 becomes a recovery day. It should replace another museum or distant neighborhood rather than join a full schedule.
+- **Windsor Spa, Yau Ma Tei** remains the late-night bathhouse-style alternate after Temple Street, but it is less polished and uses ordinary heated water.
+- Research: [MiraSpa](https://www.themirahotel.com/hong-kong/en/wellness/) · [day pass](https://www.themirahotel.com/hong-kong/en/offer/wellness/miraspa-pool-day-pass/) · [Windsor facilities](https://www.windsor-spa.com/sauna/?lang=en)
+
 - Octopus and contactless cards cover transit and most small spending.
 - Admiralty connects directly to East Rail for the Luohu outing.
 - Peak Tram and Dragon’s Back should remain weather-sensitive.

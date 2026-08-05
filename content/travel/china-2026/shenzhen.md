@@ -36,6 +36,13 @@ Traveler cross-checks: [Lianhuashan reviews](https://www.tripadvisor.com/Attract
 
 ## Expanded catalog
 
+### Spa options
+
+- **Shui Xiang Spa at Grand Hyatt Shenzhen** is the polished day-spa choice. It is in Luohu beside MixC, minutes from the border, and currently opens 11 a.m.–midnight; call ahead for a treatment.
+- **Queen Spa / 皇室假期美食水療會** is the larger bathhouse-style alternate, with bathing, sauna, massage, food and rest floors. It is more distinctive but becomes the day’s main activity and is not a natural hot spring.
+- Use either only if the VOA is issued early. Drop part of the museum/Lianhua Hill loop and protect a generous same-day return buffer.
+- Details: [Shui Xiang official page](https://www.hyatt.com/zh-CN/spas/Shui-Xiang-spa/home) · [Queen Spa Amap](https://www.amap.com/place/B02F307GCE)
+
 - **Huaqiangbei** — protect 1½–2 hours for the component-market ecosystem; browse, do not plan a major purchase.
 - **Shenzhen Museum / urban-planning galleries** — the best explanation of the city’s one-generation transformation.
 - **Ping An Free Sky** — optional only with exceptional visibility. [Traveler reviews](https://www.tripadvisor.com/Attraction_Review-g297415-d15239653-Reviews-Ping_An_Finance_Centre_Free_Sky_116_Observation_Deck_in_Shenzhen_China-Shenzhen_.html)
