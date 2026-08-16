@@ -24,9 +24,9 @@ Three nights, Nov 17–20. Chongqing is the 240-hour entry port and the trip’s
 
 Direct HKG → CKG. Request 240-hour temporary entry with the Shanghai → Taipei ticket. Check into Yuzhong/Chaotianmen and keep the first evening easy.
 
-### Wed Nov 18 — vertical city
+### Wed Nov 18 — vertical city + sunset
 
-Ride Line 2 through Liziba, spend no more than 15 minutes at the crowded street viewpoint, continue toward Fotuguan/Eling, then work downhill through Shancheng Lane and Shibati. Reach a Hongya Cave exterior viewpoint before its 19:30 lighting rather than entering the crowded retail levels. First hotpot dinner.
+Ride Line 2 through Liziba, spend no more than 15 minutes at the crowded street viewpoint, continue toward Fotuguan/Eling, then work downhill through Shancheng Lane and Shibati. Cross to Longmenhao and choose one south-bank hillside sunset stop: Huang Yuming Barbecue for dinner or Ye Wang Tea Stall for tea. Arrive around 4:30–5 p.m. for the 5:57 p.m. sunset, then drop to Nanbin Road for blue hour only if the group still has energy. Do not stack both venues or add a show to the same evening.
 
 ### Thu Nov 19 — two rivers
 
@@ -46,6 +46,12 @@ Fly nonstop CKG → SHA/PVG. Prefer Hongqiao when timing is competitive.
 Ask for **微辣** (mild) and a split pot if available. Good hotpot orders include tripe, duck blood, goose intestine, tofu skin and cilantro meatballs.
 
 ## Practical
+
+### South-bank sunset choices
+
+- **Huang Yuming Barbecue / 黄玉明烤肉·听民谣看夜景** — open-air charcoal barbecue and skyline view. Current address: 重庆市南岸区龙门浩街道一天门街102号附1号（长丰汽修厂右拐上行40米）. Current listings show noon–midnight and roughly ¥118 per person. [Amap pin](https://www.amap.com/place/B0KUV1F64M)
+- **Ye Wang Tea Stall / 野望茶摊** — tea, snacks and a slower sunset-to-night view. Current address: 重庆市南岸区涂山路240号（一天门街清水溪健身公园向东约70米）. Current listing shows 2–10 p.m., roughly ¥74–80 per person and +86 181 0087 0019. [Apple Maps pin](https://maps.apple.com/place?address=Tushan+Road+No.240%2C+Nan%27an%2C+Chongqing+China&auid=1118671985379971&coordinate=29.557725%2C106.602758&lsp=57879&name=Ye+Wangchatan)
+- Both are in a cluster of informal hillside venues above Longmenhao. Expect a steep final 10–20-minute climb, narrow roads and weather-dependent outdoor seating. Have the hotel reconfirm the Chinese listing and call on Nov 17; choose neither if rain or mobility makes the slope unsafe.
 
 ### Hot spring and spa options
 
