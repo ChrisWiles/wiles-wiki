@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Five one-week fall 2026 trips from Austin — Vermont, Maine, Asheville, Yellowstone and Glacier — each timed to its peak window.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Peak Week 2026">
+<meta property="og:description" content="Five one-week fall 2026 trips from Austin, each timed to its peak window.">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍁</text></svg>">
+<title>Peak Week 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<style>
+:root{
+  --ground:#E9ECE4;
+  --surface:#F6F8F2;
+  --surface-2:#DFE4D8;
+  --ink:#151F19;
+  --ink-2:#3C4A41;
+  --muted:#68786C;
+  --line:#C6CFC0;
+  --line-soft:#D8DFD1;
+  --accent:#1F3A2E;
+  --accent-soft:#2F5A45;
+  --high:#B8471A;
+  --mid:#C08A11;
+  --low:#7C8F28;
+  --sea:#2A5B6E;
+  --shadow:0 1px 2px rgba(21,31,25,.06),0 8px 24px -16px rgba(21,31,25,.24);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0D1310;
+    --surface:#151E18;
+    --surface-2:#1D2A22;
+    --ink:#E5EBE2;
+    --ink-2:#BDC9BF;
+    --muted:#8B9C90;
+    --line:#28372D;
+    --line-soft:#1F2C24;
+    --accent:#87BB9C;
+    --accent-soft:#6BA184;
+    --high:#E0764A;
+    --mid:#DFAE44;
+    --low:#A8BC50;
+    --sea:#5D9AAF;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -16px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0D1310;
+  --surface:#151E18;
+  --surface-2:#1D2A22;
+  --ink:#E5EBE2;
+  --ink-2:#BDC9BF;
+  --muted:#8B9C90;
+  --line:#28372D;
+  --line-soft:#1F2C24;
+  --accent:#87BB9C;
+  --accent-soft:#6BA184;
+  --high:#E0764A;
+  --mid:#DFAE44;
+  --low:#A8BC50;
+  --sea:#5D9AAF;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -16px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:"Public Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1,h2,h3,h4{font-family:Fraunces,Georgia,"Times New Roman",serif;text-wrap:balance;margin:0}
+a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
+
+/* ---------- masthead ---------- */
+.mast{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+.eyebrow{
+  font-family:"JetBrains Mono",ui-monospace,monospace;
+  font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 20px;
+}
+.mast h1{font-size:clamp(44px,8vw,78px);line-height:.98;font-weight:600;letter-spacing:-.022em}
+.mast h1 em{font-style:italic;color:var(--accent-soft)}
+.standfirst{
+  max-width:60ch;margin:24px 0 0;font-size:19px;line-height:1.55;color:var(--ink-2);
+}
+.mast-meta{
+  display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:28px;
+  font-family:"JetBrains Mono",ui-monospace,monospace;font-size:12px;color:var(--muted);
+}
+.mast-meta span{white-space:nowrap}
+
+/* ---------- sticky nav ---------- */
+nav.jump{
+  position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb,var(--ground) 88%,transparent);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+nav.jump .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:8px;padding-bottom:8px}
+nav.jump a{
+  flex:0 0 auto;padding:6px 12px;border-radius:999px;text-decoration:none;
+  font-size:13px;font-weight:600;color:var(--ink-2);
+}
+nav.jump a:hover{background:var(--surface-2);color:var(--ink)}
+nav.jump a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+nav.jump a .k{font-family:"JetBrains Mono",monospace;color:var(--muted);margin-right:6px}
+
+section{padding:56px 0;border-bottom:1px solid var(--line-soft)}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:8px}
+.sec-head h2{font-size:clamp(26px,4vw,34px);font-weight:600;letter-spacing:-.015em}
+.sec-note{max-width:62ch;color:var(--ink-2);margin:0 0 32px}
+
+/* ---------- timing chart ---------- */
+.chart-scroll{overflow-x:auto;padding-bottom:8px}
+.chart{min-width:720px}
+.grid58{display:grid;grid-template-columns:170px repeat(58,1fr);align-items:center}
+.months{margin-bottom:6px}
+.months .m{
+  font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);
+  border-left:1px solid var(--line);padding:0 0 4px 8px;
+}
+.rowlabel{
+  font-size:13px;font-weight:500;color:var(--ink-2);padding-right:14px;
+  text-align:right;line-height:1.25;
+}
+.rowlabel small{display:block;font-size:11px;color:var(--muted);font-weight:400}
+.track{grid-column:2 / -1;grid-row:auto;height:1px;background:var(--line-soft)}
+.bar{
+  height:14px;border-radius:3px;position:relative;
+}
+.bar.high{background:var(--high)}
+.bar.mid{background:var(--mid)}
+.bar.low{background:var(--low)}
+.bar.sea{background:var(--sea)}
+.bar.shoulder{opacity:.28}
+.chartrow{
+  display:grid;grid-template-columns:170px repeat(58,1fr);align-items:center;
+  min-height:30px;
+}
+.chartrow:nth-child(even){background:color-mix(in srgb,var(--surface) 55%,transparent)}
+.tripgap{height:22px}
+.triprow{
+  display:grid;grid-template-columns:170px repeat(58,1fr);align-items:center;min-height:32px;
+}
+.tripbar{
+  height:22px;border-radius:4px;border:1.5px solid var(--accent);
+  background:color-mix(in srgb,var(--accent) 14%,transparent);
+  display:flex;align-items:center;justify-content:center;
+  font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
+  letter-spacing:.08em;color:var(--accent);
+}
+.chart-legend{
+  display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:20px;
+  font-size:12px;color:var(--muted);
+}
+.chart-legend b{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.thesis{
+  margin-top:28px;padding:18px 22px;border-left:3px solid var(--accent);
+  background:var(--surface);border-radius:0 6px 6px 0;
+  font-family:Fraunces,Georgia,serif;font-size:19px;line-height:1.45;color:var(--ink);
+}
+
+/* ---------- option cards ---------- */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:8px}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:8px;
+  padding:20px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow);
+  text-decoration:none;color:inherit;
+}
+.card:hover{border-color:var(--accent-soft)}
+.card:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.card .k{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;color:var(--muted)}
+.card h3{font-size:21px;font-weight:600;letter-spacing:-.01em;line-height:1.15}
+.card .when{
+  font-family:"JetBrains Mono",monospace;font-size:13px;font-weight:700;color:var(--accent);
+  font-variant-numeric:tabular-nums;
+}
+.card p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.5}
+.card .foot{
+  margin-top:auto;padding-top:12px;border-top:1px solid var(--line-soft);
+  display:flex;justify-content:space-between;gap:12px;
+  font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--muted);
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---------- itinerary detail ---------- */
+.trip{padding:48px 0;border-bottom:1px solid var(--line-soft)}
+.trip-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;margin-bottom:6px}
+.trip-key{
+  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;letter-spacing:.14em;
+  color:var(--ground);background:var(--accent);border-radius:4px;padding:3px 8px;
+}
+.trip-head h2{font-size:clamp(28px,4.5vw,38px);font-weight:600;letter-spacing:-.018em}
+.trip-dates{
+  font-family:"JetBrains Mono",monospace;font-size:14px;font-weight:700;color:var(--accent);
+  font-variant-numeric:tabular-nums;
+}
+.verdict{max-width:64ch;font-size:17px;color:var(--ink-2);margin:10px 0 26px}
+
+.facts{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-bottom:28px;
+}
+.fact{background:var(--surface);padding:14px 16px}
+.fact dt{
+  font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:4px;
+}
+.fact dd{margin:0;font-size:14.5px;font-weight:600;line-height:1.3;font-variant-numeric:tabular-nums}
+
+.split{display:grid;grid-template-columns:1fr;gap:32px}
+@media(min-width:820px){.split{grid-template-columns:1.35fr 1fr}}
+
+.days{list-style:none;margin:0;padding:0;position:relative}
+.days::before{
+  content:"";position:absolute;left:6px;top:10px;bottom:10px;width:1px;background:var(--line);
+}
+.days li{position:relative;padding:0 0 22px 30px}
+.days li::before{
+  content:"";position:absolute;left:0;top:8px;width:13px;height:13px;border-radius:50%;
+  background:var(--surface);border:2px solid var(--line);
+}
+.days li.hard::before{background:var(--high);border-color:var(--high)}
+.days li.easy::before{background:var(--accent);border-color:var(--accent)}
+.days .d{
+  font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);
+}
+.days h4{font-size:16.5px;font-weight:600;margin:2px 0 4px;letter-spacing:-.005em}
+.days p{margin:0;font-size:14.5px;color:var(--ink-2);line-height:1.55}
+.tag{
+  display:inline-block;font-family:"JetBrains Mono",monospace;font-size:9.5px;
+  letter-spacing:.1em;text-transform:uppercase;padding:1px 6px;border-radius:3px;
+  vertical-align:2px;margin-left:8px;
+}
+.tag.h{background:color-mix(in srgb,var(--high) 18%,transparent);color:var(--high)}
+.tag.e{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent)}
+
+aside .block{margin-bottom:26px}
+aside h5{
+  font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--muted);margin:0 0 10px;
+  padding-bottom:8px;border-bottom:1px solid var(--line);
+}
+aside ul{margin:0;padding-left:18px;font-size:14px;color:var(--ink-2);line-height:1.55}
+aside li{margin-bottom:7px}
+aside li b{color:var(--ink);font-weight:600}
+.warn{
+  background:color-mix(in srgb,var(--high) 8%,var(--surface));
+  border:1px solid color-mix(in srgb,var(--high) 30%,var(--line));
+  border-radius:6px;padding:14px 16px;font-size:14px;color:var(--ink-2);
+}
+.warn strong{color:var(--ink)}
+
+/* ---------- closing ---------- */
+.reco{
+  background:var(--surface);border:1px solid var(--line);border-radius:10px;
+  padding:28px;box-shadow:var(--shadow);
+}
+.reco h3{font-size:22px;font-weight:600;margin-bottom:8px}
+.reco p{color:var(--ink-2);margin:0 0 20px;max-width:66ch}
+.reco p:last-child{margin-bottom:0}
+.checklist{list-style:none;margin:0;padding:0;counter-reset:c}
+.checklist li{
+  counter-increment:c;position:relative;padding:12px 0 12px 44px;
+  border-top:1px solid var(--line-soft);font-size:15px;color:var(--ink-2);
+}
+.checklist li:first-child{border-top:0}
+.checklist li::before{
+  content:counter(c);position:absolute;left:0;top:12px;
+  width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--ground);
+  font-family:"JetBrains Mono",monospace;font-size:12px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+}
+.checklist li b{color:var(--ink)}
+
+footer{padding:44px 0 72px;color:var(--muted);font-size:13px}
+footer p{max-width:70ch;margin:0 0 10px}
+
+@media (prefers-reduced-motion:no-preference){
+  .card{transition:border-color .18s ease,transform .18s ease}
+  .card:hover{transform:translateY(-2px)}
+}
+</style>
+</head>
+<body>
+
+
+<header class="mast">
+  <div class="wrap">
+    <p class="eyebrow">Trip planning · Austin · Autumn 2026</p>
+    <h1>Peak week is the<br><em>whole decision</em></h1>
+    <p class="standfirst">Five one-week trips, each built the same way: hike hard for the first half, downshift for the second. Every one of these places is ordinary two weeks off-peak and extraordinary inside its window — so the calendar comes first and the destination follows.</p>
+    <div class="mast-meta">
+      <span>7 nights each</span>
+      <span>Departs AUS</span>
+      <span>Researched 19 Aug 2026</span>
+      <span>Nothing booked</span>
+    </div>
+  </div>
+</header>
+
+<nav class="jump">
+  <div class="wrap">
+    <a href="#timing">Timing</a>
+    <a href="#options">All five</a>
+    <a href="#a"><span class="k">A</span>Vermont</a>
+    <a href="#b"><span class="k">B</span>Maine</a>
+    <a href="#c"><span class="k">C</span>Asheville</a>
+    <a href="#d"><span class="k">D</span>Yellowstone</a>
+    <a href="#e"><span class="k">E</span>Glacier</a>
+    <a href="#call">The call</a>
+  </div>
+</nav>
+
+<section id="timing">
+  <div class="wrap">
+    <div class="sec-head"><h2>When each place is actually good</h2></div>
+    <p class="sec-note">Color runs south and downhill through the season, and the western parks run on closures rather than leaves. Solid bars are peak; faded ends are the shoulder. The bracketed weeks below are the dates each itinerary is built around.</p>
+
+    <div class="chart-scroll">
+      <div class="chart">
+        <div class="grid58 months">
+          <div></div>
+          <div class="m" style="grid-column:2 / 28">September</div>
+          <div class="m" style="grid-column:28 / 59">October</div>
+        </div>
+
+        <div class="chartrow"><div class="rowlabel">Glacier<small>hiking window</small></div><div class="bar low" style="grid-column:2 / 23"></div><div class="bar low shoulder" style="grid-column:23 / 39"></div></div>
+        <div class="chartrow"><div class="rowlabel">Yellowstone + Tetons<small>elk rut, aspen gold</small></div><div class="bar mid" style="grid-column:12 / 32"></div><div class="bar mid shoulder" style="grid-column:32 / 38"></div></div>
+        <div class="chartrow"><div class="rowlabel">White Mountains, NH<small>notches, 2–4,000 ft</small></div><div class="bar high" style="grid-column:25 / 35"></div></div>
+        <div class="chartrow"><div class="rowlabel">Northern Vermont<small>Stowe, Mansfield, NEK</small></div><div class="bar high" style="grid-column:28 / 37"></div></div>
+        <div class="chartrow"><div class="rowlabel">Central + south VT<small>Mad River, Woodstock</small></div><div class="bar high" style="grid-column:35 / 45"></div></div>
+        <div class="chartrow"><div class="rowlabel">Maine coast<small>Acadia, Camden</small></div><div class="bar sea" style="grid-column:37 / 49"></div></div>
+        <div class="chartrow"><div class="rowlabel">NC balds, 5,000 ft+<small>Black Balsam, Pisgah</small></div><div class="bar high" style="grid-column:25 / 37"></div></div>
+        <div class="chartrow"><div class="rowlabel">Blue Ridge Parkway<small>3–5,000 ft</small></div><div class="bar mid" style="grid-column:35 / 49"></div></div>
+        <div class="chartrow"><div class="rowlabel">Asheville + Biltmore<small>2,100 ft</small></div><div class="bar low" style="grid-column:45 / 59"></div></div>
+
+        <div class="tripgap"></div>
+
+        <div class="triprow"><div class="rowlabel">Glacier</div><div class="tripbar" style="grid-column:9 / 17">E · SEP 12–19</div></div>
+        <div class="triprow"><div class="rowlabel">Yellowstone</div><div class="tripbar" style="grid-column:16 / 24">D · SEP 19–26</div></div>
+        <div class="triprow"><div class="rowlabel">Vermont + NH</div><div class="tripbar" style="grid-column:29 / 37">A · OCT 2–9</div></div>
+        <div class="triprow"><div class="rowlabel">Maine</div><div class="tripbar" style="grid-column:40 / 48">B · OCT 13–20</div></div>
+        <div class="triprow"><div class="rowlabel">Asheville</div><div class="tripbar" style="grid-column:41 / 49">C · OCT 14–21</div></div>
+      </div>
+    </div>
+
+    <div class="chart-legend">
+      <span><b style="background:var(--high)"></b>Maple &amp; hardwood peak</span>
+      <span><b style="background:var(--mid)"></b>Mixed / aspen</span>
+      <span><b style="background:var(--low)"></b>Larch, oak &amp; valley floor</span>
+      <span><b style="background:var(--sea)"></b>Coastal</span>
+      <span><b style="border:1.5px solid var(--accent);background:transparent"></b>Proposed week</span>
+    </div>
+
+    <p class="thesis">Forecast bands run roughly ±10 days. Every week below is the statistically best bet, not a promise — check the maps in mid-September and be willing to slide four days either way.</p>
+  </div>
+</section>
+
+<section id="options">
+  <div class="wrap">
+    <div class="sec-head"><h2>The five</h2></div>
+    <p class="sec-note">Costs are planning estimates for two people, all in, unverified.</p>
+    <div class="cards">
+      <a class="card" href="#a">
+        <span class="k">Option A · recommended</span>
+        <h3>Vermont + White Mountains</h3>
+        <span class="when">Fri 2 → Fri 9 Oct</span>
+        <p>The most reliable, most saturated color of the five. Franconia Ridge on day two, a Stowe spa on day six, nonstop both ways, and out before Columbus Day.</p>
+        <div class="foot"><span>AUS→BOS nonstop</span><span>$4.3–6.9k</span></div>
+      </a>
+      <a class="card" href="#b">
+        <span class="k">Option B</span>
+        <h3>Maine coast + Acadia</h3>
+        <span class="when">Tue 13 → Tue 20 Oct</span>
+        <p>Color plus ocean. Iron-rung cliff climbs on granite domes, then Camden and Portland — the best eating week of the five.</p>
+        <div class="foot"><span>AUS→BOS + 3h drive</span><span>$4.3–7.1k</span></div>
+      </a>
+      <a class="card" href="#c">
+        <span class="k">Option C · cheapest</span>
+        <h3>Asheville + Blue Ridge</h3>
+        <span class="when">Wed 14 → Wed 21 Oct</span>
+        <p>Warmest weather and the most forgiving timing — color descends 1,000 ft a week, so something is always peaking somewhere on the ladder.</p>
+        <div class="foot"><span>AUS→CLT + 2h drive</span><span>$3.8–6.4k</span></div>
+      </a>
+      <a class="card" href="#d">
+        <span class="k">Option D · September</span>
+        <h3>Yellowstone + Grand Teton</h3>
+        <span class="when">Sat 19 → Sat 26 Sep</span>
+        <p>Not a foliage trip. Elk rut at full volume, crowds down 40% after Labor Day, geyser basins steaming in cold morning air, and a hot spring to finish.</p>
+        <div class="foot"><span>AUS→BZN Sat nonstop</span><span>$5.0–7.9k</span></div>
+      </a>
+      <a class="card" href="#e">
+        <span class="k">Option E · September</span>
+        <h3>Glacier</h3>
+        <span class="when">Sat 12 → Sat 19 Sep</span>
+        <p>The best hiking of the five by a wide margin. No vehicle reservations in 2026, and a brand-new Saturday nonstop from Austin lands 40 minutes from the park.</p>
+        <div class="foot"><span>AUS→FCA Sat nonstop</span><span>$4.5–7.3k</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<article class="trip" id="a">
+  <div class="wrap">
+    <div class="trip-head">
+      <span class="trip-key">A</span>
+      <h2>Vermont + White Mountains</h2>
+      <span class="trip-dates">Fri 2 → Fri 9 Oct</span>
+    </div>
+    <p class="verdict">Two hard trail days in the New Hampshire notches while they peak, then four nights in Vermont as the color arrives there — villages, cider, a gondola instead of a climb. Nothing needs a reservation except the beds.</p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Flights</dt><dd>AUS ⇄ BOS nonstop<br><span style="font-weight:400;font-size:13px;color:var(--muted)">Delta / JetBlue / Southwest, 4h05</span></dd></div>
+      <div class="fact"><dt>Bases</dt><dd>Franconia 3n<br>Stowe 4n</dd></div>
+      <div class="fact"><dt>Driving</dt><dd>~450 mi</dd></div>
+      <div class="fact"><dt>Estimate, two</dt><dd>$4,250–6,900</dd></div>
+    </dl>
+
+    <div class="split">
+      <ol class="days">
+        <li><span class="d">Fri · Day 1</span><h4>Land, drive the notch</h4><p>Boston 12:28, north on I-93. Sugar Hill at golden hour for the first big view — a five-minute walk, not a hike. Dinner in Littleton.</p></li>
+        <li class="hard"><span class="d">Sat · Day 2</span><h4>Franconia Ridge Loop<span class="tag h">Hard</span></h4><p>8.6 mi, 3,900 ft, 6–8 hours. A mile and a half above treeline looking <em>down</em> on the color. Be in the Lafayette lot by 06:30 — it fills by seven.</p></li>
+        <li class="hard"><span class="d">Sun · Day 3</span><h4>Kancamagus + Mount Willard<span class="tag h">Hard</span></h4><p>The classic foliage highway east, then 3.2 mi to a cliff edge above Crawford Notch. Mount Washington Auto Road if the summits are clear.</p></li>
+        <li><span class="d">Mon · Day 4</span><h4>Cross into Vermont slowly</h4><p>Route 302 to St. Johnsbury, then Peacham — the most photographed village in the state. Stowe Pinnacle at day's end to stretch out the drive.</p></li>
+        <li class="hard"><span class="d">Tue · Day 5</span><h4>Camel's Hump or Mansfield<span class="tag h">Hard</span></h4><p>Mansfield via Sunset Ridge, 6.6 mi and 2,550 ft to the state high point — or Camel's Hump, shorter and steeper with no ski infrastructure on top.</p></li>
+        <li class="easy"><span class="d">Wed · Day 6</span><h4>Smugglers' Notch, then stop<span class="tag e">Easy</span></h4><p>A one-lane squeeze between boulders, open only in the warm months. Afternoon spa at Topnotch or Spruce Peak. This is where the trip changes gear.</p></li>
+        <li class="easy"><span class="d">Thu · Day 7</span><h4>Mad River Valley<span class="tag e">Easy</span></h4><p>Route 100 south through Waitsfield and Warren, the covered bridge, Moss Glen Falls thirty seconds from the car. Last dinner at Hen of the Wood.</p></li>
+        <li><span class="d">Fri · Day 8</span><h4>Home via Woodstock</h4><p>Stowe to Logan is 3h30, or 4h30 through Woodstock and Quechee Gorge — worth the hour on an evening flight.</p></li>
+      </ol>
+
+      <aside>
+        <div class="block">
+          <h5>Why this week</h5>
+          <ul>
+            <li><b>White Mountains</b> peak ~28 Sep – 8 Oct</li>
+            <li><b>Northern Vermont</b> peaks first week of October; Essex County ~4 Oct</li>
+            <li><b>Statewide VT average</b> ~9 Oct</li>
+            <li>Home Fri 9 Oct — <b>ahead of Columbus Day weekend</b>, the worst traffic and rates of the year</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h5>Sleep</h5>
+          <ul>
+            <li><b>Sugar Hill Inn</b> — best in the notch, books out</li>
+            <li><b>Mountain Club on Loon</b> — pragmatic, pool</li>
+            <li><b>Field Guide, Stowe</b> — design-forward, good value</li>
+            <li><b>Lodge at Spruce Peak</b> — the spa finish</li>
+          </ul>
+        </div>
+        <div class="warn"><strong>Watch the drought.</strong> A warm, dry New England summer can mute color and drop leaves early. Re-check the foliage maps in mid-September; if the north is running fast, move the whole week four days earlier.</div>
+      </aside>
+    </div>
+  </div>
+</article>
+
+<article class="trip" id="b">
+  <div class="wrap">
+    <div class="trip-head">
+      <span class="trip-key">B</span>
+      <h2>Maine coast + Acadia</h2>
+      <span class="trip-dates">Tue 13 → Tue 20 Oct</span>
+    </div>
+    <p class="verdict">Granite domes falling straight into the Atlantic. The hiking here is short and vertical — iron rungs bolted into cliffs rather than long ridge walks — and the back half unwinds south through Camden into Portland.</p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Flights</dt><dd>AUS ⇄ BOS nonstop<br><span style="font-weight:400;font-size:13px;color:var(--muted)">no AUS→PWM nonstop exists</span></dd></div>
+      <div class="fact"><dt>Bases</dt><dd>Portland 1n · Bar Harbor 4n<br>Camden 1n · Portland 1n</dd></div>
+      <div class="fact"><dt>Driving</dt><dd>~600 mi</dd></div>
+      <div class="fact"><dt>Estimate, two</dt><dd>$4,300–7,100</dd></div>
+    </dl>
+
+    <div class="split">
+      <ol class="days">
+        <li><span class="d">Tue · Day 1</span><h4>Boston to Portland</h4><p>Two hours north, straight into the Old Port. Eventide for the brown-butter lobster roll, or Fore Street if you want the serious version.</p></li>
+        <li><span class="d">Wed · Day 2</span><h4>Up to Mount Desert Island</h4><p>Three hours, then orient: Ocean Path past Thunder Hole, Great Head for the first scramble, sunset at Bass Harbor Head Light.</p></li>
+        <li class="hard"><span class="d">Thu · Day 3</span><h4>Cadillac sunrise, then the rungs<span class="tag h">Hard</span></h4><p>From October, Cadillac is the first place in the country to see sunrise. Then the Beehive (1.5 mi of exposed iron rungs) and Precipice if it's open.</p></li>
+        <li class="hard"><span class="d">Fri · Day 4</span><h4>Penobscot &amp; Sargent<span class="tag h">Hard</span></h4><p>6 mi and 1,500 ft off Jordan Pond over the island's second summit — far quieter than Cadillac. Popovers after, or 11 mi of carriage road by bike.</p></li>
+        <li class="hard"><span class="d">Sat · Day 5</span><h4>The quiet side<span class="tag h">Hard</span></h4><p>Beech Mountain and the western half, which sees a fraction of the traffic. Lobster off a dock in Bass Harbor rather than off a menu.</p></li>
+        <li class="easy"><span class="d">Sun · Day 6</span><h4>South to Camden<span class="tag e">Easy</span></h4><p>Mount Battie by car or on foot for the view over Penobscot Bay, then the Farnsworth in Rockland for the Wyeths.</p></li>
+        <li class="easy"><span class="d">Mon · Day 7</span><h4>The long slow coast<span class="tag e">Easy</span></h4><p>Rockland's mile-long granite breakwater, Wiscasset, Freeport. Back to Portland for the final dinner.</p></li>
+        <li><span class="d">Tue · Day 8</span><h4>Home</h4><p>Portland Head Light and The Holy Donut, then two hours to Logan.</p></li>
+      </ol>
+
+      <aside>
+        <div class="block">
+          <h5>Why this week</h5>
+          <ul>
+            <li><b>Coastal Maine peaks 10–20 Oct</b> — later than Vermont, and roughly two weeks later than it did in 1950</li>
+            <li>Arriving Tue 13 Oct lands <b>the day the Columbus Day crowds leave</b>, straight into peak</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h5>Reserve</h5>
+          <ul>
+            <li><b>Cadillac Summit Road, $6/vehicle</b> — required through 25 Oct, Recreation.gov only. The 90-day release is gone; 70% drops at <b>10:00 EST two days prior</b> and sells out in minutes.</li>
+            <li>Bar Harbor lodging — confirm it's <b>open that late</b></li>
+          </ul>
+        </div>
+        <div class="warn"><strong>October 15 is a cliff on Mount Desert Island.</strong> Assume the free Island Explorer shuttle has stopped, and verify every inn, restaurant, and boat individually. You'll be driving and parking yourself — fine in late October, when the lots are no longer full.</div>
+      </aside>
+    </div>
+  </div>
+</article>
+
+<article class="trip" id="c">
+  <div class="wrap">
+    <div class="trip-head">
+      <span class="trip-key">C</span>
+      <h2>Asheville + Blue Ridge Parkway</h2>
+      <span class="trip-dates">Wed 14 → Wed 21 Oct</span>
+    </div>
+    <p class="verdict">The only option where hike-hard-then-relax maps onto geography instead of willpower. Color descends about 1,000 vertical feet a week, so you start high in the balds at their peak and end in Asheville as color arrives in town.</p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Flights</dt><dd>AUS → CLT nonstop + 2h05<br><span style="font-weight:400;font-size:13px;color:var(--muted)">AVL nonstop is ~2×/week</span></dd></div>
+      <div class="fact"><dt>Bases</dt><dd>Waynesville 3n<br>Asheville 4n</dd></div>
+      <div class="fact"><dt>Driving</dt><dd>~500 mi</dd></div>
+      <div class="fact"><dt>Estimate, two</dt><dd>$3,750–6,350</dd></div>
+    </dl>
+
+    <div class="split">
+      <ol class="days">
+        <li><span class="d">Wed · Day 1</span><h4>Straight past Asheville</h4><p>Charlotte, then I-40 west to Waynesville. On the Parkway before dark for sunset near Mount Pisgah.</p></li>
+        <li class="hard"><span class="d">Thu · Day 2</span><h4>Black Balsam and the balds<span class="tag h">Hard</span></h4><p>The best day of the trip. Grassy open summits at 6,000 ft — you see the whole range of color instead of looking at it through trunks. Add Graveyard Fields and Devil's Courthouse.</p></li>
+        <li class="hard"><span class="d">Fri · Day 3</span><h4>Looking Glass Rock<span class="tag h">Hard</span></h4><p>6.5 mi and 1,700 ft of switchbacks to a bare granite dome. Or drive to Max Patch for an Appalachian Trail bald with 1.5 mi of walking.</p></li>
+        <li class="hard"><span class="d">Sat · Day 4</span><h4>Smokies, then into town<span class="tag h">Hard</span></h4><p>Newfound Gap by 08:00, Kuwohi and Andrews Bald. Then east to Asheville for the second half.</p></li>
+        <li class="easy"><span class="d">Sun · Day 5</span><h4>Biltmore and downtown<span class="tag e">Easy</span></h4><p>Half a day minimum — the house, then Olmsted's last major landscape, which is engineered for exactly this week. Cúrate for dinner, booked weeks out.</p></li>
+        <li class="easy"><span class="d">Mon · Day 6</span><h4>Do very little<span class="tag e">Easy</span></h4><p>Shoji Retreat's outdoor soaking tubs, apple orchards down in Hendersonville, and a brewery afternoon. Or the Grove Park terrace at sunset.</p></li>
+        <li class="easy"><span class="d">Tue · Day 7</span><h4>One more Parkway run<span class="tag e">Easy</span></h4><p>Color has dropped a thousand feet since Thursday. Waterrock Knob at MP 451 is the best sunset on the whole road.</p></li>
+        <li><span class="d">Wed · Day 8</span><h4>Home</h4><p>Two hours back to Charlotte, or the short hop from AVL.</p></li>
+      </ol>
+
+      <aside>
+        <div class="block">
+          <h5>The elevation ladder</h5>
+          <ul>
+            <li><b>6,000 ft+</b> — mid-to-late September</li>
+            <li><b>5,000 ft</b> — first week of October</li>
+            <li><b>4–5,000 ft</b> — second week</li>
+            <li><b>3–4,000 ft</b> — third week</li>
+            <li><b>Asheville, 2,100 ft</b> — fourth week</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h5>Shift later?</h5>
+          <ul>
+            <li><b>21–28 Oct</b> puts Biltmore and downtown at their absolute best — but the balds will be bare sticks by then.</li>
+          </ul>
+        </div>
+        <div class="warn"><strong>Parkway repairs are still uneven.</strong> South of Asheville (MP 382 to Cherokee) is fully open, and this whole itinerary lives there deliberately. North of MP 382 toward Mount Mitchell is an active construction corridor — dump trucks, a 35 mph limit, and sections not due to reopen until late 2026.</div>
+      </aside>
+    </div>
+  </div>
+</article>
+
+<article class="trip" id="d">
+  <div class="wrap">
+    <div class="trip-head">
+      <span class="trip-key">D</span>
+      <h2>Yellowstone + Grand Teton</h2>
+      <span class="trip-dates">Sat 19 → Sat 26 Sep</span>
+    </div>
+    <p class="verdict">Not a foliage trip — a wildlife and geology trip that happens to have gold aspens in it. Late September is the best week of the year in Yellowstone: the elk rut at full volume, visitor numbers down 40% after Labor Day, and everything still open.</p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Flights</dt><dd>AUS ⇄ BZN nonstop<br><span style="font-weight:400;font-size:13px;color:var(--muted)">Delta, <b>Saturdays only</b></span></dd></div>
+      <div class="fact"><dt>Bases</dt><dd>W. Yellowstone 1n · Jackson 3n<br>Canyon 1n · Paradise Valley 2n</dd></div>
+      <div class="fact"><dt>Driving</dt><dd>~900 mi</dd></div>
+      <div class="fact"><dt>Estimate, two</dt><dd>$4,950–7,900</dd></div>
+    </dl>
+
+    <div class="split">
+      <ol class="days">
+        <li><span class="d">Sat · Day 1</span><h4>The Gallatin Canyon</h4><p>Two hours south from Bozeman along a river gorge the whole way. Early night — you're at 6,600 ft now and will feel it.</p></li>
+        <li><span class="d">Sun · Day 2</span><h4>Geyser basins, cold morning</h4><p>Every thermal feature throws steam in September air. Grand Geyser beats Old Faithful if you can time it. Fairy Falls trail to the Grand Prismatic overlook — the only way to actually see its colors.</p></li>
+        <li class="hard"><span class="d">Mon · Day 3</span><h4>Cascade Canyon<span class="tag h">Hard</span></h4><p>Jenny Lake boat to Inspiration Point, then up a glacial U between 12,000-ft walls with moose in the willows. Verify the boat is still running.</p></li>
+        <li class="hard"><span class="d">Tue · Day 4</span><h4>Delta Lake<span class="tag h">Hard</span></h4><p>8 mi, 2,300 ft, ending in an unmaintained boulder scramble to a lake the color of antifreeze directly under the Grand. Dawn at Oxbow Bend first.</p></li>
+        <li class="hard"><span class="d">Wed · Day 5</span><h4>North through the park<span class="tag h">Hard</span></h4><p>Hayden Valley bison, the Grand Canyon of the Yellowstone, and Mount Washburn if there's another summit in you.</p></li>
+        <li><span class="d">Thu · Day 6</span><h4>Lamar Valley and Mammoth</h4><p>Pre-dawn for wolves — find the tripods, talk to those people. Then elk bugling on the lawns at Mammoth, which in rut week means keeping real distance.</p></li>
+        <li class="easy"><span class="d">Fri · Day 7</span><h4>Chico Hot Springs<span class="tag e">Easy</span></h4><p>Two open-air mineral pools at a 1900 lodge, mountains on every side. The dining room is the best food within fifty miles. Or float the Yellowstone for trout.</p></li>
+        <li><span class="d">Sat · Day 8</span><h4>Home</h4><p>Chico to Bozeman is 75 minutes, with Livingston on the way for a last coffee.</p></li>
+      </ol>
+
+      <aside>
+        <div class="block">
+          <h5>Why September</h5>
+          <ul>
+            <li><b>Elk rut peaks mid-Sep to early Oct</b> — Mammoth, Madison Junction, Gibbon Meadows</li>
+            <li><b>Crowds drop 40%</b> after Labor Day (Mon 7 Sep)</li>
+            <li>Highs 58–67 °F late month, <b>lows below freezing</b></li>
+            <li>Roosevelt Lodge closed 7 Sep; other in-park lodges start closing late September</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h5>Altitude</h5>
+          <ul>
+            <li>Austin sits at 500 ft. Jackson is 6,200, trailheads 6,700, Delta Lake near 9,000.</li>
+            <li>Days 1–2 are deliberately easy so the big hikes land on acclimatised legs.</li>
+          </ul>
+        </div>
+        <div class="warn"><strong>The Saturday nonstop sets the dates.</strong> Delta's AUS→BZN service launched 13 June 2026 and runs Saturdays only, seasonally. Confirm it still operates on 19 and 26 September before booking anything else — otherwise connect through Salt Lake or Denver.</div>
+      </aside>
+    </div>
+  </div>
+</article>
+
+<article class="trip" id="e">
+  <div class="wrap">
+    <div class="trip-head">
+      <span class="trip-key">E</span>
+      <h2>Glacier</h2>
+      <span class="trip-dates">Sat 12 → Sat 19 Sep</span>
+    </div>
+    <p class="verdict">The best hiking of the five, without much argument. Going-to-the-Sun Road gets driven as a transfer rather than a day trip, so you cross the best road in America with your luggage in the back and never repeat it.</p>
+
+    <dl class="facts">
+      <div class="fact"><dt>Flights</dt><dd>AUS ⇄ FCA nonstop, 3h55<br><span style="font-weight:400;font-size:13px;color:var(--muted)">Delta, <b>Saturdays only</b></span></dd></div>
+      <div class="fact"><dt>Bases</dt><dd>West Glacier 3n · Many Glacier 2n<br>Whitefish 2n</dd></div>
+      <div class="fact"><dt>Airport to park</dt><dd>40 minutes</dd></div>
+      <div class="fact"><dt>Estimate, two</dt><dd>$4,500–7,250</dd></div>
+    </dl>
+
+    <div class="split">
+      <ol class="days">
+        <li><span class="d">Sat · Day 1</span><h4>Lake McDonald</h4><p>Easy first day at altitude: the cedar boardwalk out to Avalanche Lake, 4.5 mi to a bowl ringed with waterfalls. Sunset from the Apgar dock.</p></li>
+        <li class="hard"><span class="d">Sun · Day 2</span><h4>Highline Trail<span class="tag h">Hard</span></h4><p>The signature hike — the Continental Divide with a hundred-mile view and a hand cable bolted into the ledge. Add the Grinnell Glacier Overlook spur if legs allow.</p></li>
+        <li class="hard"><span class="d">Mon · Day 3</span><h4>Two Medicine<span class="tag h">Hard</span></h4><p>The park's quietest corner and its best aspen stands. Scenic Point, 7.4 mi and 2,300 ft, or the boat to Upper Two Medicine Lake.</p></li>
+        <li><span class="d">Tue · Day 4</span><h4>Over the Sun Road</h4><p>West to east: The Loop, Bird Woman Falls, the Weeping Wall, Logan Pass, Wild Goose Island. Walk Hidden Lake Overlook — mountain goats basically guaranteed.</p></li>
+        <li class="hard"><span class="d">Wed · Day 5</span><h4>Grinnell Glacier<span class="tag h">Hard</span></h4><p>Three lakes, each a more impossible turquoise than the last, up to a glacier and an iceberg tarn. 10.6 mi, or 7.6 with the two boats.</p></li>
+        <li><span class="d">Thu · Day 6</span><h4>Iceberg Lake, then west</h4><p>9.7 mi but surprisingly gentle for the payoff — or a slow breakfast on the Many Glacier deck instead. Whitefish by evening.</p></li>
+        <li class="easy"><span class="d">Fri · Day 7</span><h4>Whitefish, deliberately idle<span class="tag e">Easy</span></h4><p>A real town rather than a gateway strip. The lake, the gondola if you want a summit without walking, a spa afternoon, larch on the Hungry Horse loop.</p></li>
+        <li><span class="d">Sat · Day 8</span><h4>Home</h4><p>Thirty minutes to the airport. The easiest departure of all five options.</p></li>
+      </ol>
+
+      <aside>
+        <div class="block">
+          <h5>What's new in 2026</h5>
+          <ul>
+            <li><b>No vehicle reservations at all</b> — the system was dropped this year</li>
+            <li><b>Three-hour parking limit at Logan Pass</b>, plus a new ticketed Logan Pass Shuttle for Highline hikers</li>
+            <li>Many Glacier construction is <b>finished</b>; none anticipated this season</li>
+          </ul>
+        </div>
+        <div class="block">
+          <h5>The week trade-off</h5>
+          <ul>
+            <li><b>12–19 Sep</b> — everything open, shuttles running, low snow risk, color barely starting</li>
+            <li><b>19–26 Sep</b> — larch and aspen turning, emptiest trails, but lodges closing and snow possible on Logan Pass</li>
+            <li>If Glacier is the <em>hiking</em> trip and Vermont is the <em>fall</em> trip, take the earlier week and don't compromise the hiking.</li>
+          </ul>
+        </div>
+        <div class="warn"><strong>Bears.</strong> The Many Glacier valley has high grizzly activity, and September is hyperphagia season — they're feeding hard before denning. Spray on the belt, not in the pack, and check trail status at the ranger station each morning.</div>
+      </aside>
+    </div>
+  </div>
+</article>
+
+<section id="call">
+  <div class="wrap">
+    <div class="sec-head"><h2>The call</h2></div>
+    <div class="reco">
+      <h3>If you pick one: Vermont, 2–9 October</h3>
+      <p>Most reliable color, cleanest flights, the best hard-then-easy structure — Franconia Ridge on the Saturday, a Stowe spa by the Wednesday — and almost nothing to reserve beyond beds. It also gets you home before Columbus Day weekend.</p>
+      <h3>If you pick two: add Glacier, 12–19 September</h3>
+      <p>They don't compete. September Montana and October New England are different trips in different seasons, and the new Saturday nonstop to Kalispell makes Glacier unusually easy to reach from Austin this year. Glacier is the better hiking; Vermont is the better fall.</p>
+      <h3>Calendar reality</h3>
+      <p>Asia is locked for 13–29 November. One September trip plus one October trip means roughly five weeks away between mid-September and the end of November — workable, with two clear weeks between each leg. Three trips stacks a mid-October return against a 13 November long-haul.</p>
+    </div>
+
+    <h3 style="margin:36px 0 4px;font-size:20px">Book in this order</h3>
+    <ol class="checklist">
+      <li><b>Lodging.</b> Peak-week inventory in Stowe, Bar Harbor, Many Glacier and Jackson is already thin in August; the best properties go 6–12 months out.</li>
+      <li><b>Rental cars.</b> Every one of these is car-dependent, and Kalispell and Bozeman supply is genuinely tight.</li>
+      <li><b>Flights last</b> — the most flexible piece and the least likely to sell out. Except the Montana Saturday nonstops, which need confirming first.</li>
+      <li><b>America the Beautiful pass, $80</b> — pays for itself the moment you visit a second national park.</li>
+    </ol>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Peak-window forecasts from the Old Farmer's Almanac, ExploreFall, RomanticAsheville and NPS advisories; flight schedules from Delta, FlightConnections and Austin-Bergstrom. Researched 19 August 2026.</p>
+    <p><strong>All prices are planning estimates for two people, not verified rates, and nothing here is booked.</strong> Re-check foliage maps in mid-September, Parkway closures the week before travel, and Glacier's boat and shuttle schedules in early September.</p>
+    <p style="margin-top:22px"><a href="/wiles-wiki/travel/fall-2026/">← Full notes on the wiki</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
