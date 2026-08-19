@@ -9,7 +9,7 @@ tags:
 
 Five fully planned one-week trips out of Austin, all built on the same brief: **hike hard for the first half, downshift for the second.** Three are eastern fall-color trips in October; two are western national-park trips that only work in September.
 
-📋 **[Peak Week 2026 — interactive comparison](https://chriswiles.github.io/wiles-wiki/static/fall-2026/)** — timing chart and all five itineraries side by side. Source lives at `quartz/static/fall-2026/index.html`.
+📋 **[Fall Colors & National Parks — interactive comparison](https://chriswiles.github.io/wiles-wiki/static/fall-2026/)** — timing chart and all five itineraries side by side. Source lives at `quartz/static/fall-2026/index.html`.
 
 Each page is a complete plan — dates and the reasoning behind them, flights, route, day-by-day, lodging, cost estimate, and what could go wrong.
 
