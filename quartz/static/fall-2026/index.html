@@ -133,9 +133,12 @@ section{padding:56px 0;border-bottom:1px solid var(--line-soft)}
   border-left:1px solid var(--line);padding:0 0 4px 8px;
 }
 .rowlabel{
+  position:sticky;left:0;z-index:2;
+  background:var(--ground);box-shadow:1px 0 0 var(--line-soft);
   font-size:13px;font-weight:500;color:var(--ink-2);padding-right:14px;
   text-align:right;line-height:1.25;
 }
+.chartrow:nth-child(even) .rowlabel{background:color-mix(in srgb,var(--surface) 55%,var(--ground))}
 .rowlabel small{display:block;font-size:11px;color:var(--muted);font-weight:400}
 .track{grid-column:2 / -1;grid-row:auto;height:1px;background:var(--line-soft)}
 .bar{
@@ -159,9 +162,11 @@ section{padding:56px 0;border-bottom:1px solid var(--line-soft)}
   height:22px;border-radius:4px;border:1.5px solid var(--accent);
   background:color-mix(in srgb,var(--accent) 14%,transparent);
   display:flex;align-items:center;justify-content:center;
-  font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:700;
-  letter-spacing:.08em;color:var(--accent);
+  font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;
+  letter-spacing:.08em;color:var(--accent);white-space:nowrap;
 }
+.triprow .rowlabel small{color:var(--accent);font-weight:600;font-family:"JetBrains Mono",monospace;font-size:10.5px}
+.scroll-hint{display:none}
 .chart-legend{
   display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:20px;
   font-size:12px;color:var(--muted);
@@ -290,6 +295,23 @@ aside li b{color:var(--ink);font-weight:600}
 footer{padding:44px 0 72px;color:var(--muted);font-size:13px}
 footer p{max-width:70ch;margin:0 0 10px}
 
+@media (max-width:680px){
+  .grid58,.chartrow,.triprow{grid-template-columns:104px repeat(58,1fr)}
+  .chart{min-width:600px}
+  .rowlabel{font-size:11.5px;padding-right:9px}
+  .chartrow .rowlabel small{display:none}
+  .triprow .rowlabel small{display:block;font-size:9.5px}
+  .scroll-hint{
+    display:block;margin:10px 0 0;
+    font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted);
+  }
+  nav.jump a{padding:11px 13px;font-size:13.5px}
+  nav.jump .wrap{gap:2px}
+  .mast{padding:52px 0 32px}
+  .standfirst{font-size:17px}
+  .thesis{font-size:17px;padding:16px 18px}
+}
+
 @media (prefers-reduced-motion:no-preference){
   .card{transition:border-color .18s ease,transform .18s ease}
   .card:hover{transform:translateY(-2px)}
@@ -351,13 +373,15 @@ footer p{max-width:70ch;margin:0 0 10px}
 
         <div class="tripgap"></div>
 
-        <div class="triprow"><div class="rowlabel">Glacier</div><div class="tripbar" style="grid-column:9 / 17">E · SEP 12–19</div></div>
-        <div class="triprow"><div class="rowlabel">Yellowstone</div><div class="tripbar" style="grid-column:16 / 24">D · SEP 19–26</div></div>
-        <div class="triprow"><div class="rowlabel">Vermont + NH</div><div class="tripbar" style="grid-column:29 / 37">A · OCT 2–9</div></div>
-        <div class="triprow"><div class="rowlabel">Maine</div><div class="tripbar" style="grid-column:40 / 48">B · OCT 13–20</div></div>
-        <div class="triprow"><div class="rowlabel">Asheville</div><div class="tripbar" style="grid-column:41 / 49">C · OCT 14–21</div></div>
+        <div class="triprow"><div class="rowlabel">Glacier<small>Sep 12–19</small></div><div class="tripbar" style="grid-column:9 / 17">E</div></div>
+        <div class="triprow"><div class="rowlabel">Yellowstone<small>Sep 19–26</small></div><div class="tripbar" style="grid-column:16 / 24">D</div></div>
+        <div class="triprow"><div class="rowlabel">Vermont + NH<small>Oct 2–9</small></div><div class="tripbar" style="grid-column:29 / 37">A</div></div>
+        <div class="triprow"><div class="rowlabel">Maine<small>Oct 13–20</small></div><div class="tripbar" style="grid-column:40 / 48">B</div></div>
+        <div class="triprow"><div class="rowlabel">Asheville<small>Oct 14–21</small></div><div class="tripbar" style="grid-column:41 / 49">C</div></div>
       </div>
     </div>
+
+    <p class="scroll-hint">Scroll the chart sideways to reach October →</p>
 
     <div class="chart-legend">
       <span><b style="background:var(--high)"></b>Maple &amp; hardwood peak</span>
