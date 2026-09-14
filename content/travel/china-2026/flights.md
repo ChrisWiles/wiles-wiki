@@ -33,7 +33,7 @@ The best current protected one-stop was STARLUX + American via Phoenix: **8:45 p
 
 | Date | Route | Booking call | Planning band |
 |---|---|---|---:|
-| Nov 17 | HKG → CKG | **Cathay nonstop 1:25 p.m. → 4:05 p.m.; book direct** | **$272** |
+| Nov 17 | HKG → CKG | **Booked Cathay CX 966 nonstop, 1:20 p.m. → 4:00 p.m.; seats reassigned Sep 11 to Chris 45K and Jen 45H** | **HKD 4,416 for two** |
 | Nov 20 | CKG → SHA/PVG | **Spring 9C8898 to Hongqiao, 12:30 p.m. → 3:00 p.m.** | **$98** |
 | Nov 25 | SHA/PVG → TSA/TPE | **China Airlines SHA → TSA, 4:15 p.m. → 6:20 p.m.** | **$203** |
 
