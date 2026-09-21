@@ -34,7 +34,7 @@ The best current protected one-stop was STARLUX + American via Phoenix: **8:45 p
 | Date | Route | Booking call | Planning band |
 |---|---|---|---:|
 | Nov 17 | HKG → CKG | **Booked Cathay CX 966 nonstop, 1:20 p.m. → 4:00 p.m.; seats reassigned Sep 11 to Chris 45K and Jen 45H** | **HKD 4,416 for two** |
-| Nov 20 | CKG → SHA/PVG | **Spring 9C8898 to Hongqiao, 12:30 p.m. → 3:00 p.m.** | **$98** |
+| Nov 20 | CKG → PVG | **Booked Juneyao HO 1250, 11:50 a.m. → 2:20 p.m.; Sep 19 schedule update** | **US$306 for two** |
 | Nov 25 | SHA/PVG → TSA/TPE | **China Airlines SHA → TSA, 4:15 p.m. → 6:20 p.m.** | **$203** |
 
 Live comparison details: Hong Kong Airlines showed a late 8:45 p.m. nonstop at $157 through an agency, but its own booking flow did not return a usable Nov 17 fare; Cathay’s direct booking option was $272 and showed the first checked bag free. Spring’s own page showed about $96.80 for the Hongqiao flight, with checked baggage extra. EVA’s direct Hongqiao → Songshan alternative was $198 at 7:40 p.m.; China Airlines is the better schedule for a $5 premium. [HKG → CKG](https://www.google.com/travel/flights?q=Flights%20from%20Hong%20Kong%20to%20Chongqing%20November%2017%202026) · [CKG → Shanghai](https://www.google.com/travel/flights?q=Flights%20from%20Chongqing%20to%20Shanghai%20November%2020%202026) · [Shanghai → Taipei](https://www.google.com/travel/flights?q=Flights%20from%20Shanghai%20to%20Taipei%20November%2025%202026)
