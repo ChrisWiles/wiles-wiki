@@ -62,4 +62,4 @@ The first entry ends when mainland exit immigration is cleared on the return to 
 - Hong Kong: The Pottinger in Central; Eaton HK for value; Regent for harbour splurge.
 - Chongqing: Ascott Raffles City for group apartments; Glenview ITC Plaza for value.
 - Shanghai: The Langham Xintiandi; compare Andaz Xintiandi.
-- Taipei: Kimpton Da An; Regent Taipei for conventional luxury; Capella for a hotel-led splurge.
+- Taipei: San Want Residences Taipei is booked for Nov 25–29; Kimpton Da An, Regent Taipei and Capella remain alternatives only if plans change.

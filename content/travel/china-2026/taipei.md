@@ -12,11 +12,14 @@ Four nights, Nov 25–29. Taipei is the mainland exit, the Thanksgiving stop and
 
 | Hotel | Area | Why |
 |---|---|---|
-| **Kimpton Da An** | Da’an | First choice: design, MRT, restaurants and neighborhood energy |
+| **San Want Residences Taipei — booked** | Zhongshan | Confirmed Nov 25–29; Studio Double for two with breakfast, close to Songjiang Nanjing MRT |
+| Kimpton Da An | Da’an | Alternative: design, MRT, restaurants and neighborhood energy |
 | Regent Taipei | Zhongshan | Conventional luxury near dining and Ningxia Night Market |
 | Capella Taipei | Songshan | High-design 2025 splurge; choose only if the hotel is part of the experience |
 
-**Rate snapshot (Jul 17, 2026; Nov 25–29; USD; 1 room / 2 adults):** Kimpton $327/night, $1,444 displayed total (Essential Room, bed type not guaranteed); Regent $299/night shown, $1,321 current total discounted from $1,468 (Deluxe King); Capella $694/night, $3,053 total (Superior King, breakfast, free cancellation). Reprice before booking.
+**Confirmed booking:** Four nights, Nov 25–29, 2026; Studio Double for two adults; breakfast included; total TWD 21,256. Free cancellation until Nov 21 at 11:59 p.m. Taipei time. Address: No. 128, Section 1, Nanjing East Road, Zhongshan District, Taipei. Do not publish the booking confirmation or PIN.
+
+**Alternative rate snapshot (Jul 17, 2026; Nov 25–29; USD; 1 room / 2 adults):** Kimpton $327/night, $1,444 displayed total (Essential Room, bed type not guaranteed); Regent $299/night shown, $1,321 current total discounted from $1,468 (Deluxe King); Capella $694/night, $3,053 total (Superior King, breakfast, free cancellation). Reprice before booking.
 
 ## Daily plan
 
