@@ -108,3 +108,7 @@ See `wiki-query` and `wiki-export` skills for how the filter is applied.
 ## Architecture Reference
 
 For the full pattern (three-layer architecture, page templates, project org), read `.skills/llm-wiki/SKILL.md`.
+
+## Investing workflows
+
+For weekly AI research, use `.skills/ai-research-monitor/SKILL.md`; for long-term AI infrastructure stock analysis and swing setups, use `.skills/stock-analysis/SKILL.md`. Start with `investing/mandate.md`. The repository is public: personal account references and calculations stay private. Scheduled reports follow `investing/publication.md`, which authorizes isolated, path-limited commit/push of reports and research state. Keep unrelated wiki work intact.

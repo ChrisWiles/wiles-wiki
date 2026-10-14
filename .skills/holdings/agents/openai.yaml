@@ -1,0 +1,3 @@
+interface:
+  display_name: "Holdings"
+  short_description: "Saved household holdings across brokerage accounts"

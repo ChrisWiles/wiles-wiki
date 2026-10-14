@@ -1,0 +1,166 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# This is a scripts-only project, not a Python package
+packages = []
+
+[project]
+name = "claude-trading-skills"
+version = "0.1.0"
+description = "Claude Skills for equity investors and traders"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "jsonschema>=4.25.1",
+    "packaging>=24.0",
+    "pyyaml>=6.0",
+    "requests>=2.31.0",
+    "scipy>=1.13.1",
+    "yfinance>=0.2.0",
+]
+
+[project.optional-dependencies]
+market-calendar = [
+    "pandas-market-calendars==5.2.2",
+]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "ruff==0.16.10",
+    "bandit[toml]>=1.7.0",
+    "detect-secrets>=1.5.0",
+    "codespell>=2.3.0",
+    "pre-commit>=3.0.0",
+    "tomli>=2.0; python_version < '3.11'",
+    "pip-audit==2.10.1; python_version >= '3.10'",
+    "bandit[toml]>=1.9.0; python_version >= '3.10'",
+]
+ci = [
+    "beautifulsoup4",
+    "lxml",
+    "pyarrow==25.0.1",
+    "statsmodels>=0.14,<0.15",
+    "pandas-market-calendars==5.2.2",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+# Standalone packaged skills retain Python 3.9 source compatibility even though
+# the repository's shared locked development environment starts at Python 3.10.
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+ignore = [
+    "E501",  # line-too-long (handled by formatter)
+    "E402",  # module-level import not at top (sys.path manipulation in conftest)
+    "B904",  # raise-without-from-inside-except (fix incrementally)
+    "B007",  # unused-loop-control-variable (fix incrementally)
+    "B017",  # assert-raises-exception (fix incrementally)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"**/conftest.py" = ["E402"]
+"**/test_*.py" = ["E402"]
+# Preserve runtime-evaluable annotations for the standalone Python 3.9 calendar.
+"**/_market_calendar.py" = ["UP007", "UP045"]
+"scripts/market_calendar/market_calendar.py" = ["UP007", "UP045"]
+
+[tool.pytest.ini_options]
+# importlib mode resolves conftest/module name collisions across skills
+# (each skill has its own scorer.py, calculators/, helpers.py).
+# With importlib, a single `pytest` invocation discovers all tests safely.
+# scripts/run_all_tests.sh is kept for backward compatibility.
+addopts = "--import-mode=importlib"
+testpaths = [
+    "skills/backtest-expert/scripts/tests",
+    "skills/dual-axis-skill-reviewer/scripts/tests",
+    "skills/ftd-detector/scripts/tests",
+    "skills/institutional-flow-tracker/scripts/tests",
+    "skills/macro-regime-detector/scripts/tests",
+    "skills/market-breadth-analyzer/scripts/tests",
+    "skills/market-news-analyst/scripts/tests",
+    "skills/market-top-detector/scripts/tests",
+    "skills/stanley-druckenmiller-investment/scripts/tests",
+    "skills/stockbee-20pct-study/scripts/tests",
+    "skills/stockbee-exhaustion-hammer-screener/scripts/tests",
+    "skills/stockbee-momentum-burst-screener/scripts/tests",
+    "skills/theme-detector/scripts/tests",
+    "skills/uptrend-analyzer/scripts/tests",
+    "skills/vcp-screener/scripts/tests",
+    "skills/earnings-trade-analyzer/scripts/tests",
+    "skills/pead-screener/scripts/tests",
+    "skills/position-sizer/scripts/tests",
+    "skills/residual-edge-analyzer/scripts/tests",
+    "skills/data-quality-checker/scripts/tests",
+    "skills/edge-strategy-reviewer/scripts/tests",
+    "skills/edge-pipeline-orchestrator/scripts/tests",
+    "skills/edge-signal-aggregator/scripts/tests",
+    "skills/skill-idea-miner/scripts/tests",
+    "skills/skill-designer/scripts/tests",
+    "skills/trade-hypothesis-ideator/scripts/tests",
+    "skills/earnings-calendar/scripts/tests",
+    "skills/options-strategy-advisor/scripts/tests",
+    # canslim-screener excluded: requires bs4 (optional dep)
+    "skills/skill-integration-tester/scripts/tests",
+    "skills/trader-memory-core/scripts/tests",
+    "skills/breadth-chart-analyst/scripts/tests",
+    "skills/economic-calendar-fetcher/scripts/tests",
+    "skills/edge-candidate-agent/scripts/tests",
+    "skills/edge-concept-synthesizer/scripts/tests",
+    "skills/edge-hint-extractor/scripts/tests",
+    "skills/edge-strategy-designer/scripts/tests",
+    "skills/exposure-coach/scripts/tests",
+    "skills/finviz-screener/scripts/tests",
+    "skills/kanchi-dividend-review-monitor/scripts/tests",
+    "skills/kanchi-dividend-sop/scripts/tests",
+    "skills/kanchi-dividend-us-tax-accounting/scripts/tests",
+    "skills/market-environment-analysis/scripts/tests",
+    # pair-trade-screener runs in its dedicated matrix row with statsmodels
+    "skills/portfolio-manager/scripts/tests",
+    "skills/sector-analyst/scripts/tests",
+    "skills/scenario-analyzer/scripts/tests",
+    "skills/strategy-pivot-designer/scripts/tests",
+    "skills/technical-analyst/scripts/tests",
+    "skills/downtrend-duration-analyzer/scripts/tests",
+    "skills/breakout-trade-planner/scripts/tests",
+    "skills/ibd-distribution-day-monitor/scripts/tests",
+    "skills/parabolic-short-trade-planner/scripts/tests",
+    "skills/trading-skills-navigator/scripts/tests",
+    "skills/us-market-bubble-detector/scripts/tests",
+    "skills/us-stock-analysis/scripts/tests",
+    "skills/cot-contrarian-detector/scripts/tests",
+    "skills/news-reaction-failure-analyzer/scripts/tests",
+    "skills/contrarian-setup-gate/scripts/tests",
+    "skills/futures-position-sizer/scripts/tests",
+    "scripts/tests",
+]
+
+[tool.bandit]
+targets = ["skills"]
+skips = [
+    "B101",  # assert used (normal in non-production code)
+    "B110",  # try-except-pass
+    "B113",  # requests without timeout (pre-existing in test scripts)
+    "B310",  # urllib urlopen (used for FMP API calls with validated URLs)
+    "B311",  # random (used for non-security skill selection)
+    "B404",  # import subprocess (needed for test runner)
+    "B603",  # subprocess without shell=true (intentionally safe pattern)
+]
+
+[tool.codespell]
+skip = ".venv,*.json,*.csv,*.baseline,skill-packages,*.pyc,__pycache__"
+ignore-words-list = "trough,ore,cna,acn,blok,hims,pont,claus,theses"
+ignore-regex = "(Depósito|Deposito) inicial"  # codespell:ignore inicial
+
+[tool.coverage.run]
+source = ["skills"]
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.",
+]
