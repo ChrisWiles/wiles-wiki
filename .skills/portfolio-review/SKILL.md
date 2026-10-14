@@ -1,11 +1,11 @@
 ---
 name: portfolio-review
-description: Review household portfolio exposure and thesis health from saved brokerage positions, with private account analysis and public issuer-level summaries.
+description: Review household portfolio exposure and thesis health from saved brokerage positions, including account-level allocation analysis in public reports.
 ---
 
 # Portfolio review
 
-Read `investing/mandate.md` and the `holdings` skill. Use those private references as positions, never a prior research report. Keep the accounts separate; combine only when requested and quantify only when the necessary inputs exist.
+Read `investing/mandate.md` and the `holdings` skill. Use those account references as positions, never a prior research report. Keep the accounts separate; combine only when requested and quantify only when the necessary inputs exist.
 
 Review direct and ETF look-through issuer concentration, AI capex-cycle exposure, country/currency factors, and option overlays. Distinguish a business-thesis change from a price move. Use `stock-analysis` for current company evidence, long-term economics and swing context.
 
@@ -13,4 +13,4 @@ Missing brokerage quantities, cash, cost basis or option data prevent full house
 
 Scenario analysis should include delayed AI monetization, efficiency/substitution, capex slowdown, financing stress, rate shocks and geopolitical disruptions. Keep modeled assumptions separate from measured exposures. Use exact arithmetic on verified inputs, and never assign a quantitative total portfolio drawdown to unknown weights.
 
-Write personal findings to ignored `private/investing/portfolio-latest.md`. Public issuer/factor discussion belongs in the weekly stock report; omit ownership, quantities and allocations. Follow `investing/publication.md` only for authorized scheduled publication. Do not trade or replace holdings from report conclusions.
+Write account-level holdings, valuations, allocation and factor findings in the weekly stock report and `investing/state/portfolio.md`. The user authorizes this household investment data to be public. Keep partial inputs and incomplete denominators clear. Follow `investing/publication.md` only for authorized scheduled publication. Do not trade or replace holdings from report conclusions.

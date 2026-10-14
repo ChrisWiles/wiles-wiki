@@ -5,7 +5,7 @@ The user authorized weekly research and stock-analysis reports, committed and pu
 ## Isolated run
 
 1. Resolve the source checkout and its Git common directory. Acquire a directory lock named `investing-weekly.lock` in that common directory. Record the run ID, owner and start time in the lock. Release only this run's lock on every exit, including source, commit and push failures; preserve failed report work for recovery. If occupied, do not run a second publisher. Do not delete an unknown lock; report a stale-lock problem when a run has demonstrably ended.
-2. Read source-checkout private holdings before creating a worktree, or use that source path when loading them later. Keep private data in memory or ignored `private/investing/` only. If unavailable, use the last public coverage list, label portfolio calculations unavailable, and never pretend the positions are current.
+2. Read committed holdings in the report worktree and compare with newer source-checkout holdings when available. Use the newer user-provided quantities for analysis without automatically altering the holdings references. Household positions and allocations are authorized for public reports. If quantities are unavailable, label the affected calculations incomplete; do not infer them.
 3. Verify origin is the intended `ChrisWiles/wiles-wiki` repository and the default branch is still `main`; check visibility. Fetch origin/main. Create a temporary detached Git worktree from that fetched commit. Run public research and write reports there. Never reset, stash, switch branches or stage unrelated changes in the source checkout.
 4. Load the new worktree's mandate, prior committed state and latest reports. Run `ai-research-monitor`, then `stock-analysis`. If research refresh fails, stock analysis may proceed from the last verified state with its age disclosed. A source failure must not become a new factual finding.
 
@@ -17,13 +17,14 @@ Allowed recurring writes:
 - `reports/investing/index.md`
 - `investing/state/research.md`
 - `investing/state/companies.md`
+- `investing/state/portfolio.md`
 
 Do not stage skills, holdings, private output, secrets, generated caches or unrelated wiki files during a weekly run. The report date is the local run date; a same-date rerun revises that report rather than creating duplicate entries. Use per-source verified-through frontiers and unresolved retry items to set lookback windows; a partial report does not advance unverified coverage. Include missed weeks and corrected older findings. A quiet week still produces concise dated reports saying which sources were checked and what remains unchanged.
 
 ## Verification and push
 
 - Check every numerical claim against its cited source, units, date, period, accounting basis and scenario assumptions. Material valuation calculations require exact arithmetic and an independent input check. Do not promote a report to complete if required coverage was skipped; disclose partial coverage prominently.
-- Audit the entire public diff for private account information, secrets, fabricated market data, unsupported trade levels and mistaken ticker identities. Review all staged paths. Run `git diff --check` and relevant skill/tool validations.
+- Audit the entire public diff for credentials, unrelated private documents, fabricated account/market data, unsupported trade levels and mistaken ticker identities. Household investment positions and allocations are authorized content. Review all staged paths. Run `git diff --check` and relevant skill/tool validations.
 - Stage only the exact report and state files generated in this run. Inspect the staged diff. If there is a substantive change, commit with `reports(investing): weekly research and stock review YYYY-MM-DD`. An identical same-date rerun is a no-op.
 - Push `HEAD:refs/heads/main` without force. If the remote advanced, fetch and rebase the isolated report commit onto origin/main once. Reread any newly landed research, company state and reports, then regenerate affected comparisons, preserve unresolved source retries and reconcile the report index even if Git found no textual conflict. If report/state conflicts require changes, resolve from both versions, rerun checks, then push once more. Stop on continued rejection, permission failure or unresolved conflict and retain the report commit for recovery. Never report success without a successful push and verification that origin/main contains the commit.
 - After success, a clean report-path source checkout on main may fast-forward to origin/main without touching unrelated dirty files. If fast-forward is unsafe or fails, keep the source checkout intact and provide the GitHub report links. Remove only this run's clean temporary worktree and release its lock; retain recoverable failed work.

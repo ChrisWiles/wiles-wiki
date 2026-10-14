@@ -21,6 +21,6 @@ Read `investing/mandate.md`, `investing/research-sources.md`, `investing/state/r
 
 Write `reports/investing/research/YYYY-MM-DD.md` and update `investing/state/research.md` plus `reports/investing/index.md`. Use Markdown with a short opening assessment, changes since last report, evidence table, bottleneck/demand implications, bear case and next checks. Include cutoff, primary-source links, limitations and clear fact/forecast/inference distinctions. Preserve prior dated reports. First runs must identify baseline versus new developments.
 
-Public output follows the mandate's privacy rules. Store supplied raw essays and personal annotations under ignored `private/investing/`, not public appendices. The holdings references remain minimal.
+Public output follows the mandate's publication rules. User-supplied investment essays may be saved under `investing/thesis-inputs/` and must remain labeled as research leads until verified. Household investment data is authorized for public reporting. The holdings references remain minimal.
 
 For a scheduled run, hand the resulting state to `stock-analysis`, then follow `investing/publication.md`. For a read-only/ad hoc request, do not commit or push unless asked. A new report is always Markdown; no mandatory PDF, HTML, social publishing or paid API connection.

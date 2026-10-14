@@ -10,7 +10,7 @@ Prefer durable economic capture: pricing power, barriers, cash conversion, disci
 
 ## Coverage universe
 
-The private holdings skill supplies the current research universe. Deduplicate research by ticker, while retaining separate account quantities locally. GOOG and GOOGL remain distinct securities but share issuer-level research. Coverage does not designate every company a core investment or a trade.
+The holdings skill supplies the current research universe. Deduplicate research by ticker, while retaining separate account quantities. GOOG and GOOGL remain distinct securities but share issuer-level research. Coverage does not designate every company a core investment or a trade.
 
 | Layer | Initial coverage | Research questions |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ Comparison names are research candidates, not existing holdings or purchase reco
 
 Use `.skills/holdings` for account data. Keep records to ticker and quantity, options to contract and count, Treasury notes to issue and face amount. No prices, performance columns, screenshots or commentary in those references. Missing brokerage quantities remain unknown. A report never overwrites the holdings record or treats missing positions as sales.
 
-Do not prescribe concentrated weights, cash percentages, loss limits, risk per trade or a trading sleeve without user input. No approved risk budget, complete account equity, cost basis, tax status or cash balances are currently recorded. Report partial known-account calculations only in private output; never label them full household weights. ETFs require look-through evidence; long calls require verified contract terms, premiums and Greeks for exposure calculations.
+Do not prescribe concentrated weights, cash percentages, loss limits, risk per trade or a trading sleeve without user input. No approved risk budget, complete account equity, cost basis, tax status or cash balances are currently recorded. Include partial known-account calculations in the reports when useful, with their denominator and completeness clearly labeled; never label them full household weights. ETFs require look-through evidence; long calls require verified contract terms, premiums and Greeks for exposure calculations.
 
 Swing research normally covers days to weeks, with daily price/volume for entries and weekly charts for context. Separate tactical setups from 2026–2035 investment theses. Require entry condition, invalidation, exit plan, reward/risk net of plausible costs, liquidity and earnings/macro gap risk. Do not invent stops from a quote or assign numerical scenario probabilities without a calibrated model. Without reliable OHLCV or an approved risk budget, return conditional watch/no trade and omit share-size instructions. Existing long-dated options do not imply authorization to recommend new options trades.
 
@@ -39,10 +39,10 @@ Swing research normally covers days to weeks, with daily price/volume for entrie
 
 User-provided essays are thesis inputs and research leads. Open original sources and verify claims before presenting them as findings. Keep measured results, laboratory self-reports, preprints, model-dependent forecasts, targets and analyst inference distinct. Benchmark performance is not proof of professional replacement; API-equivalent spending is not revenue; projected infrastructure capacity is not realized demand.
 
-The repository is public. Committed material contains issuer-level research and the general thesis only. Do not publish owner/account names, personal share counts, contract positions, cost basis, account balances, allocations or trade history. Personal analysis belongs under ignored `private/investing/`. Public reports refer to a research coverage universe, never a list of household holdings. Do not copy the private input files into a worktree, report appendix or commit.
+The user explicitly authorizes public household investment data in this repository: account-owner labels, stock/ETF quantities, option positions, Treasury holdings and portfolio allocation analysis may be committed and pushed. Keep the account references minimal and include current valuations/allocations in reports when supported by verified data. Distinguish recorded holdings from comparison candidates. Missing quantities, cash, cost basis or instrument data remain unknown; permission to publish is not evidence of values. Credentials, login tokens and unrelated private documents are outside this investment-data publication scope.
 
 Use [publication protocol](publication.md) for authorized weekly commit/push. No trade execution or messages to third parties are authorized by these workflows.
 
 ## Helper output paths
 
-Run account-sensitive or intermediate helper output only under ignored `private/investing/scratch/` in the run worktree, never `.skills/` or the public `reports/` tree. Pass `--output-dir private/investing/scratch/<helper>` explicitly when supported (including position-sizer, VCP and weekly chart helpers). For fixed-output tools, supply an explicit output path or run from an ignored scratch directory; do not copy raw outputs wholesale into the public report. Only reviewed issuer-level summaries enter the allowed report paths.
+Run account-sensitive or intermediate helper output only under ignored `private/investing/scratch/` in the run worktree, never `.skills/` or the public `reports/` tree. Pass `--output-dir private/investing/scratch/<helper>` explicitly when supported (including position-sizer, VCP and weekly chart helpers). For fixed-output tools, supply an explicit output path or run from an ignored scratch directory; do not copy raw outputs wholesale into the public report. Reviewed company and household portfolio calculations may enter the allowed report paths. Intermediate scratch output remains ignored to keep the repo clean.

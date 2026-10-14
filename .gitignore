@@ -20,9 +20,6 @@ content/.obsidian/cache/
 # Agent skill symlinks — recreated by setup-wiles.sh on fresh clone
 .claude/skills/
 
-# Private household holdings
-.skills/holdings/references/
-
 # Investing tool caches
 .skills/**/__pycache__/
 .skills/**/.pytest_cache/

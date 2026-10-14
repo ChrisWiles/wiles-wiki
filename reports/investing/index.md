@@ -1,6 +1,6 @@
 # Investment research reports
 
-Reports discuss the AI infrastructure thesis and a stock research universe. Personal account records and allocation calculations remain local.
+Reports discuss the AI infrastructure thesis, stock research and household portfolio allocation. [Household holdings](../../.skills/holdings/references/accounts.md) are committed with the user's authorization.
 
 | Date | AI research | Stock analysis |
 | --- | --- | --- |

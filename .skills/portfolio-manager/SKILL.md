@@ -1,11 +1,11 @@
 ---
 name: portfolio-manager
-description: Calculate private household account exposure using saved holdings and verified market data; supports supplied brokerage records without requiring an Alpaca account.
+description: Calculate household account exposure using saved holdings and verified market data; supports supplied brokerage records without requiring an Alpaca account.
 ---
 
 # Portfolio manager
 
-Read `investing/mandate.md`, `holdings`, and `portfolio-review`. Saved private references are the starting account inputs. Live brokerage access is not assumed; an Alpaca connection is optional and relevant only if the user actually supplies an Alpaca account.
+Read `investing/mandate.md`, `holdings`, and `portfolio-review`. Saved account references are the starting account inputs. Live brokerage access is not assumed; an Alpaca connection is optional and relevant only if the user actually supplies an Alpaca account.
 
 Keep separate account records and distinguish stocks, ETFs, options and Treasury issues. Preserve ticker identity and known quantities; missing positions, cash, face amounts or cost basis remain unknown. A public report or issuer watchlist is never the current portfolio record.
 
@@ -13,4 +13,4 @@ For valuation, fetch timestamped quotes and confirmed instrument details, state 
 
 Use existing reconciliation helpers under this skill's `scripts/` only for supported file formats. Keep source exports, account IDs and credentials under ignored private storage. Optional Alpaca diagnostics in `references/alpaca-mcp-setup.md` and `scripts/check_alpaca_connection.py` do not authorize connecting or trading.
 
-Write private calculations to `private/investing/portfolio-latest.md`. Hand only issuer-level findings to `stock-analysis`. No mandatory broker setup, suggested concentration percentages, executable orders or public account tables.
+Write supported account-level calculations to the dated stock report and `investing/state/portfolio.md`; pass holdings, allocation and issuer-level findings to `stock-analysis`. Household investment data is authorized for publication. No mandatory broker setup, prescribed concentration percentages or executable orders.

@@ -13,4 +13,4 @@ Keep period/date, currency, units, listing/share class, diluted versus basic sha
 
 Use exact arithmetic helpers under `.skills/_support/ai-value-investing-agents/tools/` for material valuation/return calculations. For ten-year returns use the terminal-value audit instead of selecting an arbitrary exit multiple. Record only the inputs, calculation and checks that matter to the decision. Do not label a financial audit passed if it was not run or if inputs remain unverified.
 
-Keep portfolio quantities and account-level calculations private. Public evidence tables contain company figures, source links and unresolved gaps, never household positions.
+Household quantities and account-level calculations are authorized for public reports. Verify prices and instrument details, preserve missing quantities, and state the denominator used for partial weights. Keep credentials and unrelated private documents out of reports.
