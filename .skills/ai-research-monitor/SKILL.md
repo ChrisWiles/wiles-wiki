@@ -5,7 +5,7 @@ description: Refresh AI capability, recursive improvement, agent adoption and in
 
 # AI research monitor
 
-Read `investing/mandate.md`, `investing/research-sources.md`, `investing/state/research.md` and the latest research report. Resolve all paths from this repository root. Apply the mandate over inherited generic investing-skill defaults.
+Read `investing/mandate.md`, `investing/research-sources.md`, `investing/state/research.md`, the latest research report, `investing/research-queue.md` and `investing/report-contract.md`. Resolve all paths from this repository root. Apply the mandate over inherited generic investing-skill defaults.
 
 ## Weekly research
 
@@ -13,7 +13,7 @@ Read `investing/mandate.md`, `investing/research-sources.md`, `investing/state/r
 - Open original papers/articles and relevant methods/appendices. Identify actual publication date, revisions, authors, reliability levels, tasks, model/hardware assumptions and whether evidence is independently replicated. A self-reported lab result is useful but is not independent corroboration.
 - Maintain nine signals: validated autonomous research; reliable task horizons; AI R&D productivity; paid agent adoption; inference economics/efficiency; HBM/packaging capacity; electrical/grid/cooling bottlenecks; infrastructure financing; economic productivity/labor diffusion.
 - Distinguish engineering assistance, bounded agent self-modification, successor-model development and self-sustaining RSI. Keep AGI timing as scenarios. Preserve the workload-growth versus compute-efficiency equation; account for power efficiency separately. Do not equate cheaper API pricing, capability benchmarks and physical compute savings.
-- Trace changed evidence through infrastructure demand, supplier pricing/margins, capital intensity and shareholder economics. Use `bottleneck-hunter` or `industry-research` only when an identified constraint needs deeper work. Evaluate resolution/substitution/oversupply as well as scarcity. Feed company-specific questions to `stock-analysis`; do not issue stock trades from research headlines.
+- Trace changed evidence through infrastructure demand, supplier pricing/margins, capital intensity and shareholder economics. Use `bottleneck-hunter` or `industry-research` only when an identified constraint needs deeper work. Evaluate resolution/substitution/oversupply as well as scarcity. Feed company-specific questions to `stock-analysis` and link decision-relevant uncertainty to existing R-IDs. Prioritize core long-term questions selected by `research-prioritization`; do not issue stock trades from research headlines.
 - Update the ledger with claim, source/date, scope, evidence type, verification status, prior-to-current change, confidence and thesis implication. Use `verified-with-scope`, `partially-supported`, `contradicted`, `unverified` or `source-unavailable`; do not turn an inaccessible source into contradiction.
 - Record important unchanged signals and remaining uncertainties. Failed source access is disclosed; a report may be partial, but cannot call unread claims verified. No forced bullish conclusion or weekly churn.
 
@@ -23,4 +23,4 @@ Write `reports/investing/research/YYYY-MM-DD.md` and update `investing/state/res
 
 Public output follows the mandate's publication rules. User-supplied investment essays may be saved under `investing/thesis-inputs/` and must remain labeled as research leads until verified. Household investment data is authorized for public reporting. The holdings references remain minimal.
 
-For a scheduled run, hand the resulting state to `stock-analysis`, then follow `investing/publication.md`. For a read-only/ad hoc request, do not commit or push unless asked. A new report is always Markdown; no mandatory PDF, HTML, social publishing or paid API connection.
+For a scheduled run, hand the resulting state to `stock-analysis`; finish with `research-prioritization` and `decision-journal`, revise the report decision briefs, then follow `investing/publication.md`. For a read-only/ad hoc request, do not commit or push unless asked. A new report is always Markdown; no mandatory PDF, HTML, social publishing or paid API connection.

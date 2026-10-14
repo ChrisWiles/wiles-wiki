@@ -32,3 +32,5 @@ Attempted cutoff: 2026-10-14. Status: onboarding baseline. [Coverage report](../
 | TSLA | Automotive and separately verified autonomy/robotics economics | Not assessed | No verified setup |
 | TSM | Advanced nodes, packaging, yields and qualified capacity | Not assessed | No verified setup |
 | VRT | Cooling/power orders, cancellations, capacity and margins | Not assessed | No verified setup |
+
+Deeper work is selected through the [research queue](../research-queue.md). Core long-term decisions take precedence; supplementary swing checks do not classify existing positions by sleeve. This baseline contains no verified stock-action recommendation.

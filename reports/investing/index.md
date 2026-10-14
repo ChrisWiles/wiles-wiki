@@ -5,3 +5,5 @@ Reports discuss the AI infrastructure thesis, stock research and household portf
 | Date | AI research | Stock analysis |
 | --- | --- | --- |
 | 2026-10-14 | [Research baseline](research/2026-10-14.md) | [Coverage baseline](stocks/2026-10-14.md) |
+
+[Next research priorities](../../investing/research-queue.md) · [Decision journal](../../investing/decisions/index.md) · [Weekly decision brief requirements](../../investing/report-contract.md)

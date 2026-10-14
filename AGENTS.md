@@ -112,3 +112,5 @@ For the full pattern (three-layer architecture, page templates, project org), re
 ## Investing workflows
 
 For weekly AI research, use `.skills/ai-research-monitor/SKILL.md`; for long-term AI infrastructure stock analysis and swing setups, use `.skills/stock-analysis/SKILL.md`. Start with `investing/mandate.md`. The user explicitly authorizes household investment references and allocation calculations to be public in this repository; credentials and unrelated private documents remain excluded. Scheduled reports follow `investing/publication.md`, which authorizes isolated, path-limited commit/push of reports and research state. Keep unrelated wiki work intact.
+
+Long-term AI infrastructure investing is the core; swing trading is supplementary. Use `research-prioritization` to rank decision-changing questions and `decision-journal` to preserve original reasoning and verified outcomes. Weekly reports follow `investing/report-contract.md`; proposals and confirmed/executed actions remain distinct.

@@ -1,5 +1,9 @@
 # Investment mandate
 
+## Objective and priority
+
+Build a household investment decision system centered on long-term AI infrastructure ownership. Swing trading is a supplement. Prioritize durable business economics, valuation, thesis falsification and portfolio exposure; tactical opportunities must not displace core-risk research. No numerical allocation split is inferred from this preference. Use [research priorities](research-queue.md), the [decision journal](decisions/index.md) and the [report contract](report-contract.md) to turn evidence into decisions and follow-up.
+
 ## Thesis and horizon
 
 Long-term research covers 2026–2035. AI can become an economically useful form of cognitive labor; rapidly improving agents and AI-assisted R&D could expand demand while physical infrastructure scales more slowly. AGI in 2027–2029 is a scenario to test, not a premise every company must satisfy. Track research acceleration separately from autonomous successor-model development and self-sustaining recursive improvement.

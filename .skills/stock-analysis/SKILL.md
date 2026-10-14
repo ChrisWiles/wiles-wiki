@@ -5,7 +5,7 @@ description: Analyze the research universe from saved holdings for long-term AI 
 
 # Stock analysis
 
-Read `investing/mandate.md`, the latest research report, `investing/state/companies.md`, the last stock report and `.skills/holdings/SKILL.md`. Read the committed account references; use newer user-provided source-checkout quantities when present. Apply the mandate over inherited generic-skill defaults.
+Read `investing/mandate.md`, the latest research report, `investing/state/companies.md`, the last stock report, `investing/research-queue.md`, `investing/decisions/index.md`, `investing/report-contract.md` and `.skills/holdings/SKILL.md`. Read the committed account references; use newer user-provided source-checkout quantities when present. Apply the mandate over inherited generic-skill defaults.
 
 ## Universe and evidence
 
@@ -22,6 +22,10 @@ Compare bull/base/bear assumptions. Give an explicit thesis status: strengthenin
 
 Cover ETFs with current sponsor look-through, duplication and issuer/sector factors. Discuss Treasury maturities as a liquidity/duration sleeve; no face amounts, yields or total account weights without inputs.
 
+## Decision support
+
+Follow `investing/report-contract.md`: lead with material core decisions, evidence/valuation conditions, invalidation and blockers. Link questions to R-IDs. An unassessed holding is insufficient evidence, not an automatic hold recommendation. Review every symbol briefly, but use the queue to choose deeper work and put urgent core-risk questions ahead of supplementary swings. Preserve account scope and never infer the role of an existing position from ticker alone.
+
 ## Swing view
 
 Use `technical-analyst`, `vcp-screener`, `position-sizer` and `backtest-expert` as needed. Evaluate entries from daily data with weekly context. A fundamental long-term thesis is not an entry signal.
@@ -33,6 +37,8 @@ Sizing requires user-approved per-trade risk, total equity, reliable entry/stop,
 ## Weekly report and state
 
 Write `reports/investing/stocks/YYYY-MM-DD.md`, update `investing/state/companies.md` and `reports/investing/index.md`. The user authorizes public household portfolio reporting. Include account-owner labels, recorded quantities, option/Treasury positions and supported valuation/allocation calculations where useful. Keep actual holdings and comparison candidates clearly separated.
+
+Run `research-prioritization` after the company refresh and `decision-journal` for material new recommendations or due reviews. Update the queue/journal and link them from the decision brief. Distinguish analytical proposals, user-confirmed choices and verified executed actions. No-change weeks may have no new journal entry.
 
 Include: cutoff/data completeness; material weekly changes; a coverage table with long-term status, valuation/data status and swing status; selected material company deep dives; shared-factor/ETF overlap; conditional setup watchlist or no-trade conclusion; thesis invalidation checks; next-week earnings/events; primary sources. Mark any skipped or unresolved coverage clearly. Review every symbol briefly each week; rotate deeper coverage according to earnings, thesis changes and risk rather than rewriting every thesis from scratch.
 
