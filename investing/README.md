@@ -14,3 +14,5 @@ The [mandate](mandate.md) defines the 2026–2035 thesis, research universe, unc
 `holdings` is the committed position record. Generic investing skills support deeper work when needed; weekly runs do not require every installed skill or a paid broker integration.
 
 Start with the [research queue](research-queue.md), [decision journal](decisions/index.md) and [report contract](report-contract.md) to see what to investigate next and why.
+
+Portfolio recommendations include [tax-aware implementation](tax-review.md) when relevant. The [confirmed tax context](tax-context.md) identifies all three accounts as US taxable; lot dates/basis and personal rate inputs still need evidence. Open tax-lot reports are preferred; useful PDF/transaction exports can be imported without sharing passwords.

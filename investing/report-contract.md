@@ -12,7 +12,7 @@ Start with a compact decision brief. For each material proposal, state the secur
 
 Then include:
 1. **Core portfolio decisions:** material thesis/economics/valuation changes and what would change the conclusion. Separate business quality from today's price.
-2. **Exposure:** account and supported household/ETF look-through findings, with known-subset denominators and missing quantities clear. Household investment data is authorized for publication.
+2. **Exposure and implementation:** account and supported household/ETF look-through findings, with known-subset denominators and missing quantities clear. For proposed portfolio changes, apply [tax-aware review](tax-review.md): show lot/holding-period status, realized-gain or supported incremental-tax scenarios, household wash-sale conditions and less disruptive alternatives. Missing tax inputs leave implementation conditional. Household investment data is authorized for publication.
 3. **Prioritized next research:** normally up to three active questions from the queue, why now, decision affected, completion criterion, owner/trigger and R-ID. Show important awaiting-user inputs separately so they do not stop independent work.
 4. **Decision changes and follow-up:** proposed recommendations, user-confirmed choices, verified executions and due journal reviews remain distinct. Link D-IDs; unchanged weeks do not manufacture decisions.
 5. **Supplementary swing watch:** conditional setups with reliable data, invalidation and event checks, or a no-trade conclusion. Missing risk inputs prevent sizing; tactical moves alone do not change the core thesis.

@@ -1,6 +1,6 @@
 ---
 name: stock-analysis
-description: Analyze the research universe from saved holdings for long-term AI infrastructure investing and conditional swing setups; refresh company state and write the weekly stock report.
+description: Analyze saved holdings for long-term AI infrastructure ownership, tax-aware portfolio changes and conditional swing setups; refresh company state and write the weekly stock report.
 ---
 
 # Stock analysis
@@ -33,6 +33,12 @@ Use `technical-analyst`, `vcp-screener`, `position-sizer` and `backtest-expert` 
 For credible candidates, record setup type, trigger, invalidation, exits, time horizon, liquidity, earnings/gap risk and reward/risk under plausible costs. Classify conditional watch, actionable setup, avoid or no trade. Without fresh data, earnings checks and adequate risk inputs, do not classify an executable or sized trade. Numerical probabilities require a calibrated method; a chart scenario alone is not a probability estimate.
 
 Sizing requires user-approved per-trade risk, total equity, reliable entry/stop, cash/margin constraints and portfolio exposure. Do not default to 1% risk or concentration limits. Missing sizing inputs do not prevent qualitative analysis. Include existing option contracts in portfolio analysis and request verified premiums/Greeks before modeling them. No automatic orders.
+
+## Tax-aware implementation
+
+Read `investing/tax-context.md`; for tax-sensitive changes follow `investing/tax-review.md`. The three recorded accounts are US taxable brokerage accounts. Use verified open lots to assess each lot's adjusted basis, holding period, eligible long-term sale date and alternative sale/rebalancing methods. Check loss-sale conflicts across both spouses' accounts, including relevant options, reinvestment and recurring purchases. Never clear a household wash sale from a single broker flag or assume different ETF/share-class tickers establish a safe replacement.
+
+Recommend portfolio changes when evidence supports them, distinguishing the investment rationale from tax/implementation conditions. Compare waiting, specific lots, staged sales and new-cash rebalancing where relevant; do not let an unsupported tax-savings claim drive a decision. Without lot/rate/history inputs, give a conditional investment recommendation and state exactly which implementation questions remain unknown. Keep tax details separate from the minimal holdings files, and record material tax assumptions/review dates in the decision journal.
 
 ## Weekly report and state
 
