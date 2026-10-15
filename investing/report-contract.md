@@ -2,13 +2,26 @@
 
 Long-term AI infrastructure ownership is the core objective. Swing trading is a supplement with no approved numerical sleeve or per-trade risk budget. Reports should make decisions and unresolved questions easy to find without pretending incomplete analysis is a recommendation.
 
+## Write for Chris
+
+Write like a clear, direct colleague explaining the investments. The main report should answer: what changed, why it matters to our holdings, what you recommend doing, and what would change your mind. Use short paragraphs and a few concrete takeaways; do not open with a dense table of analytical fields or a long coverage disclaimer.
+
+- Use everyday words. Explain an essential financial term or acronym when it first appears. For example, replace 'replacement-adjusted funding bridge' with 'how much financing the company needs, including the cost of replacing its chips.'
+- Connect numbers to their meaning. Explain why cash flow, an earnings multiple or concentration changes a decision; avoid strings of figures that leave the reader to draw the conclusion.
+- Say buy, hold, trim, wait or research further in normal sentences, with the reason and any important condition. Keep proposals distinct from actions the user actually took.
+- Put consequential uncertainty beside the recommendation in plain language. State missing inputs and their effect once; avoid repeating the same qualification throughout the report. Preserve all material limits, dates and evidence.
+- Put the full ticker coverage, detailed calculations, technical indicators, source-check records and research/decision IDs in an appendix or linked supporting state. The opening should use descriptive links and company names rather than internal tracking labels.
+- Use tables for comparisons that are easier to read that way. Keep explanations in prose, link sources near the claims they support, and remove repetitive summaries, canned transitions and process jargon.
+
+Before publishing, read the opening as the investor: can Chris understand the conclusion and next action without decoding our workflow or financial shorthand? Rewrite anything that fails that check. This writing pass changes presentation, not evidence, uncertainty or recommendations. Apply it to future reports; do not rewrite historical reports merely to match the new style.
+
 ## Research report
 
-Open with the thesis verdict and what changed since the prior distinct report. Explain which evidence changes could affect a long-term decision, while distinguishing capability growth, economic demand, compute efficiency and supplier/operator economics. Include the strongest disconfirming evidence. Link consequential scientific questions to R-IDs in the research queue. Show verified scope and remaining source backlog; a committed partial report is not completed coverage.
+Open with a plain-language assessment of the AI infrastructure thesis and what changed since the prior distinct report. Explain the effect on our investments, including the strongest evidence against the thesis. Keep capability growth, economic demand, compute efficiency and company economics distinct without making the reader decode those categories. Link consequential scientific questions to the research queue; keep R-IDs and the detailed signal/source ledger in supporting material. Explain any material coverage limit briefly, with the remaining source backlog in the appendix or state; a committed partial report is not completed coverage.
 
 ## Stock report
 
-Start with a compact decision brief. For each material proposal, state the security/account scope, long-term versus swing horizon, analytical stance, evidence and date, valuation/price condition if supportable, invalidation condition, key blocker and next action. Appropriate stances include consider add, hold after review, consider reduce/exit, wait, research first, or insufficient evidence. These are analytical proposals, not executed trades. Unassessed companies cannot be labeled hold/buy merely to fill the brief.
+Start with a few readable recommendations and their reasons. For each material proposal, make clear which holdings/accounts it concerns, whether it is long-term or a swing trade, the evidence/date, a valuation/price condition if supportable, what would change the recommendation, and the next action or missing input. Spread this information across natural sentences and supporting details rather than packing every field into the opening table. Appropriate stances include consider add, hold after review, consider reduce/exit, wait, research first, or insufficient evidence. These are analytical proposals, not executed trades. Unassessed companies cannot be labeled hold/buy merely to fill the brief.
 
 Then include:
 1. **Core portfolio decisions:** material thesis/economics/valuation changes and what would change the conclusion. Separate business quality from today's price.

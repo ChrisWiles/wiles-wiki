@@ -24,7 +24,7 @@ Cover ETFs with current sponsor look-through, duplication and issuer/sector fact
 
 ## Decision support
 
-Follow `investing/report-contract.md`: lead with material core decisions, evidence/valuation conditions, invalidation and blockers. Link questions to R-IDs. An unassessed holding is insufficient evidence, not an automatic hold recommendation. Review every symbol briefly, but use the queue to choose deeper work and put urgent core-risk questions ahead of supplementary swings. Preserve account scope and never infer the role of an existing position from ticker alone.
+Follow `investing/report-contract.md`: explain the main recommendations, reasons, what would change your mind and missing inputs in everyday language. Use short paragraphs rather than a dense opening decision table; explain financial terms and why the numbers matter. Put detailed calculations, full ticker/technical tables and R-/D-IDs in supporting material, using descriptive links in the main narrative. An unassessed holding is insufficient evidence, not an automatic hold recommendation. Review every symbol briefly, but use the queue to choose deeper work and put urgent core-risk questions ahead of supplementary swings. Preserve account scope and never infer the role of an existing position from ticker alone.
 
 ## Swing view
 

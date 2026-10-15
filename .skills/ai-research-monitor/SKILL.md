@@ -19,7 +19,7 @@ Read `investing/mandate.md`, `investing/research-sources.md`, `investing/state/r
 
 ## Output
 
-Write `reports/investing/research/YYYY-MM-DD.md` and update `investing/state/research.md` plus `reports/investing/index.md`. Use Markdown with a short opening assessment, changes since last report, evidence table, bottleneck/demand implications, bear case and next checks. Include cutoff, primary-source links, limitations and clear fact/forecast/inference distinctions. Preserve prior dated reports. First runs must identify baseline versus new developments.
+Write `reports/investing/research/YYYY-MM-DD.md` and update `investing/state/research.md` plus `reports/investing/index.md`. Follow the plain-language writing requirements in `investing/report-contract.md`: lead with what changed and why it matters to our investments; explain essential terms and numbers in short paragraphs. Keep the detailed evidence table, source backlog and tracking IDs in supporting material. Include bottleneck/demand implications, the bear case, next checks, cutoff, primary-source links, limitations and clear fact/forecast/inference distinctions. Preserve prior dated reports. First runs must identify baseline versus new developments.
 
 Public output follows the mandate's publication rules. User-supplied investment essays may be saved under `investing/thesis-inputs/` and must remain labeled as research leads until verified. Household investment data is authorized for public reporting. The holdings references remain minimal.
 
