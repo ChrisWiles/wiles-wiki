@@ -22,6 +22,18 @@ Thanksgiving dinner on Thu Nov 26 is with Jen’s family and is the fixed Taipei
 
 ## Hong Kong
 
+### Hutong — dinner requested, awaiting confirmation
+
+- **When:** Sunday, November 15, 2026 at **7:00 p.m. Hong Kong time**, **2 guests**.
+- **Where:** 18/F, H Zentre, 15 Middle Road, Tsim Sha Tsui, Hong Kong.
+- **Status checked October 15:** Hutong offered this table by email. We replied with booking/contact details and asked to proceed; final restaurant confirmation is still pending.
+- **Terms:** Deposit, minimum-spend, cancellation and no-show terms requested. No fees or payment requirements approved.
+- **Restaurant contact:** hutong@aqua.com.hk · +852 3428 8342 · WhatsApp +852 5481 6436.
+- **Calendar:** Added to Family as a 7–9 p.m. planning hold; the two-hour duration is an estimate, not a confirmed seating limit.
+- **Day plan:** Finish the [[hong-kong#Sun Nov 15 — Shenzhen option|daytime sightseeing]] with time to return to Tsim Sha Tsui for dinner. The [trip dossier](https://chriswiles.github.io/china-2026-trip/#dinner-nov15) carries the same pending status.
+
+Source: Hutong reception email and our reply, October 15, 2026. November 14 remains unavailable because of a private buyout.
+
 - **Yat Lok** — roast goose with lai fun; essential casual lunch.
 - **The Chairman** — steamed flowery crab with Shaoxing wine when available.
 - **Yardbird** — meatball with tare/egg yolk, chicken oysters and skin.

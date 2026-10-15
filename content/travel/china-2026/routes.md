@@ -18,7 +18,7 @@ The route comparison is closed. The old comparison matrix is retired.
 |---|---|---|---|
 | Fri Nov 13 | Hong Kong | Arrival at 7:20 p.m.; easy hotel-neighborhood dinner | HK 1/4 |
 | Sat Nov 14 | Hong Kong | Central, Tai Kwun, Peak + Lugard Road | HK 2/4 |
-| Sun Nov 15 | Shenzhen option | VOA at Luohu/Huanggang; if refused, M+ and West Kowloon | HK 3/4 |
+| Sun Nov 15 | Shenzhen option + Hutong | VOA at Luohu/Huanggang; if refused, M+ and West Kowloon. Hutong dinner requested for 7 p.m. Hong Kong time, 2 guests; awaiting final confirmation. Return to Tsim Sha Tsui with a dinner buffer. | HK 3/4 |
 | Mon Nov 16 | Hong Kong | Dragon’s Back or wet-weather recovery day | HK 4/4 |
 | Tue Nov 17 | Chongqing | Direct HKG → CKG; request 240-hour entry | CQ 1/3 |
 | Wed Nov 18 | Chongqing | Liziba, Shibati, Hongya Cave, hotpot | CQ 2/3 |
