@@ -1,7 +1,7 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 3,
+    "total_sources_ingested": 4,
     "total_pages": 24
   },
   "sources": {
@@ -78,6 +78,19 @@
         "https://investors.micron.com/news-releases/news-release-details/micron-technology-inc-reports-results-second-quarter-fiscal-2026",
         "https://investors.modine.com/news/news-details/2025/Modine-Reports-Second-Quarter-Fiscal-2026-Results/default.aspx",
         "https://ir.solaris-energy.com/news/2026/04-27-2026-210632081"
+      ]
+    },
+    "email:2026-10-16-hutong-confirmation": {
+      "ingested_at": "2026-10-15",
+      "source_type": "email",
+      "project": "china-2026-trip",
+      "description": "Hutong reception and SevenRooms confirmed Nov 15 dinner for two, 7–9pm HKT; table hold, dress code and window-table deposit condition. Private identifiers withheld.",
+      "pages_created": [],
+      "pages_updated": [
+        "travel/china-2026/restaurants.md",
+        "travel/china-2026/hong-kong.md",
+        "travel/china-2026/routes.md",
+        "index.md"
       ]
     }
   }

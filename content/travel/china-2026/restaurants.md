@@ -22,17 +22,19 @@ Thanksgiving dinner on Thu Nov 26 is with Jen’s family and is the fixed Taipei
 
 ## Hong Kong
 
-### Hutong — dinner requested, awaiting confirmation
+### Hutong — confirmed dinner
 
-- **When:** Sunday, November 15, 2026 at **7:00 p.m. Hong Kong time**, **2 guests**.
+- **When:** Sunday, November 15, 2026, **7–9 p.m. Hong Kong time**, **2 guests**.
 - **Where:** 18/F, H Zentre, 15 Middle Road, Tsim Sha Tsui, Hong Kong.
-- **Status checked October 15:** Hutong offered this table by email. We replied with booking/contact details and asked to proceed; final restaurant confirmation is still pending.
-- **Terms:** Deposit, minimum-spend, cancellation and no-show terms requested. No fees or payment requirements approved.
+- **Confirmed October 16 Hong Kong time:** Reception and SevenRooms both confirmed the booking. Dining duration is two hours from the reservation time; the table is held for 15 minutes. The entire party should arrive promptly.
+- **Dress code:** Smart casual. Gentlemen need closed-toed shoes and sleeved shirts; no beachwear, vests or flip-flops.
+- **Window table / terms:** A deposit is required to guarantee a window table; otherwise subject to availability. Deposit amount and payment deadline were not provided. Minimum-spend and cancellation/no-show charges were not specified in the confirmation; no payment was authorized or made in this update.
+- **Ordering:** Preorder Peking Duck, BBQ Pork or the skyline menu if wanted; daily servings are limited. Cake cutting is HK$75 per guest; corkage is HK$800 per 750ml bottle or HK$1,600 per magnum of wine/champagne.
 - **Restaurant contact:** hutong@aqua.com.hk · +852 3428 8342 · WhatsApp +852 5481 6436.
-- **Calendar:** Added to Family as a 7–9 p.m. planning hold; the two-hour duration is an estimate, not a confirmed seating limit.
-- **Day plan:** Finish the [[hong-kong#Sun Nov 15 — Shenzhen option|daytime sightseeing]] with time to return to Tsim Sha Tsui for dinner. The [trip dossier](https://chriswiles.github.io/china-2026-trip/#dinner-nov15) carries the same pending status.
+- **Calendar:** Existing Family event updated to confirmed, 7–9 p.m.; this is now the restaurant-confirmed seating duration.
+- **Day plan:** Finish the [[hong-kong#Sun Nov 15 — Shenzhen option|daytime sightseeing]] with time to return to Tsim Sha Tsui for dinner. The [trip dossier](https://chriswiles.github.io/china-2026-trip/#dinner-nov15) carries the same confirmed status.
 
-Source: Hutong reception email and our reply, October 15, 2026. November 14 remains unavailable because of a private buyout.
+Source: Hutong reception and SevenRooms confirmation emails, October 16, 2026 Hong Kong time (October 15 Chicago time). November 14 remains unavailable because of a private buyout. Private booking identifiers remain in Calendar/email.
 
 - **Yat Lok** — roast goose with lai fun; essential casual lunch.
 - **The Chairman** — steamed flowery crab with Shaoxing wine when available.

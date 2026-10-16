@@ -8,3 +8,5 @@ title: Wiki log
 - [2026-04-30] RESEARCH source="web research: AI data center buildout investment memo" pages_updated=1 pages_created=3 mode=append
 
 - [2026-10-15] UPDATE source="Hutong reception email and sent reply" pages_updated=3 scope="travel/china-2026" notes="Nov15 7pm Hong Kong dinner for two requested; final confirmation and fees pending; Family calendar planning hold added; public dossier synchronized"
+
+- [2026-10-15] UPDATE source="Hutong reception and SevenRooms confirmations received October 16 HKT" pages_updated=3 scope="travel/china-2026" notes="Nov15 dinner confirmed for two, 7–9pm Hong Kong time; Family calendar updated; two-hour seating, 15-minute hold, dress code and conditional window-table deposit recorded; public dossier synchronized"

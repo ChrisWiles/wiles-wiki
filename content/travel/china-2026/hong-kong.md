@@ -42,7 +42,7 @@ Tai Kwun, the Mid-Levels escalator, Man Mo Temple and the Central–Sheung Wan l
 
 Attempt the Shenzhen port visa at Luohu or Huanggang. If issued, run the compact Futian loop and return that evening. If refused, use the day for M+, West Kowloon or a slow Hong Kong neighborhood day.
 
-**Dinner requested:** [[restaurants#Hutong — dinner requested, awaiting confirmation|Hutong]], 7:00 p.m. Hong Kong time for two at 18/F, H Zentre, 15 Middle Road, Tsim Sha Tsui. Availability offered by email October 15; booking details sent, final confirmation and terms pending. Leave a return buffer if choosing Shenzhen.
+**Confirmed dinner:** [[restaurants#Hutong — confirmed dinner|Hutong]], 7–9 p.m. Hong Kong time for two at 18/F, H Zentre, 15 Middle Road, Tsim Sha Tsui. Two-hour seating; table held 15 minutes. Smart casual; gentlemen need closed-toed shoes and sleeved shirts. A window table requires a deposit; otherwise subject to availability. Leave a return buffer if choosing Shenzhen.
 
 ### Mon Nov 16 — outdoors or recovery
 

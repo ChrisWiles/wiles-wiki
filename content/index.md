@@ -10,7 +10,7 @@ Personal knowledge base for Chris and family. Home projects, travel, recipes, an
 - [[home-projects/index|Home projects]]
 - [[travel/index|Travel]]
 
-- [[travel/china-2026/restaurants#Hutong — dinner requested, awaiting confirmation|Hutong dinner requested — Nov 15, 7 p.m., two guests; confirmation pending October 15]]
+- [[travel/china-2026/restaurants#Hutong — confirmed dinner|Hutong confirmed — Nov 15, 7–9 p.m. Hong Kong time, two guests; confirmation received October 16 HKT]]
 
 ## About this wiki
 
