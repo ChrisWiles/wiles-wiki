@@ -1,10 +1,18 @@
 # Household portfolio state
 
-**Updated:** October 15, 2026 morning America/Chicago. [Decision report](../../reports/investing/stocks/2026-10-15.md). [Recorded account quantities](../../.skills/holdings/references/accounts.md) were not changed or live-reconciled.
+**Updated:** October 16, 2026 with the E*TRADE account capture. [Last investment decision report](../../reports/investing/stocks/2026-10-15.md); [recorded account quantities](../../.skills/holdings/references/accounts.md). E*TRADE quantities are now read from the broker UI; Robinhood quantities retain their earlier user-provided snapshot dates.
 
 Long-term AI infrastructure investing remains the core; swing trading is supplementary under [D-2026-10-14-001](../decisions/D-2026-10-14-001.md). No numerical target weights, trading-risk budget or cash allocation was inferred.
 
-## Marked recorded positions
+## E*TRADE values and lots captured October 16
+
+The [dated E*TRADE snapshot](../records/2026-10-16-chris-etrade.md) records 16 stock/ETF positions, seven Treasury notes, $6,516.68 cash and a $0.00 margin balance. Its position-view net account value is $3,000,918.95; a later detailed-balances refresh showed $3,001,781.33. Keep these intraday timestamps separate from the older Robinhood marks below.
+
+All E*TRADE stock quantities and Treasury face amounts are now in the minimal holdings record. Treasury face amount totals $2,900.00. [Position values](../records/2026-10-16-chris-etrade-positions.csv) reconcile to quoted quantities/prices; the sum of rounded positions plus cash differs from the broker total by $0.01. [All 69 open-lot quantities](../records/2026-10-16-chris-etrade-lots.csv) reconcile to their positions. Acquisition dates and price paid were retained; the two 57-share AAPL/GOOG lots showing zero price paid require basis review. Broker tax-term/adjustment histories and transaction records are still incomplete.
+
+The October 15 household-input gap is partly resolved. Refresh all accounts on a common market basis before calculating new combined dollar weights. Robinhood cash and current option terms/marks remain missing; this capture does not establish full household equity or an approved trading-risk budget. Original reports and decisions retain their evidence as of their own dates.
+
+## Robinhood marks retained from the October 15 review
 
 October 14 completed-session USD closes, exact-decimal quantity × price. Known stocks/ETFs only; current cash, options, E*TRADE quantities and Treasury face amounts are excluded. These are not complete account or household weights.
 
@@ -58,6 +66,6 @@ No prior comparable marked baseline exists, so this is not a weekly allocation-c
 
 [Operator-add deferral](../decisions/D-2026-10-15-001.md), [conditional future-flow simplification](../decisions/D-2026-10-15-002.md) and [VRT hold after review](../decisions/D-2026-10-15-003.md) are proposed analysis. No transaction or accepted allocation change is recorded.
 
-Both existing call positions remain recorded by contract/count only. Current marks, contract adjustments, Greeks and acquisition dates are unverified; no option delta or full account total is inferred. Seven Treasury issues are recorded, first maturity December 31, 2026 and last January 31, 2029; face amounts and yields remain unknown.
+Both existing call positions remain recorded by contract/count only. Current marks, contract adjustments, Greeks and acquisition dates are unverified; no option delta or full account total is inferred. The seven Treasury issues, first maturity December 31, 2026 and last January 31, 2029, now have verified quantities totaling $2,900.00 face amount in the October 16 capture. Current yields and accrued interest were not verified.
 
-[Tax context](../tax-context.md) confirms all three accounts are US taxable. No local input directory/tax-lot or transaction import existed for this run. Basis, acquisition dates, lot holding periods, realized results, carryforwards, tax rates and household wash-sale status remain unknown. R-001/R-009/R-010 await quantities, risk constraints and tax inputs. Continue independent issuer research meanwhile.
+[Tax context](../tax-context.md) confirms all three recorded accounts are US taxable. The October 15 run had no lot/transaction import; the October 16 E*TRADE lot capture now supplies acquisition dates and price-paid observations. Verified adjusted basis/term details, Robinhood lots, realized results, carryforwards, tax rates and household wash-sale status remain incomplete. R-001/R-009/R-010 retain only their unresolved input and risk questions. Continue independent issuer research meanwhile.

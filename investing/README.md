@@ -16,3 +16,7 @@ The [mandate](mandate.md) defines the 2026–2035 thesis, research universe, unc
 Start with the [research queue](research-queue.md), [decision journal](decisions/index.md) and [report contract](report-contract.md) to see what to investigate next and why.
 
 Portfolio recommendations include [tax-aware implementation](tax-review.md) when relevant. The [confirmed tax context](tax-context.md) identifies all three accounts as US taxable; lot dates/basis and personal rate inputs still need evidence. Open tax-lot reports are preferred; useful PDF/transaction exports can be imported without sharing passwords.
+
+The [October 16 E*TRADE snapshot](records/2026-10-16-chris-etrade.md) saves its exact stock/ETF quantities, Treasury face amounts, cash, margin balance and 69 acquisition-date/price-paid lot rows. Positions are in the minimal holdings record; values and lot details are separate. Read this retained data before requesting E*TRADE quantities again. Adjusted tax basis and transaction history remain incomplete, including two lots showing zero price paid.
+
+Weekly reviews also include a [portfolio outlook](projections.md) at six months and one through five years. The user confirmed no new deposits or withdrawals for the baseline. `portfolio-manager` owns the calculation and `stock-analysis` explains the decisions it supports. The researched method is in place; a numerical forecasting engine and validation are still needed. Incomplete inputs limit the covered assets rather than becoming invented household values or probabilities.

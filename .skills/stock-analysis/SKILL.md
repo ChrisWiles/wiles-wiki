@@ -26,6 +26,10 @@ Cover ETFs with current sponsor look-through, duplication and issuer/sector fact
 
 Follow `investing/report-contract.md`: explain the main recommendations, reasons, what would change your mind and missing inputs in everyday language. Use short paragraphs rather than a dense opening decision table; explain financial terms and why the numbers matter. Put detailed calculations, full ticker/technical tables and R-/D-IDs in supporting material, using descriptive links in the main narrative. An unassessed holding is insufficient evidence, not an automatic hold recommendation. Review every symbol briefly, but use the queue to choose deeper work and put urgent core-risk questions ahead of supplementary swings. Preserve account scope and never infer the role of an existing position from ticker alone.
 
+## Portfolio projections
+
+Use `portfolio-manager` and `investing/projections.md` for the user's six-month and one-, two-, three-, four- and five-year outlook. The confirmed baseline assumes no new deposits or withdrawals. Explain the outcome range, defined event probabilities, downside in dollars and what changed since the prior forecast; distinguish conditional model estimates from subjective scenario assumptions and actual validation evidence. Compare proposed changes on the same paths and basis. Missing complete household inputs may permit a clearly labeled stock/ETF subset forecast; missing a reproducible, checked model requires an explicit status and conditional scenarios, not invented probabilities. Preserve earlier fixed-date forecasts. Put methods and scorekeeping in supporting detail, with the implications for ownership in the main report.
+
 ## Swing view
 
 Use `technical-analyst`, `vcp-screener`, `position-sizer` and `backtest-expert` as needed. Evaluate entries from daily data with weekly context. A fundamental long-term thesis is not an entry signal.
