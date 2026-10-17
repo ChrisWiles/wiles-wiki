@@ -6,7 +6,7 @@ The repo-local workflows run sequentially every Saturday at 9 AM America/Chicago
 2. `ai-research-monitor` refreshes primary AI research and the infrastructure thesis.
 3. `stock-analysis` evaluates long-term ownership, valuation and exposure, with swing trading as a supplement.
 4. `research-prioritization` reranks next actions; `decision-journal` records material proposals, confirmed choices and due reviews.
-5. `finance-report-design` checks the generated visual edition for readable financial charts, correct comparisons, clear uncertainty and phone/keyboard usability before publication.
+5. `finance-report-design` applies the approved report pattern and its [repeatable quality checks](../.skills/finance-report-design/references/weekly-quality.md), including both chart views, human readability review and live verification after deployment.
 
 They compare against prior state, create dated Markdown reports, and commit/push their reviewed reports, frozen model inputs/results, state, queue and journal changes under the [publication protocol](publication.md). [Reports](../reports/investing/index.md), [household holdings](../.skills/holdings/references/accounts.md) and supported allocation analysis are public with the user's authorization.
 
