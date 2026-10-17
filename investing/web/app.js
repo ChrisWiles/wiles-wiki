@@ -34,6 +34,14 @@
   const percent = (v) => (v > 0 && v < 0.005 ? "<1%" : Math.round(v * 100) + "%")
   const getRows = () =>
     scenario === "Main estimate" ? model.horizons : model.sensitivity[scenario]
+  // Keep assumption comparisons on one scale; autoscaling can conceal their dollar differences.
+  const comparisonMax =
+    Math.max(
+      model.initial_value,
+      ...[model.horizons, ...Object.values(model.sensitivity)].flatMap((rows) =>
+        Object.values(rows).map((r) => r.p90),
+      ),
+    ) * 1.05
   const ns = "http://www.w3.org/2000/svg"
   const el = (name, attrs = {}, text) => {
     const node = document.createElementNS(ns, name)
@@ -43,6 +51,9 @@
   }
   function chart() {
     const svg = document.querySelector("#fan-chart")
+    const focusedMonth = svg.contains(document.activeElement)
+      ? document.activeElement.dataset.chartMonth
+      : null
     svg.replaceChildren()
     const rows = getRows()
     const points = [
@@ -54,10 +65,10 @@
       },
       ...Object.values(rows),
     ]
-    const width = Math.max(340, svg.getBoundingClientRect().width),
+    const width = Math.max(240, svg.getBoundingClientRect().width),
       height = width < 600 ? 300 : 355,
       pad = { l: 65, r: 20, t: 22, b: 45 }
-    const max = Math.max(...points.map((r) => r.p90)) * 1.05
+    const max = comparisonMax
     const x = (m) => pad.l + (m / 60) * (width - pad.l - pad.r)
     const y = (v) => height - pad.b - (v / max) * (height - pad.t - pad.b)
     svg.setAttribute("viewBox", `0 0 ${width} ${height}`)
@@ -66,7 +77,7 @@
       el(
         "desc",
         {},
-        "The shaded band is the 10th to 90th percentile of ending values at each horizon. It is not a guarantee of staying within this band. Exact numbers appear in the table below.",
+        "The shaded band is the 10th to 90th percentile of ending values at each horizon. It is not a guarantee of staying within this band. The dollar scale stays fixed across assumptions. Exact numbers appear in the table below; horizon buttons provide the same selections as the chart points.",
       ),
     )
     for (let i = 0; i <= 4; i++) {
@@ -103,7 +114,7 @@
         .map((p) => [x(p.months), y(p.p10)].join(","))
         .join("L") +
       "Z"
-    svg.append(el("path", { d, fill: "#d9e8db" }))
+    svg.append(el("path", { d, fill: "#d9e8db", stroke: "#65736b", "stroke-width": 1 }))
     svg.append(
       el("line", {
         x1: pad.l,
@@ -143,6 +154,8 @@
         fill: "transparent",
         tabindex: 0,
         role: "button",
+        "data-chart-month": p.months,
+        "aria-pressed": String(p.months === horizon),
         "aria-label": `${labels[p.months]}, median ${money(p.median)}`,
       })
       hit.addEventListener("click", () => setHorizon(p.months))
@@ -154,6 +167,7 @@
       })
       svg.append(hit)
     }
+    if (focusedMonth) svg.querySelector(`[data-chart-month="${focusedMonth}"]`)?.focus()
   }
   function render() {
     const r = getRows()[horizon]

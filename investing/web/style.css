@@ -238,6 +238,14 @@ select {
   font: 12px system-ui;
   fill: var(--muted);
 }
+.chart [role="button"] {
+  cursor: pointer;
+}
+.chart [role="button"]:focus-visible {
+  outline: none;
+  stroke: var(--coral);
+  stroke-width: 3;
+}
 .legend {
   display: flex;
   gap: 24px;
@@ -258,6 +266,7 @@ select {
 .key.band:before {
   height: 12px;
   background: var(--mint);
+  border: 1px solid var(--muted);
 }
 .key.start:before {
   background: var(--muted);
@@ -404,7 +413,7 @@ td:first-child {
 }
 .chain {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
   margin: 26px 0;
 }
@@ -508,6 +517,9 @@ td:first-child {
   font-weight: 650;
 }
 .reading a {
+  overflow-wrap: anywhere;
+}
+.reading code {
   overflow-wrap: anywhere;
 }
 details {
@@ -656,7 +668,7 @@ noscript {
     grid-template-columns: 1fr;
   }
   .chain {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 13px;
   }
   .chain > div {
@@ -703,6 +715,14 @@ noscript {
   }
   .table-scroll {
     margin: 16px 0;
+  }
+}
+@media (max-width: 380px) {
+  .chain {
+    grid-template-columns: 1fr;
+  }
+  .stats {
+    grid-template-columns: 1fr;
   }
 }
 @media (prefers-reduced-motion: reduce) {
