@@ -45,3 +45,5 @@ Current proposed decisions: [operator additions](../decisions/D-2026-10-15-001.m
 - Invesco attempted official export redirected to generic fund HTML again. No current sponsor constituent weights verified. Other original full-filing/method gaps remain open; no quote P/E is promoted to fair value.
 
 Next active work: R-008/R-012/R-013; R-003 remains high-priority queued follow-up after settlement progress. R-004/R-005/R-006/R-007/R-011 retain their event/economics triggers. Existing journal proposals remain unexecuted. See [research queue](../research-queue.md).
+
+October 17 AGI model supplement: all 28 securities now have an explicit economic-group mapping in A-2026-10-16-v1. This is an assumption-driven, normalized sensitivity bridge; it does not advance issuer filing frontiers, complete current loss/debt/cash-flow valuations or change existing thesis/recommendation statuses. Prioritize actual Alphabet/NVIDIA economics and fund overlap, then operator financing, to replace group assumptions with company-specific underwriting.

@@ -20,6 +20,8 @@ Allowed recurring writes:
 - `reports/investing/projections/YYYY-MM-DD.md`
 - `investing/models/inputs/YYYY-MM-DD.json` or a same-date correction `YYYY-MM-DD-vN.json` containing reviewed identifier-free prices/derived returns and positions
 - `investing/forecasts/P-YYYY-MM-DD-vN.json` containing immutable conditional results/diagnostics
+- `investing/models/agi-inputs/YYYY-MM-DD-vN.json` containing reviewed identifier-free AGI economic assumptions, source dates and judgment-weight rationale
+- `investing/forecasts/A-YYYY-MM-DD-vN.json` containing immutable AGI scenario endpoints, weights and exact P-ID/holdings/input lineage
 - `reports/investing/index.md`
 - `investing/state/research.md`
 - `investing/state/companies.md`
@@ -40,3 +42,5 @@ Do not stage skills, model/renderer source, holdings, raw broker/market download
 - After success, a clean report-path source checkout on main may fast-forward to origin/main without touching unrelated dirty files. If fast-forward is unsafe or fails, keep the source checkout intact and provide the GitHub report links. Remove only this run's clean temporary worktree and release its lock; retain recoverable failed work.
 - Apply `investing/web-publication.md`: verify the Pages deployment contains the published commit, rerun the same browser checker against the live archive for that report date and verify its forecast matches canonical JSON. If deployment or live verification fails, distinguish the successful report push from incomplete web verification, retain recovery evidence and notify the meaningful failure. Do not edit site/model/skill source automatically.
 - Notify once after a successful weekly report, or when a meaningful failure requires action. No interim unchanged polling notices. Cite report links and commit SHA; distinguish analysis completion from publication completion.
+
+For the AGI layer, review `investing/models/agi-scenarios.md` and prior assumptions. Publish a new A vintage only for a reviewed input/assumption change; otherwise explicitly carry the prior date. Preserve old A/P inputs/results and target dates. Verify judgment weights, six-horizon economic bridge arithmetic, issuer/fund accounting and price-only scope independently of the market model. A partial source review cannot silently refresh all parameter dates or present analyst weights as Anthropic/validated probabilities. Required local/live visual checks include the AGI section. Recurring runs may write only the newly allowed A inputs/results; code, skills and holdings remain outside their write scope.

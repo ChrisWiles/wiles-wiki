@@ -62,3 +62,7 @@ Canonical Markdown and frozen JSON remain in Git. The renderer [build-investing-
 Render and check desktop/mobile controls before publishing template changes. Weekly generation may add dated reports, model inputs/results and state under the publication protocol; it does not edit the renderer, skills or model source automatically.
 
 Target dates are calendar horizons. Score the last completed US trading-session close on or before each target date, including weekends/holidays; no trade is assumed on that date.
+
+## AGI economic bridge
+
+[AGI scenarios](agi-scenarios.md) add a separate normalized, price-only sensitivity layer using actual holdings and the user's 2027–2029 window. Run `.skills/portfolio-manager/scripts/agi_scenarios.py` and its `test_agi_scenarios.py` as documented there. Reviewed assumptions live in `investing/models/agi-inputs/YYYY-MM-DD-vN.json`; immutable output is `investing/forecasts/A-YYYY-MM-DD-vN.json`, linked to the exact P-ID and holdings hashes. Provisional analyst weights are separate from model-based event probabilities and are tested with equal/cautious alternatives. The bridge does not complete company valuations or change historical model calibration.

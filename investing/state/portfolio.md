@@ -108,3 +108,7 @@ R-013 implementation is complete for the first stock model; stronger independent
 Existing operator/index proposals reviewed for new financing/account evidence; VRT's event date verified. All remain proposed, with no user acceptance or execution inferred. See [journal](../decisions/index.md). No target allocation or cash weight has been assigned.
 
 Arithmetic: decimal shares × session closes; sum unrounded positions, then round totals. Selected absolute quotes corroborated; full independent provider reconciliation/corporate-action audit incomplete. [Report methodology and coverage limits](../../reports/investing/stocks/2026-10-17.md#selected-chart-context-and-calculation-checks).
+
+## October 17 AGI projection supplement
+
+A-2026-10-16-v1 adds a normalized, price-only economic bridge using the same 28 securities and $4,200,145.05 starting marks as P-2026-10-16-v1. Capability dates test 2027–2029 plus a delayed case; adoption and capture are separate. Five-year endpoints: measured $7.21M, rapid/durable $13.63M, efficiency $5.90M, overbuild $3.30M, delayed $4.61M. Working weighted illustration $7.38M; equal $6.93M; cautious $6.16M. Weights are provisional analyst judgments, not sourced AGI probabilities, user beliefs or calibrated investor odds. These are deterministic sensitivities with incomplete issuer fundamentals, not full valuations; original statistical probabilities and forecasts remain unchanged. No new trades, holdings changes or numerical risk budget. [Method](../models/agi-scenarios.md).

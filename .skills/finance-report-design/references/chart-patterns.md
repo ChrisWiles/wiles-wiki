@@ -8,7 +8,7 @@ Use the smallest visual that answers the decision question. The notebook is a st
 - Mark the current starting value separately. Provide all requested horizons: six months and one through five years. Show dollars and cumulative return with consistent rounding; keep exact values in a table.
 - Label the selected horizon and assumption. Keep y limits stable across assumption switches so a larger or smaller result does not look unchanged after autoscaling. Include an explicit scale label if using a log scale. Nonzero axes are acceptable for a line plot when clearly labeled and justified; magnitude bars begin at zero.
 - A loss event needs a threshold and horizon: ending below the start, ending at least 20% down, doubling, and experiencing a 30% drawdown are distinct events. Do not turn overlapping probabilities into a stacked bar. Only mutually exclusive, exhaustive bins may form a 100% bar; reconcile the underlying probabilities before rounding.
-- Round odds for readability without showing a small positive probability as zero. Do not show decimal precision suggesting calibration the model lacks. Alternative assumptions have no probability weight unless independently supported.
+- Round odds for readability without showing a small positive probability as zero. Do not show decimal precision suggesting calibration the model lacks. Historical-model sensitivity alternatives remain unweighted. The separately authorized AGI layer may show explicit provisional analyst judgment weights with rationale and sensitivity, never as empirically calibrated probabilities.
 - Keep missing options/cash/bonds, tax/inflation treatment and validation evidence near the chart. A long optimistic tail or median alone is not a recommendation.
 
 ## Exposure and holdings
@@ -37,3 +37,7 @@ TradingView's official Lightweight Charts skill is a good implementation referen
 ## Accessible delivery
 
 Use semantic headings, native buttons/selects, labeled tables, visible focus and short chart descriptions. Supply exact data and a text explanation, following [W3C guidance for complex images](https://www.w3.org/WAI/tutorials/images/complex/). Verify relevant essential graphics and controls against [non-text contrast guidance](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html); use direct text/pattern/line-style cues as well as color. Light gridlines can remain subordinate. Test at the rendered size, including keyboard navigation after chart redraw, rather than judging only source code.
+
+## AGI economic branches
+
+Use a separate shared-scale, zero-based bar comparison with direct dollar labels, cumulative returns, starting-value reference and explicit capability/adoption dates. Keep branch order and axis domain fixed when changing horizon/weight set. A judgment-weighted illustration is an endpoint average, not a statistical median, confidence interval or price target. Show the unweighted branches alongside working/equal/cautious weight choices. Do not mix these with the historical model's probability bins or derive new calibrated loss odds. Link all operating and valuation settings and disclose the income-policy difference.

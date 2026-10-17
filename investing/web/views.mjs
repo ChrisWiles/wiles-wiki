@@ -1,8 +1,10 @@
 /** Presentation only. All financial inputs are supplied by the canonical report builder. */
+import { agiView } from "./agi-view.mjs"
 export function editionView({
   date,
   title,
   forecast: f,
+  agi,
   input,
   stockHTML,
   researchHTML,
@@ -23,7 +25,7 @@ export function editionView({
   const openingContext = openingParagraphs
     .filter((p) => p !== firstParagraph && !decisions.includes(p))
     .join("")
-  const nav = `<nav class="edition-nav" aria-label="In this report"><a href="#decisions">Decisions</a>${f ? '<a href="#outlook">Portfolio outlook</a><a href="#holdings">Our exposure</a>' : ""}<a href="#thesis">AI thesis</a><a href="#full-reports">Full reports</a></nav>`
+  const nav = `<nav class="edition-nav" aria-label="In this report"><a href="#decisions">Decisions</a>${f ? '<a href="#outlook">Portfolio outlook</a><a href="#holdings">Our exposure</a>' : ""}${agi ? '<a href="#agi-outlook">AGI scenarios</a>' : ""}<a href="#thesis">AI thesis</a><a href="#full-reports">Full reports</a></nav>`
   let body = `<main id="main" class="wrap"><div class="edition-date"><a href="../../">Investment notebook</a><span aria-hidden="true">/</span><time datetime="${date}">${esc(title)}</time></div>
   <div class="report-intro"><div><h1>The investment review.</h1><p class="lead">Long-term AI infrastructure. A closer look at what we own, what could happen, and what deserves our attention next.</p></div>${f ? `<aside class="snapshot"><span>Recorded stocks &amp; funds</span><strong>${short(f.initial_value)}</strong><p>${Object.keys(f.position_values).length} symbols across three accounts<br>Closing prices: ${esc(pretty(f.valuation_date))}</p><a href="#scope">What this includes</a></aside>` : '<aside class="snapshot historical"><span>From the archive</span><p>The research and recommendations as they stood on this date. No later forecast has been added.</p></aside>'}</div>
   ${nav}<section id="decisions" class="decision-section"><div class="section-heading"><h2>What matters this week</h2><a href="#stocks">Read the stock review</a></div><div class="brief-lead">${firstParagraph}</div><div class="decision-list">${decisions.length ? decisions.map((p) => `<article class="decision">${p.replace("<p><strong>", "<h3>").replace("</strong>", "</h3><p>")}</article>`).join("") : "<p>The original stock review below preserves this edition’s conclusions and open questions.</p>"}</div>${openingContext ? `<div class="brief-context">${openingContext}</div>` : `<p class="note">These are proposals, not confirmed trades. The detailed review retains its coverage limits and tax conditions.</p>`}</section>`
@@ -94,6 +96,7 @@ export function editionView({
         "",
       )}</tbody></table></div><p class="note">A dash means absent from the supplied reference, not a verified zero today. Options and balances remain in the full stock review.</p></details></section>`
   }
+  body += agiView(agi, { esc, money, short, pct })
   body += `<section id="thesis"><div class="section-heading"><div><h2>From AI progress to shareholder returns</h2><p>Four links to test. A breakthrough at one does not prove the next.</p></div><a href="#research">Read the AI research</a></div><ol class="thesis-chain"><li><span>Capability</span><h3>Useful agents</h3><p>Can they do valuable work reliably, beyond a benchmark?</p></li><li><span>Demand</span><h3>Paying customers</h3><p>Do useful workloads generate enough value to keep growing?</p></li><li><span>Infrastructure</span><h3>Profitable capacity</h3><p>Can chips, power and cooling arrive at a cost customers can support?</p></li><li><span>Ownership</span><h3>Cash per share</h3><p>What remains after investment, equipment replacement, debt and dilution?</p></li></ol><div class="thesis-takeaway"><strong>The question that connects them</strong><p>Does useful workload growth outpace efficiency gains, and which businesses keep the resulting profit?</p></div></section>
   <section id="full-reports"><div class="section-heading"><div><h2>The complete picture</h2><p>Read the original reports, including sources, tax conditions and unfinished research.</p></div></div>${projectionHTML ? `<details id="projections"><summary>Portfolio projections <span>Assumptions &amp; validation</span></summary><article class="reading">${projectionHTML}</article></details>` : ""}<details id="stocks"><summary>Stock review <span>Companies, exposure &amp; tax conditions</span></summary><article class="reading">${stockHTML}</article></details><details id="research"><summary>AI research <span>Evidence, bottlenecks &amp; open questions</span></summary><article class="reading">${researchHTML}</article></details><div class="download-links"><span>Source files</span><a href="${github}reports/investing/stocks/${date}.md">Stock review</a><a href="${github}reports/investing/research/${date}.md">AI research</a>${projectionHTML ? `<a href="${github}reports/investing/projections/${date}.md">Projections</a>` : ""}${f ? '<a href="forecast.json">Frozen model data</a>' : ""}</div></section><noscript>Interactive views need JavaScript. The six-horizon table and complete written reports remain readable below; expand “See the exact values” for the table.</noscript></main>`
   return body

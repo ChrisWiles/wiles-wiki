@@ -1299,3 +1299,32 @@ noscript {
     break-inside: avoid;
   }
 }
+
+/* AGI economics: shared-scale endpoint bars, separate from probabilistic bands. */
+.agi-intro { max-width: 78ch; }
+.agi-panel { background: var(--card, #fffef9); border: 1px solid #c8d0c7; padding: clamp(16px, 3vw, 36px); border-radius: 12px; }
+.agi-weight-note { max-width: 90ch; font-size: .94rem; color: #596b61; }
+.agi-reading { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin: 28px 0; }
+.agi-reading strong { display: block; font: 2.8rem Georgia, serif; margin: 8px 0; }
+.agi-reading p { max-width: 48ch; font-size: .93rem; color: #596b61; }
+.agi-axis { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: .85rem; color: #596b61; border-bottom: 1px solid #c8d0c7; padding-bottom: 12px; }
+.agi-branch { padding: 22px 0 16px; border-bottom: 1px solid #d9ded5; }
+.agi-branch:last-child { border-bottom: 0; }
+.agi-branch-heading { display: flex; justify-content: space-between; align-items: start; gap: 16px; }
+.agi-branch-heading h3 { margin: 0; font-size: 1.25rem; }
+.agi-branch-heading>div { text-align: right; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+.agi-branch-heading strong, .agi-return { display: block; }
+.agi-return, .agi-timing, .agi-branch>p { font-size: .88rem; color: #596b61; }
+.agi-timing { margin: 8px 0 12px; }
+.agi-track { position: relative; height: 17px; background: #e6ebe2; border-radius: 3px; }
+.agi-track span { display: block; height: 100%; background: #15644c; border-radius: 3px; }
+.agi-track i { position: absolute; top: -4px; bottom: -4px; border-left: 2px solid #1f302a; box-shadow: 0 0 0 1px #fffef9; }
+.agi-takeaway { max-width: 82ch; margin: 28px 0; }
+@media(max-width:600px) {
+ .agi-reading { grid-template-columns: 1fr; gap: 12px; }
+ .agi-reading strong { font-size: 2.2rem; }
+ .agi-branch-heading { flex-direction: column; gap: 8px; }
+ .agi-branch-heading>div { text-align: left; }
+ .agi-branch-heading strong { display: inline; margin-right: 8px; }
+ .agi-return { display: inline; }
+}

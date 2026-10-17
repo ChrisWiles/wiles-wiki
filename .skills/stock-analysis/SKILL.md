@@ -30,6 +30,10 @@ Follow `investing/report-contract.md`: explain the main recommendations, reasons
 
 Use `portfolio-manager` and `investing/projections.md` for the user's six-month and one-, two-, three-, four- and five-year outlook. The confirmed baseline assumes no new deposits or withdrawals. Explain the outcome range, defined event probabilities, downside in dollars and what changed since the prior forecast; distinguish conditional model estimates from subjective scenario assumptions and actual validation evidence. Compare proposed changes on the same paths and basis. Missing complete household inputs may permit a clearly labeled stock/ETF subset forecast; missing a reproducible, checked model requires an explicit status and conditional scenarios, not invented probabilities. Preserve earlier fixed-date forecasts. Put methods and scorekeeping in supporting detail, with the implications for ownership in the main report.
 
+### AGI economic scenarios
+
+The outlook also includes the separate AGI economic bridge in `investing/models/agi-scenarios.md`. Use portfolio-manager to review and freeze its exact A-ID, then add `<!-- agi-scenario-id: A-YYYY-MM-DD-vN -->` alongside the P-ID marker. Explain which holding economics drive the dollar result and which assumptions changed. Show all six horizons, separate analyst weight judgments from statistical event probabilities, retain equal/cautious comparisons and no-cash-flow scope, and disclose the price-only versus total-return difference. A normalized bridge cannot establish issuer fair value, positive current cash flow or a trade recommendation. Link unresolved company underwriting to the queue rather than treating the new model as resolution.
+
 ## Swing view
 
 Use `technical-analyst`, `vcp-screener`, `position-sizer` and `backtest-expert` as needed. Evaluate entries from daily data with weekly context. A fundamental long-term thesis is not an entry signal.

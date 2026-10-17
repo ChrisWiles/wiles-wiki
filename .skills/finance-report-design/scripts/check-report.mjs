@@ -211,7 +211,7 @@ try {
         for (const [month, label] of Object.entries(horizons)) {
           const r = rows[month]
           assert(r, `${name} is missing ${month} months`)
-          await page.getByRole("button", { name: label, exact: true }).click()
+          await page.locator("#outlook").getByRole("button", { name: label, exact: true }).click()
           assert.equal(
             await page.locator("#median-value").innerText(),
             millions(r.median),
@@ -299,7 +299,7 @@ try {
       assert.equal(await page.locator("#scenario").inputValue(), alternatives[0])
     }
     await page.selectOption("#scenario", "Main estimate")
-    await page.getByRole("button", { name: "5 years", exact: true }).click()
+    await page.locator('#outlook [data-months="60"]').click()
     const v = f.position_values,
       nv = v.NVDA ?? 0,
       alphabet = (v.GOOG ?? 0) + (v.GOOGL ?? 0),
@@ -350,10 +350,59 @@ try {
     await page.locator("#projection-data summary").click()
     summary.forecastChecks = "passed"
   }
+  const agi = payload.agi
+  summary.agiCombinations = 0
+  assert.equal(agi?.scenario_id ?? null, edition.agiScenarioId ?? null)
+  if (agi) {
+    await page.locator("#agi-data summary").click()
+    assert(agi.valuation_date <= date && agi.evidence_cutoff <= date)
+    assert.equal(agi.baseline_forecast_id, f.forecast_id)
+    assert.equal(agi.initial_value, f.initial_value)
+    assert.deepEqual(agi, JSON.parse(await fs.readFile(path.join(root,"investing/forecasts",agi.scenario_id+".json"),"utf8")))
+    assert.deepEqual(await json(new URL(`reports/${date}/agi-scenarios.json`,base)), agi)
+    const max = Math.ceil(Math.max(...Object.values(agi.branches).flatMap(b=>Object.values(b.horizons).map(h=>h.ending_value)))/2e6)*2e6
+    for (const [weights, allocation] of Object.entries(agi.weight_sets)) {
+      assert(Math.abs(Object.values(allocation).reduce((a,b)=>a+b,0)-1)<1e-10)
+      await page.selectOption("#agi-weights",weights)
+      for (const m of [6,12,24,36,48,60]) {
+        await page.locator(`[data-agi-months="${m}"]`).click()
+        assert.equal(await page.locator(`[data-agi-months="${m}"]`).getAttribute("aria-pressed"),"true")
+        assert.equal(await page.locator("#agi-weighted").innerText(),millions(agi.summaries[weights][m].weighted_endpoint))
+        assert.equal(await page.locator("#agi-range").innerText(),millions(agi.summaries[weights][m].low_endpoint)+"–"+millions(agi.summaries[weights][m].high_endpoint))
+        let sum=0
+        for (const [id,b] of Object.entries(agi.branches)) {
+          const row=page.locator(`[data-agi-branch="${id}"]`), h=b.horizons[m]
+          assert.equal(await row.locator(".agi-value").innerText(),money(h.ending_value))
+          assert.equal(await row.locator(".agi-weight").innerText(),Math.round(100*allocation[id])+"% weight")
+          const width=await row.locator(".agi-track span").evaluate(el=>parseFloat(el.style.width))
+          assert(Math.abs(width-100*h.ending_value/max)<.0001,"AGI bar geometry changed scale")
+          assert(Math.abs(Object.values(h.securities).reduce((s,v)=>s+v.ending_value,0)-h.ending_value)<.01)
+          sum+=allocation[id]*h.ending_value
+        }
+        assert(Math.abs(sum-agi.summaries[weights][m].weighted_endpoint)<.01)
+        summary.agiCombinations++
+      }
+      for (const m of [6,12,24,36,48,60]) assert.equal(await page.locator(`[data-agi-row="${m}"] .agi-table-weighted`).innerText(),money(agi.summaries[weights][m].weighted_endpoint))
+    }
+    const order=await page.locator("[data-agi-branch]").evaluateAll(rows=>rows.map(r=>r.dataset.agiBranch))
+    for (const m of [6,12,24,36,48,60]) {
+      const cells=await page.locator(`[data-agi-row="${m}"] td`).allTextContents()
+      assert.deepEqual(cells.slice(0,-1),order.map(id=>money(agi.branches[id].horizons[m].ending_value)))
+    }
+    await page.selectOption("#agi-weights","Working judgment")
+    await page.locator('[data-agi-months="6"]').focus()
+    await page.keyboard.press("Enter")
+    assert.equal(await page.evaluate(()=>document.activeElement.dataset.agiMonths),"6")
+    assert.match(await page.locator("#agi-status").innerText(),/6 months/)
+    await page.locator('[data-agi-months="60"]').click()
+    await page.locator("#agi-data summary").click()
+    summary.agiChecks="passed; 18 horizon/weight combinations, 90 branch values, shared geometry, table, aliases and canonical identity"
+  }
   const sourceIds = [
     "stocks",
     "research",
     ...((await page.locator("#projections").count()) ? ["projections"] : []),
+    ...(agi ? ["agi-data"] : []),
   ]
   for (const width of [320, 390, 768, 1024, 1440]) {
     await page.setViewportSize({ width, height: 900 })
@@ -391,6 +440,11 @@ try {
       ".risk-heading span",
       ".model-caution",
       ".comparison-values span",
+      ".agi-weight-note",
+      ".agi-return",
+      ".agi-timing",
+      ".agi-reading p",
+      ".agi-axis",
     ].flatMap((selector) => {
       const el = document.querySelector(selector)
       if (!el) return []
@@ -426,6 +480,12 @@ try {
         await capture(page, `${width}-${view}.png`)
       }
     }
+    if (agi) {
+      await page.locator("#agi-outlook h2").evaluate(el => window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - document.querySelector("header").getBoundingClientRect().height - 24))
+      await capture(page,`${width}-agi.png`)
+      await page.locator(".agi-branches").scrollIntoViewIfNeeded()
+      await capture(page,`${width}-agi-branches.png`)
+    }
   }
   const previous = manifest
     .filter((e) => e.date < date)
@@ -441,6 +501,10 @@ try {
     else assert.equal(await page.locator("#fan-chart").count(), 0)
     await noOverflow(page, "previous edition")
     summary.previousEdition = previous.date
+    const oldAGI=await page.locator("#report-data").evaluate(el=>JSON.parse(el.textContent).agi)
+    assert.equal(oldAGI?.scenario_id ?? null, previous.agiScenarioId ?? null)
+    if(oldAGI) assert(oldAGI.evidence_cutoff <= previous.date)
+    else assert.equal(await page.locator("#agi-outlook").count(),0)
   }
   const nojs = await browser.newPage({
     javaScriptEnabled: false,
@@ -450,6 +514,12 @@ try {
   if (f) {
     await nojs.locator("#projection-data summary").click()
     assert.equal(await nojs.locator("#outlook-table tbody tr").count(), 6)
+  }
+  if (agi) {
+    await nojs.locator("#agi-data summary").click()
+    assert.equal(await nojs.locator("#agi-table tbody tr").count(),6)
+    assert.equal(await nojs.locator(".agi-branch").count(),Object.keys(agi.branches).length)
+    await noOverflow(nojs,"no-JavaScript AGI data")
   }
   await nojs.locator("#stocks summary").click()
   assert((await nojs.locator("#stocks .reading").innerText()).length > 0)
@@ -461,7 +531,7 @@ try {
     ? `${summary.combinations} forecast combinations reconciled`
     : "no eligible forecast; numerical checks not applicable"
   console.log(
-    `PASS ${date}: ${numericalResult}; layout, interaction, history and no-JavaScript checks. Human screenshot/readability review remains required.`,
+    `PASS ${date}: ${numericalResult}; ${summary.agiCombinations} AGI horizon/weight combinations; layout, interaction, history and no-JavaScript checks. Human screenshot/readability review remains required.`,
   )
 } catch (error) {
   summary.status = "failed"

@@ -157,11 +157,37 @@ for (const date of dates) {
         if (!(r[k] >= 0 && r[k] <= 1)) throw new Error("Probability out of bounds")
     }
   }
+  const agiMarker = rawStock.match(/<!-- agi-scenario-id: (A-\d{4}-\d{2}-\d{2}-v\d+) -->/)
+  const agi = agiMarker ? await readJSON(path.join(root, "investing/forecasts", agiMarker[1] + ".json")) : null
+  if (agi) {
+    if (agi.scenario_id !== agiMarker[1]) throw Error("AGI file identity mismatch")
+    if (!forecast || agi.baseline_forecast_id !== forecast.forecast_id || agi.valuation_date > date || agi.evidence_cutoff > date)
+      throw Error("AGI scenario identity/date does not match this edition")
+    for (const [file, hash] of [
+      [path.join(root,"investing/models/agi-inputs",agi.input_file),agi.input_sha256],
+      [path.join(root,"investing/models/inputs",agi.holdings_input),agi.holdings_sha256],
+      [path.join(root,"investing/forecasts",agi.baseline_forecast_id+".json"),agi.baseline_sha256],
+    ]) if (createHash("sha256").update(await fs.readFile(file)).digest("hex") !== hash) throw Error("AGI lineage hash mismatch")
+    if (Math.abs(agi.initial_value-forecast.initial_value)>.005 || agi.external_deposits!==0 || agi.external_withdrawals!==0)
+      throw Error("AGI scope does not reconcile")
+    if (Object.keys(agi.security_groups).sort().join() !== Object.keys(forecast.position_values).sort().join()) throw Error("AGI universe mismatch")
+    for (const weights of Object.values(agi.weight_sets)) {
+      if (Object.keys(weights).sort().join() !== Object.keys(agi.branches).sort().join() || Math.abs(Object.values(weights).reduce((x,v)=>x+v,0)-1)>1e-10 || Object.values(weights).some(v=>!Number.isFinite(v)||v<0||v>1)) throw Error("Invalid judgment weights")
+    }
+    for (const b of Object.values(agi.branches)) {
+      for (const m of [6,12,24,36,48,60]) {
+        const h=b.horizons[m]
+        if (!h || h.target_date!==forecast.horizons[m].target_date || !Number.isFinite(h.ending_value) || h.ending_value<=0 || Math.abs(Object.values(h.securities).reduce((sum,s)=>sum+s.ending_value,0)-h.ending_value)>.01)
+          throw Error("Invalid AGI endpoint reconciliation")
+      }
+    }
+  }
   const edition = {
     date,
     title: pretty(date),
     hasForecast: !!forecast,
     forecastId: forecast?.forecast_id ?? null,
+    agiScenarioId: agi?.scenario_id ?? null,
     stockPath: `reports/${date}/#stocks`,
     researchPath: `reports/${date}/#research`,
   }
@@ -176,6 +202,7 @@ for (const date of dates) {
     date,
     title: pretty(date),
     forecast,
+    agi,
     input,
     stockHTML,
     researchHTML,
@@ -194,11 +221,14 @@ for (const date of dates) {
     path.join(dir, "index.html"),
     shell(pretty(date), body, "../../", {
       forecast,
+      agi,
       input: input ? { accounts: input.accounts } : null,
     }),
   )
   if (forecast)
     await fs.writeFile(path.join(dir, "forecast.json"), JSON.stringify(forecast, null, 2) + "\n")
+  if (agi)
+    await fs.writeFile(path.join(dir, "agi-scenarios.json"), JSON.stringify(agi, null, 2) + "\n")
 }
 const archive = `<main class="wrap" id="main"><div class="hero"><div class="eyebrow">The investment notebook</div><h1>Keep the thesis.<br>Check the evidence.</h1><p class="lead">Weekly AI research, stock decisions and a clear view of what our portfolio could do. Every edition stays here so we can revisit what we believed and learn from what followed.</p><span class="pill">Long-term AI infrastructure first · Swing trading second</span></div><div class="archive-grid">${manifest.map((e, i) => `<article class="edition"><div class="topline"><span>${esc(e.title)}</span><span>${i === 0 ? "LATEST EDITION" : "ARCHIVE"}</span></div><h2>${e.hasForecast ? "The portfolio, in perspective." : "Research & portfolio review."}</h2><p>${e.hasForecast ? "Six forecast horizons, conditional probabilities, sensitivity charts and the decisions that still need evidence." : "Preserved AI research and stock analysis. No later projections have been backfilled into this edition."}</p><a class="open" href="reports/${e.date}/">Open this edition →</a><div class="download-links" style="margin-top:18px"><a href="${e.stockPath}">Stock review</a><a href="${e.researchPath}">AI research</a></div></article>`).join("")}</div><section><div class="two-col"><div><h2>A record of decisions<br>we can learn from.</h2></div><div><p>Each report preserves its date and evidence. Model forecasts keep their original holdings, target dates and assumptions. Recommendations are separate from trades that were actually confirmed.</p><p class="note">The current model covers recorded stocks and funds only. Options, cash and bonds need their own verified handling. Public portfolio reporting is authorized; credentials and unrelated private records are excluded.</p></div></div></section></main>`
 await fs.writeFile(path.join(out, "index.html"), shell("Investment reports", archive))

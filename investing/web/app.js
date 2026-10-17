@@ -11,6 +11,32 @@
   reveal()
   const source = document.querySelector("#report-data")
   if (!source) return
+  const agi = JSON.parse(source.textContent).agi
+  if (agi) {
+    let months = 60, weights = "Working judgment"
+    const usd = v => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }).format(v)
+    const compact = v => "$" + (v / 1e6).toFixed(2) + "M"
+    const max = Math.ceil(Math.max(...Object.values(agi.branches).flatMap(b => Object.values(b.horizons).map(h => h.ending_value))) / 2e6) * 2e6
+    const updateAGI = () => {
+      const summary = agi.summaries[weights][months]
+      document.querySelector("#agi-horizon").textContent = (months === 6 ? "Six-month" : months / 12 + "-year") + " weighted illustration"
+      document.querySelector("#agi-weighted").textContent = compact(summary.weighted_endpoint)
+      document.querySelector("#agi-range").textContent = compact(summary.low_endpoint) + "–" + compact(summary.high_endpoint)
+      document.querySelectorAll("[data-agi-months]").forEach(b => b.setAttribute("aria-pressed", String(Number(b.dataset.agiMonths) === months)))
+      document.querySelectorAll("[data-agi-branch]").forEach(row => {
+        const id = row.dataset.agiBranch, h = agi.branches[id].horizons[months]
+        row.querySelector(".agi-value").textContent = usd(h.ending_value)
+        row.querySelector(".agi-return").textContent = (h.cumulative_return >= 0 ? "+" : "") + Math.round(h.cumulative_return * 100) + "% cumulative"
+        row.querySelector(".agi-weight").textContent = Math.round(100 * agi.weight_sets[weights][id]) + "% weight"
+        row.querySelector(".agi-track span").style.width = 100 * h.ending_value / max + "%"
+      })
+      document.querySelectorAll("[data-agi-row]").forEach(row => row.querySelector(".agi-table-weighted").textContent = usd(agi.summaries[weights][row.dataset.agiRow].weighted_endpoint))
+      document.querySelector("#agi-status").textContent = months + " months, " + weights + ". Weighted illustration " + usd(summary.weighted_endpoint) + ". Subjective scenarios, not calibrated probabilities."
+    }
+    document.querySelectorAll("[data-agi-months]").forEach(b => b.addEventListener("click", () => { months = Number(b.dataset.agiMonths); updateAGI() }))
+    document.querySelector("#agi-weights").addEventListener("change", e => { weights = e.target.value; updateAGI() })
+    updateAGI()
+  }
   const model = JSON.parse(source.textContent).forecast
   if (!model) return
   let horizon = 60,
@@ -444,7 +470,7 @@
       (scenarioLabels[scenario] || scenario) +
       ". USD, nominal and pre-tax. Six original target dates; no deposits or withdrawals."
     document
-      .querySelectorAll(".horizons button")
+      .querySelectorAll("#outlook .horizons button")
       .forEach((button) =>
         button.setAttribute("aria-pressed", String(Number(button.dataset.months) === horizon)),
       )
@@ -471,7 +497,7 @@
     render()
   }
   document
-    .querySelectorAll(".horizons button")
+    .querySelectorAll("#outlook .horizons button")
     .forEach((button) =>
       button.addEventListener("click", () => setHorizon(Number(button.dataset.months))),
     )
