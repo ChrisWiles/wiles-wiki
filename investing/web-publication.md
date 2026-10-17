@@ -28,4 +28,12 @@ For an authorized UI change, use `finance-report-design` together with the insta
 
 For renderer changes, test desktop and phone layouts, chart/horizon/assumption controls, source/deep links, historical-date boundaries and browser errors. A push alone is not evidence of a live page: check the Pages deployment for that commit, then fetch/open the dated URL and verify the expected content. If deployment fails, retain the commit and report the actual failure; do not claim the page is live. Publish only within the current repo and existing Pages site.
 
+## Visual structure
+
+The web edition leads with the original report's decision brief, then the portfolio outlook, exposure, AI-to-shareholder thesis and full source reports. `investing/web/views.mjs` supplies the presentation; `app.js` and `style.css` provide shared interactions and styling. Source reports and frozen model files remain canonical.
+
+The forecast offers an over-time view and a six-row horizon comparison using the same fixed dollar scale across all assumptions. Readouts, outcome bins, risk explanations, sensitivity comparisons and the exact-data table update together. Separate ending-value loss from drawdown along the way. Alternative assumptions carry no assigned scenario probability. Exposure bars share a zero-to-100% denominator for the recorded stock/ETF subset, with exact dollar labels; account values are not complete account balances. Detailed tables are expandable and remain available without JavaScript.
+
+Retain the quiet ivory/green notebook identity, readable serif headings, aligned numbers and native keyboard controls across editions. Check 320px through desktop, all six horizons and assumptions in both chart views, chart-point and comparison-button focus after redraw, search/empty results, expanded source tables, deep links and a no-JavaScript view. Shared CSS/JS URLs use a content version so an updated page requests the matching assets. A presentation update may restyle archived pages but must preserve their original evidence and forecast identities.
+
 For a stock report with projections, include the non-rendered marker `<!-- forecast-id: P-YYYY-MM-DD-vN -->` naming its exact frozen result. The web edition uses that identity, never whichever newer forecast happens to exist later.
