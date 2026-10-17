@@ -1,6 +1,6 @@
 # Research evidence state
 
-Attempted cutoff: October 15, 2026, morning America/Chicago. [Latest report](../../reports/investing/research/2026-10-15.md); [prior baseline](../../reports/investing/research/2026-10-14.md). Refresh is partial: dates below identify verified document scope, not a completed literature-search frontier.
+Attempted cutoff: October 17, 2026, morning America/Chicago. [Latest report](../../reports/investing/research/2026-10-17.md); [previous distinct report](../../reports/investing/research/2026-10-15.md). Partial, document-scoped refresh. The ledger below retains the October 15 evidence and unresolved methods; new checks are separately dated afterwards. Publication does not advance unchecked sources.
 
 | Signal/source | Verified document and scope, checked Oct 15 | Change / next work |
 | --- | --- | --- |
@@ -22,4 +22,21 @@ Attempted cutoff: October 15, 2026, morning America/Chicago. [Latest report](../
 | Labor | [Stanford August summary](https://digitaleconomy.stanford.edu/news/canariesaug26/): relative young-worker employment gap | Summary scoped; causality/full revised methods/later releases pending. |
 | Conservative counter-case | [NBER w32487](https://www.nber.org/papers/w32487): access failed Oct 15 | Source-unavailable; retry original/author version. Seed estimate is not newly verified. |
 
-Next run searches new/revised material from each source's actual publication/check scope and retries unfinished work. No whole-site frontier is claimed. Preserve older gaps after publishing a new report. Company disclosures in the [stock report](../../reports/investing/stocks/2026-10-15.md) are not independent measurements of end-user productivity.
+Next run searches new/revised material from each source's actual publication/check scope and retries unfinished work. No whole-site frontier is claimed. Preserve older gaps after publishing a new report. Company disclosures in the [stock report](../../reports/investing/stocks/2026-10-17.md) are not independent measurements of end-user productivity.
+
+
+## October 17 checks and frontier changes
+
+| Claim/source and date | Evidence type / status / confidence | Prior-to-current change and remaining frontier |
+| --- | --- | --- |
+| [METR October 14 assessment proposal](https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/), rechecked Oct 17 | Proposed methodology; verified-with-scope / high for its proposed status | No completed assessment inferred. Research/Notes/Updates retrieved listings checked Oct 17; latest live task-horizon panel not checked. |
+| [Anthropic October 9 unintended actions, corrected Oct 12](https://www.anthropic.com/research/investigating-unintended-model-actions), checked Oct 17 | Vendor incident/remediation account; verified-with-scope / moderate | Newly reviewed older evidence; deployment safeguards are an additional constraint to monitor. Independent frequency/impact assessment unresolved. |
+| [Epoch Data Insights October 16 cyber gap and October 5 coding-agent spending](https://epoch.ai/data-insights), index checked Oct 17 | Dated summary entries; partially-supported / moderate within summaries | Newer cyber entry found; spending entry newly reviewed. Underlying datasets, fits and cyber methods remain unverified. No whole-publications frontier. |
+| [IEA summary](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary), rechecked Oct 17 | Conditional energy/supply forecasts; verified-with-scope / moderate | Bottleneck/financing framing retained. No regional grid, packaging census or equipment-delivery refresh. |
+| [Epoch capacity model October 2](https://epoch.ai/publications/estimating-the-agent-population), page retrieved Oct 17 | Scenario model; earlier scoped verification retained | No reproduction/new utilization result this run; model inputs are not paid usage. |
+| TSM Q3 guidance/capex; Nebius Aug 24 closing; Oracle Q1 cash flow | Issuer disclosures, checked Oct 17 / verified-with-scope | [Stock report](../../reports/investing/stocks/2026-10-17.md) records actual new review scope. Company forecasts are not independent economy-wide evidence. |
+| [NBER w32487](https://www.nber.org/papers/w32487), failed again Oct 17 | Source-unavailable / no confidence update | Retry author/original version. Access failure is not a contradictory finding. |
+
+Nine-signal monitoring status: validated autonomous research remains task-bounded; latest reliable task horizons pending; research-spend summary advanced but output attribution open; paid adoption retained Oct 15; inference/efficiency retained Oct 15; HBM and power summary rechecked; financing disclosure progressed; economic/labor evidence retained Oct 15. See the report's signal table for implications.
+
+Retain all earlier retries: full RSI economics/AIDE² methods and revisions, independent lab-productivity checks, latest high-reliability task horizons, adoption retention/economics, capacity-serving assumptions, price-frontier reproduction, parallelization scaling, regional equipment/grid data, Berkeley methods, AlphaEvolve aggregate impact, GDP/robotics methods and revised labor releases. This first scheduled Saturday follows the Oct 14/15 setup reports; no intervening scheduled week was skipped.

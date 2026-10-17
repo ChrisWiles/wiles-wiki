@@ -1,63 +1,104 @@
 # Household portfolio state
 
-**Updated:** October 15, 2026 morning America/Chicago. [Decision report](../../reports/investing/stocks/2026-10-15.md). [Recorded account quantities](../../.skills/holdings/references/accounts.md) were not changed or live-reconciled.
+Updated October 17, 2026. [Current stock report](../../reports/investing/stocks/2026-10-17.md); [previous distinct report](../../reports/investing/stocks/2026-10-15.md). Long-term AI infrastructure remains the core, supplementary swings have no approved risk budget or numerical sleeve. No holdings file, brokerage setting or order was changed.
 
-Long-term AI infrastructure investing remains the core; swing trading is supplementary under [D-2026-10-14-001](../decisions/D-2026-10-14-001.md). No numerical target weights, trading-risk budget or cash allocation was inferred.
+## Input scope and exact denominator
 
-## Marked recorded positions
+Newer user-provided source-checkout records include the October 16 E*TRADE capture and 69 acquisition-date rows. They are used without importing setup/holdings paths into this weekly publication. The dated report retains the complete quantities used, avoiding dependence on unpublished setup files. Robinhood quantities retain their October 14 snapshot date. Current position changes since those snapshots are not inferred.
 
-October 14 completed-session USD closes, exact-decimal quantity × price. Known stocks/ETFs only; current cash, options, E*TRADE quantities and Treasury face amounts are excluded. These are not complete account or household weights.
+All 28 recorded stock/ETF symbols are marked at October 16 USD daily closes. Known stocks/ETFs only; options, cash, Treasuries, borrowing and unrecorded assets are excluded from the $4,200,145.05 denominator. It is not net household wealth. E*TRADE quantities are no longer a blocker for this calculation.
+
+| Account | Known stock/ETF value |
+| --- | ---: |
+| Chris E*TRADE | $2,952,234.49 |
+| Chris Robinhood | $832,751.64 |
+| Jen Robinhood | $415,158.92 |
+| Combined | $4,200,145.05 |
+
+## Positions and account weights within the stock subset
+
+### Chris E*TRADE
+
+Denominator: $2,952,234.49, this account's recorded stocks/ETFs only.
+
+| Symbol | Shares | Close | Value | Stock-subset weight |
+| --- | ---: | ---: | ---: | ---: |
+| NVDA | 4100 | $214.13 | $877,933.00 | 29.74% |
+| QQQM | 2605 | $292.26 | $761,337.30 | 25.79% |
+| GOOG | 1640 | $336.91 | $552,532.40 | 18.72% |
+| TSM | 467 | $412.61 | $192,688.87 | 6.53% |
+| TSLA | 309 | $354.72 | $109,608.48 | 3.71% |
+| ORCL | 733 | $128.23 | $93,992.59 | 3.18% |
+| AAPL | 214 | $343.46 | $73,500.44 | 2.49% |
+| MSFT | 131 | $529.05 | $69,305.55 | 2.35% |
+| PLTR | 361 | $186.03 | $67,156.83 | 2.27% |
+| AVGO | 168 | $328.75 | $55,230.00 | 1.87% |
+| LLY | 22 | $1,257.03 | $27,654.66 | 0.94% |
+| AMD | 50 | $528.75 | $26,437.50 | 0.90% |
+| NBIS | 93 | $165.47 | $15,388.71 | 0.52% |
+| RKLB | 239 | $50.84 | $12,150.76 | 0.41% |
+| CRDO | 52 | $169.70 | $8,824.40 | 0.30% |
+| JPM | 25 | $339.72 | $8,493.00 | 0.29% |
 
 ### Chris Robinhood
 
-Known stock/ETF total: $855,961.85.
+Denominator: $832,751.64, this account's recorded stocks/ETFs only.
 
-| Symbol | Shares | October 14 close | Position value | Subset weight |
+| Symbol | Shares | Close | Value | Stock-subset weight |
 | --- | ---: | ---: | ---: | ---: |
-| QQQ | 501 | $728.95 | $365,203.95 | 42.67% |
-| QQQM | 662 | $300.13 | $198,686.06 | 23.21% |
-| GOOGL | 545.61 | $347.64 | $189,675.86 | 22.16% |
-| NVDA | 239 | $221.30 | $52,890.70 | 6.18% |
-| SPCX | 115.40 | $152.16 | $17,559.26 | 2.05% |
-| CBRS | 100 | $141.48 | $14,148.00 | 1.65% |
-| GOOG | 28 | $343.65 | $9,622.20 | 1.12% |
-| VRT | 25.31 | $222.83 | $5,639.83 | 0.66% |
-| SNDK | 0.940791 | $1,403.34 | $1,320.25 | 0.15% |
-| AMZN | 4.20 | $254.08 | $1,067.14 | 0.12% |
-| RDDT | 1 | $148.60 | $148.60 | 0.02% |
+| QQQ | 501 | $709.80 | $355,609.80 | 42.70% |
+| QQQM | 662 | $292.26 | $193,476.12 | 23.23% |
+| GOOGL | 545.61 | $340.59 | $185,829.31 | 22.32% |
+| NVDA | 239 | $214.13 | $51,177.07 | 6.15% |
+| SPCX | 115.40 | $146.03 | $16,851.86 | 2.02% |
+| CBRS | 100 | $127.21 | $12,721.00 | 1.53% |
+| GOOG | 28 | $336.91 | $9,433.48 | 1.13% |
+| VRT | 25.31 | $206.42 | $5,224.49 | 0.63% |
+| SNDK | 0.940791 | $1,299.30 | $1,222.37 | 0.15% |
+| AMZN | 4.20 | $250.00 | $1,050.00 | 0.13% |
+| RDDT | 1 | $156.14 | $156.14 | 0.02% |
 
 ### Jen Robinhood
 
-Known stock/ETF total: $428,270.31.
+Denominator: $415,158.92, this account's recorded stocks/ETFs only.
 
-| Symbol | Shares | October 14 close | Position value | Subset weight |
+| Symbol | Shares | Close | Value | Stock-subset weight |
 | --- | ---: | ---: | ---: | ---: |
-| QQQM | 532.15 | $300.13 | $159,714.18 | 37.29% |
-| QQQ | 210.27 | $728.95 | $153,276.32 | 35.79% |
-| GOOG | 73.38 | $343.65 | $25,217.04 | 5.89% |
-| AVGO | 42.04 | $346.25 | $14,556.35 | 3.40% |
-| VRT | 56.07 | $222.83 | $12,494.08 | 2.92% |
-| NVDA | 53.77 | $221.30 | $11,899.30 | 2.78% |
-| GEV | 12.12 | $941.78 | $11,414.37 | 2.67% |
-| MU | 11.32 | $914.13 | $10,347.95 | 2.42% |
-| SPY | 12.18 | $769.60 | $9,373.73 | 2.19% |
-| ANET | 42.15 | $195.42 | $8,236.95 | 1.92% |
-| CRDO | 28.24 | $179.225 | $5,061.31 | 1.18% |
-| SNDK | 2.93 | $1,403.34 | $4,111.79 | 0.96% |
-| NBIS | 13.80 | $186.01 | $2,566.94 | 0.60% |
+| QQQM | 532.15 | $292.26 | $155,526.16 | 37.46% |
+| QQQ | 210.27 | $709.80 | $149,249.65 | 35.95% |
+| GOOG | 73.38 | $336.91 | $24,722.46 | 5.95% |
+| AVGO | 42.04 | $328.75 | $13,820.65 | 3.33% |
+| VRT | 56.07 | $206.42 | $11,573.97 | 2.79% |
+| NVDA | 53.77 | $214.13 | $11,513.77 | 2.77% |
+| GEV | 12.12 | $921.20 | $11,164.94 | 2.69% |
+| MU | 11.32 | $878.84 | $9,948.47 | 2.40% |
+| SPY | 12.18 | $763.25 | $9,296.39 | 2.24% |
+| ANET | 42.15 | $176.98 | $7,459.71 | 1.80% |
+| CRDO | 28.24 | $169.70 | $4,792.33 | 1.15% |
+| SNDK | 2.93 | $1,299.30 | $3,806.95 | 0.92% |
+| NBIS | 13.80 | $165.47 | $2,283.49 | 0.55% |
 
-## Combined known-subset findings
+## Shared exposure
 
-- Recorded Robinhood stocks/ETFs: **$1,284,232.16**.
-- QQQ + QQQM: **$876,880.51 / 68.28%** of that subset. Both track Nasdaq-100 exposure; current constituent look-through is unfinished.
-- Direct GOOG/GOOGL: **$224,515.10 / 17.48%** of that subset, before ETF exposure. Alphabet is 23.28% of Chris's subset.
+Direct NVDA $940,623.84 / 22.40%; direct GOOG+GOOGL $772,517.65 / 18.39%; QQQ+QQQM $1,615,199.03 / 38.46%, all relative to the same combined known-stock subset. These group values are before fund look-through; do not add estimated constituent dollars on top of fund values. Official sponsor weights remain unresolved after a redirected export retry. Combined shares: NVDA 4,392.77; GOOG 1,741.38; GOOGL 545.61; QQQ 711.27; QQQM 3,799.15.
 
-No prior comparable marked baseline exists, so this is not a weekly allocation-change or return calculation. Marks matched the finance tool's reconstructed prior closes; upstream providers may overlap. [Market methodology and sources](../../reports/investing/stocks/2026-10-15.md#next-verified-events-and-coverage-limits).
+The earlier $1,284,232.16 October 14 Robinhood-only denominator is retained in the historical report. This larger current denominator adds newly supplied E*TRADE quantities; the difference is not an investment return or proof of purchases. Market moves and newly known inputs must not be conflated.
 
-## Proposals and limits
+Hypothetical stock shocks: all known stocks −20% costs $840,029.01; −30% costs $1,260,043.51. Direct NVDA and Alphabet each −20%, everything else flat, costs $342,628.30. These are sensitivities without probabilities, not maximum losses or approved risk limits.
 
-[Operator-add deferral](../decisions/D-2026-10-15-001.md), [conditional future-flow simplification](../decisions/D-2026-10-15-002.md) and [VRT hold after review](../decisions/D-2026-10-15-003.md) are proposed analysis. No transaction or accepted allocation change is recorded.
+## Other instruments and local source capture
 
-Both existing call positions remain recorded by contract/count only. Current marks, contract adjustments, Greeks and acquisition dates are unverified; no option delta or full account total is inferred. Seven Treasury issues are recorded, first maturity December 31, 2026 and last January 31, 2029; face amounts and yields remain unknown.
+- Chris Robinhood calls: NVDA $190 January 21, 2028 ×3; MU $740 December 15, 2028 ×2. Marks/deliverables/multiplier/Greeks and transaction dates unverified, excluded from valuations. Do not assume stock-equivalent exposure or automatic rolls.
+- Seven E*TRADE Treasury issues have $2,900 combined face. The [stock report](../../reports/investing/stocks/2026-10-17.md#other-instruments-and-balances) lists every issue and face amount; $2,850.96 is the October 16 intraday mark, not a closing bond valuation. First maturity December 31, 2026, last January 31, 2029. Coupon/accrual/reinvestment model pending.
+- E*TRADE captured cash $6,516.68; margin debt $0.00. Positions-view NAV $3,000,918.95 and later detailed NAV $3,001,781.33 are separate intraday observations. Neither is combined with closing quotes as a same-time NAV. Rounded earlier lines differ by $0.01; unrounded products reconcile. Robinhood cash/debt unknown. Other relevant household accounts are not inventoried.
+- Acquisition rows reconcile; AAPL/GOOG each have a 57-share January 16, 2025 row with zero price paid, requiring adjusted-basis review. RKLB/NBIS/CRDO May 13, 2026 dates support only a conditional ordinary-purchase long-term date of May 14, 2027. Other E*TRADE dates are earlier than October 17, 2025. Adjusted holding periods and broker tax-term codes remain unverified. Robinhood lots, transaction history, tax profile and household wash-sale clearance remain open. No raw documents/account identifiers were published.
 
-[Tax context](../tax-context.md) confirms all three accounts are US taxable. No local input directory/tax-lot or transaction import existed for this run. Basis, acquisition dates, lot holding periods, realized results, carryforwards, tax rates and household wash-sale status remain unknown. R-001/R-009/R-010 await quantities, risk constraints and tax inputs. Continue independent issuer research meanwhile.
+## Forecast readiness and journal
+
+Confirmed user baseline: no deposits or withdrawals. Six horizons: April 16, 2027 and October 16 in 2027, 2028, 2029, 2030 and 2031, based on the October 16 valuation date. No numerical forecast ID, median, interval or probability exists yet; no mature forecast can be scored. Starting-price/quantity calculations and stress arithmetic are completed, not a forecasting engine.
+
+Agent-owned R-013 now active: implement and validate a reproducible pre-tax stock/ETF model first. Include joint risks, retained internal dividends, no assumed trading alpha, short-history/proxy disclosure, business scenarios, parameter sensitivity, reference-model comparison and historical-origin probability/interval checks. Missing taxes do not block this subset. Option expiry policies/marks, Robinhood cash/debt, Treasury cash flows and after-tax inputs limit extension to complete account forecasts. Preserve any future original dated forecast rather than resetting scorekeeping weekly.
+
+Existing operator/index proposals reviewed for new financing/account evidence; VRT's event date verified. All remain proposed, with no user acceptance or execution inferred. See [journal](../decisions/index.md). No target allocation or cash weight has been assigned.
+
+Arithmetic: decimal shares × session closes; sum unrounded positions, then round totals. Selected absolute quotes corroborated; full independent provider reconciliation/corporate-action audit incomplete. [Report methodology and coverage limits](../../reports/investing/stocks/2026-10-17.md#selected-chart-context-and-calculation-checks).

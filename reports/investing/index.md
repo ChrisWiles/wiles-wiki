@@ -4,6 +4,7 @@ Reports cover the AI infrastructure thesis, stock research and household exposur
 
 | Date | AI research | Stock analysis |
 | --- | --- | --- |
+| 2026-10-17 | [AI thesis and deployment constraints](research/2026-10-17.md) | [Exposure, earnings and next decisions](stocks/2026-10-17.md) |
 | 2026-10-15 | [Primary-source refresh](research/2026-10-15.md) | [Decision and portfolio review](stocks/2026-10-15.md) |
 | 2026-10-14 | [Research baseline](research/2026-10-14.md) | [Coverage baseline](stocks/2026-10-14.md) |
 
