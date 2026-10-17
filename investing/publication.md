@@ -1,6 +1,6 @@
 # Weekly publication protocol
 
-The user authorized weekly research and stock-analysis reports, committed and pushed to this repository. Run the workflows sequentially in one Saturday 9 AM America/Chicago automation. Use the client timezone for report dates. Run setup work separately from recurring publication.
+The user authorized weekly research and stock-analysis reports, committed and pushed to this repository, and on October 17 extended this to conditional portfolio projections and visual editions on the existing wiki. Run the workflows sequentially in one Saturday 9 AM America/Chicago automation. Use the client timezone for report dates. Run setup work separately from recurring publication.
 
 ## Isolated run
 
@@ -17,6 +17,9 @@ On any failure after report/journal work exists, save a small retained-run manif
 Allowed recurring writes:
 - `reports/investing/research/YYYY-MM-DD.md`
 - `reports/investing/stocks/YYYY-MM-DD.md`
+- `reports/investing/projections/YYYY-MM-DD.md`
+- `investing/models/inputs/YYYY-MM-DD.json` or a same-date correction `YYYY-MM-DD-vN.json` containing reviewed identifier-free prices/derived returns and positions
+- `investing/forecasts/P-YYYY-MM-DD-vN.json` containing immutable conditional results/diagnostics
 - `reports/investing/index.md`
 - `investing/state/research.md`
 - `investing/state/companies.md`
@@ -25,7 +28,7 @@ Allowed recurring writes:
 - `investing/decisions/index.md`
 - `investing/decisions/D-YYYY-MM-DD-NNN.md`
 
-Do not stage skills, holdings, private output, secrets, generated caches or unrelated wiki files during a weekly run. The report date is the local run date; a same-date rerun revises that report rather than creating duplicate entries. Use per-source verified-through frontiers and unresolved retry items to set lookback windows; a partial report does not advance unverified coverage. Include missed weeks and corrected older findings. A quiet week still produces concise dated reports saying which sources were checked and what remains unchanged.
+Do not stage skills, model/renderer source, holdings, raw broker/market downloads, private output, secrets, generated caches or unrelated wiki files during a weekly run. Generated `public/` HTML is never staged. The reviewed public input/result files above are distinct from raw private documents. The report date is the local run date; a same-date rerun revises that report rather than creating duplicate entries. Use per-source verified-through frontiers and unresolved retry items to set lookback windows; a partial report does not advance unverified coverage. Include missed weeks and corrected older findings. A quiet week still produces concise dated reports saying which sources were checked and what remains unchanged.
 
 ## Verification and push
 
@@ -34,4 +37,5 @@ Do not stage skills, holdings, private output, secrets, generated caches or unre
 - Stage only the exact report, state, queue and journal files generated in this run. Verify that journal execution claims have user/transaction confirmation and that prior reasoning was preserved. Inspect the staged diff. If there is a substantive change, commit with `reports(investing): weekly research and stock review YYYY-MM-DD`. An identical same-date rerun is a no-op.
 - Push `HEAD:refs/heads/main` without force. If the remote advanced, fetch and rebase the isolated report commit onto origin/main once. Reread any newly landed research, company/portfolio state, queue, journal and reports, then regenerate affected comparisons, preserve unresolved source retries and reconcile the report index even if Git found no textual conflict. If report/state conflicts require changes, resolve from both versions, rerun checks, then push once more. Stop on continued rejection, permission failure or unresolved conflict and retain the report commit for recovery. Never report success without a successful push and verification that origin/main contains the commit.
 - After success, a clean report-path source checkout on main may fast-forward to origin/main without touching unrelated dirty files. If fast-forward is unsafe or fails, keep the source checkout intact and provide the GitHub report links. Remove only this run's clean temporary worktree and release its lock; retain recoverable failed work.
+- Apply `investing/web-publication.md`: preview the archive from canonical files, verify the Pages deployment contains the published commit, and verify the dated live URL. If deployment fails, distinguish the successful report push from the failed web publication. Do not edit site/model/skill source automatically.
 - Notify once after a successful weekly report, or when a meaningful failure requires action. No interim unchanged polling notices. Cite report links and commit SHA; distinguish analysis completion from publication completion.

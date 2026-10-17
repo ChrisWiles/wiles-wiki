@@ -1,10 +1,19 @@
 ---
 title: wiles wiki
+category: references
+tags:
+  - reference
+sources:
+  - https://github.com/ChrisWiles/wiles-wiki
+created: 2026-04-18
+updated: 2026-10-17
 ---
 
 Personal knowledge base for Chris and family. Home projects, travel, recipes, and whatever else we decide to remember.
 
 ## Sections
+
+- [[investing/index|Investment notebook — visual reports and projections]]
 
 - [[ai-reference/index|AI reference]]
 - [[home-projects/index|Home projects]]

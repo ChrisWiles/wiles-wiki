@@ -26,6 +26,10 @@ Cover ETFs with current sponsor look-through, duplication and issuer/sector fact
 
 Follow `investing/report-contract.md`: explain the main recommendations, reasons, what would change your mind and missing inputs in everyday language. Use short paragraphs rather than a dense opening decision table; explain financial terms and why the numbers matter. Put detailed calculations, full ticker/technical tables and R-/D-IDs in supporting material, using descriptive links in the main narrative. An unassessed holding is insufficient evidence, not an automatic hold recommendation. Review every symbol briefly, but use the queue to choose deeper work and put urgent core-risk questions ahead of supplementary swings. Preserve account scope and never infer the role of an existing position from ticker alone.
 
+## Portfolio projections
+
+Use `portfolio-manager` and `investing/projections.md` for the user's six-month and one-, two-, three-, four- and five-year outlook. The confirmed baseline assumes no new deposits or withdrawals. Explain the outcome range, defined event probabilities, downside in dollars and what changed since the prior forecast; distinguish conditional model estimates from subjective scenario assumptions and actual validation evidence. Compare proposed changes on the same paths and basis. Missing complete household inputs may permit a clearly labeled stock/ETF subset forecast; missing a reproducible, checked model requires an explicit status and conditional scenarios, not invented probabilities. Preserve earlier fixed-date forecasts. Put methods and scorekeeping in supporting detail, with the implications for ownership in the main report.
+
 ## Swing view
 
 Use `technical-analyst`, `vcp-screener`, `position-sizer` and `backtest-expert` as needed. Evaluate entries from daily data with weekly context. A fundamental long-term thesis is not an entry signal.
@@ -51,3 +55,10 @@ Include: cutoff/data completeness; material weekly changes; a coverage table wit
 Include account-level calculations in the dated stock report and update `investing/state/portfolio.md`. Keep intermediate calculations under ignored scratch storage. Define account versus household versus known-securities denominators; missing E*TRADE quantities/cash/option marks prevent complete household weights. Reports never update holdings automatically. Compare with the previous distinct dated stock report and retain historical public reports. On a same-date rerun, reconcile the current draft against that earlier report rather than comparing it with itself. Initial reports may be explicitly labeled onboarding/coverage baselines; do not present them as completed live stock research.
 
 Follow `investing/publication.md` only for the authorized scheduled workflow or an explicit commit/push request. Use the current research state with its cutoff; if research failed, disclose that the state was not refreshed.
+
+
+## Visual report edition
+
+The user requested a web edition alongside Markdown. Follow `investing/web-publication.md`: write the dated stock/research reports and available projection report, link the frozen forecast and keep model exclusions/validation beside the numerical outlook. Run `node scripts/build-investing-site.mjs` to preview the archive. CI builds the visual pages from canonical Markdown/JSON after Quartz; do not stage ignored `public/` or rewrite old forecasts to populate the archive. Verify the deployed dated URL before claiming the visual report is live.
+
+For a stock report with projections, include the non-rendered marker `<!-- forecast-id: P-YYYY-MM-DD-vN -->` naming its exact frozen result. The web edition uses that identity, never whichever newer forecast happens to exist later.

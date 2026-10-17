@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 4,
-    "total_pages": 24
+    "total_sources_ingested": 5,
+    "total_pages": 25
   },
   "sources": {
     "codex-conversation:2026-04-30-post-agi-economy": {
@@ -84,12 +84,24 @@
       "ingested_at": "2026-10-15",
       "source_type": "email",
       "project": "china-2026-trip",
-      "description": "Hutong reception and SevenRooms confirmed Nov 15 dinner for two, 7–9pm HKT; table hold, dress code and window-table deposit condition. Private identifiers withheld.",
+      "description": "Hutong reception and SevenRooms confirmed Nov 15 dinner for two, 7\u20139pm HKT; table hold, dress code and window-table deposit condition. Private identifiers withheld.",
       "pages_created": [],
       "pages_updated": [
         "travel/china-2026/restaurants.md",
         "travel/china-2026/hong-kong.md",
         "travel/china-2026/routes.md",
+        "index.md"
+      ]
+    },
+    "investing-report-library:2026-10-17": {
+      "ingested_at": "2026-10-17",
+      "source_type": "repository-research",
+      "project": "investing",
+      "description": "Visual report library and conditional portfolio model; original reports and frozen forecasts retained in repository",
+      "pages_created": [
+        "investing/index.md"
+      ],
+      "pages_updated": [
         "index.md"
       ]
     }
