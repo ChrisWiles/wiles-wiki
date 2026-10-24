@@ -1,6 +1,6 @@
 # Company research state
 
-**Updated:** October 17, 2026 morning America/Chicago. [Latest stock report](../../reports/investing/stocks/2026-10-17.md). All 28 symbols have October 16 quote/history input and a brief current review. Fundamentals below were last scoped October 15 except the specific October 17 checks noted afterwards. This is a partial refresh, not a full filing/event sweep or completed valuation universe.
+**Updated:** October 24, 2026 morning America/Chicago. [Latest stock report](../../reports/investing/stocks/2026-10-24.md). All 28 symbols have October 23 quote/daily-history input and a brief review. The source table retains original periods; only the October 24 checks below advance their scope. This is a partial refresh, not a full filing/event sweep or completed valuation universe.
 
 | Symbol | Source scope | Research / analytical stance |
 | --- | --- | --- |
@@ -29,7 +29,7 @@
 | [SNDK](https://www.sandisk.com/company/newsroom/press-releases/2026/2026-08-05-sandisk-reports-fiscal-fourth-quarter-2026-financial-results) | FY26 Aug 5 | Pricing/mix strength; cycle valuation unfinished |
 | [SPCX](https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm) | June 30 10-Q | Identity resolved as SpaceX; segment economics/valuation pending |
 | [SPY](https://www.ssga.com/us/en/individual/etfs/state-street-spdr-sp-500-etf-trust-spy) | Sponsor checked Oct 15 | S&P 500 identity/close; overlap not quantified |
-| [TSLA](https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments) | Q3 production Oct 2 | Delivery/energy update; profitability/autonomy economics pending |
+| [TSLA](https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf) | Q3 Oct 21 presentation, reviewed Oct 24 | Positive quarterly FCF bridge verified; working-capital timing and normalized/autonomy value incomplete |
 | [TSM](https://investor.tsmc.com/chinese/encrypt/files/encrypt_file/qr/phase4_reports/2026-10/cb1c588cc3b2009f97afa57a6d7c146ae1e27808/3Q26%20EarningsRelease_WoG.pdf) | Q3 Oct 15 | Q4 guidance and 2026 capex examined Oct 17; demand support strengthens; full valuation pending |
 | [VRT](https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Second-Quarter-2026-with-Diluted-EPS-Growth-of-53-Adjusted-Diluted-EPS-Growth-of-60-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx) | Q2 Jul 29 | Q2 guide rechecked Oct 17; proposed limited hold/wait on adds; next earnings Oct 28 verified |
 
@@ -47,3 +47,14 @@ Current proposed decisions: [operator additions](../decisions/D-2026-10-15-001.m
 Next active work: R-008/R-012/R-013; R-003 remains high-priority queued follow-up after settlement progress. R-004/R-005/R-006/R-007/R-011 retain their event/economics triggers. Existing journal proposals remain unexecuted. See [research queue](../research-queue.md).
 
 October 17 AGI model supplement: all 28 securities now have an explicit economic-group mapping in A-2026-10-16-v1. This is an assumption-driven, normalized sensitivity bridge; it does not advance issuer filing frontiers, complete current loss/debt/cash-flow valuations or change existing thesis/recommendation statuses. Prioritize actual Alphabet/NVIDIA economics and fund overlap, then operator financing, to replace group assumptions with company-specific underwriting.
+
+## October 24 scope and next triggers
+
+- Alphabet Q2 release cash-flow and historical diluted-share bridge newly examined Oct 24; $39.069B operating cash less $44.924B capex equals negative $5.855B Q2 FCF; TTM $53.273B. Equity/preferred funding and ATM distinction reviewed. New cash-based wait-on-adds proposal; current common valuation remains incomplete. No new Q3 results inferred.
+- Nebius Oct 22 $3.5B secured facility, 364-day maturity and Term SOFR spread step-ups verified from issuer; drawn/current cash, covenants and refinancing model pending. Spot-pricing launch checked Oct 24; no rental-rate history inferred. Existing operator add deferral retained. No new full Oracle cash/lease model.
+- Tesla Oct 21 Q3 unaudited statements and cash reconciliation reviewed; FCF $1.531B, working-capital contributions material, no annualized intrinsic value.
+- VRT Oct 28 before-open/11 AM ET call, GEV Oct 28 before-open/7:30 AM ET webcast, Microsoft Oct 28 calendar, Amazon Oct 29 5 PM ET call, Sandisk Oct 29 4:30 PM ET call verified from primary sources. Rocket Lab Nov 9 after close newly verified. Alphabet primary calendar confirmation remains a retry (empty IR event page; distributed notice search lead, mirror 403). Apple/other event dates not confirmed.
+- QQQ/QQQM official export endpoints redirect to generic HTML. SPY Oct 22 sponsor spreadsheet obtained; 505 numeric weights sum to 100.220262%, unresolved. No new look-through percentages used.
+- All other issuer source periods/underwriting scopes in the retained table remain unchanged, not a finding that no news exists. Daily OHLCV refreshed for all 28; no executable or sized swing setup validated. Economic-group AGI parameters remain October 17 judgments and do not complete issuer valuations.
+
+Next active questions: R-006 earnings, R-012 Alphabet cash/dilution and R-003 operator duration. R-008 is a source/data-quality blocker; R-013 routine refresh completed but validation remains weak. All earlier methodology, filing and tax gaps remain pending unless explicitly resolved above.

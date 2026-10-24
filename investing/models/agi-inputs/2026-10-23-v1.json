@@ -1,0 +1,627 @@
+{
+  "scenario_id": "A-2026-10-23-v1",
+  "evidence_cutoff": "2026-10-24",
+  "holdings_input": "2026-10-23.json",
+  "baseline_forecast_id": "P-2026-10-23-v1",
+  "capability_definition": "Scenario milestone: AI can autonomously complete a broad range of economically valuable multiday cognitive and AI-research tasks at dependable reliability. A modeling convention, not a claim of observed AGI or a universal definition.",
+  "weight_origin": "Provisional analyst judgment for a thesis-testing exercise. Not user-approved personal probabilities, empirically estimated frequencies, Anthropic probabilities, or an investment recommendation. Rounded weights are deliberately easy to challenge.",
+  "weight_rationale": "Four branches place the capability milestone inside the user\u2019s 2027\u20132029 scenario window, but differ in adoption and shareholder capture. The measured branch has the largest working weight. Early profitable acceleration gets less weight than measured adoption; efficiency, overbuild and delay retain explicit material weights. There is no statistical evidence establishing these exact percentages.",
+  "weight_sets": {
+    "Working judgment": {
+      "rapid": 0.2,
+      "measured": 0.35,
+      "efficient": 0.15,
+      "overbuild": 0.1,
+      "delayed": 0.2
+    },
+    "Equal weights": {
+      "rapid": 0.2,
+      "measured": 0.2,
+      "efficient": 0.2,
+      "overbuild": 0.2,
+      "delayed": 0.2
+    },
+    "More cautious": {
+      "rapid": 0.1,
+      "measured": 0.25,
+      "efficient": 0.2,
+      "overbuild": 0.2,
+      "delayed": 0.25
+    }
+  },
+  "groups": {
+    "accelerators": {
+      "ordinary_revenue_growth": 0.1,
+      "driver": "physical_compute",
+      "elasticity": 0.8,
+      "note": "Competitive accelerators; pricing, architectures and foundry capacity can change capture."
+    },
+    "custom_network": {
+      "ordinary_revenue_growth": 0.09,
+      "driver": "physical_compute",
+      "elasticity": 0.6,
+      "note": "Custom silicon and interconnect; communication intensity and substitutions matter."
+    },
+    "hbm": {
+      "ordinary_revenue_growth": 0.06,
+      "driver": "physical_compute",
+      "elasticity": 0.75,
+      "note": "HBM/DRAM cycle; no guaranteed shortage rent."
+    },
+    "nand": {
+      "ordinary_revenue_growth": 0.04,
+      "driver": "physical_compute",
+      "elasticity": 0.3,
+      "note": "NAND/storage demand is distinct from HBM."
+    },
+    "foundry": {
+      "ordinary_revenue_growth": 0.09,
+      "driver": "physical_compute",
+      "elasticity": 0.5,
+      "note": "Manufacturing across architectures; capital intensity and geopolitics remain."
+    },
+    "power_cooling": {
+      "ordinary_revenue_growth": 0.09,
+      "driver": "physical_compute",
+      "elasticity": 0.4,
+      "note": "Physical delivery, backlog conversion and cash margins constrain gains."
+    },
+    "platforms": {
+      "ordinary_revenue_growth": 0.08,
+      "driver": "paid_workloads",
+      "elasticity": 0.12,
+      "note": "Existing businesses plus paid AI adoption; capex and cannibalization can offset revenue."
+    },
+    "consumer": {
+      "ordinary_revenue_growth": 0.045,
+      "driver": "paid_workloads",
+      "elasticity": 0.04,
+      "note": "Consumer ecosystem; modest AI monetization sensitivity."
+    },
+    "software": {
+      "ordinary_revenue_growth": 0.1,
+      "driver": "paid_workloads",
+      "elasticity": 0.12,
+      "note": "Software/data demand; competition and valuation matter."
+    },
+    "operators": {
+      "ordinary_revenue_growth": 0.1,
+      "driver": "physical_compute",
+      "elasticity": 0.5,
+      "note": "Cash-conversion haircut includes interest and replacement capex; explicit new-share dilution."
+    },
+    "nasdaq_funds": {
+      "ordinary_revenue_growth": 0.065,
+      "driver": "paid_workloads",
+      "elasticity": 0.06,
+      "note": "Whole-fund aggregate earnings proxy, not constituent look-through."
+    },
+    "broad_fund": {
+      "ordinary_revenue_growth": 0.05,
+      "driver": "paid_workloads",
+      "elasticity": 0.025,
+      "note": "Whole-fund aggregate earnings proxy, including non-tech sectors."
+    },
+    "non_ai": {
+      "ordinary_revenue_growth": 0.05,
+      "driver": "none",
+      "elasticity": 0,
+      "note": "Bank and pharmaceutical exposures are not treated as AI equipment demand."
+    },
+    "speculative": {
+      "ordinary_revenue_growth": 0.07,
+      "driver": "paid_workloads",
+      "elasticity": 0.03,
+      "note": "Robotics/launch businesses: weak direct link to digital workloads; large independent risks."
+    }
+  },
+  "security_groups": {
+    "NVDA": "accelerators",
+    "AMD": "accelerators",
+    "CBRS": "accelerators",
+    "AVGO": "custom_network",
+    "ANET": "custom_network",
+    "CRDO": "custom_network",
+    "MU": "hbm",
+    "SNDK": "nand",
+    "TSM": "foundry",
+    "VRT": "power_cooling",
+    "GEV": "power_cooling",
+    "GOOG": "platforms",
+    "GOOGL": "platforms",
+    "MSFT": "platforms",
+    "AMZN": "platforms",
+    "AAPL": "consumer",
+    "PLTR": "software",
+    "RDDT": "software",
+    "NBIS": "operators",
+    "ORCL": "operators",
+    "QQQ": "nasdaq_funds",
+    "QQQM": "nasdaq_funds",
+    "SPY": "broad_fund",
+    "JPM": "non_ai",
+    "LLY": "non_ai",
+    "TSLA": "speculative",
+    "RKLB": "speculative",
+    "SPCX": "speculative"
+  },
+  "branches": [
+    {
+      "id": "rapid",
+      "label": "Early breakthrough, durable profits",
+      "capability_date": "2027-07-01",
+      "adoption_lag_months": 6,
+      "workloads_per_year": 2.4,
+      "efficiency_per_year": 1.6,
+      "story": "Rapid adoption and scarce capacity support supplier profits.",
+      "review_signal": "Validated autonomous research, paid renewals and cash margins accelerate together.",
+      "economics": {
+        "accelerators": {
+          "cash_conversion_ratio": 1.15,
+          "multiple_ratio": 1.1,
+          "annual_dilution": 0.01
+        },
+        "custom_network": {
+          "cash_conversion_ratio": 1.12,
+          "multiple_ratio": 1.05,
+          "annual_dilution": 0.01
+        },
+        "hbm": {
+          "cash_conversion_ratio": 1.1,
+          "multiple_ratio": 1,
+          "annual_dilution": 0.01
+        },
+        "nand": {
+          "cash_conversion_ratio": 1.0,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0.01
+        },
+        "foundry": {
+          "cash_conversion_ratio": 1.1,
+          "multiple_ratio": 1.05,
+          "annual_dilution": 0.01
+        },
+        "power_cooling": {
+          "cash_conversion_ratio": 1.12,
+          "multiple_ratio": 1.05,
+          "annual_dilution": 0.01
+        },
+        "platforms": {
+          "cash_conversion_ratio": 1.12,
+          "multiple_ratio": 1.05,
+          "annual_dilution": 0.005
+        },
+        "consumer": {
+          "cash_conversion_ratio": 1.05,
+          "multiple_ratio": 1.0,
+          "annual_dilution": 0.005
+        },
+        "software": {
+          "cash_conversion_ratio": 1.1,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.025
+        },
+        "operators": {
+          "cash_conversion_ratio": 0.8,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0.05
+        },
+        "nasdaq_funds": {
+          "cash_conversion_ratio": 1.08,
+          "multiple_ratio": 1.05,
+          "annual_dilution": 0
+        },
+        "broad_fund": {
+          "cash_conversion_ratio": 1.04,
+          "multiple_ratio": 1.02,
+          "annual_dilution": 0
+        },
+        "non_ai": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 1,
+          "annual_dilution": 0
+        },
+        "speculative": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0.02
+        }
+      }
+    },
+    {
+      "id": "measured",
+      "label": "2028\u201329 breakthrough, measured adoption",
+      "capability_date": "2028-10-01",
+      "adoption_lag_months": 9,
+      "workloads_per_year": 2.0,
+      "efficiency_per_year": 1.55,
+      "story": "Our central timing case: useful adoption takes longer than capability.",
+      "review_signal": "Multiday reliability improves; paid deployment and cash conversion rise gradually.",
+      "economics": {
+        "accelerators": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.01
+        },
+        "custom_network": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0.01
+        },
+        "hbm": {
+          "cash_conversion_ratio": 0.95,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.01
+        },
+        "nand": {
+          "cash_conversion_ratio": 0.95,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.01
+        },
+        "foundry": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0.01
+        },
+        "power_cooling": {
+          "cash_conversion_ratio": 1.05,
+          "multiple_ratio": 1,
+          "annual_dilution": 0.01
+        },
+        "platforms": {
+          "cash_conversion_ratio": 1.05,
+          "multiple_ratio": 1,
+          "annual_dilution": 0.005
+        },
+        "consumer": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0.005
+        },
+        "software": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.025
+        },
+        "operators": {
+          "cash_conversion_ratio": 0.7,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.04
+        },
+        "nasdaq_funds": {
+          "cash_conversion_ratio": 1.02,
+          "multiple_ratio": 0.97,
+          "annual_dilution": 0
+        },
+        "broad_fund": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.98,
+          "annual_dilution": 0
+        },
+        "non_ai": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.98,
+          "annual_dilution": 0
+        },
+        "speculative": {
+          "cash_conversion_ratio": 0.9,
+          "multiple_ratio": 0.85,
+          "annual_dilution": 0.02
+        }
+      }
+    },
+    {
+      "id": "efficient",
+      "label": "AGI arrives; efficiency wins",
+      "capability_date": "2028-01-01",
+      "adoption_lag_months": 6,
+      "workloads_per_year": 2.6,
+      "efficiency_per_year": 3.0,
+      "story": "Work grows fast, but compute per workload falls faster; platforms capture more than equipment.",
+      "review_signal": "Useful workloads expand while rental pricing, hardware orders and supplier margins weaken.",
+      "economics": {
+        "accelerators": {
+          "cash_conversion_ratio": 0.7,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0.01
+        },
+        "custom_network": {
+          "cash_conversion_ratio": 0.85,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.01
+        },
+        "hbm": {
+          "cash_conversion_ratio": 0.7,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0.01
+        },
+        "nand": {
+          "cash_conversion_ratio": 0.85,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.01
+        },
+        "foundry": {
+          "cash_conversion_ratio": 0.9,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.01
+        },
+        "power_cooling": {
+          "cash_conversion_ratio": 0.9,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.01
+        },
+        "platforms": {
+          "cash_conversion_ratio": 1.15,
+          "multiple_ratio": 1,
+          "annual_dilution": 0.005
+        },
+        "consumer": {
+          "cash_conversion_ratio": 1.05,
+          "multiple_ratio": 0.98,
+          "annual_dilution": 0.005
+        },
+        "software": {
+          "cash_conversion_ratio": 1.05,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.025
+        },
+        "operators": {
+          "cash_conversion_ratio": 0.45,
+          "multiple_ratio": 0.6,
+          "annual_dilution": 0.06
+        },
+        "nasdaq_funds": {
+          "cash_conversion_ratio": 1.04,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0
+        },
+        "broad_fund": {
+          "cash_conversion_ratio": 1.02,
+          "multiple_ratio": 0.98,
+          "annual_dilution": 0
+        },
+        "non_ai": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.98,
+          "annual_dilution": 0
+        },
+        "speculative": {
+          "cash_conversion_ratio": 0.9,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.02
+        }
+      }
+    },
+    {
+      "id": "overbuild",
+      "label": "Early AGI, financing and overbuild stress",
+      "capability_date": "2027-07-01",
+      "adoption_lag_months": 18,
+      "workloads_per_year": 2.2,
+      "efficiency_per_year": 1.7,
+      "story": "Capabilities arrive early; funding, weak utilization and repricing overwhelm equipment growth.",
+      "review_signal": "Unprofitable capacity, cancellations, refinancing or dilution persist despite capability progress.",
+      "economics": {
+        "accelerators": {
+          "cash_conversion_ratio": 0.5,
+          "multiple_ratio": 0.55,
+          "annual_dilution": 0.015
+        },
+        "custom_network": {
+          "cash_conversion_ratio": 0.6,
+          "multiple_ratio": 0.6,
+          "annual_dilution": 0.015
+        },
+        "hbm": {
+          "cash_conversion_ratio": 0.45,
+          "multiple_ratio": 0.5,
+          "annual_dilution": 0.015
+        },
+        "nand": {
+          "cash_conversion_ratio": 0.6,
+          "multiple_ratio": 0.6,
+          "annual_dilution": 0.015
+        },
+        "foundry": {
+          "cash_conversion_ratio": 0.7,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0.01
+        },
+        "power_cooling": {
+          "cash_conversion_ratio": 0.7,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0.01
+        },
+        "platforms": {
+          "cash_conversion_ratio": 0.7,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0.01
+        },
+        "consumer": {
+          "cash_conversion_ratio": 0.85,
+          "multiple_ratio": 0.75,
+          "annual_dilution": 0.005
+        },
+        "software": {
+          "cash_conversion_ratio": 0.65,
+          "multiple_ratio": 0.5,
+          "annual_dilution": 0.03
+        },
+        "operators": {
+          "cash_conversion_ratio": 0.2,
+          "multiple_ratio": 0.4,
+          "annual_dilution": 0.12
+        },
+        "nasdaq_funds": {
+          "cash_conversion_ratio": 0.75,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0
+        },
+        "broad_fund": {
+          "cash_conversion_ratio": 0.85,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0
+        },
+        "non_ai": {
+          "cash_conversion_ratio": 0.9,
+          "multiple_ratio": 0.85,
+          "annual_dilution": 0
+        },
+        "speculative": {
+          "cash_conversion_ratio": 0.55,
+          "multiple_ratio": 0.5,
+          "annual_dilution": 0.04
+        }
+      }
+    },
+    {
+      "id": "delayed",
+      "label": "Capability milestone slips beyond 2029",
+      "capability_date": "2031-01-01",
+      "adoption_lag_months": 12,
+      "workloads_per_year": 1.6,
+      "efficiency_per_year": 1.5,
+      "story": "Existing AI growth continues; transformative deployment contributes nothing within five years.",
+      "review_signal": "Reliability, research judgment or adoption stalls; conventional businesses keep growing.",
+      "economics": {
+        "accelerators": {
+          "cash_conversion_ratio": 0.8,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.01
+        },
+        "custom_network": {
+          "cash_conversion_ratio": 0.9,
+          "multiple_ratio": 0.85,
+          "annual_dilution": 0.01
+        },
+        "hbm": {
+          "cash_conversion_ratio": 0.8,
+          "multiple_ratio": 0.8,
+          "annual_dilution": 0.01
+        },
+        "nand": {
+          "cash_conversion_ratio": 0.85,
+          "multiple_ratio": 0.85,
+          "annual_dilution": 0.01
+        },
+        "foundry": {
+          "cash_conversion_ratio": 0.95,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.01
+        },
+        "power_cooling": {
+          "cash_conversion_ratio": 0.95,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.01
+        },
+        "platforms": {
+          "cash_conversion_ratio": 0.95,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0.005
+        },
+        "consumer": {
+          "cash_conversion_ratio": 0.98,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0.005
+        },
+        "software": {
+          "cash_conversion_ratio": 0.85,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0.025
+        },
+        "operators": {
+          "cash_conversion_ratio": 0.5,
+          "multiple_ratio": 0.65,
+          "annual_dilution": 0.05
+        },
+        "nasdaq_funds": {
+          "cash_conversion_ratio": 0.95,
+          "multiple_ratio": 0.9,
+          "annual_dilution": 0
+        },
+        "broad_fund": {
+          "cash_conversion_ratio": 0.98,
+          "multiple_ratio": 0.95,
+          "annual_dilution": 0
+        },
+        "non_ai": {
+          "cash_conversion_ratio": 1,
+          "multiple_ratio": 0.98,
+          "annual_dilution": 0
+        },
+        "speculative": {
+          "cash_conversion_ratio": 0.75,
+          "multiple_ratio": 0.7,
+          "annual_dilution": 0.02
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anthropic economic scenarios, September 2026, v1.0",
+      "url": "https://www.anthropic.com/institute/econ-scenarios",
+      "verified_on": "2026-10-24",
+      "use": "Capability/adoption distinction and economic scenarios; not stock forecasts or branch weights."
+    },
+    {
+      "title": "Economic Scenarios for Transformative AI, technical report",
+      "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+      "verified_on": "2026-10-24",
+      "use": "Task-level adoption and capital-supply constraints; no GDP-to-stock conversion."
+    },
+    {
+      "title": "Anthropic recursive self-improvement research",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "verified_on": "2026-10-24",
+      "use": "Research acceleration is distinct from autonomous successor development and sustained RSI."
+    },
+    {
+      "title": "IEA Key Questions on Energy and AI, executive summary",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "verified_on": "2026-10-24",
+      "use": "Efficiency, uptake, physical bottlenecks and financing can pull in different directions."
+    },
+    {
+      "title": "Anthropic employment at the frontier, October 16",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "verified_on": "2026-10-24",
+      "use": "Vendor-internal adoption/productivity evidence; runtime is not effective labor or profitable external demand."
+    },
+    {
+      "title": "Anthropic AI expectations gap, October 16",
+      "url": "https://www.anthropic.com/research/ai-expectations-gap",
+      "verified_on": "2026-10-24",
+      "use": "Staff and public beliefs are survey inputs to an economic model, not assigned AGI or investor probabilities."
+    },
+    {
+      "title": "METR monitoring pilot, October 22",
+      "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "verified_on": "2026-10-24",
+      "use": "Historical July/August external assessment; remedial claims not retested. Safe deployment remains a constraint."
+    },
+    {
+      "title": "Nebius secured facility, October 22",
+      "url": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi",
+      "verified_on": "2026-10-24",
+      "use": "364-day debt facility improves access to funds but leaves cost, drawdown/refinancing and equity returns conditional; no mechanical change to global branch weights."
+    }
+  ],
+  "limitations": [
+    "Normalized economic sensitivities, not completed issuer DCFs or verified earnings forecasts. All numerical operating, multiple and weight assumptions are analyst judgments.",
+    "Current absolute issuer earnings/FCF, net debt, segment exposure and justified exit multiples are incomplete. Today\u2019s market price anchors the normalized base and may already be expensive.",
+    "Five illustrative branches are not an exhaustive set of real outcomes; deterministic endpoints omit within-branch market risk, default tails, catastrophic outcomes and policy surprises.",
+    "Scenario endpoint min/max is not a confidence interval. Weighted endpoints are not medians; endpoint weight shares are not calibrated loss/doubling probabilities.",
+    "Historical market model remains separate. Its returns and probabilities are not added to, multiplied by, or relabeled as AGI forecasts.",
+    "Price-only scenarios assume no separate dividend cash or reinvestment, unlike the historical total-return baseline. Differences therefore include method and income policy, not just AGI.",
+    "No deposits, withdrawals, trading, rebalancing, option rolls or swing alpha. Recorded stocks/ETFs only; options, cash, bonds, borrowing, taxes and inflation excluded.",
+    "GOOG/GOOGL use identical economic factors; QQQ/QQQM use identical fund factors. No unverified fund look-through. Broad category settings obscure issuer differences; speculative holdings have substantial non-AI risk.",
+    "A deterministic endpoint below today does not measure interim drawdown or the real probability of loss. Do not size or trade from these weights."
+  ],
+  "parameter_provenance": {
+    "economic_parameters_original_date": "2026-10-17",
+    "judgment_weights_original_date": "2026-10-17",
+    "reviewed_on": "2026-10-24",
+    "changes": "None to dates, workload/efficiency rates, group growth/elasticity, conversion, dilution, multiples or weights. New starting prices and calendar targets only; reviewed evidence does not calibrate those parameters. Company underwriting remains incomplete."
+  }
+}

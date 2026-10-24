@@ -1,6 +1,6 @@
 # Research evidence state
 
-Attempted cutoff: October 17, 2026, morning America/Chicago. [Latest report](../../reports/investing/research/2026-10-17.md); [previous distinct report](../../reports/investing/research/2026-10-15.md). Partial, document-scoped refresh. The ledger below retains the October 15 evidence and unresolved methods; new checks are separately dated afterwards. Publication does not advance unchecked sources.
+Attempted cutoff: October 24, 2026 morning America/Chicago. [Latest report](../../reports/investing/research/2026-10-24.md); [previous distinct report](../../reports/investing/research/2026-10-17.md). Partial, document-scoped refresh. Older dated ledgers below retain prior evidence; the October 24 section records only actual frontier changes. Publication does not advance unchecked sources.
 
 | Signal/source | Verified document and scope, checked Oct 15 | Change / next work |
 | --- | --- | --- |
@@ -44,3 +44,22 @@ Retain all earlier retries: full RSI economics/AIDE² methods and revisions, ind
 ## Targeted AGI supplement — checked October 17
 
 Anthropic economic explorer (September 2026 v1.0) and technical-report task/capital-supply sections: verified-with-scope for capability/adoption separation and conditional economic modeling. Not a forecast or assigned stock/timeline probabilities; appendices and datasets not exhaustively audited. RSI article rechecked for assistance versus autonomous successor/RSI distinction, verified-with-scope; no independent replication or AGI date inferred. IEA executive summary rechecked for uptake/efficiency/financing constraints, verified-with-scope as projections. URLs retained in [scenario method](../models/agi-scenarios.md) and frozen A input. Only these targeted checks advance to Oct 17; all other source retries/frontiers persist. The explorer now verifies the earlier unresolved headline GDP scenario figures within their conditional model scope; full appendices/datasets and robotics methods remain unresolved. New scenario weights and economic parameters are analyst assumptions, not research findings.
+
+## October 24 actual frontier changes
+
+| Source / publication | Scope verified Oct 24 / status | Implication and retained limit |
+| --- | --- | --- |
+| Anthropic Research/Economics indexes | Retrieved listings through Oct 23; index-only verification | Found missed Oct 16 employment/expectations and Oct 20/23 science/incident items; not complete article verification |
+| [Employment at Anthropic](https://www.anthropic.com/research/employment-at-anthropic), Oct 16, plus 20-page PDF methods | Internal records/17 interviews, runtime denominator and employment/output scope; verified-with-scope / moderate | Newly reviewed older evidence; not randomized macro causality or AGI measurement |
+| [AI expectations gap](https://www.anthropic.com/research/ai-expectations-gap), Oct 16 | Survey inputs/model mapping and sample limits; verified-with-scope / moderate | Staff beliefs imply outcomes inside the model; not company forecasts or AGI probabilities |
+| [Scorpion binders](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design), Oct 20 | Article's 17/211 lab binding results and neutralization limits; verified-with-scope / moderate | Technical-report link failed; no full methods/independent replication or medicine claim |
+| [METR monitoring pilot](https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/), Oct 22 | Historical July/August assessment and remediation caveat; verified-with-scope / moderate | External high-access exercise; not current monitoring coverage or proof patches work |
+| [AISI incident analysis](https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident), with Anthropic Oct 23 companion | Blog analysis and evaluation constraints; verified-with-scope / moderate | July event, no real-world harm reported by AISI; detailed technical appendices not exhaustively audited |
+| Anthropic economic explorer / technical task-capital sections and RSI article | Rechecked Oct 24, verified-with-scope | Capability/adoption/capture distinctions retained; no new global scenario weight identified |
+| OpenAI Sep 6 R&D account | Rechecked Oct 24 as vendor self-report | Human prioritization/control limits retained; independent discoveries/causality unresolved |
+| METR Research/Updates and Epoch Data Insights | Listings checked Oct 24; Epoch latest listed item Oct 16 | Not new task-horizon measurements, underlying Epoch dataset verification or a completed R&D-attribution study |
+| IEA executive summary | Rechecked Oct 24, verified-with-scope as forecast | Physical/financing constraints retained; no regional census or new realized HBM data |
+| [Nebius facility](https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi), Oct 22; spot-pricing release Oct 21 | Issuer terms/announcement checked Oct 24 | Not fully drawn funds or a rental-rate time series; operator cash model pending |
+| NBER w32487 | Retry Oct 24 again 403/source-unavailable | Carry author-version retry; not contrary evidence |
+
+Nine-signal status is summarized in the dated report. All prior unfinished RSI-economics/AIDE² methods/revisions, latest high-reliability horizons, paid retention, capacity-serving assumptions, price-frontier reproduction, parallelization, regional grid/equipment, Berkeley methods, AlphaEvolve aggregate demand, robotics/labor revisions and NBER retries persist. No whole-site frontier or missed-week gap is inferred. A-2026-10-23-v1 retains October 17 judgment parameters/weights while refreshing marks; source review does not calibrate them.
