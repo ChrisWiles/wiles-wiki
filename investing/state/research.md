@@ -1,6 +1,6 @@
 # Research evidence state
 
-Attempted cutoff: October 24, 2026 morning America/Chicago. [Latest report](../../reports/investing/research/2026-10-24.md); [previous distinct report](../../reports/investing/research/2026-10-17.md). Partial, document-scoped refresh. Older dated ledgers below retain prior evidence; the October 24 section records only actual frontier changes. Publication does not advance unchecked sources.
+Attempted cutoff: October 31, 2026 America/Chicago. [Latest report](../../reports/investing/research/2026-10-31.md); [previous distinct report](../../reports/investing/research/2026-10-24.md). Partial, document-scoped refresh. Older dated ledgers below retain prior evidence; the October 31 section records only actual frontier changes. Publication does not advance unchecked sources.
 
 | Signal/source | Verified document and scope, checked Oct 15 | Change / next work |
 | --- | --- | --- |
@@ -63,3 +63,21 @@ Anthropic economic explorer (September 2026 v1.0) and technical-report task/capi
 | NBER w32487 | Retry Oct 24 again 403/source-unavailable | Carry author-version retry; not contrary evidence |
 
 Nine-signal status is summarized in the dated report. All prior unfinished RSI-economics/AIDE² methods/revisions, latest high-reliability horizons, paid retention, capacity-serving assumptions, price-frontier reproduction, parallelization, regional grid/equipment, Berkeley methods, AlphaEvolve aggregate demand, robotics/labor revisions and NBER retries persist. No whole-site frontier or missed-week gap is inferred. A-2026-10-23-v1 retains October 17 judgment parameters/weights while refreshing marks; source review does not calibrate them.
+
+## October 31 actual frontier changes
+
+The cutoff advances only for the scoped checks below; prior rows retain their original dates and unresolved work. [Dated report](../../reports/investing/research/2026-10-31.md).
+
+| Source / publication | Scope checked October 31 / evidence status | Interpretation and limit |
+| --- | --- | --- |
+| [Anthropic expert judgment Oct 27](https://www.anthropic.com/research/agents-judgment-calls) | Original article study design/results/limits; verified-with-scope / moderate | 50 analysts using agents; randomized deliberately strengthened leans; 86% analytical-choice following within task. Not AGI or general causality/productivity calibration; full paper not independently replicated. |
+| [Epoch compute additions Oct 29](https://epoch.ai/data-insights/ai-computing-capacity-additions-doubling) | Original methods/limitations; verified-with-scope / moderate | Six designers, ten-quarter log-linear fit through Q2 2026; ~2.5× yearly additions; sales precede installation. Fit interval excludes source-estimate uncertainty; no utilization/revenue inference. |
+| Anthropic Research / METR blog / Epoch Data Insights | Retrieved listings Oct 31; index-only | METR latest listed update Oct 22; Epoch biology-preprint use Oct 30 seen only as summary. No whole-site frontier, new dependable task-horizon result or biology-methods verification. |
+| [Anthropic scenarios](https://www.anthropic.com/institute/econ-scenarios), technical task/capital sections, RSI | Rechecked Oct 31; verified-with-scope as conditional framework/lab account | No assigned AGI/stock probabilities or verified autonomous successor. All October 17 economic settings/weights retained. |
+| [IEA summary](https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary) | Rechecked Oct 31; verified-with-scope as forecast | No new regional power, HBM/packaging or delivered equipment census. |
+| Oct 28/29 supplier/cloud results | VRT/GEV/Alphabet/Microsoft/Amazon cash/demand passages; issuer evidence | Stronger order/revenue evidence with material reinvestment/funding needs. Not independent end-user ROI or economy-wide productivity. Company state specifies coverage. |
+| [NBER w32487](https://www.nber.org/papers/w32487) | Oct 31 retry again 403 / source-unavailable | Author/original-version retry persists; conservative case not contradicted by access failure. |
+
+Nine signals: autonomous research remains task-bounded; latest reliable task horizons unverified; expert-judgment evidence adds a control caveat, not R&D attribution; cloud revenue advances paid-deployment evidence but not agent retention/ROI; inference efficiency reproduction remains open; HBM/packaging has no realized census; electrical/cooling supplier results progress; platform financing/cash changes are material; aggregate labor/productivity/robotics retain earlier methods frontier. NBIS's Nov 12 event is newly verified, not new facility economics.
+
+All older retries remain: full RSI economics/AIDE² revisions and appendices; independent lab-productivity attribution; reliable task panels; adoption retention/utilization; capacity serving assumptions; inference-price reproduction; parallelization scaling; regional grid/packaging, Berkeley equipment/utilization methods; AlphaEvolve aggregate effect; revised labor/robotics; scorpion technical report and incident-remediation validation; NBER access. OpenAI's Sep 6 account and Oct 14 telemetry were not reverified Oct 31 and retain prior scopes. No scheduled week was skipped. A-2026-10-30-v1 preserves October 17 parameters/weights, rebased to reviewed current marks with exact P lineage; no headline-driven calibration claim.

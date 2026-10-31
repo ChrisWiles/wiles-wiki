@@ -1,6 +1,6 @@
 # Company research state
 
-**Updated:** October 24, 2026 morning America/Chicago. [Latest stock report](../../reports/investing/stocks/2026-10-24.md). All 28 symbols have October 23 quote/daily-history input and a brief review. The source table retains original periods; only the October 24 checks below advance their scope. This is a partial refresh, not a full filing/event sweep or completed valuation universe.
+**Updated:** October 31, 2026 America/Chicago. [Latest report](../../reports/investing/stocks/2026-10-31.md). All 28 symbols have October 30 marks/daily histories. The original table below retains earlier source periods; the October 31 supplement advances only explicitly reviewed issuers. Partial coverage, not a completed filing sweep or valuation universe.
 
 | Symbol | Source scope | Research / analytical stance |
 | --- | --- | --- |
@@ -58,3 +58,19 @@ October 17 AGI model supplement: all 28 securities now have an explicit economic
 - All other issuer source periods/underwriting scopes in the retained table remain unchanged, not a finding that no news exists. Daily OHLCV refreshed for all 28; no executable or sized swing setup validated. Economic-group AGI parameters remain October 17 judgments and do not complete issuer valuations.
 
 Next active questions: R-006 earnings, R-012 Alphabet cash/dilution and R-003 operator duration. R-008 is a source/data-quality blocker; R-013 routine refresh completed but validation remains weak. All earlier methodology, filing and tax gaps remain pending unless explicitly resolved above.
+
+## October 31 actual source advances
+
+| Issuer / original source date | Verified scope Oct 31 | Decision effect / unresolved work |
+| --- | --- | --- |
+| [VRT Oct 28 Q3](https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx) | Orders, cash reconciliation, revised FY26 EPS guide; verified-with-scope | Existing hold/wait-adds reviewed; 32.52× guide at $232.50; cancellation/call/10-Q/intrinsic value unfinished |
+| [GEV Oct 28 Q3](https://www.sec.gov/Archives/edgar/data/1996810/000199681026000162/gevpressrelease3q26.htm) | Sales/cash guide, quarterly CFO/FCF and announced Trench acquisition; verified-with-scope | Demand supports thesis; $1M rounded-row FCF discrepancy and advance-payment/acquisition normalization not complete; attempted transcript unavailable; research before add |
+| [GOOG/GOOGL Oct 28 Q3](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm) | Cloud, cash/PP&E/TTM FCF, diluted shares and actual common/debt issuance | Existing wait proposal reviewed; common cash/valuation unfinished; primary next-event gap resolved by actual results |
+| [MSFT Oct 28 FY27 Q1](https://www.microsoft.com/en-us/Investor/earnings/FY-2027-Q1/press-release-webcast) | Azure, operating cash and cash PP&E; verified-with-scope | Demand/cash support; finance leases/other investing/replacement and valuation unfinished |
+| [AMZN Oct 29 Q3](https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx) | AWS and TTM cash/PP&E/FCF; verified-with-scope | Growth with negative TTM FCF; no normalized owner-cash valuation |
+| [SNDK Oct 29 FY27 Q1](https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results) | Pre-split GAAP vs adjusted EPS; Nov 19 split / Nov 20 adjusted trading | New period/accounting basis clear; normal-cycle and older feed mismatch open; no quantity mutation |
+| [NBIS issuer hub](https://nebius.com/investor-hub) | Nov 12 before-open results / 8 AM Eastern call | Calendar only; Oct 24 financing frontier retained; no new financial outcome review |
+| [AMD Oct 6 event release](https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results) | Nov 3 after-close date verified; Oct 27 Meta item index-only | Contract economics not reviewed; current filing/value pending |
+| [NVDA issuer-hosted August transcript](https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf) | Nov 17 call date passage only | Refresh latest notice before trading; no full new call/quarter underwriting |
+
+Remaining issuers retain earlier dates. RKLB Nov 9 notice was rechecked; Apple IR returned no accessible calendar date. All fresh prices are descriptive input checks, not explanations of price moves. RDDT's sharp fall and LLY's increase are not attributed to unread news. Sponsor look-through retains the Oct 24 failed/reconciliation frontier; no new export attempt or successful denominator is claimed. No full issuer DCF, household tax clearance, order or verified execution was added.
